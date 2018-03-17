@@ -1,0 +1,15 @@
+Datum: 23.9.2016
+
+Sortiert nach Social Media Impact
+
+name				views		agreeable	views/day	twitter		facebook
+
+gary vaynerchuk 	87'990 		96%			512			1.32m	 	1,175,453
+simon sinek 		39'715 		96%			261 		247k 		323,452
+lawrence krauss 	55'793 		84%			330 		235k 		254,654	
+jocko willink		78'891		92%			444			57.3k		25317
+michael page		100'464 	97%			292 		24.3k 		247,974
+ido portal 			261'262 	97%			1090 		72 			184'257
+ryan holiday 		11'400 		91%			267 		63.6k 		14,787
+wim hof 			73'733 		97%			289 		32k 		15,921
+dan pena 			93'087 		95%			437 		7665 		7375

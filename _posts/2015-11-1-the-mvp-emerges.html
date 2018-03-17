@@ -1,0 +1,122 @@
+---
+layout: post
+title:  "The MVP Emerges"
+---
+
+<p>
+    Last week's 3 main achievements:
+</p>
+<p>
+    <ol>
+        <li>I mainly focused on delivering our minimum feature set in high <b>quality</b>. The app doesn't do much. But what it does ought to <b>feel</b> great. The retail's in the detail ;) Most of the week went into getting <b>animations</b> right. Layout, interaction and feedback also matured.</li>
+        <li>A <b>call to action</b> sits next to the episode list and is always visible while the user scrolls through the episodes. The C2A encourages to <b>join</b> the academy. Selecting it opens the <b>academy tour</b> video, which is also available at the top of the episode list.</li>
+        <li>The episode info page offers a <b>table of contents</b>. The user can play chapters of an episode like songs of an album. This feature is still in demo state and not necessarily part of a minimum set.</li>
+    </ol>
+</p>
+<p>
+    You'll get to see a <b>video</b> towards the end of this post, so bear with me ;)
+</p>
+<h2>
+    Episode List
+</h2>
+<p>
+The most visible update to the episode list is the academy banner. The user can focus it like any other focusable element in the app. The Select/Play button opens/plays the academy tour video:
+</p>
+<p>
+    <img width="100%" src="/blog-images/londonrealapp/3/episode_list.jpg" class="ft-shadow">
+</p>
+<h2>
+    Episode Infos
+</h2>
+<p>
+The new episode info page contains a table of contents:
+</p>
+<p>
+    <img width="100%" src="/blog-images/londonrealapp/3/video_info_page.jpg" class="ft-shadow">
+</p>
+<p>
+Statistics look cleaner due to new icons, new layout and merging likes and dislikes into a percentage. The video view shows the guest image and a play symbol until the user starts playing.
+</p>
+<h2>
+    Viable = Quality Experience
+</h2>
+<p>
+    I refer to <a target="blank" href="https://en.wikipedia.org/wiki/Minimum_viable_product">this</a> MVP not <a target="blank" href="https://londonrealacademy.com/blog/3-things-i-learned-from-an-mma-mvp/">this</a> one, but both come out fast and <a target="blank" href="https://londonrealacademy.com/bonus-content/michael-page-breaks-opponents-jaw-at-bellator-144/">drop jaws</a> :D
+</p>
+<p>
+    What is the best <i>minimum</i> feature set for the app? That depends on its purpose. The current feature set aims to <b>attract viewers to the academy</b>.
+</p>
+<p>
+    What is necessary for the app to be <i>viable</i>? It must create the same <i>quality experience</i> and trust that other outputs of the London Real <b>brand</b> convey. Any subtle quirk would harm that. Therefore, much of this week's work manifests in <b>details, animations and edge cases</b>.
+</p>
+<h2>
+    Apple TV = Front End
+</h2>
+<p>
+    One important edge case that the app must handle is slow or absent internet access. This is partly about efficiency but mostly about <b>feedback</b>. The user needs to know what's going on when the app loads or can't load data.
+</p>
+<p>
+    When the app starts, it loads information about the latest episodes. Should the Apple TV be offline, we offer the user to <b>restart loading</b>:
+</p>
+<p>
+    <img width="100%" src="/blog-images/londonrealapp/3/no_internet.jpg" class="ft-shadow">
+</p>
+<p>
+When the episode infos are loaded, the app doesn't wait for all the guest images to be downloaded but shows the episode list immediately. Then it updates the images one by one as the data arrives.
+</p>
+<p>
+Until the data is available the app shows a <b>placeholder</b> for the guest image. Normally, the user doesn't even see a single placeholder:
+</p>
+<p>
+    <img width="100%" src="/blog-images/londonrealapp/3/guest_placeholder.jpg" class="ft-shadow">
+</p>
+<p>
+Should the app run out of data while playing, it will pause and <b>indicate</b> why it did so. The user just needs to press <i>Play</i> to continue watching:
+</p>
+<p>
+    <img width="100%" src="/blog-images/londonrealapp/3/paused_to_load.jpg" class="ft-shadow">
+</p>
+<h2>
+    Animated Interaction
+</h2>
+<p>
+    Watch the video below to see the latest version and its animations in action. I also give a bit more context on the Apple TV interaction design:
+</p>
+<p>
+    <video controls="controls" width="100%" src="lrtv_app_video_with_voice_and_email_compressed.mp4" poster="/blog-images/londonrealapp/3/poster.jpg" class="ft-shadow">
+    </video>
+</p>
+<h2>
+    Process
+</h2>
+<p>
+As always, here is another snaphot of the project's Trello board:
+</p>
+<p>
+    <img width="100%" src="/blog-images/londonrealapp/3/trello.jpg" class="ft-shadow">
+</p>
+<h2>
+    What's Next?
+</h2>
+<p>
+To approach the <b>release</b> quickly, we would ideally have a brief <b>conversation</b> on the following points, just to make sure everyone's on the same page and has all the information he needs:
+</p>
+<p>
+<ol>
+    <li>Goal of the app</li>
+    <li>Release date</li>
+    <li>Tracking success</li>
+    <li>Feature set</li>
+    <li>Academy promo content</li>
+    <li>Requirements for Vimeo data</li>
+    <li>Data for chapter playlists</li>
+    <li>Testing</li>
+    <li>Imprint and legal stuff</li>
+    <li>Apple developer account</li>
+    <li>Marketing instruments &amp; actions</li>
+    <li>Collecting user feedback</li>
+</ol>
+</p>
+<p>
+Luckily I'll be in <b>London</b> from next Thursday noon 'til Sunday morning. Thanks for supporting this project and see you soon!
+</p>

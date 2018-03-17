@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Flowtoolz is about deep immersion in the present moment, about creating ultimate experiences through technology. We are in flow when building apps and other tools, and we want those tools to help you reach your own creative flow state.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://www.flowtoolz.de" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  flowtoolz
+github_username: flowtoolz
 
 # Build settings
 markdown: kramdown

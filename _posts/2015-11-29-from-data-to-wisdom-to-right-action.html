@@ -1,0 +1,101 @@
+---
+layout: post
+title:  "From Data To Wisdom To Right Action"
+---
+
+<p>
+    Last iteraton's 3 main achievements:
+</p>
+<p>
+    <ol>
+        <li>Through the main menu, we put the house keeping and promotion out of sight, the content back in focus and the user back into flow. This site is named <i>Flowtoolz.com</i> for a reason.</li>
+        <li>We heavily extended the chapter content. Now every video has chapters.</li>
+        <li>We improved how we load and present data. The latter involved letting go of that ridiculous call to action view.</li>
+    </ol>
+</p>
+<p>
+    The realization of this iteration: Great content is a USP of London Real. We should care about the content of this app before we release it.
+</p>
+<h2>Menu</h2>
+<p>
+    We now provide a main menu that allows us to present our content unobstructed by house keeping stuff and without wasting any screen space. The menu slides in from the top when the user moves his focus from the top of the episode list upwards:
+</p>
+<p>
+    <img width="100%" src="/blog-images/londonrealapp/6/menu.jpg" class="ft-shadow">
+</p>
+<p>
+    Through the menu, the user can select an <i>About</i> page. Just in case he doesn't know what London Real is all about ;)
+</p>
+<p>
+    <img width="100%" src="/blog-images/londonrealapp/6/about.jpg" class="ft-shadow">
+</p>
+<p>
+    Gathering feedback is also essential. In the <a href="../v5/index.php">previous version</a>, we squeezed that into the main screen. Now we have a dedicated screen where we encourage the user to give feedback:
+</p>
+<p>
+    <img width="100%" src="/blog-images/londonrealapp/6/feedback.jpg" class="ft-shadow">
+</p>
+<h2>Data Loading</h2>
+<p>
+    We now load the academy tour video completely from the web. No more hardcoded video infos. This allows us to change image, title and description even after the release and without requiring users to update the app.
+</p>
+<p>
+    However, this requires us to clean up the Vimeo data before we release. For example, "ACADEMY MONTAGE-FINAL-v2-HD 1080p" is not a viable title for the academy tour video ;) Currently, the app works around this with <i>hardcoded</i> <nobr>(oh oh)</nobr> information.
+</p>
+<p>
+    Further we had to fix how we map Vimeo videos onto Youtube videos. Due to inconsistencies between Youtube and Vimeo, the last <i>N</i> episodes from Youtube are not the last <i>N</i> episodes from Vimeo.
+</p>
+<p>
+     In particular, publication dates on Vimeo are later in time because the episodes are added there later and not necessarily in the order they were recorded...
+</p>
+<p>
+    The current solution: We show only the episodes that have been published on Vimeo <i>and</i> Youtube. We load the publication date of each video from <i>both</i> platforms and then choose the older date. Finally, we sort the videos by their publication date. Previously, sorting was unnecessary.
+</p>
+
+<h2>Chapters</h2>
+<p>
+    The academy tour video now has chapters that preview certain features of the academy. Of course, we also load these from a server:
+</p>
+<p>
+    <img width="100%" src="/blog-images/londonrealapp/6/academy_chapters.jpg" class="ft-shadow">
+</p>
+<p>
+    We further added chapter data for 12 more episodes! Thanks again to <a href="https://londonrealacademy.com/members/woon-tan/" target="blank">Woon</a> for his patience.
+</p>
+<p>
+    Creating good chapter information is sophisticated manual work. It takes time. So we let the app create dummy chapters for episodes that have no real chapters yet:
+</p>
+<p>
+    <img width="100%" src="/blog-images/londonrealapp/6/dummy_chapters.jpg" class="ft-shadow">
+</p>
+<p>
+    As always: We'll be able to add and edit chapters while the app is live.
+</p>
+
+<p>
+
+</p>
+<h2>Right Side Column</h2>
+<blockquote>
+    Provide value, make the product available. If people need to buy it, they will make that decision. You don't need to sell it to them.<br>&mdash; Mimi Ikonn
+</blockquote>
+<p>
+    The massive call to action view is gone! Instead we preview the description text of the focused video:
+</p>
+<p>
+    <img width="100%" src="/blog-images/londonrealapp/6/episode_list.jpg" class="ft-shadow">
+</p>
+<p>
+    The user will see more quickly what episode he finds interesting and will have a better browsing experience. It also makes the app look better overall.
+</p>
+
+<h2>Process</h2>
+<p>
+    And now! This is the moment London Real fans reading around the world have been waiting for...
+</p>
+<p>
+    Sorry, got carried away there. As always: A snapshot of the project's Trello board to record where we are on this journey:
+</p>
+<p>
+    <img width="100%" src="/blog-images/londonrealapp/6/trello.jpg" class="ft-shadow">
+</p>
