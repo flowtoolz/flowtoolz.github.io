@@ -14,6 +14,26 @@ We don't just build the app.
 
 * We bring your app to the right platforms. Whether it's phones, TV or the web. We make it fully customized and deeply engaging.
 
+## Clients
+
+* [Socialbit GmbH](http://www.socialbit.de)
+
+* [Formigas GmbH](http://www.formigas.de)
+
+* [HolidayCheck GmbH](https://itunes.apple.com/ch/app/holidaycheck/id431838682?mt=8)
+
+* [LONDONREAL](http://www.londonreal.tv)
+
+* [Gründerschiff](http://www.gruenderschiff.de)
+
+* [Allianz SE](http://www.allianz.com)
+
+* [mindlibnk AG](http://mindlink.ch)
+
+* [JLS DIGITAL AG](http://jls.ch)
+
+* [AIDA](http://www.aida.de)
+
 ## Manifesto
 
 #### Our Conviction
@@ -46,23 +66,3 @@ Our guys and girls are partners rather than employees. They  are proactive, self
 * You get a wide range of services from people who understand the context of your project.
 
 * You get exactly the expertise that applies to your unique project. From real specialists.
-
-## Clients
-
-* [Socialbit GmbH](http://www.socialbit.de)
-
-* [Formigas GmbH](http://www.formigas.de)
-
-* [HolidayCheck GmbH](https://itunes.apple.com/ch/app/holidaycheck/id431838682?mt=8)
-
-* [LONDONREAL](http://www.londonreal.tv)
-
-* [Gründerschiff](http://www.gruenderschiff.de)
-
-* [Allianz SE](http://www.allianz.com)
-
-* [mindlibnk AG](http://mindlink.ch)
-
-* [JLS DIGITAL AG](http://jls.ch)
-
-* [AIDA](http://www.aida.de)
