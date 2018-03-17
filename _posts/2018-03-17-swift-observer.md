@@ -22,7 +22,7 @@ What follows is basically the github readme, highlighting benefits and use.
 * No need to learn a bunch of concepts or types. Observers observe objects and variables. That's it.
 * Just readable code:
 
-~~~Swift
+~~~swift
 controller.observe(model)
 {
 	event in
@@ -42,7 +42,7 @@ controller.observe(model.variable)
 
 * There are no Disposables, Cancelables, Tokens, DisposeBags etc to handle. Simply call `stopAllObserving()` on an observer, and its references are removed from all observable objects and variables:
 
-~~~Swift
+~~~swift
 class Controller: Observer
 {
 	deinit
@@ -58,7 +58,7 @@ class Controller: Observer
 
 * Observed classes don't have to implement anything to be observable. They just need to adopt the `Observable` protocol and declare their event type:
 
-~~~Swift
+~~~swift
 class Model: Observable
 {
 	typealias Event = String
@@ -67,7 +67,7 @@ class Model: Observable
 
 * Because a `Variable` is `Codable`, objects composed of observable variables are still automatically encodable and decodable in Swift 4, simply by adopting the `Codable` protocol:
 
-~~~Swift
+~~~swift
 class Model: Codable
 {
 	var variable = Variable<Int>()
@@ -89,7 +89,7 @@ if let modelData = try? JSONEncoder().encode(model)
 * There are no protocols that you have to implement. Your code remains focused and decoupled. Because there are no delegate protocols, there is no limit to how many things an observer can observe or to how many observers a thing can have.
 * Observable classes don't need to be generic, and yet every class can declare the specific type of event that it emits. Events are fully typed, and each class decides when to send which:
 
-~~~Swift
+~~~swift
 class Model: Observable
 {
 	deinit
@@ -127,7 +127,7 @@ Observers can also stop observing single objects with `stopObserving(object)`. O
 
 ### Observer
 
-```
+```swift
 protocol Observer: AnyObject
 {
     func observe<O: Observable>(_ observable: O,
@@ -146,7 +146,7 @@ protocol Observer: AnyObject
 
 ### Observable
 
-```
+```swift
 protocol Observable: AnyObject
 {
     func add(_ observer: AnyObject, update: @escaping Update)
@@ -165,7 +165,7 @@ protocol Observable: AnyObject
 
 ### Variable
 
-```
+```swift
 class Variable<Value: Codable & Equatable>: Codable
 {   
 	public init(_ initialValue: Value? = nil)
