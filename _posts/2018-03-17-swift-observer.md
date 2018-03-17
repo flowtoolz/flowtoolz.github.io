@@ -19,10 +19,10 @@ What follows is basically the github readme, highlighting benefits and use.
 
 ## Keep It Simple Sweety
 
-* No need to learn a bunch of concepts or types. Observers observe objects and variables.<br>That's it.
+* No need to learn a bunch of concepts or types. Observers observe objects and variables. That's it.
 * Just readable code:
 
-~~~Ruby
+~~~Swift
 controller.observe(model)
 {
 	event in
@@ -65,7 +65,7 @@ class Model: Observable
 }
 ~~~
 
-* Because observable variables are `Codable`, objects composed of observable variables are still automatically encodable and decodable in Swift 4, simply by adopting the `Codable` protocol:
+* Because a `Variable` is `Codable`, objects composed of observable variables are still automatically encodable and decodable in Swift 4, simply by adopting the `Codable` protocol:
 
 ~~~Swift
 class Model: Codable
