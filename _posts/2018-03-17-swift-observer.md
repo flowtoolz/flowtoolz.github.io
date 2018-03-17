@@ -25,16 +25,16 @@ What follows is basically the github readme, highlighting benefits and use.
 ~~~swift
 controller.observe(model)
 {
-	event in
+   event in
 
-	// respond to event
+   // respond to event
 }
 
 controller.observe(model.variable)
 {
-	oldValue, newValue in
+   oldValue, newValue in
 
-	// respond to value change
+   // respond to value change
 }
 ~~~
 
@@ -45,10 +45,10 @@ controller.observe(model.variable)
 ~~~swift
 class Controller: Observer
 {
-	deinit
-	{
-		stopAllObserving()
-	}
+   deinit
+   {
+      stopAllObserving()
+   }
 }
 ~~~
 
@@ -61,7 +61,7 @@ class Controller: Observer
 ~~~swift
 class Model: Observable
 {
-	typealias Event = String
+   typealias Event = String
 }
 ~~~
 
@@ -70,14 +70,14 @@ class Model: Observable
 ~~~swift
 class Model: Codable
 {
-	var variable = Variable<Int>()
+   var variable = Variable<Int>()
 }
 
 let model = Model()
 
 if let modelData = try? JSONEncoder().encode(model)
 {
-	print(String(data: modelData, encoding: .utf8))
+   print(String(data: modelData, encoding: .utf8))
 }
 ~~~
 
@@ -92,17 +92,17 @@ if let modelData = try? JSONEncoder().encode(model)
 ~~~swift
 class Model: Observable
 {
-	deinit
-	{
-		updateObservers(.willDeinit)
-	}
+   deinit
+   {
+      updateObservers(.willDeinit)
+   }
 
-	typealias Event = ModelEvent
+   typealias Event = ModelEvent
 
-	enum ModelEvent
-	{
-		case didRequestData, didUpdate, willDeinit
-	}
+   enum ModelEvent
+   {
+      case didRequestData, didUpdate, willDeinit
+   }
 }
 ~~~
 
@@ -130,17 +130,17 @@ Observers can also stop observing single objects with `stopObserving(object)`. O
 ```swift
 protocol Observer: AnyObject
 {
-    func observe<O: Observable>(_ observable: O,
-                                update: @escaping (O.Event?) -> ())
+   func observe<O: Observable>(_ observable: O,
+                             update: @escaping (O.Event?) -> ())
 
-    func stopObserving<O: Observable>(_ observable: O)
+   func stopObserving<O: Observable>(_ observable: O)
 
-    func observe<Value>(_ property: Variable<Value>,
-                        update: @escaping (Value?, Value?) -> ())
+   func observe<Value>(_ property: Variable<Value>,
+                     update: @escaping (Value?, Value?) -> ())
 
-    func stopObserving<Value>(_ property: Variable<Value>)
+   func stopObserving<Value>(_ property: Variable<Value>)
 
-    func stopAllObserving()
+   func stopAllObserving()
 }
 ```
 
@@ -149,17 +149,17 @@ protocol Observer: AnyObject
 ```swift
 protocol Observable: AnyObject
 {
-    func add(_ observer: AnyObject, update: @escaping Update)
+   func add(_ observer: AnyObject, update: @escaping Update)
 
-    func remove(_ observer: AnyObject)
+   func remove(_ observer: AnyObject)
 
-    func removeAllObservers()
+   func removeAllObservers()
 
-    func updateObservers(_ event: Event?)
+   func updateObservers(_ event: Event?)
 
-    typealias Update = (_ event: Event?) -> ()
+   typealias Update = (_ event: Event?) -> ()
 
-    associatedtype Event: Any
+   associatedtype Event: Any
 }
 ```
 
@@ -168,16 +168,16 @@ protocol Observable: AnyObject
 ```swift
 class Variable<Value: Codable & Equatable>: Codable
 {   
-	public init(_ initialValue: Value? = nil)
+   public init(_ initialValue: Value? = nil)
 
-	public func add(_ observer: AnyObject, update: @escaping Update)
+   public func add(_ observer: AnyObject, update: @escaping Update)
 
-	func remove(_ observer: AnyObject)
+   func remove(_ observer: AnyObject)
 
-	func removeAllObservers()
+   func removeAllObservers()
 
-	public var value: Value?
+   public var value: Value?
 
-	typealias Update = (_ old: Value?, _ new: Value?) -> ()
+   typealias Update = (_ old: Value?, _ new: Value?) -> ()
 }
 ```
