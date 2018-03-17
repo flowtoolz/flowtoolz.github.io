@@ -13,11 +13,11 @@ To be honest, I was a bit overwhelmed by all the new terms around old ideas and 
 
 I also got obsessed with callback mechanisms in general and in Swift. As a method of exploring and learning, I wrote three fundamental primitives for reactive swift programming, which are solid, simple, sufficient and sweet for my own taste. They also compensate for what I didn't like about common implementations.
 
-I guess I aimed at usability, readability, simplicity, safety and flexibility: [Checkout SwiftObserver on Github](github.com/flowtoolz/flowtoolz.git/tree/master/Code/swift/SwiftObserver/). It's a foundational, flexible, non-intrusive, "use and forget" tool for reactive programming with observable variables and observable objects.
+I guess I aimed at usability, readability, simplicity, safety and flexibility: [Checkout SwiftObserver on Github](https://github.com/flowtoolz/Flowtoolz/tree/master/Code/swift/SwiftObserver/). It's a foundational, flexible, non-intrusive, "use and forget" tool for reactive programming with observable variables and observable objects.
 
 What follows is basically the github readme, highlighting benefits and use.
 
-## Keep it Simple Sweety
+## Keep It Simple Sweety
 
 * No need to learn a bunch of concepts or types. Observers observe objects and variables.<br>That's it.
 * Just readable code:
@@ -52,7 +52,7 @@ class Controller: Observer
 }
 ~~~
 
-* Although you don't need to handle "disposables" or tokens after adding an observer, all objects are internally hashed, so you can scale up as fuck.
+* Although you don't need to handle "disposables" or tokens after adding an observer, all objects are internally hashed, so performance is never an issue.
 
 ## You Don't Need to Implement Shit
 
@@ -84,8 +84,8 @@ if let modelData = try? JSONEncoder().encode(model)
 ## Focus On Meaning Not On Technicalities
 
 * Because classes have to implement nothing to be observable, you can keep model and logic code independent of any observer frameworks and techniques. If the model layer had to be stuffed with heavyweight constructs just to be observed, it would become a technical issue instead of an easy to change,  meaningful, direct representation of domain-, business- and view logic.
-* Unlike established Swift implementations of the Redux approach, [SwiftObserver.swift](github.com/flowtoolz/flowtoolz.git/tree/master/Code/swift/SwiftObserver/) lets you freely model your domain-, business- and view logic with all your familiar design patterns and types. There are no restrictions on how you organize and store your app state.
-* Unlike established Swift implementations of the Reactive approach, [SwiftObserver.swift](github.com/flowtoolz/flowtoolz.git/tree/master/Code/swift/SwiftObserver/) lets you in control of the ancestral tree of your classes. There is not a single class that you have to inherit. Therefore, all your classes can be directly observed, even views and view controllers.
+* Unlike established Swift implementations of the Redux approach, [SwiftObserver.swift](https://github.com/flowtoolz/Flowtoolz/tree/master/Code/swift/SwiftObserver/) lets you freely model your domain-, business- and view logic with all your familiar design patterns and types. There are no restrictions on how you organize and store your app state.
+* Unlike established Swift implementations of the Reactive approach, [SwiftObserver.swift](https://github.com/flowtoolz/Flowtoolz/tree/master/Code/swift/SwiftObserver/) lets you in control of the ancestral tree of your classes. There is not a single class that you have to inherit. Therefore, all your classes can be directly observed, even views and view controllers.
 * There are no protocols that you have to implement. Your code remains focused and decoupled. Because there are no delegate protocols, there is no limit to how many things an observer can observe or to how many observers a thing can have.
 * Observable classes don't need to be generic, and yet every class can declare the specific type of event that it emits. Events are fully typed, and each class decides when to send which:
 
