@@ -49,24 +49,20 @@ Our guys and girls are partners rather than employees. They  are proactive, self
 
 ## Clients
 
-![Socialbit Logo](clients/Socialbit_grey.png) (http://www.socialbit.de)
+* [Socialbit GmbH](http://www.socialbit.de)
 
-        "http://www.formigas.de"
+* [Formigas GmbH](http://www.formigas.de)
 
-![Formigas Logo](clients/Formigas_grey.png)
+* [HolidayCheck GmbH](https://itunes.apple.com/ch/app/holidaycheck/id431838682?mt=8)
 
-            "https://itunes.apple.com/ch/app/holidaycheck/id431838682?mt=8"
+* [LONDONREAL](http://www.londonreal.tv)
 
-![HolidayCheck Logo](clients/HolidayCheck.png)
+* [Gründerschiff](http://www.gruenderschiff.de)
 
-            "http://www.londonrealacademy.com"
+* [Allianz SE](http://www.allianz.com)
 
-![LondonReal Logo](clients/LondonReal_grey.png)
+* [mindlibnk AG](http://mindlink.ch)
 
-            "http://www.gruenderschiff.de"
+* [JLS DIGITAL AG](http://jls.ch)
 
-![Gründerschiff Logo](clients/gruenderschiff.png)
-
-            "http://www.allianz.com"
-
-![Allianz Logo](clients/allianz.png)
+* [AIDA](http://www.aida.de)
