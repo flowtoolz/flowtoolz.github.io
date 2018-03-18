@@ -70,7 +70,7 @@ class Model: Observable
 ~~~
 class Model: Codable
 {
-   var variable = Variable<Int>()
+   let variable = Variable<Int>()
 }
 
 let model = Model()
