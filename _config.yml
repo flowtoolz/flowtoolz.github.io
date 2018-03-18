@@ -23,8 +23,8 @@ github_username: flowtoolz
 
 # Build settings
 markdown: kramdown
-theme: minima
 highlighter: rouge
+theme: minima
 plugins:
   - jekyll-feed
 

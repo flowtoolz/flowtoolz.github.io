@@ -22,7 +22,7 @@ What follows is basically the github readme, highlighting benefits and use.
 * No need to learn a bunch of concepts or types. Observers observe objects and variables. That's it.
 * Just readable code:
 
-~~~swift
+```swift
 controller.observe(model)
 {
    event in
@@ -36,7 +36,7 @@ controller.observe(model.variable)
 
    // respond to value change
 }
-~~~
+```
 
 ## The Easiest Memory Management
 
