@@ -1,0 +1,403 @@
+/* Fonts */
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,500,600);
+
+@font-face
+{
+    font-family: BebasSemiBold;
+    src: url("fonts/BebasNeueRegular.otf") format("opentype");
+}
+
+@font-face
+{
+    font-family: BebasRegular;
+    src: url("fonts/BebasNeueBook.otf") format("opentype");
+}
+
+@font-face
+{
+    font-family: BebasBold;
+    src: url("fonts/BebasNeueBold.otf") format("opentype");
+}
+
+.ft-bebas-bold
+{
+    font-family: 'BebasBold','Source Sans Pro', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* General Text Style */
+
+body, label
+{
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 140%;
+    font-weight: 300;
+    font-size: 20px;
+    text-align:justify;
+}
+
+table, .row, td, tr
+{
+    text-align:left;
+    line-height: 140%;
+}
+
+/* General Colors */
+
+[type=text], [type=password], [type=date], [type=datetime], [type=datetime-local],
+[type=month], [type=week], [type=email], [type=tel], [type=time],
+[type=url], [type=color], [type=number], [type=search], textarea
+{
+    color: #000000;
+}
+
+body
+{
+    color:black;
+    background-color:black;
+}
+
+/* Line Width */
+
+hr, button
+{
+    border-width:1.4px;
+}
+
+/* Button */
+
+button
+{
+    color:white;
+    border-style:none;
+    background-color:black;
+    height:44px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:7px;
+}
+
+button:hover,
+.ft-section-dark button:hover
+{
+    color:white;
+    background-color:#c72128;
+}
+
+/* Section */
+
+section
+{
+    padding-top:100px;
+    padding-bottom:100px;
+    background-color:white;
+}
+
+.ft-section-dark,
+.ft-section-dark label
+{
+    color:white;
+}
+
+.ft-section-dark
+{
+    background-color:black;
+}
+
+.ft-section-gray
+{
+    background-color:#eeeeee;
+}
+
+.ft-section-dark button
+{
+    border-color:white;
+}
+
+.ft-section-bg-image
+{
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+/* Navigation Bar (Header + Footer) */
+
+nav
+{
+    background-color:black;
+    height:44px;
+}
+
+.ft-nav-item
+{
+    display:inline-block;
+    height:44px;
+    padding-top:11px;
+}
+
+.ft-nav-right
+{
+    display:inline-block;
+    float:right;
+}
+
+.ft-nav-right .ft-nav-item.show-for-medium
+{
+    margin-left:44px;
+}
+
+.ft-nav-right .ft-nav-item.show-for-small-only,
+.ft-footer-center .ft-nav-item
+{
+    margin-left:22px;
+
+    /* Fix Foundation Style Fuckup */
+    padding-top:7px;
+}
+
+.ft-logo
+{
+    padding-left:44px;
+
+    background: url('logo.png');
+    background-size:auto 32px;
+    background-repeat:no-repeat;
+    background-position-y:6px;
+}
+
+.ft-logo:hover
+{
+    background: url('logo_red.png');
+    background-size:auto 32px;
+    background-repeat:no-repeat;
+    background-position-y:6px;
+}
+
+.ft-footer-center
+{
+    text-align:center;
+}
+
+/* Navigation Bar Link Color */
+
+nav a
+{
+    color: inherit;
+}
+
+.ft-nav-item
+{
+    color:white;
+}
+
+.ft-nav-item:hover
+{
+    color:#c72128;
+}
+
+/* Content Width */
+
+nav > div, section > div
+{
+    width:90%;
+    max-width:800px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* Header */
+
+h1, h2, nav, button
+{
+    font-family: 'BebasRegular','Source Sans Pro', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+h1
+{
+    text-align:center;
+    font-size: 44px;
+    margin-bottom:30px;
+}
+
+h2, nav, button, .ft-h2-fontsize
+{
+    font-size: 30px;
+}
+
+h3
+{
+    font-size: 20px;
+}
+
+h2
+{
+    text-align:left;
+    margin-top:30px;
+}
+
+#ft-blog-list-section h1
+{
+    margin-bottom:10px;
+}
+
+#ft-blog-list-section h2
+{
+    margin-top:0px;
+}
+
+/*
+#ft-blog-list-section h2
+{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+*/
+.ft-center-all-headings > h2
+{
+    text-align:center;
+}
+
+
+img.ft-grayscale
+{
+    -webkit-filter: grayscale(100%);
+    filter: gray;
+    filter: grayscale(100%);
+}
+
+/* Links */
+
+a, a:hover
+{
+    color:#c72128;
+    text-decoration: none;
+}
+
+/* Drop Shadow */
+
+.ft-shadow
+{
+    box-shadow: 0px 9px 18px #777777;
+}
+
+/* Input Form */
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #bbb;
+    font-weight:600;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #bbb;
+    opacity:  1;
+    font-weight:600;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #bbb;
+    opacity:  1;
+    font-weight:600;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:    #bbb;
+    font-weight:600;
+}
+:placeholder-shown { /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
+    color:    #bbb;
+    font-weight:600;
+}
+
+/* Fix Foundation Grid Style Fuckups */
+/*
+.row, .columns, .column
+{
+    padding-left:0;
+    padding-right:0;
+}
+
+.ft-column-padding-left
+{
+    padding-left:25px;
+}
+ */
+
+/* Guest Image */
+
+.lr-app-guest-image
+{
+    border-radius:100px;
+    width:200px;
+}
+
+#lr-app-guest-section .row,
+#lr-app-link-section .columns
+{
+    margin-bottom:80px;
+}
+
+#lr-app-guest-section h2
+{
+    margin-top:10px;
+}
+
+/* feature section */
+
+#lr-app-feature-section
+{
+    padding-bottom:0;
+}
+
+#lr-app-feature-section .columns
+{
+    padding-bottom:100px;
+}
+
+#lr-app-feature-section h2,
+#lr-app-feature-section p
+{
+    text-align:center;
+}
+
+.lr-app-feature-columns-content
+{
+    max-width:500px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+/* Fix Foundation Table Style Fuckups */
+
+tbody
+{
+    border:none;
+}
+
+.ft-section-gray tbody tr:nth-child(even),
+.ft-section-gray tr
+{
+    background-color:#eeeeee;
+}
+
+tbody td, tbody th
+{
+    padding-left:0px;
+    padding-right:0px;
+    padding-top:0px;
+    padding-bottom:16px;
+}
+
+td .fi-check
+{
+    margin-right:20px;
+}
+
+ol, ul
+{
+    padding-left:35px;
+}
+
+blockquote, blockquote p
+{
+    color:black;
+}
