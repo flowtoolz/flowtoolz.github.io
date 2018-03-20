@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<head>
+    <?php
+        include($_SERVER['DOCUMENT_ROOT'] . "/site_components/html_head.php");
+        echoHTMLHeadContent("tvOS, app, london real, apple tv",
+                            "Sebastian Fichtner",
+                            "Participate in building the London Real app!",
+                            "I Can Help",
+                            "/site_components/flowtoolz.css");
+    ?>
+</head>
+
+<body>
+    
+    <?php include($_SERVER['DOCUMENT_ROOT'] . "/site_components/navbar.php"); ?>
+
+    <section>
+        
+        <div>
+            <h1>Let's Build the <nobr><span class="ft-bebas-bold">London<a href="https://londonrealacademy.com" target="_blank">Real</a></span> App Together!</nobr>
+            </h1>
+            <p>
+                So you want to contribute? THANK YOU, THAT'S INCREDIBLE! Or wait! Maybe it <i>is</i> "credible"... OK, I'll name every contributor in the credits of the app's about page.
+            </p>
+            <p>
+                If you want to know more about the app, look at the <a href="../../blog/">blog</a>. If you want to download and test the app, look <a href="../">here</a>.
+            </p>
+            <h2>Episode Chapters</h2>
+            <p>
+                At the moment, the most important thing is creating episode chapters. <a href="http://www.flowtoolz.com/blog/creating-the-london-real-apple-tv-app-9" target="blank">This post</a> explains the challenge. Right now, on September 7, 2016, the latest 28 episodes have no chapters. And I'm sure some old episodes lack chapters as well. If only 5% of academy members would get on it, we would plow through this like Bulletproof Coffee through butter!
+            </p>
+            
+            <p>
+            Right now, the app reads all chapter information from <a href="http://www.flowtoolz.com/londonreal/app_data/chapter_timestamps_v1.json" target="blank">this online JSON file</a>. I have to put the information into that file in the right format. You can help by creating the information, so that I just have to copy your result into the json file and then validate the formatting.
+            </p>
+            <p>
+                I know, I know... The professional way of providing chapter data would be to have a backend with a data base and web interface. In that regard we're still in MVP land, but we don't have resources now to ramp it up.
+            </p>
+            <p>
+                Your workflow would be this:
+                <ol>
+                    <li>Read <a href="http://www.flowtoolz.com/blog/creating-the-london-real-apple-tv-app-9" target="blank">the post that explains the challenge</a>.</li>
+                    <li>Look at <a href="brian_rose.txt" target="blank">this example result</a>. It is a plain text file that contains the JSON encoded chapters for the episode in which Brian Rose got interviewed by Olive. The file ending is "txt" but could just as well be "json".</li>
+                    <li>Ideally, you watch a bit of the Brian Rose episode and see how the consecutive themes of the conversation map to chapters.</li>
+                    <li>Open <a href="http://www.flowtoolz.com/londonreal/app_data/chapter_timestamps_v1.json" target="blank">the chapter file that is currently live</a> and find an episode that is available in the academy but has no chapters yet in the file. Just search (Cmd+F on OSX) the file for a guest name. Typically, the most recent guests have no chapters and are most important. Some older episodes lack chapters too.</li>
+                    <li>Update the entry for your episode(s) in <a href="https://docs.google.com/spreadsheets/d/1XRkvoBDJhNV2JppG4H1oyX9qgPRfx9Boj0xGMYMshCE/edit?usp=sharing" target="blank">this Google Docs spread sheet</a>, where we keep track of the chapter status of all episodes. Signify that you are working on it. Soon, this file can also be used to find incomplete episodes. You can also rework existing chapters if you feel they suck. Just signify that you're working on it.</li>
+                    <li><p>Create a "txt" or "json" file for your episode(s) of choice, similar to the example file linked in point (2). You can put several episodes in one file, just separate them by commas, as they would appear in the final chapter file linked in point (4). For your own convenience, you ideally name the file ending "json" and use an editor that supports JSON syntax highlighting. This is how the example looks as JSON in Xcode:
+                        </p>
+                        <p>
+                            <img src="example_in_xcode.jpg" width="100%" class="ft-shadow"></img>
+                        </p>
+                        <p>
+                        Send your file to <a href="mailto:londonrealchapters@flowtoolz.com">londonrealchapters@flowtoolz.com</a>. I will verify the result, upload it and update the Google Docs spread sheet.</p></li>
+                </ol>
+            </p>
+            <p>
+                If you got to here, you're a king among kings! Thank you for your outstanding contribution! Let me know if I can help you with anything!
+            </p>
+        </div>
+    
+    </section>
+
+    <?php include($_SERVER['DOCUMENT_ROOT'] . "/site_components/footer.php"); ?>
+
+    <?php include($_SERVER['DOCUMENT_ROOT'] . "/site_components/load_scripts.php"); ?>
+
+</body>
+
+</html>

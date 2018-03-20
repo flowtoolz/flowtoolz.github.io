@@ -66,3 +66,35 @@ Our guys and girls are partners rather than employees. They  are proactive, self
 * You get a wide range of services from people who understand the context of your project.
 
 * You get exactly the expertise that applies to your unique project. From real specialists.
+
+<!-- old manifesto
+<h2><i class="fi-heart"></i> Values</h2>
+<ul>
+   <li>We love software development</li>
+   <li>We love creative productivity</li>
+   <li>We love to work in a flow state</li>
+   <li>We love the scientific method</li>
+   <li>We love to bring crazy ideas to life</li>
+   <li>We love to learn continuously</li>
+</ul>
+
+<h2><i class="fi-target-two"></i> Goal</h2>
+<ul>
+   <li>Flowtoolz are creativity-support tools</li>
+   <li>Flowtoolz look and feel like games</li>
+   <li>Flowtoolz are rich but easy to use</li>
+   <li>Flowtoolz let you focus deeply</li>
+   <li>Flowtoolz boost your productivity</li>
+   <li>Flowtoolz inspire you to think differently</li>
+</ul>
+
+<h2><i class="fi-loop"></i> Process</h2>
+<ul>
+   <li>We embrace the agile manifesto</li>
+   <li>We immerse ourselves into the domain</li>
+   <li>We are not attached to any technology</li>
+   <li>We apply test-driven development</li>
+   <li>We produce clean code and architecture</li>
+   <li>We work and deliver in rapid iterations</li>
+</ul>
+-->
