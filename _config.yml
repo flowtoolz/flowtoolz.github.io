@@ -15,8 +15,9 @@
 # in the templates via {{ site.myvariable }}.
 title: Flowtoolz
 email: contact@flowtoolz.com
+author: Sebastian Fichtner
 description: >- # this means to ignore newlines until "baseurl:"
-  Flowtoolz is about deep immersion in the present moment, about creating ultimate experiences through technology. We are in flow when building apps and other tools, and we want those tools to help you reach your own creative flow state.
+  Flowtoolz is about deep immersion in the present moment. We are in flow when building apps and other tools, and we want those tools to put you in your own creative flow state.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://www.flowtoolz.com" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -24,6 +25,9 @@ header_pages:
   - service/service.md
   - projects/projects.md
   - about/about.md
+
+show_excerpts: true
+excerpt_separator: <!--more-->
 
 github_username: flowtoolz
 facebook_username: SebastianFlowtoolz

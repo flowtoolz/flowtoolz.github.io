@@ -1,6 +1,8 @@
 ---
 title: Break Free from Your Musical Baggage
 layout: post
+excerpt: I accumulated too much musical material and thought a lot about how to leverage it while staying inspired. The strategy I concluded might apply to many creative domains beyond music.
+image_url: /blog-images/self-development/break-free-from-your-musical-baggage/audio-work-station.jpeg
 ---
 
 ### A 7 Step Strategy for Songwriters and Producers
