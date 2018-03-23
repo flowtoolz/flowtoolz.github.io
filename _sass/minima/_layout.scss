@@ -11,17 +11,10 @@
 }
 
 .site-title {
-  @include relative-font-size(1.625);
-  font-weight: 300;
+  @include relative-font-size(1);
   line-height: $base-line-height * $base-font-size * 2.25;
-  letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
-
-  &,
-  &:visited {
-    color: $grey-color-dark;
-  }
 }
 
 .site-nav {
@@ -39,7 +32,7 @@
   .page-link {
     color: $text-color;
     line-height: $base-line-height;
-
+    @include relative-font-size(1);
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
       margin-right: 20px;
