@@ -8,6 +8,26 @@ header, main, footer {
    background-color: white;
 }
 
+/* Embedded Videos With Responsive Size */
+
+.ft-video-iframe-wrapper
+{
+   position: relative;
+   padding-bottom: 56.25%; /* 16:9 */
+   padding-top: 0px;
+   height: 0;
+   overflow: hidden;
+}
+
+.ft-video-iframe-wrapper iframe
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+
 /* fix foundation fuck ups */
 
 [type='checkbox'] + label
