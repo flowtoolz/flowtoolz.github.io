@@ -3,7 +3,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {%- seo -%}
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <!-- Foundation -->
+  <link rel='stylesheet' href='/assets/foundation-6/css/foundation.css'>
+  <!-- Minima -->
+  <link rel="stylesheet" href="{{ "/assets/minima.css" | relative_url }}">
+  <!-- Flowtoolz -->
+  <link rel="stylesheet" href="/assets/flowtoolz.css">
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}

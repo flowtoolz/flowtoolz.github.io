@@ -2,10 +2,6 @@
 layout: default
 ---
 
-<!-- Foundation -->
-<link rel='stylesheet' href='/assets/foundation-6/css/foundation.min.css'>
-<link rel='stylesheet' href='/assets/foundation-icons/foundation-icons.css'>
-
 <div class="home">
    {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
@@ -17,18 +13,18 @@ layout: default
    <!--<h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>-->
 
    {%- for post in site.posts -%}
-   <div class="row" style="padding-bottom:70px">
-      <div class="columns small-4" style="padding-top:30px;padding-left:0px;padding-right:15px">
+   <div class="grid-x" style="margin-bottom:40px;height:150px">
+      <div class="cell small-4" style="padding-top:4px;padding-left:0px;padding-right:15px">
          <img src="{{ post.image_url | relative_url }}" width="100%">
       </div>
-      <div class="columns small-8" style="padding:0px">
+      <div class="cell small-8" style="padding:0px;overflow:hidden;">
          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-         <span class="post-meta">{{ post.date | date: date_format }}</span>
-         <h3>
+         <p style="margin-bottom:0">
             <a class="post-link" href="{{ post.url | relative_url }}">
                {{ post.title | escape }}
             </a>
-         </h3>
+         </p>
+         <span class="post-meta" style="margin-right:15px">{{ post.date | date: date_format }}</span><br>
          {%- if site.show_excerpts -%}
             {{ post.excerpt }}
          {%- endif -%}
@@ -42,9 +38,3 @@ layout: default
   {%- endif -%}
 
 </div>
-
-<!-- Foundation Scripts -->
-<script src='/assets/foundation-6/js/vendor/jquery.min.js'></script>
-<script src='/assets/foundation-6/js/vendor/what-input.min.js'></script>
-<script src='/assets/foundation-6/js/foundation.min.js'></script>
-<script> $(document).foundation(); </script>
