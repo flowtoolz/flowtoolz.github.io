@@ -189,8 +189,9 @@
 }
 
 .post-link {
-  @include relative-font-size(1);
-  font-weight: 500;
+  @include relative-font-size(1.31);
+  font-weight: 900;
+  letter-spacing: 0.1px;
 }
 
 /**
