@@ -26,7 +26,6 @@ header_pages:
   - projects/projects.md
   - about/about.md
 
-show_excerpts: true
 excerpt_separator: <!--more-->
 
 github_username: flowtoolz

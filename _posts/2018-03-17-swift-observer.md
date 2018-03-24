@@ -1,13 +1,15 @@
 ---
-title: "Reactive Observing in Swift"
+title: "SwiftObserver: Elegant Reactive Observing in Swift"
 layout: post
-excerpt: A simple flexible super easy library for reactive Swift programming
+excerpt: "Three fundamental primitives for clean architecting in Swift: Observer, Observable & Variable. Stupid easy, safe, readable, flexible, non-intrusive, sweet."
 image_url: /blog-images/software-development/reactive-swift-programming/pyramid.jpeg
 ---
 
-Recently I've been discussing app architecture a lot with colleagues. As ever so often, our main question was: How do we propagate information from the bottom of the hierarchy to the top?
-
 <img style="margin-left:auto;margin-right:auto;display:block;" src="/blog-images/software-development/reactive-swift-programming/pyramid.jpeg" width="100%">
+
+<i>Care about the code? Jump over to [<u>SwiftObserver on Github</u>](https://github.com/flowtoolz/Flowtoolz/tree/master/Code/swift/SwiftObserver/).</i>
+
+Recently I've been discussing app architecture a lot with colleagues. As ever so often, our main question was: How do we propagate information from the bottom of the hierarchy to the top?
 
 Delegates came up and where quickly dismissed. Notifications came up and where quickly dismissed. Closures came up and were embraced. Functional stuff is all the craze. For good reasons.
 

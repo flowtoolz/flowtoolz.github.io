@@ -13,6 +13,8 @@ layout: default
    <!--<h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>-->
 
    {%- for post in site.posts -%}
+
+
    <div class="grid-x">
       <div class="cell small-12" style="padding:0px">
          <p style="margin-bottom:5px">
@@ -24,14 +26,16 @@ layout: default
    </div>
    <div class="grid-x" style="margin-bottom:40px;height:150px">
       <div class="cell small-4" style="padding-top:4px;padding-left:0px;padding-right:15px">
-         <img src="{{ post.image_url | relative_url }}" width="100%">
+         <a class="post-link" href="{{ post.url | relative_url }}">
+            <img src="{{ post.image_url | relative_url }}" width="100%">
+         </a>
       </div>
       <div class="cell small-8" style="padding:0px;overflow:hidden;">
-         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-         <span class="post-meta" style="margin-right:15px">{{ post.date | date: date_format }}</span><br>
-         {%- if site.show_excerpts -%}
-            {{ post.excerpt }}
-         {%- endif -%}
+         <span class="post-meta" style="margin-right:15px">
+            {{ post.date | date: "%b %-d, %Y" }}
+         </span>
+         <br>
+         {{ post.excerpt }}
       </div>
    </div>
 
