@@ -1,4 +1,42 @@
 /**
+ * Wrapper (in header, main and footer)
+ */
+.wrapper {
+  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $spacing-unit;
+  padding-left: $spacing-unit;
+  @extend %clearfix;
+
+  @include media-query($on-laptop) {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+    padding-right: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+  }
+}
+
+/**
+ * Icons
+ */
+.svg-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    fill: #{$grey-color};
+    padding-right: 5px;
+    vertical-align: text-top;
+}
+
+.social-media-list {
+  li + li {
+    padding-top: 5px;
+  }
+}
+
+/**
  * Site header
  */
 .site-header {
@@ -97,8 +135,6 @@
   }
 }
 
-
-
 /**
  * Site footer
  */
@@ -190,6 +226,7 @@
 /**
  * Posts
  */
+
 .post-header {
   margin-bottom: $spacing-unit;
 }
@@ -213,4 +250,24 @@
    &:hover {
       color: $brand-color;
    }
+}
+
+/* Embedded Videos With Responsive Size */
+
+.ft-video-iframe-wrapper
+{
+   position: relative;
+   padding-bottom: 56.25%; /* 16:9 */
+   padding-top: 0px;
+   height: 0;
+   overflow: hidden;
+}
+
+.ft-video-iframe-wrapper iframe
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
 }

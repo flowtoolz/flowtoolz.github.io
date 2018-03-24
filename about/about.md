@@ -14,7 +14,7 @@ permalink: /about/
   I also love reading and writing non-fiction, functional fitness, the game of Go, learning new stuff, positive psychology, producing pop songs, the paleo lifestyle, barefoot running, zen meditation and discussions with interesting positive people.
 </p>
 
-# Academic Writings
+## Academic Writings
 
 * [Listing all Maximal Cliques of Large Sparse Graphs](writings/maximal_cliques.pdf)
 
