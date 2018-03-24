@@ -5,7 +5,7 @@ excerpt: I accumulated too much musical material and thought a lot about how to 
 image_url: /blog-images/self-development/break-free-from-your-musical-baggage/audio-work-station.jpeg
 ---
 
-### A 7 Step Strategy for Songwriters and Producers
+## A 7 Step Strategy for Songwriters and Producers
 
 ![poster image](/blog-images/self-development/break-free-from-your-musical-baggage/audio-work-station.jpeg)
 
