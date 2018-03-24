@@ -7,7 +7,7 @@ image_url: /blog-images/software-development/reactive-swift-programming/pyramid.
 
 <img style="margin-left:auto;margin-right:auto;display:block;" src="/blog-images/software-development/reactive-swift-programming/pyramid.jpeg" width="100%">
 
-<i>Care about the code? Jump over to [<u>SwiftObserver on Github</u>](https://github.com/flowtoolz/Flowtoolz/tree/master/Code/swift/SwiftObserver/).</i>
+<i>Care about the code? Jump over to [SwiftObserver on Github](https://github.com/flowtoolz/Flowtoolz/tree/master/Code/swift/SwiftObserver/).</i>
 
 Recently I've been discussing app architecture a lot with colleagues. As ever so often, our main question was: How do we propagate information from the bottom of the hierarchy to the top?
 

@@ -25,8 +25,6 @@ body {
   font-kerning: normal;
 }
 
-
-
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -37,16 +35,12 @@ ul, ol, dl, figure,
   margin-bottom: $spacing-unit / 2;
 }
 
-
-
 /**
  * `main` element
  */
 main {
   display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
 }
-
-
 
 /**
  * Images
@@ -55,8 +49,6 @@ img {
   max-width: 100%;
   vertical-align: middle;
 }
-
-
 
 /**
  * Figures
@@ -68,8 +60,6 @@ figure > img {
 figcaption {
   font-size: $small-font-size;
 }
-
-
 
 /**
  * Lists
@@ -85,36 +75,48 @@ li {
   }
 }
 
-
-
 /**
  * Headings
  */
+
 h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight;
+  font-weight: 900;
+  letter-spacing: 0.1px;
 }
 
+h1 {
+    @include relative-font-size(1.8);
+}
 
+h2 {
+    @include relative-font-size(1.31);
+}
+
+h3, h4, h5, h6 {
+  @include relative-font-size(1);
+}
 
 /**
  * Links
  */
+
 a {
-  color: $text-color;
-  text-decoration: none;
+   font-size: inherit;
+   font-weight: inherit;
+   letter-spacing: inherit;
 
-  /*
-  &:visited {
-    color: darken($brand-color, 15%);
-  }
-  */
+   color: $brand-color;
+   text-decoration: none;
 
-  &:hover {
-    color: $brand-color;
-    text-decoration: none;
-  }
+   &:hover {
+      color: $brand-color;
+      text-decoration: none;
+   }
 }
 
+h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
+   color: inherit;
+}
 
 /**
  * Blockquotes

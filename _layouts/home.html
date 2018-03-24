@@ -17,16 +17,16 @@ layout: default
 
    <div class="grid-x">
       <div class="cell small-12" style="padding:0px">
-         <p style="margin-bottom:5px">
-            <a class="post-link" href="{{ post.url | relative_url }}">
+         <h2 style="margin-bottom:5px">
+            <a href="{{ post.url | relative_url }}">
                {{ post.title | escape }}
             </a>
-         </p>
+         </h2>
       </div>
    </div>
    <div class="grid-x" style="margin-bottom:40px;height:150px">
       <div class="cell small-4" style="padding-top:4px;padding-left:0px;padding-right:15px">
-         <a class="post-link" href="{{ post.url | relative_url }}">
+         <a href="{{ post.url | relative_url }}">
             <img src="{{ post.image_url | relative_url }}" width="100%">
          </a>
       </div>
