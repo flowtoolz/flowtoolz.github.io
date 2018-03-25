@@ -19,24 +19,6 @@
 }
 
 /**
- * Icons
- */
-.svg-icon {
-    width: 16px;
-    height: 16px;
-    display: inline-block;
-    fill: #{$grey-color};
-    padding-right: 5px;
-    vertical-align: text-top;
-}
-
-.social-media-list {
-  li + li {
-    padding-top: 5px;
-  }
-}
-
-/**
  * Site header
  */
 .site-header {
@@ -138,69 +120,28 @@
 /**
  * Site footer
  */
-.site-footer {
+
+ footer p {
+    text-align: center;
+    color: $grey-color;
+ }
+
+footer {
   border-top: 1px solid $grey-color-light;
-  padding: $spacing-unit 0;
+  padding-top: $spacing-unit;
+  padding-bottom: $spacing-unit;
 }
 
-.footer-heading {
-  @include relative-font-size(1.125);
-  margin-bottom: $spacing-unit / 2;
+footer svg {
+   width: 16px;
+   height: 16px;
+   display: inline-block;
+   fill: #{$grey-color};
+   vertical-align: middle;
 }
 
-.contact-list,
-.social-media-list {
-  list-style: none;
-  margin-left: 0;
-}
-
-.footer-col-wrapper {
-  @include relative-font-size(0.9375);
-  color: $grey-color;
-  margin-left: -$spacing-unit / 2;
-  @extend %clearfix;
-}
-
-.footer-col {
-  float: left;
-  margin-bottom: $spacing-unit / 2;
-  padding-left: $spacing-unit / 2;
-}
-
-.footer-col-1 {
-  width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-  width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
-  width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-  width:         calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-  width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-  width:         calc(45% - (#{$spacing-unit} / 2));
-}
-
-@include media-query($on-laptop) {
-  .footer-col-1,
-  .footer-col-2 {
-    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-    width:         calc(50% - (#{$spacing-unit} / 2));
-  }
-
-  .footer-col-3 {
-    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
-  }
-}
-
-@include media-query($on-palm) {
-  .footer-col {
-    float: none;
-    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
-  }
+footer svg.needs-left-margin {
+    margin-left: $spacing-unit / 2;
 }
 
 /**
@@ -239,16 +180,6 @@
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
   }
-}
-
-/* Footer */
-
-.social-media-list a {
-   color: $text-color;
-
-   &:hover {
-      color: $brand-color;
-   }
 }
 
 /* Embedded Videos With Responsive Size */

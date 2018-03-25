@@ -155,7 +155,7 @@ nav
 .ft-footer-center .ft-nav-item
 {
     margin-left:22px;
-    
+
     /* Fix Foundation Style Fuckup */
     padding-top:7px;
 }
@@ -276,13 +276,6 @@ a, a:hover
 {
     color:#c72128;
     text-decoration: none;
-}
-
-/* Drop Shadow */
-
-.ft-shadow
-{
-    box-shadow: 0px 9px 18px #777777;
 }
 
 /* Input Form */
