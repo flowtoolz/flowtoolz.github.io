@@ -27,6 +27,8 @@ header_pages:
   - projects/projects.md
   - about/about.md
 
+paginate: 13
+
 excerpt_separator: <!--more-->
 
 github_username: flowtoolz
@@ -39,6 +41,7 @@ highlighter: rouge
 # theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
