@@ -1,0 +1,53 @@
+<!-- Basics (computed with Jekyll) -->
+<title>{{site.title>}} &#187; {{page.title}}</title>
+<link rel="canonical" href="{{ site.url | append: page.url }}">
+<meta name='author' content='{{ page.author | default: site.author }}'/>
+<meta name='description' content='{{ page.description | default: page.excerpt | default: site.description }}'/>
+<meta name='keywords' content='{{ page.keywords | default: site.keywords }}'/>
+
+{% if page.image_url %}
+   <link rel="image_src" href="{{ site.url | append: page.image_url }}">
+{% else %}
+   <link rel="image_src" href="{{ site.url | append: "/assets/logo.jpg" }}">
+{% endif %}
+
+{% if paginator.previous_page %}
+   <link rel="prev" href="{{ paginator.previous_page_path | absolute_url }}" />
+{% endif %}
+
+{% if paginator.next_page %}
+   <link rel="next" href="{{ paginator.next_page_path | absolute_url }}" />
+{% endif %}
+
+<!-- Open Graph properties (hard coded) -->
+<meta property="og:locale" content="en_GB">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:latitude" content="47.649606">
+<meta property="og:longitude" content="9.164385">
+<meta property="og:street_address" content="Konstanzerstrasse 49">
+<meta property="og:locality" content="Kreuzlingen">
+<meta property="og:region" content="Thurgau">
+<meta property="og:postal_code" content="8280">
+
+<!-- Open Graph properties (computed with Jekyll) -->
+<meta property="og:title" content="{{ page.title | default: site.title }}" />
+<meta property="og:site_name" content="{{ site.title }}" />
+<meta property="og:url" content="{{ site.url | append: page.url }}" />
+<meta property="og:description"
+   content="{{ page.description | default: page.excerpt | default: site.description }}" />
+
+{% if page.image_url %}
+   <meta property="og:image" content="{{ site.url | append: page.image_url }}" />
+   <meta property="og:image:type" content="image/jpeg" />
+{% else %}
+   <meta property="og:image" content="{{ site.url | append: "/assets/logo.jpg" }}" />
+   <meta property="og:image:type" content="image/jpeg" />
+{% endif %}
+
+{% if page.date %}
+   <meta property="og:type" content="article" />
+   <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}" />
+{% else %}
+   <meta property="og:type" content="website" />
+{% endif %}
