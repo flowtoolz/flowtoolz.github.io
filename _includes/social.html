@@ -1,61 +1,35 @@
+<a class="u-email" href="mailto:{{ site.email }}">
+   <img src="/assets/simpleicons.org/email.svg" />
+</a>
 
-   {%- if site.facebook_username -%}
-      <a href="https://www.facebook.com/{{ site.facebook_username| cgi_escape | escape }}">
-         <svg>
-            <use xlink:href="{{ '/assets/minima-social-icons.svg#facebook' | relative_url }}">
-            </use>
-         </svg>
-      </a>
-   {%- endif -%}
+<a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}">
+   <img class="needs-left-margin" src="/assets/simpleicons.org/linkedin.svg" />
+</a>
 
-   {%- if site.github_username -%}
-      <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}">
-         <svg class="needs-left-margin">
-            <use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}">
-            </use>
-         </svg>
-      </a>
-   {%- endif -%}
+<a href="https://www.xing.com/profile/{{ site.xing_username| cgi_escape | escape }}">
+   <img class="needs-left-margin" src="/assets/simpleicons.org/xing.svg" />
+</a>
 
-   {%- if site.instagram_username -%}
-      <a href="https://instagram.com/{{ site.instagram_username| cgi_escape | escape }}">
-         <svg class="needs-left-margin">
-            <use xlink:href="{{ '/assets/minima-social-icons.svg#instagram' | relative_url }}">
-            </use>
-         </svg>
-      </a>
-   {%- endif -%}
+<a href="https://github.com/{{ site.github_username| cgi_escape | escape }}">
+   <img class="needs-left-margin" src="/assets/simpleicons.org/github.svg" />
+</a>
 
-   {%- if site.linkedin_username -%}
-      <a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}">
-         <svg class="needs-left-margin">
-            <use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}">
-            </use>
-         </svg>
-      </a>
-   {%- endif -%}
+<a href="https://www.facebook.com/{{ site.facebook_username| cgi_escape | escape }}">
+   <img class="needs-left-margin" src="/assets/simpleicons.org/facebook.svg" />
+</a>
 
-   {%- if site.youtube_username -%}
-      <a href="https://youtube.com/{{ site.youtube_username| cgi_escape | escape }}">
-         <svg class="needs-left-margin">
-            <use xlink:href="{{ '/assets/minima-social-icons.svg#youtube' | relative_url }}">
-            </use>
-         </svg>
-      </a>
-   {%- endif -%}
+<a href="https://www.goodreads.com/{{ site.goodreads_username| cgi_escape | escape }}">
+   <img class="needs-left-margin" src="/assets/simpleicons.org/goodreads.svg" />
+</a>
 
-   {%- if site.googleplus_username -%}
-      <a href="https://plus.google.com/{{ site.googleplus_username| escape }}">
-         <svg class="needs-left-margin">
-            <use xlink:href="{{ '/assets/minima-social-icons.svg#googleplus' | relative_url }}">
-            </use>
-         </svg>
-      </a>
-   {%- endif -%}
+<a href="https://medium.com/@{{ site.medium_username| cgi_escape | escape }}">
+   <img class="needs-left-margin" src="/assets/simpleicons.org/medium.svg" />
+</a>
 
-   <a href="{{ "/feed.xml" | relative_url }}">
-      <svg class="needs-left-margin">
-         <use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}">
-         </use>
-      </svg>
-   </a>
+<a href="https://www.youtube.com/channel/UCqL_LbGNuKUuAKVlY9y7Eug">
+   <img class="needs-left-margin" src="/assets/simpleicons.org/youtube.svg" />
+</a>
+
+<a href="{{ "/feed.xml" | relative_url }}">
+   <img class="needs-left-margin" src="/assets/simpleicons.org/rss.svg" />
+</a>
