@@ -4,9 +4,9 @@ title: Service
 permalink: /service/
 ---
 
-## Got a great business or idea?
+# Got a Great Business Or Idea?
 
-We don't just build the app.
+## We don't just build the app
 
 * We also understand your goal, help you work out a strategy and then build exactly the app that lets you implement your vision.
 
