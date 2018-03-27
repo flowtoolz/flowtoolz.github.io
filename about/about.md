@@ -3,9 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-<blockquote>
-   <i>{{ site.description }}</i>
-</blockquote>
+
 <p>
   Hey, I'm Sebastian. I'm founder and chief software artist of Flowtoolz. I started coding in 1994, studied fine arts, computer and media science and got my master's degree in information engineering from Konstanz University.
 </p>

@@ -124,13 +124,14 @@
  footer {
    border-top: 1px solid $grey-color-light;
    padding-top: 0;
-   padding-bottom: $spacing-unit;
-   padding-top: $spacing-unit * 2;
+   padding-bottom: 0;
+   padding-top: $spacing-unit;
  }
 
 footer p {
  text-align: center;
  color: $grey-color;
+ margin-bottom: $spacing-unit;
 }
 
 footer a > img {
@@ -144,7 +145,7 @@ footer a > img {
 }
 
 footer a > img.needs-left-margin {
-   margin-left: $spacing-unit;
+   margin-left: $spacing-unit / 2;
 }
 
 footer a > img:hover {
@@ -175,6 +176,10 @@ footer a > img:hover {
 /**
  * Posts
  */
+
+ .home {
+    padding-top: $spacing-unit;
+}
 
 .post-header {
   margin-bottom: $spacing-unit;
