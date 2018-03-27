@@ -4,7 +4,6 @@ title: About
 permalink: /about/
 ---
 
-<h1>About</h1>
 <p>
   Hi, My Name Is Sebastian! I'm the founder of Flowtoolz. I started coding in 1994, studied fine arts, computer and media science and got my master's degree in information engineering from Konstanz University.
 </p>

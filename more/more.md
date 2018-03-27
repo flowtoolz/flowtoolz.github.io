@@ -4,8 +4,6 @@ title: More
 permalink: /more/
 ---
 
-# More Is More
-
 ## [Flowtoolz Github](https://github.com/flowtoolz/Flowtoolz)
 
 I just started to put some re-usable code on Github. [Check it out here.](https://github.com/flowtoolz/Flowtoolz) This will become a cocoapod and a carthage framework. Of course I still need to refactor, curate, document and expand it.
