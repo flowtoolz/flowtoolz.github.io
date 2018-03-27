@@ -34,6 +34,36 @@ We don't just build the app.
 
 * [AIDA](http://www.aida.de)
 
+## Selected Projects
+
+### [MyAIDA](https://itunes.apple.com/de/app/myaida/id1168637599)
+
+I'm helping the team at the Costa Digital Unit rebuild the app "MyAIDA" for iOS.
+
+### [SanitasActive](https://itunes.apple.com/de/app/sanitas-active/id1140475651)
+
+A fitness tracking iOS app that I wrote for Sanitas Grundversicherungen AG as a freelancer at JLS DIGITAL AG.
+
+### [Allianz One Mobile](https://www.allianz.com/de/produkte_loesungen/globale_geschaeftseinheiten/amos/)
+
+I helped the team at Allianz Managed Operations & Services SE create a platform for development and QA of mobile apps.
+
+### [Londonreal TV](http://londonrealapp.com)
+
+I created the Londonreal TV app for Apple's tvOS, from concept to release. Check out a little teaser here: <http://londonrealapp.com> or download it from the tvOS AppStore.
+
+### [HolidayCheck](https://www.holidaycheck.ch)
+
+I helped the team at <http://www.holidaycheck.ch> build HolidayCheck app for iOS.
+
+### [CleverLotto](https://www.cleverlotto.de)
+
+I helped the team at <http://www.formigas.de> build the CleverLotto app for iOS.
+
+### [Vooxly](https://www.instagram.com/vooxly/)
+
+A video voiceover app that I wrote for Socialbit GmbH. It was the first major app for which I did most part of the coding.
+
 ## Manifesto
 
 #### Our Conviction
@@ -56,16 +86,10 @@ Delivering in rapid iterations allows us to scale the product with the invested 
 
 With each iteration, we deliver a viable product by implementing the feature that offers the greatest return of investment.
 
-## Team
-Flowtoolz is a network of passionate software artists who love turning exciting ideas into reality. We collaborate with selected experts from all kinds of professional backgrounds like computer science, fine arts, industrial design, business administration and online marketing.
+### Professional Network
+We collaborate with selected experts from all kinds of professional backgrounds like computer science, fine arts, business administration and marketing.
 
-Our guys and girls are partners rather than employees. They  are proactive, self-reliant, creative, independent and passionate. The benefits for you:
-
-* You don't just get high quality but also innovation, style and a unique perspective.
-
-* You get a wide range of services from people who understand the context of your project.
-
-* You get exactly the expertise that applies to your unique project. From real specialists.
+Rather than being detached employees, we are invested partners, proactive, self-reliant, independent and creative.
 
 <!-- old manifesto
 <h2><i class="fi-heart"></i> Values</h2>

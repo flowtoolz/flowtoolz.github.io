@@ -23,7 +23,7 @@ url: "http://www.flowtoolz.com" # the base hostname & protocol for your site, e.
 
 header_pages:
   - service/service.md
-  - projects/projects.md
+  - more/more.md
   - about/about.md
 
 paginate: 13
