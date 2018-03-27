@@ -126,12 +126,13 @@
    padding-top: 0;
    padding-bottom: 0;
    padding-top: $spacing-unit;
+   padding-bottom: $spacing-unit;
  }
 
 footer p {
  text-align: center;
  color: $grey-color;
- margin-bottom: $spacing-unit;
+ margin-bottom: 0;
 }
 
 footer a > img {
