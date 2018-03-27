@@ -20,7 +20,7 @@ permalink: /service/
 
 * [Formigas GmbH](http://www.formigas.de)
 
-* [HolidayCheck GmbH](https://itunes.apple.com/ch/app/holidaycheck/id431838682?mt=8)
+* [HolidayCheck AG](https://itunes.apple.com/ch/app/holidaycheck/id431838682?mt=8)
 
 * [LONDONREAL](http://www.londonreal.tv)
 
@@ -54,7 +54,7 @@ I created the Londonreal TV app for Apple's tvOS, from concept to release. Check
 
 ### [HolidayCheck](https://www.holidaycheck.ch)
 
-I helped the team at <http://www.holidaycheck.ch> build HolidayCheck app for iOS.
+I helped the team at <http://www.holidaycheck.ch> build the HolidayCheck app for iOS.
 
 ### [CleverLotto](https://www.cleverlotto.de)
 
@@ -69,7 +69,7 @@ A video voiceover app that I wrote for Socialbit GmbH. It was the first major ap
 #### Our Conviction
 We are experienced, principled and oppinionated software craftsmen who believe there often <i>is</i> a right and a wrong way to do things.
 
-<i>Agile</i> is not a marketing buzzword to us. We carry the ideas of the agile manifesto in our hearts. All our work rests on the following three principles.
+<i>Agile</i> is not a marketing buzzword to us. We carry the ideas of the agile manifesto in our hearts. All our work rests on the following four principles.
 
 #### Domain-Driven Design
 We immerse ourselves into your application domain and model its mechanics together with you. We are convinced that a deep understanding of the domain makes for excellent software and excellent partnerships.
