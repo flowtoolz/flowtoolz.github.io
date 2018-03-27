@@ -138,7 +138,7 @@ footer p {
 footer a > img {
    width: 32px;
    display: inline-block;
-   margin-bottom: $spacing-unit;
+   margin-bottom: $spacing-unit / 2;
    transition: filter .2s ease-in-out;
    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
    filter: grayscale(100%); /* FF 35+ */
