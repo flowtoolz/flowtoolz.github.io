@@ -92,13 +92,13 @@ li {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 900;
-  letter-spacing: 0.1px;
+  letter-spacing: -1.5px;
 }
 
 h1 {
-  @include relative-font-size(2.625);
-  letter-spacing: -1px;
-  line-height: 1;
+  @include relative-font-size(3);
+  letter-spacing: -4px;
+  line-height: 1.1;
   margin-bottom: $spacing-unit;
 }
 
@@ -111,7 +111,8 @@ h1.post-title {
 }
 
 h2 {
-    @include relative-font-size(1.31);
+    @include relative-font-size(1.47);
+    letter-spacing: -2px;
     margin-bottom: $spacing-unit / 4;
 }
 
