@@ -4,9 +4,9 @@ title: Service
 permalink: /service/
 ---
 
-# Got a Great Business Or Idea?
+<h1 style="text-align:center">Got a Great Business Or Idea?</h1>
 
-## We don't just build the app
+<h2  style="text-align:center">We Don't Just Build The App</h2>
 
 <div class="grid-x small-up-1 medium-up-3 grid-padding-y grid-padding-x">
    <div class="cell">
@@ -78,64 +78,102 @@ permalink: /service/
 
 </div>
 
-## Selected Projects
+<h1 style="text-align:center">Projects</h1>
 
-### MyAIDA
+<div class="grid-x small-up-1 medium-up-2 grid-padding-y grid-padding-x">
 
-I'm helping the team at the [Costa Digital Unit](http://costadigital.io) rebuild the MyAIDA app for iOS. The app lets guests of [AIDA Cruises](https://www.aida.de) see what's going on on their cruise ship, book events, chat with each other and more.
+<div class="cell">
+   <h3>MyAIDA</h3>
 
-### [SanitasActive](https://itunes.apple.com/de/app/sanitas-active/id1140475651)
+   I'm helping the team at the <a href="http://costadigital.io">Costa Digital Unit</a> rebuild the MyAIDA app for iOS. The app lets guests of <a href="https://www.aida.de">AIDA Cruises</a> see what's going on on their cruise ship, book events, chat with each other and more.
+</div>
+<div class="cell">
+   <h3><a href="https://itunes.apple.com/de/app/sanitas-active/id1140475651">SanitasActive</a></h3>
 
-A [fitness tracking iOS app](https://itunes.apple.com/de/app/sanitas-active/id1140475651) that I wrote for [Sanitas Grundversicherungen AG](https://www.sanitas.com) as a freelancer at [JLS Digital AG](http://www.jls.ch). It rewards running, swimming and cycling and supports AppleHealth, Garmin and Fitbit.
+   A <a href="https://itunes.apple.com/de/app/sanitas-active/id1140475651">fitness tracking iOS app</a> that I wrote for <a href="https://www.sanitas.com">Sanitas Grundversicherungen AG</a> as a freelancer at <a href="http://www.jls.ch">JLS Digital AG</a>. It rewards running, swimming and cycling and supports AppleHealth, Garmin and Fitbit.
+</div>
+<div class="cell">
+   <h3><a href="https://www.allianz.com/de/produkte_loesungen/globale_geschaeftseinheiten/amos/">Allianz oneMobile</a></h3>
 
-### [Allianz oneMobile](https://www.allianz.com/de/produkte_loesungen/globale_geschaeftseinheiten/amos/)
+   I helped the team at <a href="https://www.allianz.com/de/produkte_loesungen/globale_geschaeftseinheiten/amos/">Allianz Managed Operations & Services SE</a> create a platform with which worldwide organizational units of <a href="https://www.allianz.com">Allianz SE</a> build, test and deliver native and cross-platform apps.
+</div>
+<div class="cell">
+   <h3><a href="http://www.flowtoolz.com/londonrealapp">London Real TV</a></h3>
 
-I helped the team at [Allianz Managed Operations & Services SE](https://www.allianz.com/de/produkte_loesungen/globale_geschaeftseinheiten/amos/) create a platform with which worldwide organizational units of [Allianz SE](https://www.allianz.com) build, test and deliver native and cross-platform apps.
+   I created the <a href="http://www.flowtoolz.com/londonrealapp">Londonreal TV app</a> for Apple's tvOS, from concept to release. You can watch the latest full London Real episodes for free and explore episodes through a table of contents.
+</div>
+<div class="cell">
+   <h3><a href="https://itunes.apple.com/de/app/holidaycheck/id431838682?mt=8">HolidayCheck</a></h3>
 
-### [London Real TV](http://www.flowtoolz.com/londonrealapp)
+   I helped the team at <a href="http://www.holidaycheck.ch">HolidayCheck AG</a> build the <a href="https://itunes.apple.com/de/app/holidaycheck/id431838682?mt=8">HolidayCheck iOS app</a>. The app lets you find and book your next vacation as well as upload and rate photos and videos.
+</div>
+<div class="cell">
+   <h3><a href="https://www.cleverlotto.de">CleverLotto</a></h3>
 
-I created the [Londonreal TV app](http://www.flowtoolz.com/londonrealapp) for Apple's tvOS, from concept to release. You can watch the latest full London Real episodes for free and explore episodes through a table of contents.
+   I helped the team at <a href="http://www.formigas.de">Formigas</a> build the <a href="https://cleverlotto.de">CleverLotto</a> app for iOS. The app lets lottery players buy and manage tickets for different german lotteries. Check it out <a href="https://itunes.apple.com/de/app/clever-lotto-6aus49-eurojackpot/id390946943?mt=8">in the AppStore</a>.
+</div>
+<div class="cell">
+   <h3><a href="https://www.instagram.com/vooxly/">Vooxly</a></h3>
 
-### [HolidayCheck](https://itunes.apple.com/de/app/holidaycheck/id431838682?mt=8)
+   A <a href="https://www.instagram.com/vooxly/">social video app</a> that I developed for Socialbit GmbH. It lets you send video messages, record voiceovers and do basic editing like selecting background music from your iTunes library.
+</div>
 
-I helped the team at [HolidayCheck AG](http://www.holidaycheck.ch) build the [HolidayCheck iOS app](https://itunes.apple.com/de/app/holidaycheck/id431838682?mt=8). The app lets you find and book your next vacation as well as upload and rate photos and videos.
+</div>
 
-### [CleverLotto](https://www.cleverlotto.de)
+<h1 style="text-align:center">Manifesto</h1>
 
-I helped the team at [Formigas](http://www.formigas.de) build the [CleverLotto](https://cleverlotto.de) app for iOS. The app lets lottery players buy and manage tickets for different german lotteries. Check it out [in the AppStore](https://itunes.apple.com/de/app/clever-lotto-6aus49-eurojackpot/id390946943?mt=8).
+<div class="grid-x small-up-1 medium-up-2 grid-padding-y grid-padding-x">
 
-### [Vooxly](https://www.instagram.com/vooxly/)
+   <div class="cell">
+      <h3>Our Conviction</h3>
+      <p>
+      We are experienced, principled and opinionated software craftsmen who believe there often <i>is</i> a right and a wrong way to do things.
+      </p>
+      <p>
+      <i>Agile</i> is not a marketing buzzword to us. We carry the ideas of the <a href="http://agilemanifesto.org/principles.html">agile manifesto</a> in our hearts. All our work rests on the following four principles.
+      </p>
+   </div>
 
-A [social video app](https://www.instagram.com/vooxly/) that I developed for Socialbit GmbH. It lets you send video messages, record voiceovers and do basic editing like selecting background music from your iTunes library.
+   <div class="cell">
+      <h3>Domain-Driven Design</h3>
+      <p>
+      We immerse ourselves into your application domain and model its mechanics together with you. We are convinced that a deep understanding of the domain makes for excellent software and excellent partnerships.
+      </p>
+      <p>
+      Our <a href="https://www.goodreads.com/book/show/179133.Domain_Driven_Design">domain-driven</a> approach entails that we are not attached to any technology. Instead we apply the technologies that best serve your goal.
+      </p>
+   </div>
 
-## Manifesto
+   <div class="cell">
+      <h3>Craftsmanship</h3>
+      <p>
+      We sustain development speed even in late stages of complex projects because we apply <a href="https://www.goodreads.com/book/show/13705089-test-driven-ios-development">test-driven development</a> and produce <a href="https://www.goodreads.com/book/show/3735293-clean-code">clean code</a> and <a href="https://www.goodreads.com/book/show/18043011-clean-architecture">architecture</a>.
+      </p>
+      <p>
+      Since clean architecture yields highly reusable code, we're constantly growing a code library that powers development across different projects.
+      </p>
+   </div>
 
-#### Our Conviction
-We are experienced, principled and opinionated software craftsmen who believe there often <i>is</i> a right and a wrong way to do things.
+   <div class="cell">
+      <h3>Rapid Iteration</h3>
+      <p>
+      Delivering in rapid iterations allows us to scale the product with the invested resources and to react quickly to new information.
+      </p>
+      <p>
+      With each iteration, we deliver a viable product by implementing the feature that offers the greatest return of investment.
+      </p>
+   </div>
 
-<i>Agile</i> is not a marketing buzzword to us. We carry the ideas of the [agile manifesto](http://agilemanifesto.org/principles.html) in our hearts. All our work rests on the following four principles.
-
-#### Domain-Driven Design
-We immerse ourselves into your application domain and model its mechanics together with you. We are convinced that a deep understanding of the domain makes for excellent software and excellent partnerships.
-
-Our [domain-driven](https://www.goodreads.com/book/show/179133.Domain_Driven_Design) approach entails that we are not attached to any technology. Instead we apply the technologies that best serve your goal.
-
-#### Craftsmanship
-We sustain development speed even in late stages of complex projects because we apply [test-driven development](https://www.goodreads.com/book/show/13705089-test-driven-ios-development) and produce [clean code](https://www.goodreads.com/book/show/3735293-clean-code) and [architecture](https://www.goodreads.com/book/show/18043011-clean-architecture).
-
-Since clean architecture yields highly reusable code, we're constantly growing a code library that powers development across different projects.
-
-#### Rapid Iteration
-Delivering in rapid iterations allows us to scale the product with the invested resources and to react quickly to new information.
-
-With each iteration, we deliver a viable product by implementing the feature that offers the greatest return of investment.
-
-### Professional Network
-Rather than being detached employees, we are invested partners, proactive, self-reliant, independent and creative.
-
-We don't know everything. But we know people for everything, from various networks and professional backgrounds. We collaborate with selected experts, but won't hesitate to forward your project to a partner, if they are a better fit. The point is: you'll be happy.
-
-
+   <div class="cell">
+      <h3>Professional Network</h3>
+      <p>
+      Rather than being detached employees, we are invested partners, proactive, self-reliant, independent and creative.
+      </p>
+      <p>
+      We don't know everything but we know people for everything, from various networks and professional backgrounds. We collaborate with selected experts but won't hesitate to forward your project to a partner, if they are a better fit.
+      </p>
+   </div>
+</div>
 
 <!-- old manifesto
 <h2><i class="fi-heart"></i> Values</h2>
