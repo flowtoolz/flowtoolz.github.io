@@ -8,11 +8,17 @@ permalink: /service/
 
 ## We don't just build the app
 
-* We also understand your goal, help you work out a strategy and then build exactly the app that lets you implement your vision.
-
-* You already have a code base but the project is in a rut? Let's analyze it, improve the architecture and get up to speed again!
-
-* Let's bring you and your app to the right platforms and people. We customize your app and market it tailored to your budget.
+<div class="grid-x small-up-1 medium-up-3 grid-padding-y grid-padding-x">
+   <div class="cell">
+      We also understand your goal, help you work out a strategy and then build exactly the app that lets you implement your vision.
+   </div>
+   <div class="cell">
+      You already have a code base but the project is in a rut? Let's analyze it, improve the architecture and get up to speed again!
+   </div>
+   <div class="cell">
+      Let's bring you and your app to the right platforms and people. We customize your app and market it tailored to your budget.
+   </div>
+</div>
 
 <div class="ft-client-grid grid-x grid-padding-y small-up-3 medium-up-3 large-up-3">
 
