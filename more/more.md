@@ -10,7 +10,7 @@ permalink: /more/
 
 The 3rd revision is done. A collaborator of mine handcrafts the books and gives every copy a unique design. I did a photo shoot of a bunch of example copies and had it professionally translated. So the page with photos and details is coming soon in english and german to [www.flowtoolz.com/diary](/diary) and [www.flowtoolz.de/tagebuch](/tagebuch).
 
-## [Melowtree](https://www.facebook.com/mellowtreemusic/)
+## [Mellowtree](https://www.facebook.com/mellowtreemusic/)
 
 <img src="mellowtree.jpg" class="ft-more-project-image" /> [Mellowtree](https://www.facebook.com/mellowtreemusic/) is my indie music project. Dreamy, spacey, catchy art pop. I've been following this vision since I was 14, and created [countless](/2017/09/17/break-free-from-your-musical-baggage.html) ideas.
 
@@ -22,9 +22,9 @@ Currently I'm focusing on generating more viable output, i.e. I'm working on a 1
 
 Since I'm drifting more and more to the production side, I collaborate with musicians and produce their demos. A page with details will follow...
 
-## [Flowlist](http://flowlistapp.com)
+## [Flowlist](/flowlist)
 
-<img src="flowlist.jpg" class="ft-more-project-image" /> A real minimal but viable and fun macOS app for taking notes and managing tasks. Check out <http://flowlistapp.com>. There's much more to come for this project...
+<img src="flowlist.jpg" class="ft-more-project-image" /> A real minimal but viable and fun macOS app for taking notes and managing tasks. Check out [flowlistapp.com](/flowlist). There's much more to come for this project...
 
 I created Flowlist for myself out of frustration with all the task management apps I intensely used before. Now I'm happy using Flowlist daily since summer 2017.
 
@@ -49,7 +49,7 @@ As soon as the overall "story arc" is settled, I'll extract some parts as blog p
 
 <img src="/cocoalytics/logo.jpg" class="ft-more-project-image" /> An idea for a code visualization and quality analytics tool around iOS, macOS and tvOS. Although there's no finished app to show, I've done a lot of conceptual work, copywriting, market analysis and so forth. And I explored the idea through the <a href="/2016/05/15/london-real-business-accelerator.html">London Real Business Accelerator</a>.
 
-Watch the pitch [here](/2016/01/03/cocoalytics-pitch.html), or if you're interested in collaborating on such a project, download some conceptual notes [here](https://bitbucket.org/flowtoolz/cocoalytics/raw/ef819c6af7d74285481bfb7779c57c56b92be670/Strategy/cocoalytics_strategy.pdf). More is to come at <http://cocoalytics.com>.
+Watch the pitch [here](/2016/01/03/cocoalytics-pitch.html), or if you're interested in collaborating on such a project, download some conceptual notes [here](https://bitbucket.org/flowtoolz/cocoalytics/raw/ef819c6af7d74285481bfb7779c57c56b92be670/Strategy/cocoalytics_strategy.pdf). More is to come at [cocoalytics.com](http://cocoalytics.com).
 
 ## StockToolz
 
@@ -65,13 +65,11 @@ I hope I can pick this up at some point. If you're interested in collaborating o
 
 During my master studies in Information Engineering, I became obsessed with a vision of a novel music composition interface. So I made it the subject of my thesis.
 
-While I still stand behind my [36 requirements for music composition interfaces](writings/what_music_composition_interfaces_require.pdf), my solution suffered from overthinking, and the academic prototype is not a minimal viable product. I don't know that I will ever come back to this, since other ideas have more commercial potential.
+While I still stand behind the [36 requirements for music composition interfaces](writings/what_music_composition_interfaces_require.pdf), my solution suffered from overthinking, and the academic prototype is not a minimal viable product. I don't know that I will ever come back to this, since other ideas have more commercial potential.
 
 ## Academic Writings
 
-<img src="university.png" class="ft-more-project-image" />
-
-[Listing all Maximal Cliques of Large Sparse Graphs](writings/maximal_cliques.pdf)
+<img src="university.png" class="ft-more-project-image" /> [Listing all Maximal Cliques of Large Sparse Graphs](writings/maximal_cliques.pdf)
 
 [Direct Manipulation](writings/direct_manipulation.pdf)
 
