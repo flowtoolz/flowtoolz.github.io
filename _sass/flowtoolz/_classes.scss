@@ -131,7 +131,7 @@
 
 footer p {
  text-align: center;
- color: $grey-color;
+ color: lighten($grey-color, 20%);
  margin-bottom: 0;
 }
 
