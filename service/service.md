@@ -16,57 +16,57 @@ permalink: /service/
 
 <div class="ft-client-grid grid-x grid-padding-y small-up-3 medium-up-3 large-up-3">
 
-   <div class="cell">
+   <div class="cell" style="background-image:url(clients/socialbit.png);">
       <a href="http://www.socialbit.de">
-         <img src="clients/socialbit.png"/>
+         <div></div>
       </a>
    </div>
 
-   <div class="cell">
+   <div class="cell" style="background-image:url(clients/formigas.png);">
       <a href="http://www.formigas.de">
-         <img src="clients/formigas.png" style="margin-top:16px"/>
+         <div></div>
       </a>
    </div>
 
-   <div class="cell">
+   <div class="cell"  style="background-image:url(clients/holidaycheck.jpg);">
       <a href="https://www.holidaycheck.ch">
-         <img src="clients/holidaycheck.jpg" style="margin-top:13px"/>
+         <div></div>
       </a>
    </div>
 
-   <div class="cell">
+   <div class="cell" style="background-image:url(clients/londonreal.png);">
       <a href="http://www.londonreal.tv">
-         <img src="clients/londonreal.png" style="margin-top:14px;background-color:#eee;"/>
+         <div></div>
       </a>
    </div>
 
-   <div class="cell">
+   <div class="cell" style="background-image:url(clients/gruenderschiff.png);">
       <a href="http://www.gruenderschiff.de">
-         <img src="clients/gruenderschiff.png"/>
+         <div></div>
       </a>
    </div>
 
-   <div class="cell">
+   <div class="cell" style="background-image:url(clients/allianz.svg);">
       <a href="http://www.allianz.com">
-         <img src="clients/allianz.svg" style="margin-top:13px"/>
+         <div></div>
       </a>
    </div>
 
-   <div class="cell">
+   <div class="cell" style="background-image:url(clients/sanitas.png);">
       <a href="http://sanitas.com">
-         <img src="clients/sanitas.png"/>
+         <div></div>
       </a>
    </div>
 
-   <div class="cell">
+   <div class="cell" style="background-image:url(clients/mindlink.svg);">
       <a href="http://mindlink.ch">
-         <img src="clients/mindlink.svg" style="margin-top:6px"/>
+         <div></div>
       </a>
    </div>
 
-   <div class="cell">
+   <div class="cell" style="background-image:url(clients/aida.svg);">
       <a href="http://www.aida.svg">
-         <img src="clients/aida.svg"/>
+         <div></div>
       </a>
    </div>
 
@@ -76,11 +76,11 @@ permalink: /service/
 
 ### MyAIDA
 
-I'm helping the team at the [Costa Digital Unit](http://costadigital.io) rebuild the MyAIDA app for iOS. The app lets guests of [AIDA Cruises](https://www.aida.de) see what's going on on their cruise ship, book events chat with each other and more.
+I'm helping the team at the [Costa Digital Unit](http://costadigital.io) rebuild the MyAIDA app for iOS. The app lets guests of [AIDA Cruises](https://www.aida.de) see what's going on on their cruise ship, book events, chat with each other and more.
 
 ### [SanitasActive](https://itunes.apple.com/de/app/sanitas-active/id1140475651)
 
-A [fitness tracking iOS app](https://itunes.apple.com/de/app/sanitas-active/id1140475651) that I wrote for [Sanitas Grundversicherungen AG](https://www.sanitas.com) as a freelancer at [JLS DIGITAL AG](http://www.jls.ch). It rewards running, swimming and cycling and supports AppleHealth, Garmin and Fitbit.
+A [fitness tracking iOS app](https://itunes.apple.com/de/app/sanitas-active/id1140475651) that I wrote for [Sanitas Grundversicherungen AG](https://www.sanitas.com) as a freelancer at [JLS Digital AG](http://www.jls.ch). It rewards running, swimming and cycling and supports AppleHealth, Garmin and Fitbit.
 
 ### [Allianz oneMobile](https://www.allianz.com/de/produkte_loesungen/globale_geschaeftseinheiten/amos/)
 
