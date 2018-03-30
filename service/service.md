@@ -10,76 +10,114 @@ permalink: /service/
 
 * We also understand your goal, help you work out a strategy and then build exactly the app that lets you implement your vision.
 
-* We empower your whole journey, from concept and design over implementation and testing to marketing and release.
+* You already have a code base but the project is in a rut? Let's analyze it, improve the architecture and get up to speed again!
 
-* We bring your app to the right platforms. Whether it's phones, TV or the web. We make it fully customized and deeply engaging.
+* Let's bring you and your app to the right platforms and people. We customize your app and market it tailored to your budget.
 
-## Clients
+<div class="ft-client-grid grid-x grid-padding-y small-up-3 medium-up-3 large-up-3">
 
-* [Socialbit GmbH](http://www.socialbit.de)
+   <div class="cell">
+      <a href="http://www.socialbit.de">
+         <img src="clients/socialbit.png"/>
+      </a>
+   </div>
 
-* [Formigas GmbH](http://www.formigas.de)
+   <div class="cell">
+      <a href="http://www.formigas.de">
+         <img src="clients/formigas.png" style="margin-top:16px"/>
+      </a>
+   </div>
 
-* [HolidayCheck AG](https://itunes.apple.com/ch/app/holidaycheck/id431838682?mt=8)
+   <div class="cell">
+      <a href="https://www.holidaycheck.ch">
+         <img src="clients/holidaycheck.jpg" style="margin-top:13px"/>
+      </a>
+   </div>
 
-* [LONDONREAL](http://www.londonreal.tv)
+   <div class="cell">
+      <a href="http://www.londonreal.tv">
+         <img src="clients/londonreal.png" style="margin-top:14px;background-color:#eee;"/>
+      </a>
+   </div>
 
-* [Gründerschiff](http://www.gruenderschiff.de)
+   <div class="cell">
+      <a href="http://www.gruenderschiff.de">
+         <img src="clients/gruenderschiff.png"/>
+      </a>
+   </div>
 
-* [Allianz SE](http://www.allianz.com)
+   <div class="cell">
+      <a href="http://www.allianz.com">
+         <img src="clients/allianz.svg" style="margin-top:13px"/>
+      </a>
+   </div>
 
-* [mindlibnk AG](http://mindlink.ch)
+   <div class="cell">
+      <a href="http://sanitas.com">
+         <img src="clients/sanitas.png"/>
+      </a>
+   </div>
 
-* [JLS DIGITAL AG](http://jls.ch)
+   <div class="cell">
+      <a href="http://mindlink.ch">
+         <img src="clients/mindlink.svg" style="margin-top:6px"/>
+      </a>
+   </div>
 
-* [AIDA](http://www.aida.de)
+   <div class="cell">
+      <a href="http://www.aida.svg">
+         <img src="clients/aida.svg"/>
+      </a>
+   </div>
+
+</div>
 
 ## Selected Projects
 
-### [MyAIDA](https://itunes.apple.com/de/app/myaida/id1168637599)
+### MyAIDA
 
-I'm helping the team at the Costa Digital Unit rebuild the app "MyAIDA" for iOS.
+I'm helping the team at the [Costa Digital Unit](http://costadigital.io) rebuild the MyAIDA app for iOS. The app lets guests of [AIDA Cruises](https://www.aida.de) see what's going on on their cruise ship, book events chat with each other and more.
 
 ### [SanitasActive](https://itunes.apple.com/de/app/sanitas-active/id1140475651)
 
-A fitness tracking iOS app that I wrote for Sanitas Grundversicherungen AG as a freelancer at JLS DIGITAL AG.
+A [fitness tracking iOS app](https://itunes.apple.com/de/app/sanitas-active/id1140475651) that I wrote for [Sanitas Grundversicherungen AG](https://www.sanitas.com) as a freelancer at [JLS DIGITAL AG](http://www.jls.ch). It rewards running, swimming and cycling and supports AppleHealth, Garmin and Fitbit.
 
-### [Allianz One Mobile](https://www.allianz.com/de/produkte_loesungen/globale_geschaeftseinheiten/amos/)
+### [Allianz oneMobile](https://www.allianz.com/de/produkte_loesungen/globale_geschaeftseinheiten/amos/)
 
-I helped the team at Allianz Managed Operations & Services SE create a platform for development and QA of mobile apps.
+I helped the team at [Allianz Managed Operations & Services SE](https://www.allianz.com/de/produkte_loesungen/globale_geschaeftseinheiten/amos/) create a platform with which worldwide organizational units of [Allianz SE](https://www.allianz.com) build, test and deliver native and cross-platform apps.
 
-### [Londonreal TV](http://londonrealapp.com)
+### [London Real TV](http://www.flowtoolz.com/londonrealapp)
 
-I created the Londonreal TV app for Apple's tvOS, from concept to release. Check out a little teaser here: <http://londonrealapp.com> or download it from the tvOS AppStore.
+I created the [Londonreal TV app](http://www.flowtoolz.com/londonrealapp) for Apple's tvOS, from concept to release. You can watch the latest full London Real episodes for free and explore episodes through a table of contents.
 
-### [HolidayCheck](https://www.holidaycheck.ch)
+### [HolidayCheck](https://itunes.apple.com/de/app/holidaycheck/id431838682?mt=8)
 
-I helped the team at <http://www.holidaycheck.ch> build the HolidayCheck app for iOS.
+I helped the team at [HolidayCheck AG](http://www.holidaycheck.ch) build the [HolidayCheck iOS app](https://itunes.apple.com/de/app/holidaycheck/id431838682?mt=8). The app lets you find and book your next vacation as well as upload and rate photos and videos.
 
 ### [CleverLotto](https://www.cleverlotto.de)
 
-I helped the team at <http://www.formigas.de> build the CleverLotto app for iOS.
+I helped the team at [Formigas](http://www.formigas.de) build the [CleverLotto](https://cleverlotto.de) app for iOS. The app lets lottery players buy and manage tickets for different german lotteries. Check it out [in the AppStore](https://itunes.apple.com/de/app/clever-lotto-6aus49-eurojackpot/id390946943?mt=8).
 
 ### [Vooxly](https://www.instagram.com/vooxly/)
 
-A video voiceover app that I wrote for Socialbit GmbH. It was the first major app for which I did most part of the coding.
+A [social video app](https://www.instagram.com/vooxly/) that I developed for Socialbit GmbH. It lets you send video messages, record voiceovers and do basic editing like selecting background music from your iTunes library.
 
 ## Manifesto
 
 #### Our Conviction
-We are experienced, principled and oppinionated software craftsmen who believe there often <i>is</i> a right and a wrong way to do things.
+We are experienced, principled and opinionated software craftsmen who believe there often <i>is</i> a right and a wrong way to do things.
 
-<i>Agile</i> is not a marketing buzzword to us. We carry the ideas of the agile manifesto in our hearts. All our work rests on the following four principles.
+<i>Agile</i> is not a marketing buzzword to us. We carry the ideas of the [agile manifesto](http://agilemanifesto.org/principles.html) in our hearts. All our work rests on the following four principles.
 
 #### Domain-Driven Design
 We immerse ourselves into your application domain and model its mechanics together with you. We are convinced that a deep understanding of the domain makes for excellent software and excellent partnerships.
 
-Our domain-driven approach entails that we are not attached to any technology. Instead we apply the technologies that best serve your goal.
+Our [domain-driven](https://www.goodreads.com/book/show/179133.Domain_Driven_Design) approach entails that we are not attached to any technology. Instead we apply the technologies that best serve your goal.
 
 #### Craftsmanship
-We sustain development speed even in late stages of complex projects because we apply test-driven development and produce clean code and architecture.
+We sustain development speed even in late stages of complex projects because we apply [test-driven development](https://www.goodreads.com/book/show/13705089-test-driven-ios-development) and produce [clean code](https://www.goodreads.com/book/show/3735293-clean-code) and [architecture](https://www.goodreads.com/book/show/18043011-clean-architecture).
 
-Since clean architecture yields highly reusable code, we're constantly growing a code library that powers development accross different projects.
+Since clean architecture yields highly reusable code, we're constantly growing a code library that powers development across different projects.
 
 #### Rapid Iteration
 Delivering in rapid iterations allows us to scale the product with the invested resources and to react quickly to new information.
@@ -87,9 +125,11 @@ Delivering in rapid iterations allows us to scale the product with the invested 
 With each iteration, we deliver a viable product by implementing the feature that offers the greatest return of investment.
 
 ### Professional Network
-We collaborate with selected experts from all kinds of professional backgrounds like computer science, fine arts, business administration and marketing.
-
 Rather than being detached employees, we are invested partners, proactive, self-reliant, independent and creative.
+
+We don't know everything. But we know people for everything, from various networks and professional backgrounds. We collaborate with selected experts, but won't hesitate to forward your project to a partner, if they are a better fit. The point is: you'll be happy.
+
+
 
 <!-- old manifesto
 <h2><i class="fi-heart"></i> Values</h2>
