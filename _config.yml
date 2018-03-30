@@ -16,7 +16,7 @@
 title: Flowtoolz
 email: contact@flowtoolz.com
 author: Sebastian Fichtner
-description: Flowtoolz is about beautiful tools for creating beautiful things in a beautiful flow.<br>We are in flow building those tools. You are in flow using them,<br>creating your own beautiful things.<br>Focus. Play. Create.
+description: Flowtoolz is about beautiful tools <nobr>for creating beautiful things</nobr> <nobr>in a beautiful flow.</nobr><br>We are in flow building those tools. <nobr>You are in flow using them,</nobr><br>creating your own <nobr>beautiful things.</nobr><br>Focus. Play. Create.
 keywords: iOS, macOS, OSX, tvOS, watchOS, app, apps, Swift, Objective-c, software, developer, Sebastian Fichtner, Cocoa, Software Architecture, programmer, mobile, agile, TDD, REST, SCRUM
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://www.flowtoolz.com" # the base hostname & protocol for your site, e.g. http://example.com
