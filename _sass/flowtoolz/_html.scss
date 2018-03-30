@@ -103,7 +103,7 @@ h1 {
 }
 
 div + h1 {
-   margin-top: $spacing-unit;
+   margin-top: $spacing-unit * 2;
 }
 
 h1.post-title {

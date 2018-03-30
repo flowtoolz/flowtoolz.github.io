@@ -4,11 +4,11 @@ title: Service
 permalink: /service/
 ---
 
-<h1 style="text-align:center">Got a Great Business Or Idea?</h1>
+<h1 style="text-align:center">Got a Great Business <nobr>Or Idea?</nobr></h1>
 
 <h2  style="text-align:center">We Don't Just Build The App</h2>
 
-<div class="grid-x small-up-1 medium-up-3 grid-padding-y grid-padding-x">
+<div class="grid-x small-up-1 medium-up-3 grid-margin-y grid-margin-x">
    <div class="cell">
       We also understand your goal, help you work out a strategy and then build exactly the app that lets you implement your vision.
    </div>
@@ -20,7 +20,7 @@ permalink: /service/
    </div>
 </div>
 
-<div class="ft-client-grid grid-x grid-padding-y small-up-3 medium-up-3 large-up-3">
+<div class="ft-client-grid grid-x small-up-2 medium-up-3 large-up-3">
 
    <div class="cell" style="background-image:url(clients/socialbit.png);">
       <a href="http://www.socialbit.de">
@@ -80,7 +80,7 @@ permalink: /service/
 
 <h1 style="text-align:center">Projects</h1>
 
-<div class="grid-x small-up-1 medium-up-2 grid-padding-y grid-padding-x">
+<div class="grid-x small-up-1 medium-up-2 grid-margin-y grid-margin-x">
 
 <div class="cell">
    <h3>MyAIDA</h3>
@@ -122,7 +122,7 @@ permalink: /service/
 
 <h1 style="text-align:center">Manifesto</h1>
 
-<div class="grid-x small-up-1 medium-up-2 grid-padding-y grid-padding-x">
+<div class="grid-x small-up-1 medium-up-2 grid-margin-y grid-margin-x">
 
    <div class="cell">
       <h3>Our Conviction</h3>
