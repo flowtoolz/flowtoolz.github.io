@@ -3,6 +3,7 @@ title: 7 Steps to Break Free from Your Musical Baggage
 layout: post
 excerpt: I accumulated too much musical material and thought a lot about how to leverage it while staying inspired. My strategy applies to creative domains beyond music.
 image_url: /blog-images/self-development/break-free-from-your-musical-baggage/audio-work-station.jpeg
+keywords: music, song writing, music production, music making, ableton, ableton live, logic pro, apple logic pro, creativity, creative process, creative strategy, music producer, song writer, music composition, composer, music software, album, album production, music album, inspiration, ideas, task management
 ---
 
 ## A 7 Step Strategy for Songwriters and Producers
