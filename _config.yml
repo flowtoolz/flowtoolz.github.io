@@ -21,6 +21,9 @@ keywords: iOS, macOS, OSX, tvOS, watchOS, app, apps, Swift, Objective-c, softwar
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://www.flowtoolz.com" # the base hostname & protocol for your site, e.g. http://example.com
 
+google_analytics_key: UA-75987369-1
+
+
 header_pages:
   - service/service.md
   - more/more.md
