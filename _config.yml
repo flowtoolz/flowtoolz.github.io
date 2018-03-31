@@ -25,6 +25,7 @@ google_analytics_key: UA-75987369-1
 
 
 header_pages:
+  - index.html
   - service/service.md
   - more/more.md
   - about/about.md
