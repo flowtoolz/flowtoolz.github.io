@@ -30,6 +30,12 @@ permalink: /flowlist/
    <meta property="og:type"               content="website" />
    <meta property="og:title"              content="Flowlist App" />
    <meta property="og:description"        content="The most simple and elegant personal idea organizer, task manager and note taking app for Mac" />
+
+   <!-- Google Analytics -->
+   {%- if jekyll.environment == 'production' -%}
+      {%- include google-analytics.html -%}
+   {%- endif -%}
+   
 </head>
 
 <body>
