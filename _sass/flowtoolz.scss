@@ -38,20 +38,17 @@ $grey-color-dark:  darken($grey-color, 25%) !default;
 $table-text-align: left !default;
 
 // Width of the content area
-$content-width:    800px !default;
-
-$on-palm:          600px !default;
-$on-laptop:        800px !default;
+$content-width:    700px !default;
 
 // Use media queries like this:
-// @include media-query($on-palm) {
+// @include at-max-width(600px) {
 //   .wrapper {
 //     padding-right: $spacing-unit / 2;
 //     padding-left: $spacing-unit / 2;
 //   }
 // }
-@mixin media-query($device) {
-  @media screen and (max-width: $device) {
+@mixin at-max-width($width) {
+  @media screen and (max-width: $width) {
     @content;
   }
 }

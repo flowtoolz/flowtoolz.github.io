@@ -2,20 +2,14 @@
  * Wrapper (in header, main and footer)
  */
 .wrapper {
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: $spacing-unit;
-  padding-left: $spacing-unit;
-  @extend %clearfix;
-
-  @include media-query($on-laptop) {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-    padding-right: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
-  }
+   margin-right: auto;
+   margin-left: auto;
+   @extend %clearfix;
+   width: $content-width;
+   max-width: 95%;
+   padding: 0px;
+   margin-top:0px;
+   margin-bottom:0px;
 }
 
 /**
@@ -63,7 +57,7 @@
     }
   }
 
-  @include media-query($on-palm) {
+  @include at-max-width(480px) {
     position: absolute;
     top: 9px;
     right: $spacing-unit / 2;
@@ -162,14 +156,6 @@ footer a > img:hover {
   padding-right: 0;
   padding-bottom: $spacing-unit * 2;
   padding-top: $spacing-unit * 2;
-}
-
-.page-heading {
-  @include relative-font-size(2);
-}
-
-.post-list-heading {
-  @include relative-font-size(1.75);
 }
 
 .post-meta {
