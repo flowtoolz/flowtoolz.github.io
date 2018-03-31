@@ -4,7 +4,7 @@ title: Service
 permalink: /service/
 ---
 
-<h1 style="text-align:center">Got a Great Business <nobr>Or Idea?</nobr></h1>
+<h1 style="text-align:center">Got a Great Business <nobr>or Idea?</nobr></h1>
 
 <h2  style="text-align:center">We Don't Just Build The App</h2>
 
