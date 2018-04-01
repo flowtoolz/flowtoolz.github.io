@@ -12,6 +12,4 @@ I've worked as a research assistant, web developer, editor and as software engin
 
 I also love reading and writing non-fiction, functional fitness, the game of Go, learning new stuff, positive psychology, producing pop songs, the paleo lifestyle, barefoot running, zen meditation and discussions with interesting positive people.
 
-<p style="text-align:center">
-   <a class="u-email" href="mailto:{{ site.email }}">contact@flowtoolz.com</a>
-</p>
+Say hello via email: <a class="u-email" href="mailto:{{ site.email }}">contact@flowtoolz.com</a>
