@@ -170,7 +170,7 @@ permalink: /service/
       Rather than being detached employees, we are invested partners, proactive, self-reliant, independent and creative.
       </p>
       <p>
-      We don't know everything but we know people for everything, from various networks and professional backgrounds. We collaborate with selected experts but won't hesitate to forward your project to a partner, if they are a better fit.
+      We don't know everything, but we know people for everything, from various networks and professional backgrounds. We'll find the most suited experts for your project, even if it means referring you to someone else. 
       </p>
    </div>
 </div>
