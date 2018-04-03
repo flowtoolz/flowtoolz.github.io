@@ -14,7 +14,7 @@
 
    <!-- CSS -->
    <link rel='stylesheet' href='/assets/foundation-6/css/foundation.css'>
-   <link rel="stylesheet" href='/assets/flowtoolz.css'>
+   <link rel="stylesheet" href='{{ page.css_file_path | default: "/assets/flowtoolz.css" }}'>
 
    <!-- SEO -->
    {%- include seo.html -%}
