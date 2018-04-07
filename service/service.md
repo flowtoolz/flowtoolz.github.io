@@ -22,44 +22,8 @@ permalink: /service/
 
 <div class="ft-client-grid grid-x small-up-2 medium-up-3 large-up-3">
 
-   <div class="cell" style="background-image:url(clients/socialbit.png);">
-      <a href="http://www.socialbit.de">
-         <div></div>
-      </a>
-   </div>
-
-   <div class="cell" style="background-image:url(clients/formigas.png);">
-      <a href="http://www.formigas.de">
-         <div></div>
-      </a>
-   </div>
-
-   <div class="cell"  style="background-image:url(clients/holidaycheck.jpg);">
-      <a href="https://www.holidaycheck.ch">
-         <div></div>
-      </a>
-   </div>
-
-   <div class="cell" style="background-image:url(clients/londonreal.png);">
-      <a href="http://www.londonreal.tv">
-         <div></div>
-      </a>
-   </div>
-
-   <div class="cell" style="background-image:url(clients/gruenderschiff.png);">
-      <a href="http://www.gruenderschiff.de">
-         <div></div>
-      </a>
-   </div>
-
-   <div class="cell" style="background-image:url(clients/allianz.svg);">
-      <a href="http://www.allianz.com">
-         <div></div>
-      </a>
-   </div>
-
-   <div class="cell" style="background-image:url(clients/sanitas.png);">
-      <a href="http://sanitas.com">
+   <div class="cell" style="background-image:url(clients/aida.svg);">
+      <a href="http://www.aida.svg">
          <div></div>
       </a>
    </div>
@@ -70,12 +34,48 @@ permalink: /service/
       </a>
    </div>
 
-   <div class="cell" style="background-image:url(clients/aida.svg);">
-      <a href="http://www.aida.svg">
+   <div class="cell" style="background-image:url(clients/sanitas.png);">
+      <a href="http://sanitas.com">
          <div></div>
       </a>
    </div>
 
+   <div class="cell" style="background-image:url(clients/allianz.svg);">
+      <a href="http://www.allianz.com">
+         <div></div>
+      </a>
+   </div>
+
+   <div class="cell" style="background-image:url(clients/gruenderschiff.png);">
+      <a href="http://www.gruenderschiff.de">
+         <div></div>
+      </a>
+   </div>
+
+   <div class="cell" style="background-image:url(clients/londonreal.png);">
+      <a href="http://www.londonreal.tv">
+         <div></div>
+      </a>
+   </div>
+
+   <div class="cell"  style="background-image:url(clients/holidaycheck.jpg);">
+      <a href="https://www.holidaycheck.ch">
+         <div></div>
+      </a>
+   </div>
+
+   <div class="cell" style="background-image:url(clients/formigas.png);">
+      <a href="http://www.formigas.de">
+         <div></div>
+      </a>
+   </div>
+
+   <div class="cell" style="background-image:url(clients/socialbit.png);">
+      <a href="http://www.socialbit.de">
+         <div></div>
+      </a>
+   </div>
+   
 </div>
 
 <h1 style="text-align:center">Projects</h1>
@@ -170,7 +170,7 @@ permalink: /service/
       Rather than being detached employees, we are invested partners, proactive, self-reliant, independent and creative.
       </p>
       <p>
-      We don't know everything, but we know people for everything, from various networks and professional backgrounds. We'll find the most suited experts for your project, even if it means referring you to someone else. 
+      We don't know everything, but we know people for everything, from various networks and professional backgrounds. We'll find the most suited experts for your project, even if it means referring you to someone else.
       </p>
    </div>
 </div>
