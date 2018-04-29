@@ -28,9 +28,9 @@ Since I'm drifting more and more to the production side, I collaborate with musi
 
 I created Flowlist for myself out of frustration with all the task management apps I intensely used before. Now I'm happy using Flowlist daily since summer 2017.
 
-## [Flowtoolz Github](https://github.com/flowtoolz/Flowtoolz)
+## [Flowtoolz Github](https://github.com/flowtoolz/)
 
-<img src="/assets/simpleicons.org/github.svg" class="ft-more-project-image" /> I just started to put some [code on Github](https://github.com/flowtoolz/Flowtoolz). This will grow into a [Cocoapod](https://cocoapods.org) and a [Carthage](https://github.com/Carthage/Carthage) framework. But I still need to curate, expand, refactor and document it.
+<img src="/assets/simpleicons.org/github.svg" class="ft-more-project-image" /> I just started to put some [code on Github](https://github.com/flowtoolz/). This will grow into a few [Cocoapod](https://cocoapods.org) and a [Carthage](https://github.com/Carthage/Carthage) frameworks. But I still need to curate, expand, refactor and document them.
 
 <div style="clear:left"></div>
 

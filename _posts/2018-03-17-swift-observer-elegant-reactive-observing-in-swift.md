@@ -24,4 +24,4 @@ As a method of exploring and learning, I wrote three fundamental primitives for 
 
 This compact library also compensates for what I didn't like about common implementations. I guess I aimed at usability, readability, simplicity, safety and flexibility.
 
-[Checkout SwiftObserver on Github](https://github.com/flowtoolz/Flowtoolz/SwiftObserver). You can read the text there as the continuation of this article.
+[Checkout SwiftObserver on Github](https://github.com/flowtoolz/SwiftObserver). You can read the text there as the continuation of this article.
