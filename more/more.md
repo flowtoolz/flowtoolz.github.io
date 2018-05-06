@@ -30,7 +30,7 @@ I created Flowlist for myself out of frustration with all the task management ap
 
 ## [Flowtoolz Github](https://github.com/flowtoolz/)
 
-<img src="/assets/simpleicons.org/github.svg" class="ft-more-project-image" /> I just started to put some [code on Github](https://github.com/flowtoolz/). This will grow into a few [Cocoapod](https://cocoapods.org) and a [Carthage](https://github.com/Carthage/Carthage) frameworks. But I still need to curate, expand, refactor and document them.
+<img src="/assets/simpleicons.org/github.svg" class="ft-more-project-image" /> I just started to put some [code on Github](https://github.com/flowtoolz/). Most notably, I released [SwiftObserver](https://github.com/flowtoolz/SwiftObserver) a framework for reactive Swift programming, which you can install via [Cocoapods](https://cocoapods.org) and via [Carthage](https://github.com/Carthage/Carthage).
 
 <div style="clear:left"></div>
 
