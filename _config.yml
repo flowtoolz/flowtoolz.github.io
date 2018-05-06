@@ -23,7 +23,6 @@ url: "http://www.flowtoolz.com" # the base hostname & protocol for your site, e.
 
 google_analytics_key: UA-75987369-1
 
-
 header_pages:
   - index.html
   - service/service.md
@@ -44,7 +43,6 @@ medium_username: flowtoolz
 # Build settings
 markdown: kramdown
 highlighter: rouge
-# theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate
