@@ -4,11 +4,11 @@ title: More
 permalink: /more/
 ---
 
-## The 33 Day Diary
+## The 33Day-Diary
 
 <img src="diary.jpg" class="ft-more-project-image" /> A structured journal that leads through a sort of meditation routine for 33 days, based on positive psychology. I needed something like the [five minute journal](http://fiveminutejournal.com) for myself, but I was inspired to integrate some extensions into that idea and wanted it to be a beautiful physical object...
 
-The 3rd revision is done. A collaborator of mine handcrafts the books and gives every copy a unique design. I did a photo shoot of a bunch of example copies and had it professionally translated. So a page with photos and details is coming soon in english and german to [www.flowtoolz.com/diary](/diary) and [www.flowtoolz.com/tagebuch](/tagebuch).
+The 3rd revision is done. A collaborator of mine handcrafts the books and gives every copy a unique design. I did a photo shoot of a bunch of example copies and had it professionally translated. A page with more infos is available in english and german at [www.flowtoolz.com/diary](/diary) and at [www.flowtoolz.com/tagebuch](/tagebuch).
 
 ## [Mellowtree](https://www.facebook.com/mellowtreemusic/)
 
