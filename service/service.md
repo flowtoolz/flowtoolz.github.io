@@ -75,7 +75,7 @@ permalink: /service/
          <div></div>
       </a>
    </div>
-   
+
 </div>
 
 <h1 style="text-align:center">Projects</h1>
@@ -125,22 +125,34 @@ permalink: /service/
 <div class="grid-x small-up-1 medium-up-2 grid-margin-y grid-margin-x">
 
    <div class="cell">
-      <h3>Our Conviction</h3>
       <p>
       We are experienced, principled and opinionated software craftsmen who believe there often <i>is</i> a right and a wrong way to do things.
       </p>
+   </div>
+
+   <div class="cell">
       <p>
-      <i>Agile</i> is not a marketing buzzword to us. We carry the ideas of the <a href="http://agilemanifesto.org/principles.html">agile manifesto</a> in our hearts. All our work rests on the following four principles.
+      <i>Agile</i> is not a marketing buzzword to us. We carry the ideas of the <a href="http://agilemanifesto.org/principles.html">agile manifesto</a> in our hearts. All our work rests on the following principles.
+      </p>
+   </div>
+
+   <div class="cell">
+      <h3>Professional Network</h3>
+      <p>
+      Rather than being detached employees, we are invested partners, proactive, self-reliant, independent and creative.
+      </p>
+      <p>
+      We don't know everything, but we know people for everything, from various networks and professional backgrounds. We'll find the most suited experts for your project, even if it means referring you to someone else.
       </p>
    </div>
 
    <div class="cell">
       <h3>Domain-Driven Design</h3>
       <p>
-      We immerse ourselves into your application domain and model its mechanics together with you. We are convinced that a deep understanding of the domain makes for excellent software and excellent partnerships.
+      We immerse ourselves into your application domain and model it together with you because this makes for excellent software and excellent partnerships.
       </p>
       <p>
-      Our <a href="https://www.goodreads.com/book/show/179133.Domain_Driven_Design">domain-driven</a> approach entails that we are not attached to any technology. Instead we apply the technologies that best serve your goal.
+      Our <a href="https://www.goodreads.com/book/show/179133.Domain_Driven_Design">domain-driven</a> approach entails that we're not attached to any technologies but apply the ones that best serve your goal.
       </p>
    </div>
 
@@ -160,19 +172,10 @@ permalink: /service/
       Delivering in rapid iterations allows us to scale the product with the invested resources and to react quickly to new information.
       </p>
       <p>
-      With each iteration, we deliver a viable product by implementing the feature that offers the greatest return of investment.
+      With each iteration, we deliver a viable product by implementing the feature that offers the greatest return on investment.
       </p>
    </div>
 
-   <div class="cell">
-      <h3>Professional Network</h3>
-      <p>
-      Rather than being detached employees, we are invested partners, proactive, self-reliant, independent and creative.
-      </p>
-      <p>
-      We don't know everything, but we know people for everything, from various networks and professional backgrounds. We'll find the most suited experts for your project, even if it means referring you to someone else.
-      </p>
-   </div>
 </div>
 
 <!-- old manifesto
