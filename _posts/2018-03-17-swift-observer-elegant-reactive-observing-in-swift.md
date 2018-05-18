@@ -1,7 +1,7 @@
 ---
 title: "SwiftObserver: Elegant Reactive Observing in Swift"
 layout: post
-excerpt: "Three fundamental primitives for clean architecting in Swift: Observer, Observable & Variable. Stupid easy, safe, readable, flexible, non-intrusive, sweet."
+excerpt: "Fundamental primitives for observing in Swift as a no BS approach to reactive programming. Stupid easy, safe, clean, readable, flexible, non-intrusive, sweet."
 image_url: /blog-images/software-development/reactive-swift-programming/pyramid.jpeg
 keywords: swift, observer, observer pattern, observable, architecture, software architecture, reactive, reactive programming, callback, redux, programming, clean code, rxswift, reswift, reactive swift, reactive kit, apple, design pattern, software development, github
 ---
