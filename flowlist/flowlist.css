@@ -10,10 +10,11 @@
     src: url("/assets/fonts/Bold.otf") format("opentype");
 }
 
-body
+body, p
 {
     font-family: FlowtoolzRegular;
     font-size: 18px;
+    line-height: 1.8;
     font-weight: 300;
     color: rgb(0, 0, 0);
 }
@@ -51,6 +52,7 @@ section > div
 
 h1, h2
 {
+    line-height: 1.8;
     text-align:center;
 }
 
@@ -131,6 +133,8 @@ img
 {
     display: inline-block;
     border-style: solid;
+    height: 26px;
+    line-height: 1.35;
     border-width: 1px;
     padding-left: 5px;
     padding-right: 5px;
