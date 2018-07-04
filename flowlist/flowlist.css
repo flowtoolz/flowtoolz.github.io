@@ -97,9 +97,23 @@ button
     border-radius: 7px;
 }
 
-button:hover
+#priceTable
 {
-    background-color: #A3CDFE;
+   width:100%;
+   max-width:600px;
+   margin-left:auto;
+   margin-right:auto;
+   margin-bottom:30px;
+}
+
+table#priceTable tr:nth-child(even)
+{
+    background-color: rgb(240,240,240);
+}
+
+table#priceTable tr:nth-child(odd)
+{
+    background-color: white;
 }
 
 img
