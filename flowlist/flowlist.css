@@ -23,6 +23,11 @@ a
    color: black;
 }
 
+a:hover
+{
+   color: #c72128;
+}
+
 section
 {
     padding-top:90px;
