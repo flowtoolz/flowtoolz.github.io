@@ -1,246 +1,204 @@
 ---
+layout: default
+css_file_path: flowlist.css
+is_landing_page: true
 permalink: /flowlist/
+title: Flowlist
+description: The most simple and elegant personal idea organizer, task manager and note taking app for Mac
+keywords: task management, task, app, flow, todo, to-do, todo list, list, flowlist, task list, omni focus, omnifocus, wunderlist, things, todoist, focus, reminders, calendar, trello, agenda, agile, kanban, productivity, apple, mac, macos, ios, project, self-management, getting things done, notes, note taking, brainstorming
 ---
 
-<!DOCTYPE HTML>
+<section>
+     <div style="text-align:center">
+         <h1 style="margin-top:20px">
+             <img style="margin-top:-17px;width:100%;max-width:68px" src="icon_monochrome_136.png"></img><span style="margin-left:16px">Flowlist</span>
+         </h2>
+         <h2>
+             <nobr>Capture ideas quickly.</nobr> <nobr>Organize your stuff freely.</nobr><br>Get into flow <nobr>and achieve your goals.</nobr>
+         </h2>
+         <video style="width:100%;max-width:960px;margin-bottom:60px" controls autoplay>
+             <source src="AppStore_Preview_60fps.mp4" type="video/mp4">
+         </video>
+         <p>
+             <a href="https://itunes.apple.com/app/Flowlist/id1396163478" target="_blank">
+                <img style="width:100%;max-height:68px" src="App_Store_Badge_White.svg"></img>
+             </a>
+         </p>
+     </div>
+ </section>
 
-<html lang="en">
-
-<head>
-   <!-- GENERAL -->
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <meta http-equiv="x-ua-compatible" content="ie=edge">
-
-   <!-- Foundation -->
-   <link rel='stylesheet' href='foundation-6/css/foundation.min.css'>
-   <link rel='stylesheet' href='foundation-icons/foundation-icons.css'>
-
-   <!-- Flowlist -->
-   <link rel='stylesheet' href='flowlist.css'>
-
-   <title>Flowlist</title>
-   <meta name='keywords' content='task management, task, app, flow, todo, to-do, todo list, list, flowlist, task list, omni focus, omnifocus, wunderlist, things, todoist, focus, reminders, calendar, trello'/>
-   <meta name='author' content='Sebastian Fichtner'/>
-   <meta name='description' content='Flowlist is an elegant task manager and note taking app'/>
-
-   <!-- Flowlist meta infos for external links -->
-   <meta property="og:image"              content="http://www.flowlistapp.com/tasklists.png">
-   <meta property="og:url"                content="http://www.flowlistapp.com/" />
-   <meta property="og:type"               content="website" />
-   <meta property="og:title"              content="Flowlist App" />
-   <meta property="og:description"        content="The most simple and elegant personal idea organizer, task manager and note taking app for Mac" />
-
-   <!-- Google Analytics -->
-   {%- if jekyll.environment == 'production' -%}
-      {%- include google-analytics.html -%}
-   {%- endif -%}
-
-</head>
-
-<body>
-    <section>
-        <div style="text-align:center">
-            <h1 style="margin-top:20px">
-
-                <img style="margin-top:-17px;width:100%;max-width:68px" src="icon_monochrome_136.png"></img><span style="margin-left:16px">Flowlist</span>
-            </h2>
-            <h2>
-                <nobr>Capture ideas quickly.</nobr> <nobr>Organize your stuff freely.</nobr><br>Get into flow <nobr>and achieve your goals.</nobr>
-            </h2>
-            <video style="width:100%;max-width:960px;margin-bottom:60px" controls autoplay>
-                <source src="AppStore_Preview_60fps.mp4" type="video/mp4">
-            </video>
-            <p>
-                <a href="https://itunes.apple.com/app/Flowlist/id1396163478" target="_blank">
-                   <img style="width:100%;max-height:68px" src="App_Store_Badge_White.svg"></img>
-                </a>
-            </p>
-        </div>
-    </section>
-
-    <section>
-        <div>
-            <h1>Elegant</h1>
-            <h2>A unified design <nobr>offers flexibility</nobr><br>as well as simplicity.</h2>
-            <p style="text-align:center;margin-bottom:60px">
-                <img style="max-width:781px;" src="tasklists.png"></img>
-            <p>
-            <div class="row small-up-1 medium-up-2 large-up-3">
-                <div class="column column-block">
-                    <h3>The Familiar</h3>
-                    Like other task managers, Flowlist shows 3 main views: A task list in the middle, an overview on the left for context, and a detail view on the right showing details like subtasks of the selected task.
-                </div>
-                <div class="column column-block">
-                    <h3>More Flexible</h3>
-                    Unlike other task managers, Flowlist does not force your stuff into fixed categories like <i>Project</i> or <i>Subtask</i>. In Flowlist, items may contain items, and that's it. You can create any hierarchy of items.
-                </div>
-                <div class="column column-block">
-                    <h3>Yet More Elegant</h3>
-                    In Flowlist, the 3 main views are all item lists. Each shows the details of what is selected in the list to its left. Just hit the left or right arrow key to slide the context or the detail view into focus.
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div style="text-align:center">
-           <h1>Fair</h1>
-           <h2>Manage 100 items <nobr>forever and for free.</nobr><br>Or unlock <nobr>the full version</nobr> <nobr>from within the app.</nobr></h2>
-
-           <table id="priceTable">
-              <tr>
-                <th></th>
-                <th>Trial Version</th>
-                <th>Full Version</th>
-              </tr>
-              <tr>
-                <td style="text-align:left">Item Limit (without groups)</td>
-                <td>100</td>
-                <td>Unlimited</td>
-              </tr>
-              <tr>
-                <td style="text-align:left">Support Development</td>
-                <td>✘</td>
-                <td>✔</td>
-              </tr>
-              <tr>
-                <td style="text-align:left">Early Bird Advantage *</td>
-                <td>✘</td>
-                <td>✔</td>
-              </tr>
-              <tr>
-                <td style="text-align:left">Price</td>
-                <td>Free</td>
-                <td><del style="color:rgba(191,0,0,0.75)"> <span style="color:black">&nbsp;$9.99 </span> </del>&nbsp;&nbsp;<span style="color:rgba(191,0,0,0.75)">$4.99 **</span></td>
-              </tr>
-            </table>
-            <p>
-                * I reward users <nobr>who back the project</nobr> <nobr>and get on board early:</nobr><br>You'll get new features <nobr>as free updates,</nobr> <nobr>even when the price rises.</nobr> <nobr>No paid upgrades.</nobr>
-            </p>
-            <p style="margin-bottom:60px;color:rgba(191,0,0,0.75)">
-                ** Introductory price <nobr>over the whole summer</nobr>
-            </p>
-            <p style="text-align:center">
-                <a href="https://itunes.apple.com/app/Flowlist/id1396163478" target="_blank">
-                   <img style="width:100%;max-height:68px" src="App_Store_Badge.svg"></img>
-                </a>
-            </p>
-        </div>
-    </section>
-
-    <section>
-        <div>
-            <h1>Quick</h1>
-            <h2>Intuitive key commands<br><nobr>allow for rapid editing</nobr> <nobr>and a clean interface.</nobr></h2>
-            <div class="row small-up-1 medium-up-2 large-up-3">
-                <div class="column column-block">
-                    <h3>Navigate</h3>Go up <span class="fl-command-span">↑</span> or down <span class="fl-command-span">↓</span> within the currently focused list. Focus details <span class="fl-command-span">→</span> or get an overview <span class="fl-command-span">←</span>.
-                </div>
-                <div class="column column-block">
-                    <h3>Add &amp; Delete</h3>Add an item to the top of the list <span class="fl-command-span">Space</span> or add <span class="fl-command-span">↵</span> and remove <span class="fl-command-span">⌫</span> items just like lines in a text.
-                </div>
-                <div class="column column-block">
-                    <h3>Prioritize</h3>Move an item up <span class="fl-command-span">⌘↑</span> or down <span class="fl-command-span">⌘↓</span> to visually prioritize within the currently focused list.
-                </div>
-                <div class="column column-block">
-                    <h3>Do Batch Processing</h3>Extend the selection up <span class="fl-command-span">⇧↑</span> or down <span class="fl-command-span">⇧↓</span>. Add/remove items to/from the selection <span class="fl-command-span">⌘Click</span>.
-                </div>
-                <div class="column column-block">
-                    <h3>Start &amp; Pause</h3>Start or pause an item's progress <span class="fl-command-span">⌘→</span>. It will slide up or down to adjust its priority.
-                </div>
-                <div class="column column-block">
-                    <h3>Check &amp; Uncheck</h3>Check or uncheck an item <span class="fl-command-span">⌘←</span>. It will slide up or down accordingly. Selection will auto-adjust.
-                </div>
-                <div class="column column-block">
-                    <h3>Rename</h3>Rename the first selected item <span class="fl-command-span">⌘↵</span>. Finish typing <span class="fl-command-span">↵</span> to rename the next selected item.
-                </div>
-                <div class="column column-block">
-                    <h3>Group</h3>Group items together <span class="fl-command-span">↵</span> and enter a title. The initial group state reflects the grouped items.
-                </div>
-                <div class="column column-block">
-                    <h3>Add a Description</h3>Focus an empty item <span class="fl-command-span">→</span> and add subitems into it <span class="fl-command-span">↵</span> or to the top of its subitem list <span class="fl-command-span">Space</span>.
-                </div>
-                <div class="column column-block">
-                    <h3>Duplicate &amp; Move</h3>Duplicate items or move them into a different item via copy <span class="fl-command-span">⌘C</span>, cut <span class="fl-command-span">⌘X</span> and paste <span class="fl-command-span">⌘V</span>.
-                </div>
-                <div class="column column-block">
-                    <h3>Undo</h3>Paste the last deleted items <span class="fl-command-span">⌘Z</span> to revert accidental deletion. Deleted items are kept for all open lists.
-                </div>
-                <div class="column column-block">
-                    <h3>Import</h3>Copy content <span class="fl-command-span">⌘C</span> from any document or web page and paste it as distinct items <span class="fl-command-span">⌘V</span> into a list.
-                </div>
-            </div>
+ <section>
+     <div>
+         <h1>Elegant</h1>
+         <h2>A unified design <nobr>offers flexibility</nobr><br>as well as simplicity.</h2>
+         <p style="text-align:center;margin-bottom:60px">
+             <img style="max-width:781px;" src="tasklists.png"></img>
+         <p>
+         <div class="grid-x small-up-1 medium-up-2 large-up-3 grid-margin-y grid-margin-x">
+             <div class="cell">
+                 <h3>The Familiar</h3>
+                 Like other task managers, Flowlist shows 3 main views: A task list in the middle, an overview on the left for context, and a detail view on the right showing details like subtasks of the selected task.
+             </div>
+             <div class="cell">
+                 <h3>More Flexible</h3>
+                 Unlike other task managers, Flowlist does not force your stuff into fixed categories like <i>Project</i> or <i>Subtask</i>. In Flowlist, items may contain items, and that's it. You can create any hierarchy of items.
+             </div>
+             <div class="cell">
+                 <h3>Yet More Elegant</h3>
+                 In Flowlist, the 3 main views are all item lists. Each shows the details of what is selected in the list to its left. Just hit the left or right arrow key to slide the context or the detail view into focus.
+             </div>
          </div>
-   </section>
+     </div>
+ </section>
 
-   <section>
-      <div style="text-align:center">
-         <h2>More Details</nobr></h2>
-         <div class="row small-up-1 medium-up-2 large-up-3">
-             <div class="column column-block">
-                 <a href="appstore_screens/02_AppStore_Screen.png">
-                     <img src="appstore_screens/02_AppStore_Screen.png">
-                 </a>
+ <section>
+     <div style="text-align:center">
+        <h1>Fair</h1>
+        <h2>Manage 100 items <nobr>forever and for free.</nobr><br>Or unlock <nobr>the full version</nobr> <nobr>from within the app.</nobr></h2>
+
+        <table id="priceTable">
+           <tr>
+             <th></th>
+             <th>Trial Version</th>
+             <th>Full Version</th>
+           </tr>
+           <tr>
+             <td style="text-align:left">Item Limit (without groups)</td>
+             <td>100</td>
+             <td>Unlimited</td>
+           </tr>
+           <tr>
+             <td style="text-align:left">Support Development</td>
+             <td>✘</td>
+             <td>✔</td>
+           </tr>
+           <tr>
+             <td style="text-align:left">Early Bird Advantage *</td>
+             <td>✘</td>
+             <td>✔</td>
+           </tr>
+           <tr>
+             <td style="text-align:left">Price</td>
+             <td>Free</td>
+             <td><del style="color:rgba(191,0,0,0.75)"> <span style="color:black">&nbsp;$9.99 </span> </del>&nbsp;&nbsp;<span style="color:rgba(191,0,0,0.75)">$4.99 **</span></td>
+           </tr>
+         </table>
+         <p>
+             * I reward users <nobr>who back the project</nobr> <nobr>and get on board early:</nobr><br>You'll get new features <nobr>as free updates,</nobr> <nobr>even when the price rises.</nobr> <nobr>No paid upgrades.</nobr>
+         </p>
+         <p style="margin-bottom:60px;color:rgba(191,0,0,0.75)">
+             ** Introductory price <nobr>over the whole summer</nobr>
+         </p>
+         <p style="text-align:center">
+             <a href="https://itunes.apple.com/app/Flowlist/id1396163478" target="_blank">
+                <img style="width:100%;max-height:68px" src="App_Store_Badge.svg"></img>
+             </a>
+         </p>
+     </div>
+ </section>
+
+ <section>
+     <div>
+         <h1>Quick</h1>
+         <h2>Intuitive key commands<br><nobr>allow for rapid editing</nobr> <nobr>and a clean interface.</nobr></h2>
+         <div class="grid-x small-up-1 medium-up-2 large-up-3 grid-margin-y grid-margin-x">
+             <div class="cell">
+                 <h3>Navigate</h3>Go up <span class="fl-command-span">↑</span> or down <span class="fl-command-span">↓</span> within the currently focused list. Focus details <span class="fl-command-span">→</span> or get an overview <span class="fl-command-span">←</span>.
              </div>
-             <div class="column column-block">
-                 <a href="appstore_screens/01_AppStore_Screen.png">
-                     <img src="appstore_screens/01_AppStore_Screen.png">
-                 </a>
+             <div class="cell">
+                 <h3>Add &amp; Delete</h3>Add an item to the top of the list <span class="fl-command-span">Space</span> or add <span class="fl-command-span">↵</span> and remove <span class="fl-command-span">⌫</span> items just like lines in a text.
              </div>
-             <div class="column column-block">
-                 <a href="appstore_screens/03_AppStore_Screen.png">
-                     <img src="appstore_screens/03_AppStore_Screen.png">
-                 </a>
+             <div class="cell">
+                 <h3>Prioritize</h3>Move an item up <span class="fl-command-span">⌘↑</span> or down <span class="fl-command-span">⌘↓</span> to visually prioritize within the currently focused list.
              </div>
-             <div class="column column-block">
-                 <a href="appstore_screens/04_AppStore_Screen.png">
-                     <img src="appstore_screens/04_AppStore_Screen.png">
-                 </a>
+             <div class="cell">
+                 <h3>Do Batch Processing</h3>Extend the selection up <span class="fl-command-span">⇧↑</span> or down <span class="fl-command-span">⇧↓</span>. Add/remove items to/from the selection <span class="fl-command-span">⌘Click</span>.
              </div>
-             <div class="column column-block">
-                 <a href="appstore_screens/10_AppStore_Screen.png">
-                     <img src="appstore_screens/10_AppStore_Screen.png">
-                 </a>
+             <div class="cell">
+                 <h3>Start &amp; Pause</h3>Start or pause an item's progress <span class="fl-command-span">⌘→</span>. It will slide up or down to adjust its priority.
              </div>
-             <div class="column column-block">
-                 <a href="appstore_screens/05_AppStore_Screen.png">
-                     <img src="appstore_screens/05_AppStore_Screen.png">
-                 </a>
+             <div class="cell">
+                 <h3>Check &amp; Uncheck</h3>Check or uncheck an item <span class="fl-command-span">⌘←</span>. It will slide up or down accordingly. Selection will auto-adjust.
              </div>
-             <div class="column column-block">
-                 <a href="appstore_screens/07_AppStore_Screen.png">
-                     <img src="appstore_screens/07_AppStore_Screen.png">
-                 </a>
+             <div class="cell">
+                 <h3>Rename</h3>Rename the first selected item <span class="fl-command-span">⌘↵</span>. Finish typing <span class="fl-command-span">↵</span> to rename the next selected item.
              </div>
-             <div class="column column-block">
-                 <a href="appstore_screens/08_AppStore_Screen.png">
-                     <img src="appstore_screens/08_AppStore_Screen.png">
-                 </a>
+             <div class="cell">
+                 <h3>Group</h3>Group items together <span class="fl-command-span">↵</span> and enter a title. The initial group state reflects the grouped items.
              </div>
-             <div class="column column-block">
-                 <a href="appstore_screens/09_AppStore_Screen.png">
-                     <img src="appstore_screens/09_AppStore_Screen.png">
-                 </a>
+             <div class="cell">
+                 <h3>Add a Description</h3>Focus an empty item <span class="fl-command-span">→</span> and add subitems into it <span class="fl-command-span">↵</span> or to the top of its subitem list <span class="fl-command-span">Space</span>.
+             </div>
+             <div class="cell">
+                 <h3>Duplicate &amp; Move</h3>Duplicate items or move them into a different item via copy <span class="fl-command-span">⌘C</span>, cut <span class="fl-command-span">⌘X</span> and paste <span class="fl-command-span">⌘V</span>.
+             </div>
+             <div class="cell">
+                 <h3>Undo</h3>Paste the last deleted items <span class="fl-command-span">⌘Z</span> to revert accidental deletion. Deleted items are kept for all open lists.
+             </div>
+             <div class="cell">
+                 <h3>Import</h3>Copy content <span class="fl-command-span">⌘C</span> from any document or web page and paste it as distinct items <span class="fl-command-span">⌘V</span> into a list.
              </div>
          </div>
       </div>
-   </section>
-   <section>
-      <div style="text-align:center">
-         <a href="/index.html" target="_blank">
-            <img style="width:34px;margin-top:-17px" src="icon_monochrome_136.png"></img> <span style="font-size:36px;line-height:1.0">&nbsp;♡&nbsp;</span><img style="width:42px;margin-top:-17px" src="/assets/logo.png"></img><br>
-            Created by Flowtoolz
-         </a>
+</section>
+
+<section>
+   <div style="text-align:center">
+      <h2>More Details</nobr></h2>
+      <div class="grid-x small-up-1 medium-up-2 large-up-3 grid-margin-y grid-margin-x">
+          <div class="cell">
+              <a href="appstore_screens/02_AppStore_Screen.png">
+                  <img src="appstore_screens/02_AppStore_Screen.png">
+              </a>
+          </div>
+          <div class="cell">
+              <a href="appstore_screens/01_AppStore_Screen.png">
+                  <img src="appstore_screens/01_AppStore_Screen.png">
+              </a>
+          </div>
+          <div class="cell">
+              <a href="appstore_screens/03_AppStore_Screen.png">
+                  <img src="appstore_screens/03_AppStore_Screen.png">
+              </a>
+          </div>
+          <div class="cell">
+              <a href="appstore_screens/04_AppStore_Screen.png">
+                  <img src="appstore_screens/04_AppStore_Screen.png">
+              </a>
+          </div>
+          <div class="cell">
+              <a href="appstore_screens/10_AppStore_Screen.png">
+                  <img src="appstore_screens/10_AppStore_Screen.png">
+              </a>
+          </div>
+          <div class="cell">
+              <a href="appstore_screens/05_AppStore_Screen.png">
+                  <img src="appstore_screens/05_AppStore_Screen.png">
+              </a>
+          </div>
+          <div class="cell">
+              <a href="appstore_screens/07_AppStore_Screen.png">
+                  <img src="appstore_screens/07_AppStore_Screen.png">
+              </a>
+          </div>
+          <div class="cell">
+              <a href="appstore_screens/08_AppStore_Screen.png">
+                  <img src="appstore_screens/08_AppStore_Screen.png">
+              </a>
+          </div>
+          <div class="cell">
+              <a href="appstore_screens/09_AppStore_Screen.png">
+                  <img src="appstore_screens/09_AppStore_Screen.png">
+              </a>
+          </div>
       </div>
-   </section>
-
-   <!-- Foundation Scripts -->
-   <script src='foundation-6/js/vendor/jquery.min.js'></script>
-   <script src='foundation-6/js/vendor/what-input.min.js'></script>
-   <script src='foundation-6/js/foundation.min.js'></script>
-   <script> $(document).foundation(); </script>
-
-</body>
-
-</html>
+   </div>
+</section>
+<section>
+   <div style="text-align:center">
+      <a href="/index.html" target="_blank">
+         <img style="width:34px;margin-top:-17px" src="icon_monochrome_136.png"></img> <span style="font-size:36px;line-height:1.0">&nbsp;♡&nbsp;</span><img style="width:42px;margin-top:-17px" src="/assets/logo.png"></img><br>
+         Created by Flowtoolz
+      </a>
+   </div>
+</section>

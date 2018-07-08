@@ -84,8 +84,16 @@ h3, #priceTable th
     font-size: 20px;
 }
 
+td, th
+{
+   padding-top: 6px;
+   padding-bottom: 6px;
+   padding-left: 12px;
+}
+
 #priceTable
 {
+   border-collapse: collapse;
    width:100%;
    max-width:724px;
    margin-left:auto;
@@ -123,9 +131,9 @@ img
 
 /* Foundation Classes */
 
-.column-block
+.cell
 {
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
 }
