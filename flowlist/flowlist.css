@@ -1,25 +1,25 @@
 @font-face
 {
     font-family: FlowlistLight;
-    src: url("/assets/fonts/myriad/myriad-set-pro_thin.ttf") format("truetype");
+    src: url("/assets/fonts/san_francisco/SF-Pro-Display-Thin.otf") format("opentype");
 }
 
 @font-face
 {
     font-family: FlowlistRegular;
-    src: url("/assets/fonts/myriad/myriad-set-pro_text.ttf") format("truetype");
+    src: url("/assets/fonts/san_francisco/SF-Pro-Text-Regular.otf") format("opentype");
 }
 
 @font-face
 {
     font-family: FlowlistBold;
-    src: url("/assets/fonts/myriad/myriad-set-pro_bold.ttf") format("truetype");
+    src: url("/assets/fonts/san_francisco/SF-Pro-Display-Bold.otf") format("opentype");
 }
 
 body, p
 {
     font-family: FlowlistRegular;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.6;
 }
 
@@ -64,7 +64,7 @@ h1
 {
     letter-spacing: -2px;
     font-family: FlowlistBold;
-    font-size: 70px;
+    font-size: 72px;
 }
 
 h2
@@ -72,7 +72,7 @@ h2
     letter-spacing: -1px;
     line-height: 1.6;
     font-family: FlowlistLight;
-    font-size: 37.5px;
+    font-size: 36px;
     margin-bottom: 50px;
 }
 
@@ -81,7 +81,7 @@ h3, #priceTable th
     line-height: 1.6;
     letter-spacing: -0.5px;
     font-family: FlowlistBold;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 td, th
@@ -95,7 +95,7 @@ td, th
 {
    border-collapse: collapse;
    width:100%;
-   max-width:724px;
+   max-width:700px;
    margin-left:auto;
    margin-right:auto;
    margin-bottom:30px;
@@ -121,7 +121,7 @@ img
 {
     display: inline-block;
     border-style: solid;
-    height: 27px;
+    height: 26px;
     line-height: 1.4;
     border-width: 1px;
     padding-left: 5px;
