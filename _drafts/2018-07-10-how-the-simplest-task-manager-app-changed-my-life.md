@@ -1,13 +1,13 @@
 ---
-title: "Flowlist: How a Minimalistic App Changed My Life"
+title: "How a Minimalistic Productivity App Changed My Life"
 layout: post
-excerpt: "Excerpt Bla Bla"
-image_url: /flowlist/page_poster.jpg
+excerpt: "I created Flowlist in June 2017 and have been using it daily since. Its radical simplicity also makes it super powerful. Now it is released. This is the backstory."
+image_url: /blog-images/software-development/flowlist/icon_screen.jpg
 keywords: keywords, bla, bla
 ---
 
 <img style="margin-left:auto;margin-right:auto;display:block;"
-    src="/flowlist/tasklists.png" width="100%">
+    src="/blog-images/software-development/flowlist/icon_screen.jpg" width="100%" class="ft-shadow">
 
 ## Flowlist AppStore Description
 

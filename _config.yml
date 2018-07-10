@@ -29,7 +29,7 @@ header_pages:
   - more/more.md
   - about/about.md
 
-paginate: 13
+paginate: 14
 
 excerpt_separator: <!--more-->
 
