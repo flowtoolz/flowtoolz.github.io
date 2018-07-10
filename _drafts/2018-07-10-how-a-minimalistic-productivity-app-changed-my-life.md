@@ -17,9 +17,9 @@ keywords: task management, task, app, flow, todo list, flowlist, task list, omni
 
 Sometimes, I feel overwhelmed by all the stuff I have to do, and even more by all the stuff I'm passionate about. So, most of my life, I've been on a quest to sort myself out, get more shit done and turn more ideas into real things.
 
-What played a central role in that quest where the task managers I used to organize my TODOs **and thoughts**. I tried them all, some for a long time: Todoist, Wunderlist, Omnifocus, Flow, Anydo, Things, Trello and even Apple's Reminders app.
+The task managers I used to organize my TODOs and **thoughts** played a central role in that quest. And I've used them all, some for a long time: Todoist, Wunderlist, Agenda, Omnifocus, Flow, Anydo, Things, Trello and Apple's Reminders app.
 
-You guessed it - I found them all frustrating. They just felt rigid, cumbersome and distracting. So I created Flowlist. One particular aspect they share doesn't jive at all with the way I think: They force your notes into fixed categories like *Project*, *Task*, *Subtask* and *Description*.
+You guessed it - I found all those task managers frustrating. They just felt rigid, cumbersome and distracting. One particular aspect they all share doesn't jive at all with the way I think: They force your notes into fixed categories like *Project*, *Task*, *Subtask* and *Description*.
 
 However reality isn't fragmented by such arbitrary categories, much less can you know the category or abstraction level of a thought the moment it pops into your head. The structure of ideas, tasks or "projects" rather emerges from the process of thinking about- or working on them.
 
@@ -27,7 +27,9 @@ Because they are so rigid, conventional task managers are really bad at capturin
 
 I need to evolve my captured items to keep them in line with reality. I need a tool that supports an agile (i.e. realistic) way of thinking, working and living. That means, it must allow to freely mould the item hierarchy: Group items together, add sub items "into" an item, move items to a whole different level, and so forth.
 
-So a year ago, I prototyped a novel kind of task manager and named it "Flowlist". And I've been happily using it every day since. This year, I decided to turn Flowlist into much more and make it available to you. More is to come at [flowlistapp.com](http://flowlistapp.com).
+So in June 2017, I prototyped a novel kind of task manager and named it **Flowlist**. And I've been happily using it every day since. This year, I decided to turn Flowlist into much more and make it available to you. Now, after 564 Git commits, Flowlist is finally [available on the Mac App Store](https://itunes.apple.com/app/flowlist/id1396163478?ls=1).
+
+Flowlist is radically simple but subtle and powerful. Let's have a look ...
 
 ## What It Does
 
