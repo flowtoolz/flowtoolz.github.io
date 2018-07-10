@@ -67,7 +67,20 @@ Flowlist helps you to be in a flow state:
     * Change the scope of your focus by going deeper into details or back to a higher level.
     * Work in fullscreen or switch to monotasking mode (animation montage)
 
+## Ho I use it
+
 I've been using Flowlist daily for a year now, and it has changed my life
+
+* general structure: Today, Projects etc...
+* live support of thought process... figuring things out...
+* templates: morning routine, workout, supplements etc...
+* adding subitems as Description
+* prioritizing so current task can be quickly accessed via right arrow key alone
+* constantly keeping track: where am i now?
+* current stuff in progress
+* prioritizing the important stuff (stephen covey matrix...) but also not forgetting what's urgent
+* today list every morning
+* ... ?
 
 ## The Future
 
@@ -91,7 +104,7 @@ The free trial version has just 1 limitation: It cannot hold more than 100 items
 
 I really don't like paid subscriptions. So I'll never require this for Flowlist. You pay once, then you can use the app forever.
 
-Flowlist costs much less than conventional task managers and it always will besause, honestly, the competition's pricing is ridiculous. One reason why they are so expensive is that the concept (domain model) they started with is not as thought trough, elegant and universal as that of Flowlist. So the same amount of invested resources adds much less capabilities to their apps.
+Flowlist costs much less than conventional task managers and it always will besause, honestly, the competition's pricing is ridiculous. One reason why they are so expensive is that the concept (domain model) they started with is not as thought trough, elegant and universal as that of Flowlist. So the same amount of invested resources adds much less capabilities to their apps, i.e. their development is more expensive.
 
 Now, as I'll make Flowlist more and more powerful, I'll have to adjust the price a bit. But I also reward your trust: When you have the app, you'll get all new features as free updates. For early birds, Flowlist is a steal.
 
