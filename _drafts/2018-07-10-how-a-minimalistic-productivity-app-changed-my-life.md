@@ -9,6 +9,10 @@ keywords: task management, task, app, flow, todo list, flowlist, task list, omni
 <img style="margin-left:auto;margin-right:auto;display:block;"
     src="/blog-images/software-development/flowlist/icon_screen.jpg" width="100%" class="ft-shadow">
 
+<p style="text-align:center">
+<i>Everything about the app itself is at <a href="/flowlist/">flowlistapp.com</a></i>
+</p>
+
 ## Backstory
 
 Sometimes, I feel overwhelmed by all the stuff I have to do, and even more by all the stuff I'm passionate about. So, most of my life, I've been on a quest to sort myself out, get more shit done and turn more ideas into real things.
