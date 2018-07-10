@@ -8,7 +8,8 @@ keywords: music, song writing, music production, music making, ableton, ableton 
 
 ## A 7 Step Strategy for Songwriters and Producers
 
-![poster image](/blog-images/self-development/break-free-from-your-musical-baggage/audio-work-station.jpeg)
+<img style="margin-left:auto;margin-right:auto;display:block;"
+    src="/blog-images/self-development/break-free-from-your-musical-baggage/audio-work-station.jpeg" width="100%" class="ft-shadow">
 
 Creating [dreamy indie pop](https://www.facebook.com/mellowtreemusic/) is a passion of mine. When I was 5, I started violin practice. More than 20 years ago, I started composing on my computer. Now I’m putting together an album for the bloody first time. And as I have to decide on 2 or 3 more demos to include in the production, the hundreds of ideas I collected over two decades do what they do best: paralyzing me.
 
