@@ -76,19 +76,21 @@ This keyboard-centric input has some nice implications:
 
 I use Flowlist to:
 
-* Capture whatever pops into my head
-* Support my thought processes
-* Evolve notes into ideas
-* Manage tasks and projects
-* Plan my day and my future
+1. Capture whatever pops into my head
+2. Support my thought process
+3. Grow a backlog of ideas
+4. Establish valuable habits
+5. Manage tasks and projects
+6. Keep track of responsibilities
+7. Plan my day and my future
 
-Now, Flowlist can do all these things, not because it's packed with menus, knobs and buttons, but because it is so radically simple, which makes it flexible.
+Now, Flowlist can do all these things, not because it's packed with menus, knobs and buttons, but because it is so radically simple. It is like lego: The building blocks are primitive, but you can build anything you want. The way people use Flowlist is as individual as the way they use a notebook.
 
 I've been using Flowlist daily for more than a year now, and it has honestly changed my life. I feel more in control and on the ball with all my various endeavours. I do more in a day and I do more of the important stuff.
 
 At the same time, nothing gets lost: no errand, no urgent task, no small idea. Knowing that nothing gets lost made me calmer and more relaxed, and it also improved my ability to concentrate on the task at hand.
 
-Here are some of my personal workflows:
+Here are five aspects of how I personally use Flowlist:
 
 ### 3.1. Top Level Categories
 
@@ -110,32 +112,39 @@ Every morning, I plan the day by creating a list in the top level item "Today":
 2. Copy my template "Daily Routines" for daily recurring habits to "Today". This includes checklists for morning routine, workout, yoga, shoulder recovery and supplements.
 3. Scan upcoming items and other categories. Move or add appropriate items to "Today" list.
 4. Prioritize items in "Today" so that they're listed in the order I plan to check them off. This is an opportunity to put important stuff first. I also try to batch process. For example, if several items have to be done in the city, I group them together as a "City" item and prioritize it.
-5. The planning takes about 10 minutes. After that, I can just execute and check off today's items top to bottom. At least, I have orientation and perspective throughout the day, which allows me to shift things around if necessary.
+5. Planning my day takes about 10 minutes. After that, I can just execute and check off today's items top to bottom. At least, I have orientation and perspective throughout the day, which allows me to shift things around if necessary.
 
 ### 3.4. Prioritization
 
 First of all, visual prioritization helps to ensure that important but non-urgent things don't get pushed aside by unimportant and (seemingly) urgent things. This is essential and goes back to [Stephen Covey](https://en.wikipedia.org/wiki/Stephen_Covey) and [Eisenhower's Decision Matrix](https://www.artofmanliness.com/articles/eisenhower-decision-matrix/).
 
-Flowlist naturally allows to prioritize on all levels of the hierarchy, i.e. I can order all subitem lists. So, I prioritize top level categories against each other as well as the minutiae involved in small tasks.
+Flowlist naturally allows to prioritize on all levels of the hierarchy, i.e. to change the item order in all subitem lists. So, I prioritize top level categories against each other as well as the minutiae involved in small tasks.
 
-To quickly order a list by priority and to distinguish multiple ongoing items from the rest, I also set those items in progress, which moves them to the top and changes their icon to a play button.
+To quickly order a list by priority and to distinguish multiple ongoing items from the rest, I also set those items in progress. Setting an item in progress moves it to the top and changes its icon to a play button.
 
 Now on the detailed levels, prioritization is less about importance and more about order of execution, and that helps me immensely at keeping track.
 
-I have quite a few projects or responsibilities that I need to stay on top of, some as future options, some on hold, some I'm currently dealing with. When I get back to a project or task, I need to know exactly where it stands so I can continue working on it right away. I want to know what I did last, what I'll do next and how it will unfold down the road.
+I have quite a few projects or responsibilities that I wanna stay on top of, some as future options, some on hold, some I'm currently dealing with. When I get back to a project or task, I need to know exactly where it stands so I can continue working on it right away. I want to know what I did last, what I'll do next and how it will unfold down the road.
 
 Through hierarchical prioritization, my next action step is well defined at all times and down to whatever level of detail I cared to define it. 
 
-Moving to a detail list that has no selections, Flowlist selects the top-most item. So I just hit the right arrow key repeatedly to dive deeper into my next action step. Right now, the items in this chain read like this:
+When moving to a detail list that has no selections, Flowlist selects the top-most item. So I just hit the right arrow key repeatedly to dive deeper into my next action step. Right now, the items in this chain read like this:
 
 > Home → Projects → Software → Flowlist → Post release action steps → Basic marketing → Blog post → Formulate 1st draft
 
 I can't think of another task manager that either allows that kind of depth or exhibits that conceptual simplicity, much less both.
 
-### 3.5. Thought Process
+### 3.5. Creativity
 
-* live support of thought process... figuring things out... adding subitems as Description
-* You also can copy content from any text, PDF or website and paste it as items into Flowlist.
+Maybe where I get the most value out of Flowlist is how it supports my thought process.
+
+I capture what I think, and I think by editing what I captured. As my thoughts, ideas and projects evolve over time, so does their manifestation in Flowlist. A note might grow into a project, a big challenge might dissolve into nothing, two formerly unrelated tasks might merge.
+
+I do that day by day, but also live, moment by moment. Thinking and editing have become one. This was possible because editing in Flowlist is fast and includes the hierarchical relation between items.
+
+Say I just added a subtask to a task in a project. Now I come across a hint on the internet that will help me accomplish the subtask, so I want to add the hint as a description to the subtask. I copy the related text from the web page, switch to Flowlist, navigate **into** my empty subtask and press ⌘V. The lines in the copied text will be inserted as distinct "subitems" into my subtask item.
+
+Like writing in general, Flowlist is a great way for me to sort out, structure and delineate my thoughts, developing them into apps, blog posts, design concepts, strategies and so on. In that sense, Flowlist is already a creative writing tool.
 
 ## 4. What Flowlist Will Become
 
