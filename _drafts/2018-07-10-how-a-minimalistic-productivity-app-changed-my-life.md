@@ -13,7 +13,7 @@ keywords: task management, task, app, flow, todo list, flowlist, task list, omni
 <i>Everything about the app itself is at <a href="/flowlist/">flowlistapp.com</a></i>
 </p>
 
-## Backstory
+## 1. Why I Built Flowlist
 
 Sometimes, I feel overwhelmed by all the stuff I have to do, and even more by all the stuff I'm passionate about. So, most of my life, I've been on a quest to sort myself out, get more shit done and turn more ideas into real things.
 
@@ -29,9 +29,52 @@ I need to evolve my captured items to keep them in line with reality. I need a t
 
 So in June 2017, I prototyped a novel kind of task manager and named it **Flowlist**. And I've been happily using it every day since. This year, I decided to turn Flowlist into much more and make it available to you. Now, after 564 Git commits, Flowlist is finally [available on the Mac App Store](https://itunes.apple.com/app/flowlist/id1396163478?ls=1).
 
-Flowlist is radically simple but subtle and powerful. Let's have a look ...
+## 2. How Flowlist Works
 
-## What It Does
+Flowlist is radically simple but subtle and powerful. This 30 second clip shows some work flows in action:
+
+<video style="width:100%;max-width:960px;margin-bottom:10px" controls autoplay class="ft-shadow">
+    <source src="/flowlist/AppStore_Preview_60fps.mp4" type="video/mp4">
+</video>
+
+Flowlist is designed to support deep focus and working in a flow state. It does that through a couple of seemingly radical design choices. Let's look at the 3 most important ones ...
+
+### 2.1. A Simple But Universal Data Model
+
+Flowlist does not force your stuff into categories like project, task, subtask or description. Instead, there are just titled items. But those items may contain other items, just like folders on your computer.
+
+So you evolve your own item hierarchy:
+
+* Group items together
+* Add subitems into any item
+* Move items to a whole different level in the hierarchy, i.e. into any other item including the root or "home" item.
+
+There's no limit to how deeply nested your items can be, and you can edit this hierarchy in every way to keep it true to your life
+
+### 2.2. Total Control Via Few Keys
+
+A core characteristic of Flowlist is that its simplicity allows the user to control it without mouse or trackpad. With just a few intelligently laid out key commands, the user has all the power at his fingertips. And that's only suitable for a productivity app that takes a lot of text input anyway.
+
+This keyboard-centric input has some nice implications:
+
+* It is fast.
+* Input is uninterrupted. Your hands never have to leave the keyboard for anything. That also means your attention can stay zoned in on the content on the screen.
+* It allows the interface to be super clean, without any distracting clutter.
+
+### 2.3. An Immersive UI: Clean, Focused and Animated
+
+* You chose the scope of your focus by navigating your item hierarchy. No matter on what level you are, there's always an overview to the left and possibly details of a selected item to the right. You always focus and edit the list in the middle.
+* There's nothing else that could distract you. The interface is super clean. No buttons, knobs, alerts, popups and such clutter.
+* All navigation and editing is animated. So it's easy for the eyes to keep track of where you are and how the items and the overall item structure changes.
+* The UI is best used in fullscreen mode. However, Flowlist also provides a "Monotasking" mode in which all other apps, the dock and the menu bar are hidden. Those modes support deep focus.
+* All window management can be done via key commands as well, and those commands go both ways: they activate and deactivate the respective mode:
+    - Enter/leave fullscreen: ⌘F
+    - Monotasking/multitasking: ⌘M
+    - Close/show window: ⌘W
+
+## 3. How I Use Flowlist
+
+copy text from a website or pdf and paste it as items into Flowlist
 
 I use Flowlist to:
 
@@ -40,36 +83,7 @@ I use Flowlist to:
 * Manage tasks and projects
 * Plan my day and my future
 
-See some work flows in action in this 30 second clip:
-<video style="width:100%;max-width:960px;margin-bottom:60px" controls autoplay>
-    <source src="/flowlist/AppStore_Preview_60fps.mp4" type="video/mp4">
-</video>
-
-Flowlist helps you to be in a flow state:
-
-* Evolve your own item hierarchy: Group items together, add subitems to any item, move items to a whole different level. Flowlist does not force your items into categories like project, task, subtask or description.
-* You chose the scope of your focus by navigating your item hierarchy. No matter on what level you are, there's always an overview to the left and details of a selected item to the right.
-* Your hands never have to leave the keyboard for anything. You can do everything via a few intuitive key commands
-* The interface is super clean. No buttons, knobs, alerts, popups and such clutter.
-* Use Flowlist in fullscreen or in monotasking mode to really focus.
-
-* Now, Flowlist can do all these things, not because it's packed with menus, knobs and buttons, but because it is so radically simple.
-    * Write and delete items just like lines in a text
-    * prioritize
-    * check items off
-    * Group them together
-    * Add sub items
-    * copy, cut and paste
-    * or copy text from a website or pdf and paste it as items into Flowlist
-    * There's no limit to how deeply nested your items can be, and you can edit this hierarchy in every way to keep it true to your life
-* Flowlist helps working in a flow state.
-    * Your hands never have to leave the keyboard for anything.
-    * and The interface is super clean
-    * With the overview to the left and details to the right, you focus on the list in the middle.
-    * Change the scope of your focus by going deeper into details or back to a higher level.
-    * Work in fullscreen or switch to monotasking mode (animation montage)
-
-## Ho I use it
+* Now, Flowlist can do all these things, not because it's packed with menus, knobs and buttons, but because it is so radically simple
 
 I've been using Flowlist daily for a year now, and it has changed my life
 
@@ -84,7 +98,7 @@ I've been using Flowlist daily for a year now, and it has changed my life
 * today list every morning
 * ... ?
 
-## The Future
+## 4. What Flowlist Will Become
 
 Put on shades, the future is bright. Version 1.0 isn't even the beginning. I have many great things planned for Flowlist.
 
@@ -98,7 +112,7 @@ Put on shades, the future is bright. Version 1.0 isn't even the beginning. I hav
 
 * Users and Backers of the app can vote on which features I will add next. <INSERT LINK>
 
-## Trial Version & Pricing
+## 5. How Anyone Can Try Flowlist
 
 Want to try it yourself? Go to flowlistapp.com and download Flowlist for free from the AppStore.
 
