@@ -74,29 +74,53 @@ This keyboard-centric input has some nice implications:
 
 ## 3. How I Use Flowlist
 
-copy text from a website or pdf and paste it as items into Flowlist
-
 I use Flowlist to:
 
-* Quickly capture whatever pops into your head
-* Develop notes into ideas
+* Capture whatever pops into my head
+* Support my thought processes
+* Evolve notes into ideas
 * Manage tasks and projects
 * Plan my day and my future
 
-* Now, Flowlist can do all these things, not because it's packed with menus, knobs and buttons, but because it is so radically simple
+Now, Flowlist can do all these things, not because it's packed with menus, knobs and buttons, but because it is so radically simple, which makes it flexible.
 
-I've been using Flowlist daily for a year now, and it has changed my life
+I've been using Flowlist daily for more than a year now, and it has honestly changed my life. I feel more in control and on the ball with all my various endeavours. I do more in a day and I do more of the important stuff.
 
-* general structure: Today, Projects etc...
-* live support of thought process... figuring things out...
-* templates: morning routine, workout, supplements etc...
-* adding subitems as Description
-* prioritizing so current task can be quickly accessed via right arrow key alone
-* constantly keeping track: where am i now?
-* current stuff in progress
-* prioritizing the important stuff (stephen covey matrix...) but also not forgetting what's urgent
-* today list every morning
-* ... ?
+At the same time, nothing gets lost: no errand, no urgent task, no small idea. Knowing that nothing gets lost made me calmer and more relaxed, and it also improved my ability to concentrate on the task at hand.
+
+Here are some of my personal workflows:
+
+### 3.1. Top Level Categories
+
+I created these items in my root or "Home" item: Today, Projects, Upcoming, Personal Growth, Business, Relationships and Errands. Those are my top level "Categories".
+
+You could create different ones, and their order can constantly change due to prioritization.
+
+### 3.2. Upcoming
+
+I put appointments, stuff that I want to do soon, that is bound by deadlines or that is just relatively urgent into the top level category "Upcoming". Those can also just be reminders of bigger items or projects in other top level categories.
+
+Of course, I prioritize the upcoming items, so that they are listed in the order I plan to check them off.
+
+### 3.3. Today
+
+Every morning, I plan the day by creating a list in the top level item "Today":
+
+1. Check off, move elsewhere or delete stuff that isn't relevant anymore.
+2. Copy my template "Daily Routines" for daily recurring habits to "Today". This includes checklists for morning routine, workout, yoga, shoulder recovery and supplements.
+3. Scan upcoming items and other categories. Move or add appropriate items to "Today" list.
+4. Prioritize items in "Today" so that they're listed in the order I plan to check them off. This is an opportunity to put important stuff first. I also try to batch process. For example, if several items have to be done in the city, I group them together as a "City" item and prioritize it.
+5. The planning takes about 10 minutes. After that, I can just execute and check off today's items top to bottom. At least, I have orientation and perspective throughout the day, which allows me to shift things around if necessary.
+
+### 3.4. Keeping Track
+
+* prioritizing so current task can be quickly accessed via right arrow key alone, prioritizing the important stuff (stephen covey matrix...)
+* constantly keeping track: where am i now? current stuff in progress
+
+### 3.5. Thought Process
+
+* live support of thought process... figuring things out... adding subitems as Description
+* You also can copy content from any text, PDF or website and paste it as items into Flowlist.
 
 ## 4. What Flowlist Will Become
 
