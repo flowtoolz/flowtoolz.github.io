@@ -37,7 +37,7 @@ Flowlist is radically simple but subtle and powerful. This 30 second clip shows 
     <source src="/flowlist/AppStore_Preview_60fps.mp4" type="video/mp4">
 </video>
 
-Flowlist is designed to support deep focus and working in a flow state. It does that through a couple of seemingly radical design choices. Let's look at the 3 most important ones ...
+I wanted Flowlist to enable deep focus and getting into a flow state. This led me to a couple of seemingly radical design choices. Let's look at the 3 most important ones.
 
 ### 2.1. A Simple But Universal Data Model
 
@@ -112,10 +112,25 @@ Every morning, I plan the day by creating a list in the top level item "Today":
 4. Prioritize items in "Today" so that they're listed in the order I plan to check them off. This is an opportunity to put important stuff first. I also try to batch process. For example, if several items have to be done in the city, I group them together as a "City" item and prioritize it.
 5. The planning takes about 10 minutes. After that, I can just execute and check off today's items top to bottom. At least, I have orientation and perspective throughout the day, which allows me to shift things around if necessary.
 
-### 3.4. Keeping Track
+### 3.4. Prioritization
 
-* prioritizing so current task can be quickly accessed via right arrow key alone, prioritizing the important stuff (stephen covey matrix...)
-* constantly keeping track: where am i now? current stuff in progress
+First of all, visual prioritization helps to ensure that important but non-urgent things don't get pushed aside by unimportant and (seemingly) urgent things. This is essential and goes back to [Stephen Covey](https://en.wikipedia.org/wiki/Stephen_Covey) and [Eisenhower's Decision Matrix](https://www.artofmanliness.com/articles/eisenhower-decision-matrix/).
+
+Flowlist naturally allows to prioritize on all levels of the hierarchy, i.e. I can order all subitem lists. So, I prioritize top level categories against each other as well as the minutiae involved in small tasks.
+
+To quickly order a list by priority and to distinguish multiple ongoing items from the rest, I also set those items in progress, which moves them to the top and changes their icon to a play button.
+
+Now on the detailed levels, prioritization is less about importance and more about order of execution, and that helps me immensely at keeping track.
+
+I have quite a few projects or responsibilities that I need to stay on top of, some as future options, some on hold, some I'm currently dealing with. When I get back to a project or task, I need to know exactly where it stands so I can continue working on it right away. I want to know what I did last, what I'll do next and how it will unfold down the road.
+
+Through hierarchical prioritization, my next action step is well defined at all times and down to whatever level of detail I cared to define it. 
+
+Moving to a detail list that has no selections, Flowlist selects the top-most item. So I just hit the right arrow key repeatedly to dive deeper into my next action step. Right now, the items in this chain read like this:
+
+> Home → Projects → Software → Flowlist → Post release action steps → Basic marketing → Blog post → Formulate 1st draft
+
+I can't think of another task manager that either allows that kind of depth or exhibits that conceptual simplicity, much less both.
 
 ### 3.5. Thought Process
 
