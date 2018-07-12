@@ -176,21 +176,21 @@ Flowlist will have independent filters that let you customize what items you see
 
 ## 5. How Anyone Can Try Flowlist
 
-Want to try it yourself? Go to flowlistapp.com and download Flowlist for free from the AppStore.
+Flowlist is free to download from the Mac App Store. It is limited to 100 items, not counting groups, which will suffice many users. Other than that, it has all features, saves all items and will never expire.
 
-The free trial version has just 1 limitation: It cannot hold more than 100 items at the same time. Other than that, it has all features, it saves all your items, you can use it forever, and it is totally free, you don't even have to give away your email. Go to flowlistapp.com and start organizing your thoughts and your life today!
+<a href="https://itunes.apple.com/app/flowlist/id1396163478?ls=1" target="_blank">
+    <img style="width:100%;max-height:68px;margin-top:20px;margin-bottom:20px"
+        src="/flowlist/App_Store_Badge_White.svg"
+        title="Download Flowlist For Free From the Mac App Store"
+        alt="{{ page.description }}">
+</a>
 
-I really don't like paid subscriptions. So I'll never require this for Flowlist. You pay once, then you can use the app forever.
+Users who need more items or wanna support the development of Flowlist can upgrade to the full version from inside the app. Once purchased, the full version is valid forever. No subscription required.
 
-Flowlist costs much less than conventional task managers and it always will besause, honestly, the competition's pricing is ridiculous. One reason why they are so expensive is that the concept (domain model) they started with is not as thought trough, elegant and universal as that of Flowlist. So the same amount of invested resources adds much less capabilities to their apps, i.e. their development is more expensive.
+Owners of the full version get new features as free updates, even when the price rises. I will **never** release somethin like a "Version 2.0" as a "different" app with an increased price. This is a way to reward users who back this project and get on board early.
 
-Now, as I'll make Flowlist more and more powerful, I'll have to adjust the price a bit. But I also reward your trust: When you have the app, you'll get all new features as free updates. For early birds, Flowlist is a steal.
+There's also a <i>Summer Special</i> going: Until September 20, I offer an introductory price which is 50% off.
 
-* Flowlist is now available on the Mac AppStore.
-* Use it for free with up to 100 items, ...
-* Or, support further development and unlock the full version.
-* No subscription required.
-* I even offer an introductory price over the whole summer.
-* Of course, I'll have to adjust the price when adding features, but I also reward those who get onboard early.
-* Once you have the full version, you get all new features as free updates.
-* Sounds fair? Go to flowlistapp.com and start organizing your thoughts and your life today!
+However, Flowlist costs much less than conventional task managers anyway and it always will besause, honestly, the competition's pricing is ridiculous. One reason why I think they are so expensive is that the concept (domain model) they started with is not as thought trough, elegant and universal as that of Flowlist. So the same amount of invested resources adds much less capabilities to their apps. That's just one reason their development is more expensive.
+
+For more details and latest updates, there's always <a href="/flowlist/" target="_blank">flowlistapp.com</a>.
