@@ -17,9 +17,12 @@ keywords: task management, task, app, flow, todo list, flowlist, task list, omni
 
 Sometimes, I feel overwhelmed by all the stuff I have to do, and even more by all the stuff I'm passionate about. So, most of my life, I've been on a quest to sort myself out, get more shit done and turn more ideas into real things.
 
-The task managers I used to organize my TODOs and **thoughts** played a central role in that quest. And I've used them all, some for a long time: Todoist, Wunderlist, Agenda, Omnifocus, Flow, Anydo, Things, Trello and Apple's Reminders app.
+The task managers I used to organize my TODOs and **thoughts** played a central role in that quest. And I've used them all, some for a long time:
 
-You guessed it - I found all those task managers frustrating. They just felt rigid, cumbersome and distracting. One particular aspect they all share doesn't jive at all with the way I think: They force your notes into fixed categories like *Project*, *Task*, *Subtask* and *Description*.
+<img style="margin-left:auto;margin-right:auto;display:block;"
+    src="/blog-images/software-development/flowlist/task_managers.png" width="100%">
+
+You guessed it - I found them all frustrating. They just felt rigid, cumbersome and distracting. One particular aspect they all share doesn't jive at all with the way I think: They force your notes into fixed categories like *Project*, *Task*, *Subtask* and *Description*.
 
 However reality isn't fragmented by such arbitrary categories, much less can you know the category or abstraction level of a thought the moment it pops into your head. The structure of ideas, tasks or "projects" rather emerges from the process of thinking about- or working on them.
 
@@ -37,7 +40,7 @@ Flowlist is radically simple but subtle and powerful. This 30 second clip shows 
     <source src="/flowlist/AppStore_Preview_60fps.mp4" type="video/mp4">
 </video>
 
-I wanted Flowlist to enable deep focus and getting into a flow state. This led me to a couple of seemingly radical design choices. Let's look at the 3 most important ones.
+I wanted Flowlist to get me into a flow state. This led me to some seemingly radical design choices. Let's look at four ways Flowlist helps me to focus.
 
 ### 2.1. A Simple But Universal Data Model
 
@@ -53,24 +56,39 @@ There's no limit to how deeply nested your items can be, and you can edit this h
 
 ### 2.2. Total Control Via Few Keys
 
-A core characteristic of Flowlist is that its simplicity allows the user to control it without mouse or trackpad. With just a few intelligently laid out key commands, the user has all the power at his fingertips. And that's only suitable for a productivity app that takes a lot of text input anyway.
+Flowlist is so simple that the user can control it without mouse or trackpad. With just a few intelligently laid out key commands, he has all the power at his fingertips. And that's only suitable for a productivity app that takes a lot of text input anyway. The menu shows all currently available key commands:
+
+<img src="/blog-images/software-development/flowlist/key_commands.png" style="max-width:483px">
 
 This keyboard-centric input has some nice implications:
 
-* It is fast.
-* Input is uninterrupted. Your hands never have to leave the keyboard for anything. That also means your attention can stay zoned in on the content on the screen.
-* It allows the interface to be super clean, without any distracting clutter.
+1. It is fast.
+2. It is uninterrupted. Your hands never have to leave the keyboard for anything. That also means your attention can stay zoned in on the content on the screen.
+3. It allows the interface to be super clean without any distracting clutter.
 
-### 2.3. An Immersive UI: Clean, Focused and Animated
+### 2.3. An Immersive User Interface
 
-* You chose the scope of your focus by navigating your item hierarchy. No matter on what level you are, there's always an overview to the left and possibly details of a selected item to the right. You always focus and edit the list in the middle.
-* There's nothing else that could distract you. The interface is super clean. No buttons, knobs, alerts, popups and such clutter.
-* All navigation and editing is animated. So it's easy for the eyes to keep track of where you are and how the items and the overall item structure changes.
-* The UI is best used in fullscreen mode. However, Flowlist also provides a "Monotasking" mode in which all other apps, the dock and the menu bar are hidden. Those modes support deep focus.
-* All window management can be done via key commands as well, and those commands go both ways: they activate and deactivate the respective mode:
-    - Enter/leave fullscreen: ⌘F
-    - Monotasking/multitasking: ⌘M
-    - Close/show window: ⌘W
+You chose the scope of your focus by navigating your item hierarchy. No matter on what level you are, you always edit the center list, while context is to the left and details are to the right:
+    
+<img src="/blog-images/software-development/flowlist/clean_interface.png">
+
+There's nothing else that could distract you. The interface is super clean. No buttons, knobs, alerts, popups and such clutter.
+
+Also, all navigation and editing is animated. So the  eyes easily keep track of where you are and how  items and overall item structure change.
+
+### 2.4 Window Management For Deep Concentration
+
+You control the window via key commands, which go both ways and act as toggles:
+
+<img src="/blog-images/software-development/flowlist/window_management.png" style="max-width:408px">
+
+Toggleing the window via ⌘W, can help to get Flowlist out of the way and access the desktop or to switch back and forth between reading content in another app and editing related items in Flowlist.
+
+Flowlist is meant to be used in fullscreen mode:
+
+<img src="/blog-images/software-development/flowlist/fullscreen.png" class="ft-shadow">
+
+But there's also a <i>Monotasking</i> mode in which all other apps, the dock and the menu bar get blended out. Fullscreen and monotasking help to really focus.
 
 ## 3. How I Use Flowlist
 
@@ -152,25 +170,25 @@ From now on, I'll let users decide what feature I'm gonna add next. As soon as I
 
 These are just five of the more basic ideas that I think would add great value:
 
-### 1. iOS App for iPhone and iPad
+### 4.1. iOS App for iPhone and iPad
 
 Of course. This is one of the most requested "features". You'll be able to switch devices and use Flowlist on the go, while your data will stay in sync.
 
-### 2. System-Wide Key Command
+### 4.2. System-Wide Key Command
 
 This will allow you to quickly capture thoughts, even while you're using other apps. Neither will you forget anything nor will you be distracted. Whenever you have an idea, you press a keyboard short cut, type in a note and then move on with whatever you were doing.
 
-### 3. Dark Mode
+### 4.3. Dark Mode
 
 You'll be able to switch to a <a href="https://developer.apple.com/design/human-interface-guidelines/macos/visual-design/dark-mode/" target="_blank">cool looking dark user interface</a> for increased sleep quality, decreased stress on your eyes, working at night and just feeling like pro. This will also let your content stand out more, be it text, colors or potential item attachements.
 
 MacOS Mojave (10.14) will introduce dark mode as a system-wide feature. Flowlist will not require macOS 10.14 for its dark mode but will play along perfectly with the way dark mode is supposed to integrate with Mojave.
 
-### 4. Creative Writing
+### 4.4. Creative Writing
 
 Each item will have a long form description text. This seemingly minor addition will really turn Flowlist into a creative writing tool. Organizing thoughts will, at the same time, structure and grow a potential text. You'll be able to print and export any item as plain text, LaTeX, Markdown or HTML, with autogenerated headers, subheaders and so forth.
 
-### 5. Due Dates, Colors, Tags, Keyword Search ...
+### 4.5. Due Dates, Colors, Tags, Keyword Search ...
 
 Flowlist will have independent filters that let you customize what items you see. You'll be able to filter by custom tags, colors, search keywords, due dates (with calender view) and item states (with addional state "trashed"). For example you'll be able to setup a filter that shows all appointments and open tasks of today.
 
@@ -191,6 +209,6 @@ Owners of the full version get new features as free updates, even when the price
 
 There's also a <i>Summer Special</i> going: Until September 20, I offer an introductory price which is 50% off.
 
-However, Flowlist costs much less than conventional task managers anyway and it always will besause, honestly, the competition's pricing is ridiculous. One reason why I think they are so expensive is that the concept (domain model) they started with is not as thought trough, elegant and universal as that of Flowlist. So the same amount of invested resources adds much less capabilities to their apps. That's just one reason their development is more expensive.
+However, Flowlist costs much less than conventional task managers anyway, and it always will. One reason why I think apps like Things and OmniFocus are so expensive is that the concept (domain model) they started with is not as elegant and universal as that of Flowlist. So the same amount of invested resources adds much less to their capabilities.
 
 For more details and latest updates, there's always <a href="/flowlist/" target="_blank">flowlistapp.com</a>.
