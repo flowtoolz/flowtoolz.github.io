@@ -13,7 +13,7 @@ keywords: task management, task, app, flow, todo list, flowlist, task list, omni
 <i>Everything about the app itself is at <a href="/flowlist/" target="_blank">flowlistapp.com</a></i>
 </p>
 
-## 1. Why I Built Flowlist
+## 1. Why I'm Building Flowlist
 
 Sometimes, I feel overwhelmed by all the stuff I have to do, and even more by all the stuff I'm passionate about. So, most of my life, I've been on a quest to sort myself out, get more shit done and turn more ideas into real things.
 
@@ -92,23 +92,23 @@ But there's also a <i>Monotasking</i> mode in which all other apps, the dock and
 
 ## 3. How I Use Flowlist
 
-I use Flowlist to:
+I've been using Flowlist daily for more than a year now, and it had a huge impact on my life. I feel more in control and on the ball with my various endeavours. I do more in a day and I do more of the important stuff.
+
+At the same time, nothing gets lost: no errand, no urgent task, no small idea. Knowing that nothing gets lost made me calmer and more relaxed, and it improved my ability to concentrate on the task at hand.
+
+Here are seven ways to describe **what** I do with Flowlist:
 
 1. Capture whatever pops into my head
 2. Support my thought process
 3. Grow a backlog of ideas
-4. Establish valuable habits
+4. Establish good habits
 5. Manage tasks and projects
 6. Keep track of responsibilities
 7. Plan my day and my future
 
-Now, Flowlist can do all these things, not because it's packed with menus, knobs and buttons, but because it is so radically simple. It is like lego: The building blocks are primitive, but you can build anything you want. The way people use Flowlist is as individual as the way they use a notebook.
+Now, Flowlist can do all these things for me, not because it's packed with menus, knobs and buttons, but because it is so radically simple. It's like lego: The building blocks are primitive, but you can build anything you want.
 
-I've been using Flowlist daily for more than a year now, and it has honestly changed my life. I feel more in control and on the ball with all my various endeavours. I do more in a day and I do more of the important stuff.
-
-At the same time, nothing gets lost: no errand, no urgent task, no small idea. Knowing that nothing gets lost made me calmer and more relaxed, and it also improved my ability to concentrate on the task at hand.
-
-Here are five aspects of how I personally use Flowlist:
+The ways people use Flowlist are as individual as the ways they use legos or notebooks. Let's look at five aspects of **how** I personally use Flowlist.
 
 ### 3.1. Top Level Categories
 
@@ -130,7 +130,7 @@ Every morning, I plan the day by creating a list in the top level item "Today":
 2. Copy my template "Daily Routines" for daily recurring habits to "Today". This includes checklists for morning routine, workout, yoga, shoulder recovery and supplements.
 3. Scan upcoming items and other categories. Move or add appropriate items to "Today" list.
 4. Prioritize items in "Today" so that they're listed in the order I plan to check them off. This is an opportunity to put important stuff first. I also try to batch process. For example, if several items have to be done in the city, I group them together as a "City" item and prioritize it.
-5. Planning my day takes about 10 minutes. After that, I can just execute and check off today's items top to bottom. At least, I have orientation and perspective throughout the day, which allows me to shift things around if necessary.
+5. Planning my day takes about 10 minutes. After that, I can just execute and check off today's items top to bottom. At least, I have orientation and perspective throughout the day, which allows me to shift things around when necessary.
 
 ### 3.4. Prioritization
 
@@ -166,9 +166,9 @@ Like writing in general, Flowlist is a great way for me to sort out, structure a
 
 Put on shades, the future is bright. The current version 1.0.7 isn't even the beginning. I have many things planned, ranging from beautification of the UI over little features for more consistency and convenience up to extensions that will vastly expand what one can possibly do with Flowlist.
 
-From now on, I'll let users decide what feature I'm gonna add next. As soon as I've set up the online voting, you'll find the link **here** and at <a href="/flowlist/" target="_blank">flowlistapp.com</a>.
+From now on, I let users decide what feature I'm gonna add next. As soon as I've set up the online voting, you'll find the link **here** and at <a href="/flowlist/" target="_blank">flowlistapp.com</a>.
 
-These are just five of the more basic ideas that I think would add great value:
+Here are just five of the more basic ideas that I think would add great value:
 
 ### 4.1. iOS App for iPhone and iPad
 
@@ -182,7 +182,7 @@ This will allow you to quickly capture thoughts, even while you're using other a
 
 You'll be able to switch to a <a href="https://developer.apple.com/design/human-interface-guidelines/macos/visual-design/dark-mode/" target="_blank">cool looking dark user interface</a> for increased sleep quality, decreased stress on your eyes, working at night and just feeling like pro. This will also let your content stand out more, be it text, colors or potential item attachements.
 
-MacOS Mojave (10.14) will introduce dark mode as a system-wide feature. Flowlist will not require macOS 10.14 for its dark mode but will play along perfectly with the way dark mode is supposed to integrate with Mojave.
+MacOS Mojave (10.14) will introduce dark mode as a system-wide feature. Flowlist will not require macOS 10.14 for dark mode but will play along perfectly with the way apps are supposed to integrate dark mode with Mojave.
 
 ### 4.4. Creative Writing
 
@@ -192,9 +192,9 @@ Each item will have a long form description text. This seemingly minor addition 
 
 Flowlist will have independent filters that let you customize what items you see. You'll be able to filter by custom tags, colors, search keywords, due dates (with calender view) and item states (with addional state "trashed"). For example you'll be able to setup a filter that shows all appointments and open tasks of today.
 
-## 5. How Anyone Can Try Flowlist
+## 5. How You Can Experience Flowlist
 
-Flowlist is free to download from the Mac App Store. It is limited to 100 items, not counting groups, which will suffice many users. Other than that, it has all features, saves all items and will never expire.
+You may download Flowlist for free from the Mac App Store. It is limited to 100 items, not counting groups, which will be enough in many contexts. It has all features, saves all items and will never expire.
 
 <a href="https://itunes.apple.com/app/flowlist/id1396163478?ls=1" target="_blank">
     <img style="width:100%;max-height:68px;margin-top:20px;margin-bottom:20px"
@@ -203,12 +203,8 @@ Flowlist is free to download from the Mac App Store. It is limited to 100 items,
         alt="{{ page.description }}">
 </a>
 
-Users who need more items or wanna support the development of Flowlist can upgrade to the full version from inside the app. Once purchased, the full version is valid forever. No subscription required.
+If you need more items or wanna support the development of Flowlist, you may upgrade to the full version from inside the app. Once purchased, the full version is valid forever. No subscription required.
 
-Owners of the full version get new features as free updates, even when the price rises. I will **never** release somethin like a "Version 2.0" as a "different" app with an increased price. This is a way to reward users who back this project and get on board early.
+Owners of the full version get new features as free updates, even when the price rises. I will **not** release anything like "Flowlist 2" as a separate app at a higher price. This way, I reward users who back this project and get on board early.
 
-There's also a <i>Summer Special</i> going: Until September 20, I offer an introductory price which is 50% off.
-
-However, Flowlist costs much less than conventional task managers anyway, and it always will. One reason why I think apps like Things and OmniFocus are so expensive is that the concept (domain model) they started with is not as elegant and universal as that of Flowlist. So the same amount of invested resources adds much less to their capabilities.
-
-For more details and latest updates, there's always <a href="/flowlist/" target="_blank">flowlistapp.com</a>.
+There's also a <i>Summer Special</i> going: Until September 20, I offer an introductory price which is 50% off. For details and the latest updates, visit <a href="/flowlist/" target="_blank">flowlistapp.com</a>.
