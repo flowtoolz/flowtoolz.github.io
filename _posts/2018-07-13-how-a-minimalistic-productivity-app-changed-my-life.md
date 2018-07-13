@@ -138,11 +138,11 @@ First of all, visual prioritization helps to protect the important but non-urgen
 
 Flowlist naturally allows to prioritize on all levels of the hierarchy, i.e. to change the item order in all subitem lists. So, I prioritize top level categories against each other as well as the minutiae involved in small tasks.
 
-To quickly sort a list by priority and to distinguish ongoing items from others, I also set those items in progress. Setting an item in progress moves it to the top and changes its icon to a play button:
+To quickly sort a list by priority and to distinguish ongoing items, I also set those items in progress. Setting an item in progress moves it to the top and changes its icon to a play button:
 <img src="/blog-images/software-development/flowlist/next_action_step.png" style="margin-bottom:-20px">
-Now, on the mored detailed levels, prioritization is less about importance and more about sequence of execution, and that helps me immensely at keeping track.
+On the more detailed levels, prioritization is less about importance and more about sequence of execution, and that helps me immensely at keeping track.
 
-I have quite a few projects or responsibilities that I wanna stay on top of, some as future options, some on hold, some I'm currently dealing with. When I get back to a task or project, I need to know exactly where it stands so I can continue working on it right away. I want to know what I did last, what I'll do next and how it will unfold down the road.
+I have quite a few projects or responsibilities I wanna stay on top of, some as future options, some on hold, some I'm currently dealing with. When I get back to a task or project, I need to know exactly where it stands so I can continue working on it right away. I want to know what I did last, what I'll do next and how it will unfold down the road.
 
 Through hierarchical prioritization, my next action step is always well defined, down to whatever level of detail I cared to define it. 
 
@@ -154,7 +154,7 @@ I can't think of another task manager that either allows that kind of depth or e
 
 ### 3.5. Creativity
 
-The side of Flowlist that feels most  valuable to me is how it supports my thought process. I capture what I think, and I think by editing what I captured. As my thoughts, ideas and projects evolve, so do their manifestations in Flowlist. A note might grow into a project, a big challenge might dissolve into nothing, two formerly unrelated tasks might merge.
+The side of Flowlist that feels most  valuable to me is how it supports my thought process. I capture what I think, and I think by editing what I captured. As my thoughts and projects evolve, so do their manifestations in Flowlist. A note might grow into a product, a big challenge might dissolve into nothing, two formerly unrelated tasks might merge.
 
 I do that day by day but also in realtime, moment by moment. Thinking and editing have become one. This was possible because editing in Flowlist is fast and includes the hierarchical relation between items.
 
@@ -182,7 +182,7 @@ This will allow you to capture thoughts when you're not even interacting with Fl
 
 ### 4.3. Dark Mode
 
-You'll be able to switch to a <a href="https://developer.apple.com/design/human-interface-guidelines/macos/visual-design/dark-mode/" target="_blank">cool looking dark user interface</a> for increased sleep quality, decreased stress on your eyes, working at night and just feeling like pro. This will also let content stand out more, be it text, colors or potential item attachements.
+You'll be able to switch to a <a href="https://developer.apple.com/design/human-interface-guidelines/macos/visual-design/dark-mode/" target="_blank">cool looking dark user interface</a> for increased sleep quality, decreased stress on your eyes, working at night and just feeling like pro. This will also let content stand out more, be it text, colors or item attachements.
 
 MacOS Mojave (10.14) will introduce dark mode as a system-wide feature. Flowlist will not require macOS 10.14 for dark mode, but it will play along perfectly with the way apps are supposed to integrate dark mode with Mojave.
 
