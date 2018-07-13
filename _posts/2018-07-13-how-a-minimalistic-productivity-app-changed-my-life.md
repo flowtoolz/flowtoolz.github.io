@@ -29,7 +29,7 @@ Because they are so rigid, conventional task managers are really bad at capturin
 
 I need to evolve my captured items to keep them in line with reality. I need a tool that supports an agile i.e. realistic way of thinking, working and living. That means, it must allow to freely mould the item hierarchy: group items together, add sub items **into** an item, move items to a whole different level, and so forth.
 
-So in June 2017, I prototyped a novel kind of task manager and named it *Flowlist*. And I've been happily using it every day since. This year, I decided to turn Flowlist into much more and make it available to you. Now, after 567 Git commits, Flowlist is [available on the Mac App Store](https://itunes.apple.com/app/flowlist/id1396163478?ls=1).
+So in June 2017, I prototyped a novel kind of task manager and named it *Flowlist*. And I've been happily using it every day since. This year, I decided to turn Flowlist into much more and make it available to you. Now, after 569 Git commits, Flowlist is [available on the Mac App Store](https://itunes.apple.com/app/flowlist/id1396163478?ls=1).
 
 ## 2. How Flowlist Works
 
@@ -164,7 +164,7 @@ Like writing in general, Flowlist is a great way for me to sort out, structure a
 
 ## 4. What Flowlist Will Become
 
-Put on shades, the future is bright. The current version 1.0.7 isn't even the beginning. I have many things planned, ranging from interface beautification over little features for more consistency and convenience up to extensions that will vastly expand what one can possibly do with Flowlist.
+Put on shades, the future is bright. The current version 1.0.8 isn't even the beginning. I have many things planned, ranging from interface beautification over little features for more consistency and convenience up to extensions that will vastly expand what one can possibly do with Flowlist.
 
 <img src="/blog-images/software-development/flowlist/shades.png" style="max-width:128px">
 
