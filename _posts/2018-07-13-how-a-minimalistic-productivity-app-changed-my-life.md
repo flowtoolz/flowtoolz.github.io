@@ -53,7 +53,7 @@ There's no limit to how deeply nested the items can be, and I can edit this hier
 
 ### 2.2. Total Control Via Few Keys
 
-Flowlist is so simple that I can control it without mouse or trackpad. With just a few intelligently laid out key commands, I have all the power at my fingertips. And that's only suitable for a productivity app that takes a lot of text input anyway. The menu shows all currently available key commands:
+Flowlist is so simple that I can control it without mouse or trackpad. With just a few intelligently laid out key commands, I have all the power at my fingertips. And that's only suitable for a productivity app that takes a lot of text input anyway. At any moment, the menu shows the available key commands:
 
 <img src="/blog-images/software-development/flowlist/key_commands.png" style="max-width:483px">
 
@@ -67,9 +67,9 @@ This keyboard-centric input has some nice implications:
 
 I choose the scope of my focus by navigating the item hierarchy. No matter on what level I am, I always edit the center list, while context is to the left and details are to the right:
 <img src="/blog-images/software-development/flowlist/clean_interface.png" style="margin-bottom:-20px;max-width:638px">
-There's nothing else that could distract. The interface is super clean. No menus, buttons, bars, alerts, popups or such clutter.
+There's nothing else that could distract. The interface is super clean. No menus, buttons, bars, alerts, popups and such clutter.
 
-Also, Flowlist animates all navigation and editing. So my eyes easily keep track of where I am and how my items and their overall structure change.
+Also, Flowlist animates all navigation and editing. So my eyes easily keep track of where I am and how the items and their overall structure change.
 
 ### 2.4. Window Management For Deep Concentration
 
@@ -114,7 +114,7 @@ Those lay the foundation for how I organize myself. I often adjust their order t
 
 ### 3.2. Upcoming
 
-I put appointments, stuff I'm gonna do soon, that is bound by deadlines or just relatively urgent into the top level category *Upcoming*. This includes reminder items that refer to bigger tasks or projects in other top level categories. Of course, I prioritize the upcoming items, so they're listed in the order I plan to check them off.
+I put appointments, stuff I'm gonna do soon, that is bound by deadlines or just relatively urgent into the top level category *Upcoming*. This includes reminder items that refer to significant items in other top level categories. Of course, I prioritize the upcoming items, so they're listed in the order I plan to check them off.
 
 By the way, time-related perspectives like *Today* and *Upcoming* will integrate much better when I will add due dates and a time filter with a calendar view to Flowlist.
 
