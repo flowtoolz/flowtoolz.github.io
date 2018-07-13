@@ -71,7 +71,7 @@ There's nothing else that could distract. The interface is super clean. No menus
 
 Also, Flowlist animates all navigation and editing. So my eyes easily keep track of where I am and how my items and their overall structure change.
 
-### 2.4 Window Management For Deep Concentration
+### 2.4. Window Management For Deep Concentration
 
 I control the window via key commands, which go both ways and act as toggles:
 
