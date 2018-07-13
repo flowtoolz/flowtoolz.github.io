@@ -15,25 +15,25 @@ keywords: task management, task, app, flow, todo list, flowlist, task list, omni
 
 ## 1. Why I'm Building Flowlist
 
-Sometimes, I feel overwhelmed by all the stuff I have to do, and even more by all the stuff I'm passionate about. So, most of my life, I've been on a quest to sort myself out, get more shit done and turn more ideas into real things.
+Sometimes, I feel overwhelmed by all the stuff I have to do, and even more by all the stuff I'm passionate about. So most of my life, I've been on a quest to sort myself out, get more shit done and turn more ideas into real things.
 
 The task managers I used to organize my TODOs and **thoughts** played a central role in that quest. And I've used them all, some for a long time:
 
 <img src="/blog-images/software-development/flowlist/task_managers.png" style="max-width:683px">
 
-You guessed it - I found them all frustrating. They just felt rigid, cumbersome and distracting. One particular aspect they all share doesn't jive at all with the way I think: They force your notes into fixed categories like *Project*, *Task*, *Subtask* and *Description*.
+You guessed it - I found them all frustrating. They just felt rigid, cumbersome and distracting. One particular aspect they all share doesn't jive at all with the way I think: They force your content into fixed categories like *Project*, *Task*, *Subtask* and *Description*.
 
-However reality isn't fragmented by such arbitrary categories, much less can you know the category or abstraction level of a thought the moment it pops into your head. The structure of ideas, tasks or "projects" rather emerges from the process of thinking about- or working on them.
+However, reality isn't fragmented by such arbitrary categories, much less can you know the category or abstraction level of a thought the moment it pops into your head. The structure of ideas, tasks or "projects" rather emerges from the process of thinking about- or working on them.
 
 Because they are so rigid, conventional task managers are really bad at capturing thoughts, brainstorming, developing ideas through "live thinking" or iterating over tasks and projects over time.
 
-I need to evolve my captured items to keep them in line with reality. I need a tool that supports an agile (i.e. realistic) way of thinking, working and living. That means, it must allow to freely mould the item hierarchy: Group items together, add sub items "into" an item, move items to a whole different level, and so forth.
+I need to evolve my captured items to keep them in line with reality. I need a tool that supports an agile i.e. realistic way of thinking, working and living. That means, it must allow to freely mould the item hierarchy: group items together, add sub items **into** an item, move items to a whole different level, and so forth.
 
-So in June 2017, I prototyped a novel kind of task manager and named it **Flowlist**. And I've been happily using it every day since. This year, I decided to turn Flowlist into much more and make it available to you. Now, after 567 Git commits, Flowlist is finally [available on the Mac App Store](https://itunes.apple.com/app/flowlist/id1396163478?ls=1).
+So in June 2017, I prototyped a novel kind of task manager and named it *Flowlist*. And I've been happily using it every day since. This year, I decided to turn Flowlist into much more and make it available to you. Now, after 567 Git commits, Flowlist is [available on the Mac App Store](https://itunes.apple.com/app/flowlist/id1396163478?ls=1).
 
 ## 2. How Flowlist Works
 
-Flowlist is radically simple but subtle and powerful. This 30 second clip shows some work flows in action:
+Flowlist is simple but subtle and powerful. Here's a 30s video of some work flows:
 
 <video style="width:100%;max-width:960px;margin-bottom:10px" controls autoplay class="ft-shadow">
     <source src="/flowlist/AppStore_Preview_60fps.mp4" type="video/mp4">
@@ -43,49 +43,47 @@ I wanted Flowlist to get me into a flow state. This led me to some seemingly rad
 
 ### 2.1. A Simple But Universal Data Model
 
-Flowlist does not force your stuff into categories like project, task, subtask or description. Instead, there are just titled items. But those items may contain other items, just like folders on your computer contain other folders.
-
-So you evolve your own item hierarchy:
+Flowlist does not force my stuff into predefined categories. Instead, it knows only titled items. But those items may contain other items, just like folders on your computer may contain other folders. So I evolve my own item hierarchy:
 
 * Group items together
 * Add subitems into any item
-* Move items to a whole different level in the hierarchy, i.e. into any other item including the root or "home" item.
+* Move items to a whole different level in the hierarchy, i.e. into any other item including the root or *Home* item
 
-There's no limit to how deeply nested your items can be, and you can edit this hierarchy in every way to keep it true to your life
+There's no limit to how deeply nested the items can be, and I can edit this hierarchy in every way to keep it true to my life.
 
 ### 2.2. Total Control Via Few Keys
 
-Flowlist is so simple that the user can control it without mouse or trackpad. With just a few intelligently laid out key commands, he has all the power at his fingertips. And that's only suitable for a productivity app that takes a lot of text input anyway. The menu shows all currently available key commands:
+Flowlist is so simple that I can control it without mouse or trackpad. With just a few intelligently laid out key commands, I have all the power at my fingertips. And that's only suitable for a productivity app that takes a lot of text input anyway. The menu shows all currently available key commands:
 
 <img src="/blog-images/software-development/flowlist/key_commands.png" style="max-width:483px">
 
 This keyboard-centric input has some nice implications:
 
 1. It is fast.
-2. It is uninterrupted. Your hands never have to leave the keyboard for anything. That also means your attention can stay zoned in on the content on the screen.
-3. It allows the interface to be super clean.
+2. It is uninterrupted. My hands never have to leave the keyboard for anything. This also means I can stay zoned in on my content on the screen.
+3. It makes it possible to have a super clean user interface.
 
 ### 2.3. An Immersive User Interface
 
-You chose the scope of your focus by navigating your item hierarchy. No matter on what level you are, you always edit the center list, while context is to the left and details are to the right:
+I chose the scope of my focus by navigating the item hierarchy. No matter on what level I am, I always edit the center list, while context is to the left and details are to the right:
 <img src="/blog-images/software-development/flowlist/clean_interface.png" style="margin-bottom:-20px;max-width:638px">
-There's nothing else that could distract you. The interface is super clean. No buttons, knobs, alerts, popups and such clutter.
+There's nothing else that could distract. The interface is super clean. No menus, buttons, bars, alerts, popups or such clutter.
 
-Also, all navigation and editing is animated. So the  eyes easily keep track of where you are and how  items and overall item structure change.
+Also, Flowlist animates all navigation and editing. So my eyes easily keep track of where I am and how my items and their overall structure change.
 
 ### 2.4 Window Management For Deep Concentration
 
-You control the window via key commands, which go both ways and act as toggles:
+I control the window via key commands, which go both ways and act as toggles:
 
 <img src="/blog-images/software-development/flowlist/window_management.png" style="max-width:408px">
 
-Toggleing the window via ⌘W, can help to get Flowlist out of the way and access the desktop or to switch back and forth between reading content in another app and editing related items in Flowlist.
+Toggleing the window via **⌘W**, can help to get Flowlist out of the way and access the desktop or to switch back and forth between reading content in another app and editing related items in Flowlist.
 
 Flowlist is meant to be used in fullscreen mode:
 
 <img src="/blog-images/software-development/flowlist/fullscreen.png" class="ft-shadow">
 
-But there's also a <i>Monotasking</i> mode in which all other apps, the dock and the menu bar get blended out. Fullscreen and monotasking help to really focus.
+But there's also a <i>Monotasking</i> mode in which all other apps, the dock and the menu bar get blended out. Fullscreen and monotasking help me to really focus.
 
 ## 3. How I Use Flowlist
 
@@ -103,22 +101,22 @@ Here are seven ways to describe **what** I do with Flowlist:
 6. Keep track of responsibilities
 7. Plan my day and my future
 
-Now, Flowlist can do all these things for me, not because it's packed with menus, knobs and buttons, but because it is so radically simple. It's like lego: The building blocks are primitive but you can build anything you want.
+Now, Flowlist can do all these things for me, not because it's packed with all the usual bells and whistles, but because it is so radically simple. It's like lego: The building blocks are primitive but you can build anything you want.
 
-The ways people use Flowlist are as individual as the ways they use legos or notebooks. Let's look at five aspects of **how** I personally use Flowlist.
+The ways people use Flowlist are as individual as the ways they use legos or notebooks. Let's look at five aspects of **how** I personally use it.
 
 ### 3.1. Top Level Categories
 
-The home item is the root of the item hierarchy. There I created seven items as my top-level categories:
+The *Home* item is the root of the hierarchy. Therein, I created seven items as my top-level categories:
 <img src="/blog-images/software-development/flowlist/top_level_items.png" style="max-width:677px;margin-bottom:-20px">
-They lay the foundation for how I organize myself. I often adjust their order to reflect current priorities. Your approach and top-level categories could be different.
+Those lay the foundation for how I organize myself. I often adjust their order to reflect current priorities. Another person's approach and top-level categories would likely be different.
 
 
 ### 3.2. Upcoming
 
-I put appointments, stuff that I want to do soon, that is bound by deadlines or that is just relatively urgent into the top level category *Upcoming*. Those can also just be reminders of bigger items or projects in other top level categories. Of course, I prioritize the upcoming items, so that they are listed in the order I plan to check them off.
+I put appointments, stuff I'm gonna do soon, that is bound by deadlines or just relatively urgent into the top level category *Upcoming*. This includes reminder items that refer to bigger tasks or projects in other top level categories. Of course, I prioritize the upcoming items, so they're listed in the order I plan to check them off.
 
-I'll be able to streamline time-related perspectives like *Today* and *Upcoming* as soon as I'll introduce due dates and a time filter for Flowlist.
+By the way, time-related perspectives like *Today* and *Upcoming* will integrate much better when I will add due dates and a time filter with a calendar view to Flowlist.
 
 ### 3.3. Today
 
@@ -129,7 +127,7 @@ The planning involves the following steps:
 1. Check off, move elsewhere or delete stuff that isn't relevant anymore.
 2. Copy all items in *Daily Templates* for daily recurring habits to *Today*. They include checklists for morning routine, workout, yoga, shoulder recovery and supplements.
 3. Scan *Upcoming* and other categories. Move or add appropriate items to *Today*.
-4. Prioritize items in *Today* so they're listed in the order I plan to check them off. This is an opportunity to put important stuff first. I also batch process. For example, if several items have to be done in the city, I group them together as a *City* item and prioritize it.
+4. Prioritize items in *Today* so they're listed in the order I plan to check them off. This is an opportunity to put important stuff first. I also batch process. For example, if several items have to be done in the city, I group them together as a *City* item and schedule it in terms of sequence.
 5. Planning my day takes 10 minutes. After that, I can just execute and check off today's items top to bottom. At least, I have orientation and perspective throughout the day, which allows me to shift things around when necessary.
 
 ### 3.4. Prioritization
@@ -140,33 +138,33 @@ First of all, visual prioritization helps to protect the important but non-urgen
 
 Flowlist naturally allows to prioritize on all levels of the hierarchy, i.e. to change the item order in all subitem lists. So, I prioritize top level categories against each other as well as the minutiae involved in small tasks.
 
-To quickly order a list by priority and to distinguish multiple ongoing items from the rest, I also set those items in progress. Setting an item in progress moves it to the top and changes its icon to a play button:
+To quickly sort a list by priority and to distinguish ongoing items from others, I also set those items in progress. Setting an item in progress moves it to the top and changes its icon to a play button:
 <img src="/blog-images/software-development/flowlist/next_action_step.png" style="margin-bottom:-20px">
-Now on the detailed levels, prioritization is less about importance and more about order of execution, and that helps me immensely at keeping track.
+Now, on the mored detailed levels, prioritization is less about importance and more about sequence of execution, and that helps me immensely at keeping track.
 
-I have quite a few projects or responsibilities that I wanna stay on top of, some as future options, some on hold, some I'm currently dealing with. When I get back to a project or task, I need to know exactly where it stands so I can continue working on it right away. I want to know what I did last, what I'll do next and how it will unfold down the road.
+I have quite a few projects or responsibilities that I wanna stay on top of, some as future options, some on hold, some I'm currently dealing with. When I get back to a task or project, I need to know exactly where it stands so I can continue working on it right away. I want to know what I did last, what I'll do next and how it will unfold down the road.
 
-Through hierarchical prioritization, my next action step is well defined at all times and down to whatever level of detail I cared to define it. 
+Through hierarchical prioritization, my next action step is always well defined, down to whatever level of detail I cared to define it. 
 
-When moving to a detail list that has no selections, Flowlist selects the top-most item. So I just hit the right arrow key repeatedly to dive deeper into my next action step. Right now, the items in this chain read like this:
+When moving to a detail list that has no selections, Flowlist selects the top-most item. So I just keep hitting the **→** key to dive deeper into my next action step. Right now, the items in this chain read like this:
 
-> Home → Projects → Software → Flowlist → Post-Release Action Steps → Basic Marketing → Blog Post → Formulate 1st Draft
+> Home → Projects → Software → Flowlist → Post-Release Action Steps → Basic Publishing → Blog Post → Formulate 1st Draft
 
-I can't think of another task manager that either allows that kind of depth or exhibits that conceptual simplicity, much less both.
+I can't think of another task manager that either allows that kind of depth or exhibits that conceptual simplicity, let alone one that does both.
 
 ### 3.5. Creativity
 
-Maybe where I get the most value out of Flowlist is in how it supports my thought process. I capture what I think, and I think by editing what I captured. As my thoughts, ideas and projects evolve over time, so does their manifestation in Flowlist. A note might grow into a project, a big challenge might dissolve into nothing, two formerly unrelated tasks might merge.
+The side of Flowlist that feels most  valuable to me is how it supports my thought process. I capture what I think, and I think by editing what I captured. As my thoughts, ideas and projects evolve, so do their manifestations in Flowlist. A note might grow into a project, a big challenge might dissolve into nothing, two formerly unrelated tasks might merge.
 
-I do that day by day, but also in realtime, moment by moment. Thinking and editing have become one. This was possible because editing in Flowlist is fast and includes the hierarchical relation between items.
+I do that day by day but also in realtime, moment by moment. Thinking and editing have become one. This was possible because editing in Flowlist is fast and includes the hierarchical relation between items.
 
-Say I just added a subtask to a task in a project. Now I come across a hint on the internet that will help me accomplish the subtask, so I want to add the hint as a description to the subtask. I copy the related text from the web page, switch to Flowlist, navigate **into** my empty subtask and press **⌘V**. The lines in the copied text will be inserted as distinct subitems into my subtask item.
+Say I just added a subtask to a task in a project. Now, a web page provided a hint that will help me accomplish the subtask, so I want to add the hint as a description to the subtask. I copy the related text from the web page, switch to Flowlist, navigate **into** my empty subtask and press **⌘V**. The lines in the copied text will be inserted as distinct items into my subtask item.
 
 Like writing in general, Flowlist is a great way for me to sort out, structure and delineate my thoughts, developing them into apps, blog posts, design concepts, strategies and so on. In that sense, Flowlist is already a creative writing tool.
 
 ## 4. What Flowlist Will Become
 
-Put on shades, the future is bright. The current version 1.0.7 isn't even the beginning. I have many things planned, ranging from beautification of the UI over little features for more consistency and convenience up to extensions that will vastly expand what one can possibly do with Flowlist.
+Put on shades, the future is bright. The current version 1.0.7 isn't even the beginning. I have many things planned, ranging from interface beautification over little features for more consistency and convenience up to extensions that will vastly expand what one can possibly do with Flowlist.
 
 <img src="/blog-images/software-development/flowlist/shades.png" style="max-width:128px">
 
@@ -176,25 +174,27 @@ Here are just five of the more basic ideas that I think would add great value:
 
 ### 4.1. iOS App for iPhone and iPad
 
-Of course. This is one of the most requested "features". You'll be able to switch devices and use Flowlist on the go, while your data will stay in sync.
+Of course. This is one of the most frequent requests from beta testers. You'll be able to switch devices and use Flowlist on the go, while your data will stay in sync.
 
 ### 4.2. System-Wide Key Command
 
-This will allow you to quickly capture thoughts, even while you're using other apps. Neither will you forget anything nor will you be distracted. Whenever you have an idea, you press a keyboard short cut, type in a note and then move on with whatever you were doing.
+This will allow you to capture thoughts when you're not even interacting with Flowlist. Neither will you forget anything nor will you be distracted. Whenever you have an idea, you press a keyboard short cut, type in a note and then move on with whatever else you were doing.
 
 ### 4.3. Dark Mode
 
-You'll be able to switch to a <a href="https://developer.apple.com/design/human-interface-guidelines/macos/visual-design/dark-mode/" target="_blank">cool looking dark user interface</a> for increased sleep quality, decreased stress on your eyes, working at night and just feeling like pro. This will also let your content stand out more, be it text, colors or potential item attachements.
+You'll be able to switch to a <a href="https://developer.apple.com/design/human-interface-guidelines/macos/visual-design/dark-mode/" target="_blank">cool looking dark user interface</a> for increased sleep quality, decreased stress on your eyes, working at night and just feeling like pro. This will also let content stand out more, be it text, colors or potential item attachements.
 
-MacOS Mojave (10.14) will introduce dark mode as a system-wide feature. Flowlist will not require macOS 10.14 for dark mode but will play along perfectly with the way apps are supposed to integrate dark mode with Mojave.
+MacOS Mojave (10.14) will introduce dark mode as a system-wide feature. Flowlist will not require macOS 10.14 for dark mode, but it will play along perfectly with the way apps are supposed to integrate dark mode with Mojave.
 
 ### 4.4. Creative Writing
 
-Each item will have a long form description text. This seemingly minor addition will really turn Flowlist into a creative writing tool. Organizing thoughts will, at the same time, structure and grow a potential text. You'll be able to print and export any item as plain text, LaTeX, Markdown or HTML, with autogenerated headers, subheaders and so forth.
+Items will be able to hold some sort of long form text. This seemingly minor addition will really turn Flowlist into a creative writing tool. Organizing thoughts will, at the same time, structure and grow a potential text. 
+
+To go along with that, you'll be able to print and export any item as plain text, LaTeX, Markdown and HTML, with autogenerated headers, subheaders and so on.
 
 ### 4.5. Due Dates, Colors, Tags, Keyword Search ...
 
-Flowlist will have independent filters that let you customize what items you see. You'll be able to filter by custom tags, colors, search keywords, due dates (with calender view) and item states (with addional state "trashed"). For example you'll be able to setup a filter that shows all appointments and open tasks of today.
+Flowlist will have independent filters that let you customize what items you see. You'll be able to filter by custom tags, colors, search keywords, due dates (with calender view) and item states (with addional state *trashed*). For example, you'll be able to setup a filter that shows all appointments and open tasks of today.
 
 ## 5. How You Can Experience Flowlist
 
@@ -211,4 +211,4 @@ If you need more items or wanna support the development of Flowlist, you may upg
 
 Owners of the full version get new features as free updates, even when the price rises. I will **not** release anything like "Flowlist 2" as a separate app at a higher price. This way, I reward users who back this project and get on board early.
 
-There's also a <i>Summer Special</i> going: Until September 20, I offer an introductory price which is 50% off. For details and the latest updates, visit <a href="/flowlist/" target="_blank">flowlistapp.com</a>.
+There's also a <i>Summer Special</i> going: Until September 20, I offer an introductory price i.e. 50% off. For more details and latest updates, visit <a href="/flowlist/" target="_blank">flowlistapp.com</a>.
