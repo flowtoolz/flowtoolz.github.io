@@ -4,6 +4,12 @@ title: More
 permalink: /more/
 ---
 
+## [Flowlist](/flowlist)
+
+<img src="flowlist.png" class="ft-more-project-image" /> A minimalistic macOS app for note taking, idea development and self management. Its simple concept of hierarchical notes and its radical support of flow states make it unique, widely applicable and incredibly fun. Check out [flowlistapp.com](/flowlist) or [download it from the Mac App Store](https://itunes.apple.com/app/flowlist/id1396163478?ls=1).
+
+I created Flowlist for myself out of frustration with the many task management apps I used before. Now I'm happily using Flowlist every day since June 2017.
+
 ## The 33Day-Diary
 
 <img src="diary.jpg" class="ft-more-project-image" /> A structured journal that leads through a sort of meditation routine for 33 days, based on positive psychology. A page with more infos is available in english  at [www.flowtoolz.com/diary](/diary) and in german at [www.flowtoolz.com/tagebuch](/tagebuch).
@@ -12,9 +18,11 @@ I needed something like the [five minute journal](http://fiveminutejournal.com) 
 
 Now, the 3rd revision is done. A collaborator of mine handcrafts the books and gives every copy a unique design. I did a photo shoot of a bunch of example copies and had it professionally translated.
 
-## [Mellowtree](https://www.facebook.com/mellowtreemusic/)
+## [Sebastian Telle](https://www.facebook.com/mellowtreemusic/)
 
-<img src="mellowtree.jpg" class="ft-more-project-image" /> [Mellowtree](https://www.facebook.com/mellowtreemusic/) is my indie music project. Dreamy, spacey, catchy art pop. I've been following this vision since I was 14, and created [countless](/2017/09/17/break-free-from-your-musical-baggage.html) ideas.
+<img src="mellowtree.jpg" class="ft-more-project-image" /> I write and produce indie pop songs under my real name [Sebastian Telle](https://www.facebook.com/mellowtreemusic/) (formerly named *Mellowtree*).
+
+Dreamy, spacey, catchy art pop. I've been following this vision since I was 14, and created [countless](/2017/09/17/break-free-from-your-musical-baggage.html) ideas.
 
 Currently I'm focusing on generating more viable output, i.e. I'm working on a 10 track debut album. Collaborators are welcome, in particular instrumentalists.
 
@@ -23,12 +31,6 @@ Currently I'm focusing on generating more viable output, i.e. I'm working on a 1
 <img src="studio.jpg" class="ft-more-project-image" /> Since around 1996, I've been growing (gardening?) a music home studio, and I'm pretty happy with the minimal but effective and high quality setup.
 
 Since I'm drifting more and more to the production side, I collaborate with musicians and produce their demos. A page with details will follow...
-
-## [Flowlist](/flowlist)
-
-<img src="flowlist.jpg" class="ft-more-project-image" /> A real minimal but viable and fun macOS app for taking notes and managing tasks. Check out [flowlistapp.com](/flowlist). There's much more to come for this project...
-
-I created Flowlist for myself out of frustration with all the task management apps I intensely used before. Now I'm happy using Flowlist daily since summer 2017.
 
 ## [Flowtoolz Github](https://github.com/flowtoolz/)
 
