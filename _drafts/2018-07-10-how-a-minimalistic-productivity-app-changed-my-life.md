@@ -7,7 +7,7 @@ keywords: task management, task, app, flow, todo list, flowlist, task list, omni
 ---
 
 <img style="margin-left:auto;margin-right:auto;display:block;"
-    src="/blog-images/software-development/flowlist/icon_screen.jpg" width="100%" class="ft-shadow">
+    src="/blog-images/software-development/flowlist/icon_screen.jpg" class="ft-shadow">
 
 <p style="text-align:center">
 <i>Everything about the app itself is at <a href="/flowlist/" target="_blank">flowlistapp.com</a></i>
@@ -19,8 +19,7 @@ Sometimes, I feel overwhelmed by all the stuff I have to do, and even more by al
 
 The task managers I used to organize my TODOs and **thoughts** played a central role in that quest. And I've used them all, some for a long time:
 
-<img style="margin-left:auto;margin-right:auto;display:block;"
-    src="/blog-images/software-development/flowlist/task_managers.png" width="100%">
+<img src="/blog-images/software-development/flowlist/task_managers.png" style="max-width:683px">
 
 You guessed it - I found them all frustrating. They just felt rigid, cumbersome and distracting. One particular aspect they all share doesn't jive at all with the way I think: They force your notes into fixed categories like *Project*, *Task*, *Subtask* and *Description*.
 
@@ -64,12 +63,12 @@ This keyboard-centric input has some nice implications:
 
 1. It is fast.
 2. It is uninterrupted. Your hands never have to leave the keyboard for anything. That also means your attention can stay zoned in on the content on the screen.
-3. It allows the interface to be super clean without any distracting clutter.
+3. It allows the interface to be super clean.
 
 ### 2.3. An Immersive User Interface
 
 You chose the scope of your focus by navigating your item hierarchy. No matter on what level you are, you always edit the center list, while context is to the left and details are to the right:
-<img src="/blog-images/software-development/flowlist/clean_interface.png" style="margin-bottom:-10px">
+<img src="/blog-images/software-development/flowlist/clean_interface.png" style="margin-bottom:-20px;max-width:638px">
 There's nothing else that could distract you. The interface is super clean. No buttons, knobs, alerts, popups and such clutter.
 
 Also, all navigation and editing is animated. So the  eyes easily keep track of where you are and how  items and overall item structure change.
@@ -117,28 +116,32 @@ They lay the foundation for how I organize myself. I often adjust their order to
 
 ### 3.2. Upcoming
 
-I put appointments, stuff that I want to do soon, that is bound by deadlines or that is just relatively urgent into the top level category "Upcoming". Those can also just be reminders of bigger items or projects in other top level categories.
+I put appointments, stuff that I want to do soon, that is bound by deadlines or that is just relatively urgent into the top level category *Upcoming*. Those can also just be reminders of bigger items or projects in other top level categories. Of course, I prioritize the upcoming items, so that they are listed in the order I plan to check them off.
 
-Of course, I prioritize the upcoming items, so that they are listed in the order I plan to check them off.
+I'll be able to streamline time-related perspectives like *Today* and *Upcoming* as soon as I'll introduce due dates and a time filter for Flowlist.
 
 ### 3.3. Today
 
-Every morning, I plan the day by creating a list in the top level item "Today":
+Every morning, I plan my day by creating a list in the top level item *Today*.
+<img src="/blog-images/software-development/flowlist/today_list.png" style="max-width:682px;margin-bottom:-20px">
+The planning involves the following steps:
 
 1. Check off, move elsewhere or delete stuff that isn't relevant anymore.
-2. Copy my template "Daily Routines" for daily recurring habits to "Today". This includes checklists for morning routine, workout, yoga, shoulder recovery and supplements.
-3. Scan upcoming items and other categories. Move or add appropriate items to "Today" list.
-4. Prioritize items in "Today" so that they're listed in the order I plan to check them off. This is an opportunity to put important stuff first. I also try to batch process. For example, if several items have to be done in the city, I group them together as a "City" item and prioritize it.
-5. Planning my day takes about 10 minutes. After that, I can just execute and check off today's items top to bottom. At least, I have orientation and perspective throughout the day, which allows me to shift things around when necessary.
+2. Copy all items in *Daily Templates* for daily recurring habits to *Today*. They include checklists for morning routine, workout, yoga, shoulder recovery and supplements.
+3. Scan *Upcoming* and other categories. Move or add appropriate items to *Today*.
+4. Prioritize items in *Today* so they're listed in the order I plan to check them off. This is an opportunity to put important stuff first. I also batch process. For example, if several items have to be done in the city, I group them together as a *City* item and prioritize it.
+5. Planning my day takes 10 minutes. After that, I can just execute and check off today's items top to bottom. At least, I have orientation and perspective throughout the day, which allows me to shift things around when necessary.
 
 ### 3.4. Prioritization
 
-First of all, visual prioritization helps to ensure that important but non-urgent things don't get pushed aside by unimportant and (seemingly) urgent things. This is essential and goes back to [Stephen Covey](https://en.wikipedia.org/wiki/Stephen_Covey) and [Eisenhower's Decision Matrix](https://www.artofmanliness.com/articles/eisenhower-decision-matrix/).
+First of all, visual prioritization helps to protect the important but non-urgent things from the onslaught of unimportant and (seemingly) urgent things. This is essential and goes back to [Stephen Covey](https://en.wikipedia.org/wiki/Stephen_Covey) and [Eisenhower's Decision Matrix](https://www.artofmanliness.com/articles/eisenhower-decision-matrix/):
+
+<img src="/blog-images/software-development/flowlist/eisenhower_matrix.png" style="max-width:275px">
 
 Flowlist naturally allows to prioritize on all levels of the hierarchy, i.e. to change the item order in all subitem lists. So, I prioritize top level categories against each other as well as the minutiae involved in small tasks.
 
-To quickly order a list by priority and to distinguish multiple ongoing items from the rest, I also set those items in progress. Setting an item in progress moves it to the top and changes its icon to a play button.
-
+To quickly order a list by priority and to distinguish multiple ongoing items from the rest, I also set those items in progress. Setting an item in progress moves it to the top and changes its icon to a play button:
+<img src="/blog-images/software-development/flowlist/next_action_step.png" style="margin-bottom:-20px">
 Now on the detailed levels, prioritization is less about importance and more about order of execution, and that helps me immensely at keeping track.
 
 I have quite a few projects or responsibilities that I wanna stay on top of, some as future options, some on hold, some I'm currently dealing with. When I get back to a project or task, I need to know exactly where it stands so I can continue working on it right away. I want to know what I did last, what I'll do next and how it will unfold down the road.
@@ -147,7 +150,7 @@ Through hierarchical prioritization, my next action step is well defined at all 
 
 When moving to a detail list that has no selections, Flowlist selects the top-most item. So I just hit the right arrow key repeatedly to dive deeper into my next action step. Right now, the items in this chain read like this:
 
-> Home → Projects → Software → Flowlist → Post release action steps → Basic marketing → Blog post → Formulate 1st draft
+> Home → Projects → Software → Flowlist → Post-Release Action Steps → Basic Marketing → Blog Post → Formulate 1st Draft
 
 I can't think of another task manager that either allows that kind of depth or exhibits that conceptual simplicity, much less both.
 
@@ -157,13 +160,15 @@ Maybe where I get the most value out of Flowlist is in how it supports my though
 
 I do that day by day, but also in realtime, moment by moment. Thinking and editing have become one. This was possible because editing in Flowlist is fast and includes the hierarchical relation between items.
 
-Say I just added a subtask to a task in a project. Now I come across a hint on the internet that will help me accomplish the subtask, so I want to add the hint as a description to the subtask. I copy the related text from the web page, switch to Flowlist, navigate **into** my empty subtask and press ⌘V. The lines in the copied text will be inserted as distinct "subitems" into my subtask item.
+Say I just added a subtask to a task in a project. Now I come across a hint on the internet that will help me accomplish the subtask, so I want to add the hint as a description to the subtask. I copy the related text from the web page, switch to Flowlist, navigate **into** my empty subtask and press **⌘V**. The lines in the copied text will be inserted as distinct subitems into my subtask item.
 
 Like writing in general, Flowlist is a great way for me to sort out, structure and delineate my thoughts, developing them into apps, blog posts, design concepts, strategies and so on. In that sense, Flowlist is already a creative writing tool.
 
 ## 4. What Flowlist Will Become
 
 Put on shades, the future is bright. The current version 1.0.7 isn't even the beginning. I have many things planned, ranging from beautification of the UI over little features for more consistency and convenience up to extensions that will vastly expand what one can possibly do with Flowlist.
+
+<img src="/blog-images/software-development/flowlist/shades.png" style="max-width:128px">
 
 From now on, I let users decide what feature I'm gonna add next. As soon as I've set up the online voting, you'll find the link **here** and at <a href="/flowlist/" target="_blank">flowlistapp.com</a>.
 
