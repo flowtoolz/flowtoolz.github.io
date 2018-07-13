@@ -29,7 +29,7 @@ Because they are so rigid, conventional task managers are really bad at capturin
 
 I need to evolve my captured items to keep them in line with reality. I need a tool that supports an agile (i.e. realistic) way of thinking, working and living. That means, it must allow to freely mould the item hierarchy: Group items together, add sub items "into" an item, move items to a whole different level, and so forth.
 
-So in June 2017, I prototyped a novel kind of task manager and named it **Flowlist**. And I've been happily using it every day since. This year, I decided to turn Flowlist into much more and make it available to you. Now, after 564 Git commits, Flowlist is finally [available on the Mac App Store](https://itunes.apple.com/app/flowlist/id1396163478?ls=1).
+So in June 2017, I prototyped a novel kind of task manager and named it **Flowlist**. And I've been happily using it every day since. This year, I decided to turn Flowlist into much more and make it available to you. Now, after 567 Git commits, Flowlist is finally [available on the Mac App Store](https://itunes.apple.com/app/flowlist/id1396163478?ls=1).
 
 ## 2. How Flowlist Works
 
@@ -43,7 +43,7 @@ I wanted Flowlist to get me into a flow state. This led me to some seemingly rad
 
 ### 2.1. A Simple But Universal Data Model
 
-Flowlist does not force your stuff into categories like project, task, subtask or description. Instead, there are just titled items. But those items may contain other items, just like folders on your computer.
+Flowlist does not force your stuff into categories like project, task, subtask or description. Instead, there are just titled items. But those items may contain other items, just like folders on your computer contain other folders.
 
 So you evolve your own item hierarchy:
 
