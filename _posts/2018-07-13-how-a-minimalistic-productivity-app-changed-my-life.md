@@ -65,7 +65,7 @@ This keyboard-centric input has some nice implications:
 
 ### 2.3. An Immersive User Interface
 
-I chose the scope of my focus by navigating the item hierarchy. No matter on what level I am, I always edit the center list, while context is to the left and details are to the right:
+I choose the scope of my focus by navigating the item hierarchy. No matter on what level I am, I always edit the center list, while context is to the left and details are to the right:
 <img src="/blog-images/software-development/flowlist/clean_interface.png" style="margin-bottom:-20px;max-width:638px">
 There's nothing else that could distract. The interface is super clean. No menus, buttons, bars, alerts, popups or such clutter.
 
