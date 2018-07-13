@@ -69,9 +69,7 @@ This keyboard-centric input has some nice implications:
 ### 2.3. An Immersive User Interface
 
 You chose the scope of your focus by navigating your item hierarchy. No matter on what level you are, you always edit the center list, while context is to the left and details are to the right:
-    
-<img src="/blog-images/software-development/flowlist/clean_interface.png">
-
+<img src="/blog-images/software-development/flowlist/clean_interface.png" style="margin-bottom:-10px">
 There's nothing else that could distract you. The interface is super clean. No buttons, knobs, alerts, popups and such clutter.
 
 Also, all navigation and editing is animated. So the  eyes easily keep track of where you are and how  items and overall item structure change.
@@ -92,7 +90,7 @@ But there's also a <i>Monotasking</i> mode in which all other apps, the dock and
 
 ## 3. How I Use Flowlist
 
-I've been using Flowlist daily for more than a year now, and it had a huge impact on my life. I feel more in control and on the ball with my various endeavours. I do more in a day and I do more of the important stuff.
+I've been using Flowlist daily for more than a year now, and it had a huge impact on my life. I feel more in control and on the ball with my various endeavours. I do more in a day and more of the important stuff.
 
 At the same time, nothing gets lost: no errand, no urgent task, no small idea. Knowing that nothing gets lost made me calmer and more relaxed, and it improved my ability to concentrate on the task at hand.
 
@@ -106,15 +104,16 @@ Here are seven ways to describe **what** I do with Flowlist:
 6. Keep track of responsibilities
 7. Plan my day and my future
 
-Now, Flowlist can do all these things for me, not because it's packed with menus, knobs and buttons, but because it is so radically simple. It's like lego: The building blocks are primitive, but you can build anything you want.
+Now, Flowlist can do all these things for me, not because it's packed with menus, knobs and buttons, but because it is so radically simple. It's like lego: The building blocks are primitive but you can build anything you want.
 
 The ways people use Flowlist are as individual as the ways they use legos or notebooks. Let's look at five aspects of **how** I personally use Flowlist.
 
 ### 3.1. Top Level Categories
 
-I created these items in my root or "Home" item: Today, Projects, Upcoming, Personal Growth, Business, Relationships and Errands. Those are my top level "Categories".
+The home item is the root of the item hierarchy. There I created seven items as my top-level categories:
+<img src="/blog-images/software-development/flowlist/top_level_items.png" style="max-width:677px;margin-bottom:-20px">
+They lay the foundation for how I organize myself. I often adjust their order to reflect current priorities. Your approach and top-level categories could be different.
 
-You could create different ones, and their order can constantly change due to prioritization.
 
 ### 3.2. Upcoming
 
