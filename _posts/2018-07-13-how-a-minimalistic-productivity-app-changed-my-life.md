@@ -105,7 +105,7 @@ Now, Flowlist can do all these things for me, not because it's packed with all t
 
 The ways people use Flowlist are as individual as the ways they use legos or notebooks. Let's look at five aspects of **how** I personally use it.
 
-### 3.1. Top Level Categories
+### 3.1. Top-Level Categories
 
 The *Home* item is the root of the hierarchy. Therein, I created seven items as my top-level categories:
 <img src="/blog-images/software-development/flowlist/top_level_items.png" style="max-width:677px;margin-bottom:-20px">
@@ -114,13 +114,13 @@ Those lay the foundation for how I organize myself. I often adjust their order t
 
 ### 3.2. Upcoming
 
-I put appointments, stuff I'm gonna do soon, that is bound by deadlines or just relatively urgent into the top level category *Upcoming*. This includes reminder items that refer to significant items in other top level categories. Of course, I prioritize the upcoming items, so they're listed in the order I plan to check them off.
+I put appointments, stuff I'm gonna do soon, that is bound by deadlines or just relatively urgent into the top-level category *Upcoming*. This includes reminder items that refer to significant items in other top-level categories. Of course, I prioritize the upcoming items, so they're listed in the order I plan to check them off.
 
 By the way, time-related perspectives like *Today* and *Upcoming* will integrate much better when I will add due dates and a time filter with a calendar view to Flowlist.
 
 ### 3.3. Today
 
-Every morning, I plan my day by creating a list in the top level item *Today*.
+Every morning, I plan my day by creating a list in the top-level item *Today*.
 <img src="/blog-images/software-development/flowlist/today_list.png" style="max-width:682px;margin-bottom:-20px">
 The planning involves the following steps:
 
@@ -136,7 +136,7 @@ First of all, visual prioritization helps to protect the important but non-urgen
 
 <img src="/blog-images/software-development/flowlist/eisenhower_matrix.png" style="max-width:275px">
 
-Flowlist naturally allows to prioritize on all levels of the hierarchy, i.e. to change the item order in all subitem lists. So, I prioritize top level categories against each other as well as the minutiae involved in small tasks.
+Flowlist naturally allows to prioritize on all levels of the hierarchy, i.e. to change the item order in all subitem lists. So, I prioritize top-level categories against each other as well as the minutiae involved in small tasks.
 
 To quickly sort a list by priority and to distinguish ongoing items, I also set those items in progress. Setting an item in progress moves it to the top and changes its icon to a play button:
 <img src="/blog-images/software-development/flowlist/next_action_step.png" style="margin-bottom:-20px">
@@ -182,7 +182,7 @@ This will allow you to capture thoughts when you're not even interacting with Fl
 
 ### 4.3. Dark Mode
 
-You'll be able to switch to a <a href="https://developer.apple.com/design/human-interface-guidelines/macos/visual-design/dark-mode/" target="_blank">cool looking dark user interface</a> for increased sleep quality, decreased stress on your eyes, working at night and just feeling like pro. This will also let content stand out more, be it text, colors or item attachements.
+You'll be able to switch to a <a href="https://developer.apple.com/design/human-interface-guidelines/macos/visual-design/dark-mode/" target="_blank">cool looking dark user interface</a> for increased sleep quality, decreased stress on your eyes, working at night and just feeling like a pro. This will also let content stand out more, be it text, colors or item attachements.
 
 MacOS Mojave (10.14) will introduce dark mode as a system-wide feature. Flowlist will not require macOS 10.14 for dark mode, but it will play along perfectly with the way apps are supposed to integrate dark mode with Mojave.
 
