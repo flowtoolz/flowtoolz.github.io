@@ -201,8 +201,8 @@ Flowlist will have independent filters that let you customize what items you see
 You may download Flowlist for free from the Mac App Store. It is limited to 100 items, not counting groups, which will be enough in many contexts. It has all features, saves all items and will never expire.
 
 <a href="https://itunes.apple.com/app/flowlist/id1396163478?ls=1" target="_blank">
-    <img style="width:100%;max-height:68px;margin-top:20px;margin-bottom:20px"
-        src="/flowlist/App_Store_Badge_White.svg"
+    <img style="width:100%;max-height:68px;margin-top:40px;margin-bottom:40px"
+        src="/flowlist/App_Store_Badge.svg"
         title="Download Flowlist For Free From the Mac App Store"
         alt="{{ page.description }}">
 </a>
