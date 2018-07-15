@@ -13,7 +13,7 @@ keywords: task management, task, app, flow, todo list, flowlist, task list, omni
     class="ft-shadow">
 
 <p><i>I was missing a self-management tool that fits my needs. So I built it. This article is about why I had to create something new, how it changed the way I feel and, ultimately, how interaction design can support creative flow states.</i></p>
-<p><i>Flowlist in now on the App Store, so if you feel that having something to sell and having something to say are mutually exclusive, you might wanna stop reading ;)<br>All about the app itself is at <a href="/flowlist/" target="_blank">flowlistapp.com</a>.</i></p>
+<p><i>More about the app itself is at <a href="/flowlist/" target="_blank">flowlistapp.com</a>.</i></p>
 
 ## 1. An Itch to Scratch
 
