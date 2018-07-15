@@ -30,7 +30,7 @@ a
 
 a:hover
 {
-   color: #c72128;
+   color: rgba(191,0,0,0.75);
 }
 
 section
@@ -127,6 +127,25 @@ img
     padding-left: 5px;
     padding-right: 5px;
     border-radius: 5px;
+}
+
+/* Blog Post Link Box */
+
+#blog-post-link-div
+{
+    display:inline-block;
+
+    border-radius:6px;
+    
+    padding-left:40px;
+    padding-right:40px;
+    padding-top:20px;
+    padding-bottom:30px;
+}
+
+.linked-block:hover
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
 /* Foundation Classes */
