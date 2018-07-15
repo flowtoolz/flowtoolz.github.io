@@ -134,13 +134,7 @@ img
 #blog-post-link-div
 {
     display:inline-block;
-
-    border-radius:6px;
-    
-    padding-left:40px;
-    padding-right:40px;
-    padding-top:20px;
-    padding-bottom:30px;
+    margin-top:-15px;
 }
 
 .linked-block:hover
