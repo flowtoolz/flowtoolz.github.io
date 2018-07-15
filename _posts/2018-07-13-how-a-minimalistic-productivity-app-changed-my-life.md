@@ -13,10 +13,10 @@ keywords: task management, task, app, flow, todo list, flowlist, task list, omni
     class="ft-shadow">
 
 <p style="text-align:center">
-<i>Everything about the app itself is at <a href="/flowlist/" target="_blank">flowlistapp.com</a></i>
+<i>I was missing a self-management tool that fits my needs. So I built it. This article is about why I had to built something new, how it changed the way I work and, ultimately, how interaction design can support creative flow states. If you feel that having something to sell and having something to say are mutually exclusive, stop here. All about the app itself is at <a href="/flowlist/" target="_blank">flowlistapp.com</a></i>
 </p>
 
-## 1. Why I'm Building Flowlist
+## 1. An Itch to Scratch
 
 Sometimes, I feel overwhelmed by all the stuff I have to do, and even more by all the stuff I'm passionate about. So most of my life, I've been on a quest to sort myself out, get more shit done and turn more ideas into real things.
 
