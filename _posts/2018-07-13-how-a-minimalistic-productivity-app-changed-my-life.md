@@ -7,7 +7,10 @@ keywords: task management, task, app, flow, todo list, flowlist, task list, omni
 ---
 
 <img style="margin-left:auto;margin-right:auto;display:block;"
-    src="/blog-images/software-development/flowlist/icon_screen.jpg" class="ft-shadow">
+    src="/blog-images/software-development/flowlist/icon_screen.jpg"
+    title="{{ page.title }}"
+    alt="{{ page.title }}. {{ page.keywords }}"
+    class="ft-shadow">
 
 <p style="text-align:center">
 <i>Everything about the app itself is at <a href="/flowlist/" target="_blank">flowlistapp.com</a></i>
@@ -19,7 +22,10 @@ Sometimes, I feel overwhelmed by all the stuff I have to do, and even more by al
 
 The task managers I used to organize my TODOs and **thoughts** played a central role in that quest. And I've used them all, some for a long time:
 
-<img src="/blog-images/software-development/flowlist/task_managers.png" style="max-width:683px">
+<img src="/blog-images/software-development/flowlist/task_managers.png"
+    style="max-width:683px"
+    title="I tried hard to like these task managers"
+    alt="Task managers I tried: Agenda, Evernote, Omnifocus, Reminders, Things 3, Todoist, Trello, Wunderlist. {{ page.keywords }}">
 
 You guessed it - I found them all frustrating. They just felt rigid, cumbersome and distracting. One particular aspect they all share doesn't jive at all with the way I think: They force your content into fixed categories like *Project*, *Task*, *Subtask* and *Description*.
 
@@ -53,9 +59,12 @@ There's no limit to how deeply nested the items can be, and I can edit this hier
 
 ### 2.2. Total Control Via Few Keys
 
-Flowlist is so simple that I can control it without mouse or trackpad. With just a few intelligently laid out key commands, I have all the power at my fingertips. And that's only suitable for a productivity app that takes a lot of text input anyway. At any moment, the menu shows the available key commands:
+Flowlist is so simple that I can control it without mouse or trackpad. With just a few intelligently laid out key commands, I have all the power at my fingertips. And that's only suitable for a productivity app that takes a lot of text input anyway. At any moment, the menus show exactly what key commands are applicable:
 
-<img src="/blog-images/software-development/flowlist/key_commands.png" style="max-width:483px">
+<img src="/blog-images/software-development/flowlist/key_commands.png"
+    style="max-width:483px"
+    title="The Edit Menu"
+    alt="The menus show the available key commands for rapid list editing. {{ page.keywords }}">
 
 This keyboard-centric input has some nice implications:
 
@@ -66,7 +75,10 @@ This keyboard-centric input has some nice implications:
 ### 2.3. An Immersive User Interface
 
 I choose the scope of my focus by navigating the item hierarchy. No matter on what level I am, I always edit the center list, while context is to the left and details are to the right:
-<img src="/blog-images/software-development/flowlist/clean_interface.png" style="margin-bottom:-20px;max-width:638px">
+<img src="/blog-images/software-development/flowlist/clean_interface.png"
+    style="margin-bottom:-20px;max-width:638px"
+    title="How A UI is Supposed to Look Like: Super Clean Without Clutter"
+    alt="Keyboard-centric input lead to a clean user interface for working in a flow state. {{ page.keywords }}">
 There's nothing else that could distract. The interface is super clean. No menus, buttons, bars, alerts, popups and such clutter.
 
 Also, Flowlist animates all navigation and editing. So my eyes easily keep track of where I am and how the items and their overall structure change.
@@ -75,13 +87,19 @@ Also, Flowlist animates all navigation and editing. So my eyes easily keep track
 
 I control the window via key commands, which go both ways and act as toggles:
 
-<img src="/blog-images/software-development/flowlist/window_management.png" style="max-width:408px">
+<img src="/blog-images/software-development/flowlist/window_management.png"
+    style="max-width:408px"
+    title="Window Management For Deep Concentration"
+    alt="Window Management For Deep Concentration. {{ page.keywords }}">
 
 Toggleing the window via **⌘W**, can help to get Flowlist out of the way and access the desktop or to switch back and forth between reading content in another app and editing related items in Flowlist.
 
 Flowlist is meant to be used in fullscreen mode:
 
-<img src="/blog-images/software-development/flowlist/fullscreen.png" class="ft-shadow">
+<img src="/blog-images/software-development/flowlist/fullscreen.png"
+    class="ft-shadow"
+    title="Flowlist in Fullscreen"
+    alt="Flowlist in fullscreen for immersive work in a flow state. {{ page.keywords }}">
 
 But there's also a <i>Monotasking</i> mode in which all other apps, the dock and the menu bar get blended out. Fullscreen and monotasking help me to really focus.
 
@@ -108,7 +126,10 @@ The ways people use Flowlist are as individual as the ways they use legos or not
 ### 3.1. Top-Level Categories
 
 The *Home* item is the root of the hierarchy. Therein, I created seven items as my top-level categories:
-<img src="/blog-images/software-development/flowlist/top_level_items.png" style="max-width:677px;margin-bottom:-20px">
+<img src="/blog-images/software-development/flowlist/top_level_items.png"
+    style="max-width:677px;margin-bottom:-20px"
+    title="My Top-Level Item Categories"
+    alt="My top-level item categories. {{ page.keywords }}">
 Those lay the foundation for how I organize myself. I often adjust their order to reflect current priorities. Another person's approach and top-level categories would likely be different.
 
 
@@ -121,7 +142,10 @@ By the way, time-related perspectives like *Today* and *Upcoming* will integrate
 ### 3.3. Today
 
 Every morning, I plan my day by creating a list in the top-level item *Today*.
-<img src="/blog-images/software-development/flowlist/today_list.png" style="max-width:682px;margin-bottom:-20px">
+<img src="/blog-images/software-development/flowlist/today_list.png"
+    style="max-width:682px;margin-bottom:-20px"
+    title="My Todo List For The Day"
+    alt="My Todo List For The Day. {{ page.keywords }}">
 The planning involves the following steps:
 
 1. Check off, move elsewhere or delete stuff that isn't relevant anymore.
@@ -134,12 +158,17 @@ The planning involves the following steps:
 
 First of all, visual prioritization helps to protect the important but non-urgent things from the onslaught of unimportant and (seemingly) urgent things. This is essential and goes back to [Stephen Covey](https://en.wikipedia.org/wiki/Stephen_Covey) and [Eisenhower's Decision Matrix](https://www.artofmanliness.com/articles/eisenhower-decision-matrix/):
 
-<img src="/blog-images/software-development/flowlist/eisenhower_matrix.png" style="max-width:275px">
+<img src="/blog-images/software-development/flowlist/eisenhower_matrix.png"
+    style="max-width:275px"
+    title="Eisenhower's Decision Matrix"
+    alt="Eisenhower's Decision Matrix to distinguish important, unimportant urgent and non-urgent tasks. {{ page.keywords }}">
 
 Flowlist naturally allows to prioritize on all levels of the hierarchy, i.e. to change the item order in all subitem lists. So, I prioritize top-level categories against each other as well as the minutiae involved in small tasks.
 
 To quickly sort a list by priority and to distinguish ongoing items, I also set those items in progress. Setting an item in progress moves it to the top and changes its icon to a play button:
-<img src="/blog-images/software-development/flowlist/next_action_step.png" style="margin-bottom:-20px">
+<img src="/blog-images/software-development/flowlist/next_action_step.png" style="margin-bottom:-20px"
+    title="Hierarchical Items Can Express Many Levels of Detail"
+    alt="Hierarchical Items Can Express Many Levels of Detail. {{ page.keywords }}">
 On the more detailed levels, prioritization is less about importance and more about sequence of execution, and that helps me immensely at keeping track.
 
 I have quite a few projects or responsibilities I wanna stay on top of, some as future options, some on hold, some I'm currently dealing with. When I get back to a task or project, I need to know exactly where it stands so I can continue working on it right away. I want to know what I did last, what I'll do next and how it will unfold down the road.
@@ -166,7 +195,10 @@ Like writing in general, Flowlist is a great way for me to sort out, structure a
 
 Put on shades, the future is bright. The current version 1.0.8 isn't even the beginning. I have many things planned, ranging from interface beautification over little features for more consistency and convenience up to extensions that will vastly expand what one can possibly do with Flowlist.
 
-<img src="/blog-images/software-development/flowlist/shades.png" style="max-width:128px">
+<img src="/blog-images/software-development/flowlist/shades.png"
+    style="max-width:128px"
+    title="My Vision For Flowlist Goes Way Beyond Task Management"
+    alt="My Vision For Flowlist Goes Way Beyond Task Management. {{ page.keywords }}">
 
 From now on, I let users decide what feature I'm gonna add next. As soon as I've set up the online voting, you'll find the link **here** and at <a href="/flowlist/" target="_blank">flowlistapp.com</a>.
 
