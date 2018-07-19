@@ -1,5 +1,5 @@
 ---
-title: "How a Minimalistic Productivity App Changed My Life"
+title: "How a Minimalist Productivity App Changed My Life"
 layout: post
 excerpt: "I created Flowlist in June 2017 and have been using it daily since. Its radical simplicity also makes it super powerful. Now it is released. This is the story."
 image_url: /blog-images/software-development/flowlist/icon_screen.jpg
