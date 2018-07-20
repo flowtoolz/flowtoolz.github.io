@@ -1,5 +1,10 @@
 <!-- Basics (computed with Jekyll) -->
+{% if page.is_landing_page %}
+<title>{{page.title}}</title>
+{% else %}
 <title>{{site.title>}} &#187; {{page.title}}</title>
+{% endif %}
+
 <link rel="canonical" href="{{ site.url | append: page.url }}">
 <meta name='author' content='{{ page.author | default: site.author }}'/>
 <meta name='description' content='{{ page.description | default: page.excerpt | default: site.description }}'/>
