@@ -175,17 +175,16 @@ permalink: /service/
       With each iteration, we deliver a viable product by implementing the feature that offers the greatest return on investment.
       </p>
    </div>
+</div>
 
-    <p style="text-align:center">
-    Contact us via email:
-    <a onclick="ga('send', 'event', 'service page c2a', 'click', 'Contact us via email');"
+<p style="text-align:center;margin-top:50px">
+    Contact me via email:
+    <a onclick="ga('send', 'event', 'service page c2a', 'click', 'Contact me via email');"
         class="u-email"
         href="mailto:{{ site.email }}">
         {{ site.email }}
     </a>
-    
-    </p>
-</div>
+</p>
 
 <!-- old manifesto
 <h2><i class="fi-heart"></i> Values</h2>
