@@ -6,7 +6,7 @@ permalink: /more/
 
 ## [Flowlist](/flowlist)
 
-<img src="flowlist.png" class="ft-more-project-image" /> A minimalist macOS app for note taking, idea development and self management. Its simple concept of hierarchical notes and its radical support of flow states make it unique, widely applicable and incredibly fun. Check out [flowlistapp.com](/flowlist) or [download it from the Mac App Store](https://geo.itunes.apple.com/app/flowlist/id1396163478?mt=12).
+<img src="flowlist.png" class="ft-more-project-image" /> A minimalist macOS app for note taking, idea development and self management. Its simple concept of hierarchical notes and its radical support of flow states make it unique, widely applicable and incredibly fun. Check out <a href="/flowlist" onclick="ga('send', 'event', 'more page flowlist link', 'click', 'flowlistapp.com');">flowlistapp.com</a>.
 
 I created Flowlist for myself out of frustration with the many task management apps I used before. Now I'm happily using Flowlist every day since June 2017.
 
