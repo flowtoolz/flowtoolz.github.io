@@ -95,7 +95,7 @@ permalink: /service/
 <div class="cell">
    <h3><a href="https://www.allianz.com/de/produkte_loesungen/globale_geschaeftseinheiten/amos/">Allianz oneMobile</a></h3>
 
-   I helped the team at <a href="https://www.allianz.com/de/produkte_loesungen/globale_geschaeftseinheiten/amos/">Allianz Managed Operations & Services SE</a> create a platform with which worldwide organizational units of <a href="https://www.allianz.com">Allianz SE</a> build, test and deliver native and cross-platform apps.
+   I helped the team at <a href="https://www.allianz.com/de/produkte_loesungen/globale_geschaeftseinheiten/amos/">Allianz Managed Operations &amp; Services SE</a> create a platform with which worldwide organizational units of <a href="https://www.allianz.com">Allianz SE</a> build, test and deliver native and cross-platform apps.
 </div>
 <div class="cell">
    <h3><a href="http://www.flowtoolz.com/londonrealapp">London Real TV</a></h3>
@@ -176,6 +176,15 @@ permalink: /service/
       </p>
    </div>
 
+    <p style="text-align:center">
+    Contact us via email:
+    <a onclick="ga('send', 'event', 'service page c2a', 'click', 'Contact us via email');"
+        class="u-email"
+        href="mailto:{{ site.email }}">
+        {{ site.email }}
+    </a>
+    
+    </p>
 </div>
 
 <!-- old manifesto
