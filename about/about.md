@@ -12,4 +12,4 @@ I've worked as a research assistant, web developer, editor and as software engin
 
 I also love reading and writing non-fiction, functional fitness, the game of Go, learning new stuff, positive psychology, producing pop songs, the paleo lifestyle, barefoot running, zen meditation and discussions with interesting positive people.
 
-Say hello via email: <a onclick="ga('send', 'event', 'about page c2a', 'click', 'Say hello via email');" class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+Say hello via email: <a onclick="ga('send', 'event', 'email', 'click', 'Say hello via email');" class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>

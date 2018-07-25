@@ -13,7 +13,7 @@ keywords: task management, task, app, flow, todo list, flowlist, task list, omni
     class="ft-shadow">
 
 <p><i>I was missing a self-management tool that fits my needs. So I built it. This article is about why I had to create something new, how it changed the way I feel and, ultimately, how interaction design can support creative flow states.</i></p>
-<p><i>More about the app itself is at <a href="/flowlist/" target="_blank">flowlistapp.com</a>.</i></p>
+<p><i>More about the app itself is at <a href="/flowlist/" target="_blank" onclick="ga('send', 'event', 'link', 'click', 'flowlistapp.com');">flowlistapp.com</a>.</i></p>
 
 ## 1. An Itch to Scratch
 
@@ -199,7 +199,7 @@ Put on shades, the future is bright. The current version 1.0.8 isn't even the be
     title="My Vision For Flowlist Goes Way Beyond Task Management"
     alt="My Vision For Flowlist Goes Way Beyond Task Management. {{ page.keywords }}">
 
-From now on, I let users decide what feature I'm gonna add next. As soon as I've set up the online voting, you'll find the link **here** and at <a href="/flowlist/" target="_blank">flowlistapp.com</a>.
+From now on, I let users decide what feature I'm gonna add next. As soon as I've set up the online voting, you'll find the link **here** and at <a href="/flowlist/" target="_blank" onclick="ga('send', 'event', 'link', 'click', 'flowlistapp.com');">flowlistapp.com</a>.
 
 Here are just five of the more basic ideas that I think would add great value:
 
@@ -231,7 +231,7 @@ Flowlist will have independent filters that let you customize what items you see
 
 You may download Flowlist for free from the Mac App Store. It is limited to 100 items, not counting groups, which will be enough in many contexts. It has all features, saves all items and will never expire.
 
-<a href="https://itunes.apple.com/app/flowlist/id1396163478?ls=1" target="_blank">
+<a href="https://itunes.apple.com/app/flowlist/id1396163478?ls=1" target="_blank" onclick="ga('send', 'event', 'button', 'click', 'app store');">
     <img style="width:100%;max-height:68px;margin-top:40px;margin-bottom:40px"
         src="/flowlist/App_Store_Badge.svg"
         title="Download Flowlist For Free From the Mac App Store"
@@ -242,4 +242,4 @@ If you need more items or wanna support the development of Flowlist, you may upg
 
 Owners of the full version get new features as free updates, even when the price rises. I will **not** release anything like "Flowlist 2" as a separate app at a higher price. This way, I reward users who back this project and get on board early.
 
-There's also a <i>Summer Special</i> going: Until September 20, I offer an introductory price i.e. 50% off. For more details and latest updates, visit <a href="/flowlist/" target="_blank">flowlistapp.com</a>.
+There's also a <i>Summer Special</i> going: Until September 20, I offer an introductory price i.e. 50% off. For more details and latest updates, visit <a href="/flowlist/" target="_blank" onclick="ga('send', 'event', 'link', 'click', 'flowlistapp.com');">flowlistapp.com</a>.
