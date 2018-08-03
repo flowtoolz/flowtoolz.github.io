@@ -178,7 +178,7 @@ permalink: /service/
 </div>
 
 <p style="text-align:center;margin-top:50px">
-    Contact me via email:
+    Contact me via email:<br>
     <a onclick="ga('send', 'event', 'email', 'click', 'Contact me via email');"
         class="u-email"
         href="mailto:{{ site.email }}">
