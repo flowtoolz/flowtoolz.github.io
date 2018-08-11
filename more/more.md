@@ -20,7 +20,7 @@ Now, the 3rd revision is done. A collaborator of mine handcrafts the books and g
 
 ## [Sebastian Telle](https://www.facebook.com/pg/sebastiantellemusik/posts)
 
-<img src="mellowtree.jpg" class="ft-more-project-image" /> I write and produce indie pop songs under my real name [Sebastian Telle](https://www.facebook.com/pg/sebastiantellemusik/posts) (formerly named *Mellowtree*).
+<img src="music.JPG" class="ft-more-project-image" /> I write and produce indie pop songs under my real name [Sebastian Telle](https://www.facebook.com/pg/sebastiantellemusik/posts) (formerly  as *Mellowtree*).
 
 Dreamy, spacey, catchy art pop. I've been following this vision since I was 14, and created [countless](/2017/09/17/break-free-from-your-musical-baggage.html) ideas.
 
