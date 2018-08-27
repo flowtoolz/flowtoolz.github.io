@@ -27,12 +27,12 @@
             <!-- links with length in bytes -->
             <link>http://www.flowtoolz.com/flowtalk/episode_0001</link>
             <guid>http://www.flowtoolz.com/flowtalk/episode_0001</guid>
-            <enclosure url="http://www.flowtoolz.com/flowtalk/episode_0001.mp3" type="audio/mpeg" length="1024"></enclosure>
+            <enclosure url="http://www.flowtoolz.com/flowtalk/episode_0001.mp3" type="audio/mpeg" length="8966656"></enclosure>
             <!-- date with utc time -->
-            <pubDate>Thu, 30 Aug 2018 01:00:00 +0000</pubDate>
+            <pubDate>Thu, 27 Aug 2018 01:00:00 +0000</pubDate>
             <itunes:author>Flowtoolz</itunes:author>
             <!-- rough duration -->
-            <itunes:duration>00:32:16</itunes:duration>
+            <itunes:duration>00:03:44</itunes:duration>
         </item>
         <!--END REPEAT-->
         
