@@ -5,7 +5,6 @@
         <itunes:subtitle>Focus. Play. Create.</itunes:subtitle>
         <description>We talk self-development, philosophy, psychology, spirituality, business and creativity. Our theme and highest goal is flow as a state of ultimate focus, awareness, fulfilment, playfulness, naturalness, self-expression, productivity and inner peace.</description>
         <itunes:summary>We talk self-development, philosophy, psychology, spirituality, business and creativity. Our theme and highest goal is flow as a state of ultimate focus, awareness, fulfilment, playfulness, naturalness, self-expression, productivity and inner peace.</itunes:summary>
-        <itunes:author>Flowtoolz</itunes:author>
         <language>en-us</language>
         <link>http://www.flowtoolz.com/flowtalk</link>
         <copyright>Flowtoolz 2018</copyright>
@@ -15,7 +14,7 @@
             <itunes:email>contact@flowtoolz.com</itunes:email>
         </itunes:owner>
         <itunes:explicit>Yes</itunes:explicit>
-        <itunes:imagehref="http://www.flowtoolz.com/flowtalk/itunes_logo.png"/>
+        <itunes:image href="http://www.flowtoolz.com/flowtalk/itunes_logo.png"/>
         <itunes:category text="Society &amp; Culture"></itunes:category>
         
         <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
