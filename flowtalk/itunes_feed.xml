@@ -5,7 +5,7 @@
         <itunes:subtitle>Focus. Play. Create.</itunes:subtitle>
         <description>The theme of Flowtalk is "flow" as a state of ultimate focus, awareness, fulfilment, playfulness, naturalness, self-expression, productivity and inner peace. We talk self-development, philosophy, psychology, spirituality, business and creativity and more.</description>
         <itunes:summary>The theme of Flowtalk is "flow" as a state of ultimate focus, awareness, fulfilment, playfulness, naturalness, self-expression, productivity and inner peace. We talk self-development, philosophy, psychology, spirituality, business and creativity and more.</itunes:summary>
-        <language>en-us</language>
+        <language>de-de</language>
         <link>http://www.flowtoolz.com/flowtalk</link>
         <copyright>Flowtoolz 2018</copyright>
         <itunes:author>Flowtoolz</itunes:author>
@@ -20,14 +20,13 @@
         <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
         <item>
             <title>#1 - Nicolas Alschibaja</title>
-            <language>de-de</language>
             <itunes:summary>Nicolas Alschibaja ist ein spiritueller Sucher, Author und Coach. In dieser Pilotfolge von Flowtalk unterhalten wir uns über seine Hintergrundgeschichte sowie über Bewusstsein, Präsenz und Gelassenheit.</itunes:summary>
             <description>Nicolas Alschibaja ist ein spiritueller Sucher, Author und Coach. In dieser Pilotfolge von Flowtalk unterhalten wir uns über seine Hintergrundgeschichte sowie über Bewusstsein, Präsenz und Gelassenheit.</description>
             <itunes:explicit>no</itunes:explicit>
             <!-- links with length in bytes -->
             <link>http://www.flowtoolz.com/flowtalk/#1</link>
             <guid>http://www.flowtoolz.com/flowtalk/#1</guid>
-            <enclosure url="https://drive.google.com/uc?export=download&confirm=Enhm&id=1DkH7bVLMz2PqO2ZJOiAs3--O-6StlEv6" type="audio/mpeg" length="155776004"></enclosure>
+            <enclosure url="https://drive.google.com/uc?export=download&id=1DkH7bVLMz2PqO2ZJOiAs3--O-6StlEv6" type="audio/mpeg" length="155776004"></enclosure>
             <!-- date with utc time -->
             <pubDate>Fri, 31 Aug 2018 01:00:00 +0000</pubDate>
             <itunes:author>Flowtoolz</itunes:author>
