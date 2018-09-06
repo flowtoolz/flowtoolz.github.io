@@ -34,7 +34,7 @@ Because they are so rigid, conventional task managers are really bad at capturin
 
 I need to evolve my captured items to keep them in line with reality. I need a tool that supports an agile i.e. realistic way of thinking, working and living. That means, it must allow to freely mould the item hierarchy: group items together, add sub items **into** an item, move items to a whole different level, and so forth.
 
-So in June 2017, I prototyped a novel kind of task manager and named it *Flowlist*. And I've been happily using it every day since. This year, I decided to turn Flowlist into much more and make it available to you. Now, after 569 Git commits, Flowlist is [available on the Mac App Store](https://geo.itunes.apple.com/app/flowlist/id1396163478?mt=12).
+So in June 2017, I prototyped a novel kind of task manager and named it *Flowlist*. And I've been happily using it every day since. This year, I decided to turn Flowlist into much more and make it available to you. Now, after 569 Git commits, Flowlist is [available on the Mac App Store](https://geo.itunes.apple.com/app/flowlist-manage-life-in-flow/id1396163478?mt=12).
 
 ## 2. How Flowlist Works
 
@@ -231,7 +231,7 @@ Flowlist will have independent filters that let you customize what items you see
 
 You may download Flowlist for free from the Mac App Store. It is limited to 100 items, not counting groups, which will be enough in many contexts. It has all features, saves all items and will never expire.
 
-<a href="https://itunes.apple.com/app/flowlist/id1396163478?ls=1" target="_blank" onclick="ga('send', 'event', 'button', 'click', 'app store');">
+<a href="https://geo.itunes.apple.com/app/flowlist-manage-life-in-flow/id1396163478?mt=12" target="_blank" onclick="ga('send', 'event', 'button', 'click', 'app store');">
     <img style="width:100%;max-height:68px;margin-top:40px;margin-bottom:40px"
         src="/flowlist/App_Store_Badge.svg"
         title="Download Flowlist For Free From the Mac App Store"
