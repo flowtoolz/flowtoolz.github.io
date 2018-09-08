@@ -199,7 +199,7 @@ Put on shades, the future is bright. The current version 1.0.8 isn't even the be
     title="My Vision For Flowlist Goes Way Beyond Task Management"
     alt="My Vision For Flowlist Goes Way Beyond Task Management. {{ page.keywords }}">
 
-From now on, I let users decide what feature I'm gonna add next. As soon as I've set up the online voting, you'll find the link **here** and at <a href="/flowlist/" target="_blank" onclick="ga('send', 'event', 'link', 'click', 'flowlistapp.com');">flowlistapp.com</a>.
+From now on, I let users decide what feature I'm gonna add next. <a href="https://flowtoolz.typeform.com/to/R5lp8b" target="_blank" onclick="ga('send', 'event', 'link', 'click', 'flowlist feature vote');">Click here to vote</a>.
 
 Here are just five of the more basic ideas that I think would add great value:
 
