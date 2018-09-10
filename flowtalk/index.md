@@ -12,7 +12,7 @@ We talk self-development, philosophy, psychology, spirituality, business, creati
 
 ## #1 - Nicolas Alschibaja
 
-Nicolas Alschibaja ist ein spiritueller Sucher, Autor und Coach. In dieser Pilotfolge von Flowtalk unterhalten wir uns über seine Hintergrundgeschichte sowie über Bewusstsein, Präsenz und Gelassenheit.
+<img src="episode-images/nicolas-alschibaja.jpg" class="ft-more-project-image" /> Nicolas Alschibaja ist ein spiritueller Sucher, Autor und Coach. In dieser Pilotfolge von Flowtalk unterhalten wir uns über seine Hintergrundgeschichte sowie über Bewusstsein, Präsenz und Gelassenheit.
 
 [nicolas-alschibaja.de](http://nicolas-alschibaja.de)
 
