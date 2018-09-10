@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Flowtalk
+description: The theme of Flowtalk is “flow” as a state of ultimate focus, awareness, fulfilment, playfulness, naturalness, self-expression, productivity and inner peace. We talk self-development, philosophy, psychology, spirituality, business, creativity, productivity, culture and more.
 permalink: /flowtalk/
 ---
 
