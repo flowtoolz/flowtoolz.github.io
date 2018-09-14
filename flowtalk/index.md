@@ -5,7 +5,7 @@ description: The theme of Flowtalk is “flow” as a state of ultimate focus, a
 permalink: /flowtalk/
 ---
 
-<img src="banner.png" class="ft-shadow" style="width:100%">
+<img src="banner.jpg" class="ft-shadow" style="width:100%">
     
 Flowtalk is a podcast. Our theme is "flow" as a state of ultimate focus, awareness, fulfilment, playfulness, naturalness, self-expression, productivity and inner peace.
 
