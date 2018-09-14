@@ -21,6 +21,32 @@
         
         <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
         <item>
+            <title>#2 - Sebastian Telle</title>
+            <itunes:summary>Sebastian Telle ist App-Architekt und kreativer Querdenker. Wir unterhielten uns über seine Hintergrundgeschichte, seine neue App Flowlist und über Kommunikation.
+                
+                http://www.flowlistapp.com
+                http://www.flowtoolz.com
+                http://www.nicolas-alschibaja.de
+            </itunes:summary>
+            <description>Sebastian Telle ist App-Architekt und kreativer Querdenker. Wir unterhielten uns über seine Hintergrundgeschichte, seine neue App Flowlist und über Kommunikation.
+                
+                http://www.flowlistapp.com
+                http://www.flowtoolz.com
+                http://www.nicolas-alschibaja.de
+            </description>
+            <itunes:explicit>no</itunes:explicit>
+            <!-- links with length in bytes -->
+            <link>http://www.flowtoolz.com/flowtalk/#2</link>
+            <guid>http://www.flowtoolz.com/flowtalk/#2</guid>
+            <enclosure url="https://www.dropbox.com/s/dl/sir6gw1yppn11yu/flowtalk#2.m4a" type="audio/m4a" length="118086132"></enclosure>
+            <!-- date with utc time -->
+            <pubDate>Fri, 14 Sep 2018 01:00:00 +0000</pubDate>
+            <itunes:author>Flowtoolz</itunes:author>
+            <!-- rough duration -->
+            <itunes:duration>01:04:04</itunes:duration>
+        </item>
+        
+        <item>
             <title>#1 - Nicolas Alschibaja</title>
             <itunes:summary>Nicolas Alschibaja ist ein spiritueller Sucher, Autor und Coach. In dieser Pilotfolge von Flowtalk unterhalten wir uns über seine Hintergrundgeschichte sowie über Bewusstsein, Präsenz und Gelassenheit.
                 
