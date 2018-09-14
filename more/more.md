@@ -10,6 +10,12 @@ permalink: /more/
 
 I created Flowlist for myself out of frustration with the many task management apps I used before. Now I'm happily using Flowlist every day since June 2017.
 
+## [Flowtalk](/flowtalk)
+
+<img src="flowtalk.png" class="ft-more-project-image" /> Flowtalk is a podcast. Our theme is “flow” as a state of ultimate focus, awareness, fulfilment, playfulness, naturalness, self-expression, productivity and inner peace.
+
+We talk self-development, philosophy, psychology, spirituality, business, creativity, productivity, culture and more. Visit <a href="/flowtalk" onclick="ga('send', 'event', 'link', 'click', 'www.flowtoolz.com/flowtalk');">www.flowtoolz.com/flowtalk</a>.
+
 ## The 33Day-Diary
 
 <img src="diary.jpg" class="ft-more-project-image" /> A structured journal that leads through a sort of meditation routine for 33 days, based on positive psychology. A page with more infos is available in english  at [www.flowtoolz.com/diary](/diary) and in german at [www.flowtoolz.com/tagebuch](/tagebuch).
