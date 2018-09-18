@@ -40,7 +40,7 @@ Since I'm drifting more and more to the production side, I collaborate with musi
 
 ## [Flowtoolz Github](https://github.com/flowtoolz/)
 
-<img src="/assets/simpleicons.org/github.svg" class="ft-more-project-image" /> I just started to put some [code on Github](https://github.com/flowtoolz/). Most notably, I released [SwiftObserver](https://github.com/flowtoolz/SwiftObserver), a framework for reactive Swift programming, which you can install via [Cocoapods](https://cocoapods.org) and via [Carthage](https://github.com/Carthage/Carthage).
+<img src="/assets/simpleicons.org/github.svg" class="ft-more-project-image" /> I just started to put some [code on Github](https://github.com/flowtoolz/). Most notably, I released [GetLaid](https://github.com/flowtoolz/GetLaid), an AutoLayout wrapper and [SwiftObserver](https://github.com/flowtoolz/SwiftObserver), a framework for reactive programming, which you can install via [Cocoapods](https://cocoapods.org) and via [Carthage](https://github.com/Carthage/Carthage).
 
 You'll also find [UIObserver](https://github.com/flowtoolz/UIObserver) (a UI layer for SwiftObserver) and the general helper frameworks [SwiftyToolz](https://github.com/flowtoolz/SwiftyToolz), [FoundationToolz](https://github.com/flowtoolz/FoundationToolz) and [UIToolz](https://github.com/flowtoolz/UIToolz), only UIToolz is not yet available via Carthage or Cocoapods.
 
