@@ -42,7 +42,7 @@
             <!-- links with length in bytes -->
             <link>http://www.flowtoolz.com/flowtalk/#2</link>
             <guid>http://www.flowtoolz.com/flowtalk/#2</guid>
-            <enclosure url="https://d3ctxlq1ktw2nl.cloudfront.net/production/2018-8-16/4618390-48000-2-bae626d9848df.mp3" type="audio/mpeg" length="121272766"></enclosure>
+            <enclosure url="https://anchor.fm/s/6dddbb8/podcast/play/1359308/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2018-8-16%2F4618390-48000-2-bae626d9848df.mp3" length="121272766" type="audio/mpeg"/>
             <link>
                 https://d3ctxlq1ktw2nl.cloudfront.net/production/2018-8-16/4618390-48000-2-bae626d9848df.mp3
             </link>
@@ -71,7 +71,7 @@
             <!-- links with length in bytes -->
             <link>http://www.flowtoolz.com/flowtalk/#1</link>
             <guid>http://www.flowtoolz.com/flowtalk/#1</guid>
-            <enclosure url="https://d3ctxlq1ktw2nl.cloudfront.net/production/2018-8-16/4618497-44100-2-9839f8a9f4732.m4a" type="audio/x-m4a" length="109467079"></enclosure>
+            <enclosure url="https://anchor.fm/s/6dddbb8/podcast/play/1359338/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2018-8-16%2F4618497-44100-2-e8ad2d54c4fe7.mp3" length="155776004" type="audio/mpeg"/>
             <link>
                 https://d3ctxlq1ktw2nl.cloudfront.net/production/2018-8-16/4618497-44100-2-9839f8a9f4732.m4a
             </link>

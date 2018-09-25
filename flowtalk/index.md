@@ -5,7 +5,7 @@ description: The theme of Flowtalk is “flow” as a state of ultimate focus, a
 permalink: /flowtalk/
 ---
 
-<img src="banner.jpg" class="ft-shadow" style="width:100%">
+<img src="banner2.jpg" class="ft-shadow" style="width:100%">
     
 Flowtalk is a podcast. Our theme is "flow" as a state of ultimate focus, awareness, fulfilment, playfulness, naturalness, self-expression, productivity and inner peace.
 
@@ -27,6 +27,26 @@ We talk self-development, philosophy, psychology, spirituality, business, creati
 </div>
 
 <div class="wrapper">
+    
+    <div class="grid-x" style="margin-top:60px">
+      <div class="cell">
+         <h2>#3 - Nicolas Alschibaja, Sebastian Telle</h2>
+      </div>
+    </div>
+    <div class="grid-x grid-margin-x">
+      <div class="cell small-12 medium-4">
+         <img src="itunes_logo.png"
+             class="ft-shadow"
+             style="margin-top:9px">
+      </div>
+      <div class="cell small-12 medium-8">
+         Wir unterhalten uns über Authentizität, Podcasting, Flow, Kreativität, Gesellschaft, Einheitsbewusstsein, persönliche Transformation, Wahrnehmung, Geist, Intuition, Meditation und mehr.
+         <br>
+         <br>
+         <a href="http://nicolas-alschibaja.de" target="_blank">nicolas-alschibaja.de</a><br>
+         <a href="http://flowlistapp.com" target="_blank">flowlistapp.com</a>
+      </div>
+    </div>
     
     <div class="grid-x" style="margin-top:60px">
       <div class="cell">
