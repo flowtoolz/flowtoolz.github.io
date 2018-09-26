@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Flowtalk
-description: Flowtalk is a (mostly german) podcast. Our theme is **flow** as a state of ultimate focus, awareness, fulfilment, playfulness, naturalness, self-expression, productivity and inner peace. We talk about self-development, philosophy, psychology, spirituality, business, creativity, society, culture and more.
+description: Flowtalk is a (mostly german) podcast. Our theme is flow as a state of ultimate focus, awareness, fulfilment, playfulness, naturalness, self-expression, productivity and inner peace. We talk about self-development, philosophy, psychology, spirituality, business, creativity, society, culture and more.
 permalink: /flowtalk/
 ---
 
@@ -96,7 +96,7 @@ Flowtalk is a (mostly german) podcast. Our theme is **flow** as a state of ultim
         style="margin-top:9px">
     </div>
     <div class="cell small-12 medium-8">
-        Wir unterhalten uns über Authentizität, Podcasting, Flow, Kreativität, Gesellschaft, Einheitsbewusstsein, persönliche Transformation, Wahrnehmung, Geist, Intuition, Meditation und mehr.
+        Wir hatten ein interessantes Gespräch über Authentizität, Podcasting, Flow, Kreativität, Gesellschaft, Einheitsbewusstsein, persönliche Transformation, Wahrnehmung, Geist, Intuition, Meditation und mehr.
         <br>
         <br>
         <a href="http://nicolas-alschibaja.de" target="_blank">
