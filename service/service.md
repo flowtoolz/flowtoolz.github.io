@@ -23,7 +23,7 @@ permalink: /service/
 <div class="ft-client-grid grid-x small-up-2 medium-up-3 large-up-3">
 
    <div class="cell" style="background-image:url(clients/aida.svg);">
-      <a href="http://www.aida.svg">
+      <a href="http://www.aida.de">
          <div></div>
       </a>
    </div>
