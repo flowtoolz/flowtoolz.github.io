@@ -239,3 +239,25 @@ div.ft-client-grid {
    width:100%;
    height:100%;
 }
+
+/* Flowtalk Page */
+
+.ft-podcast-link
+{
+    display:inline-block;
+    overflow:hidden;
+    width:150px;
+    height:44px;
+    border-radius: 5px;
+}
+
+.ft-podcast-link-grid
+{
+    text-align:center;
+}
+
+.ft-podcast-link-grid > .cell
+{
+    min-height: 70px;
+    height: 13vh;
+}
