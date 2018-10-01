@@ -155,70 +155,70 @@ img
 
 #screen01:hover
 {
-    background:url(screens/screen_01-dark.png) no-repeat;
+    background:url(screens/screen_01-dark.jpg) no-repeat;
     background-size:contain;
     background-position:center;
 }
 
 #screen01
 {
-    background:url(screens/screen_01.png) no-repeat;
+    background:url(screens/screen_01.jpg) no-repeat;
     background-size:contain;
     background-position:center;
 }
 
 #screen02:hover
 {
-    background:url(screens/screen_02-dark.png) no-repeat;
+    background:url(screens/screen_02-dark.jpg) no-repeat;
     background-size:contain;
     background-position:center;
 }
 
 #screen02
 {
-    background:url(screens/screen_02.png) no-repeat;
+    background:url(screens/screen_02.jpg) no-repeat;
     background-size:contain;
     background-position:center;
 }
 
 #screen03:hover
 {
-    background:url(screens/screen_03-dark.png) no-repeat;
+    background:url(screens/screen_03-dark.jpg) no-repeat;
     background-size:contain;
     background-position:center;
 }
 
 #screen03
 {
-    background:url(screens/screen_03.png) no-repeat;
+    background:url(screens/screen_03.jpg) no-repeat;
     background-size:contain;
     background-position:center;
 }
 
 #screen04:hover
 {
-    background:url(screens/screen_04-dark.png) no-repeat;
+    background:url(screens/screen_04-dark.jpg) no-repeat;
     background-size:contain;
     background-position:center;
 }
 
 #screen04
 {
-    background:url(screens/screen_04.png) no-repeat;
+    background:url(screens/screen_04.jpg) no-repeat;
     background-size:contain;
     background-position:center;
 }
 
 #screen05:hover
 {
-    background:url(screens/screen_05-dark.png) no-repeat;
+    background:url(screens/screen_05-dark.jpg) no-repeat;
     background-size:contain;
     background-position:center;
 }
 
 #screen05
 {
-    background:url(screens/screen_05.png) no-repeat;
+    background:url(screens/screen_05.jpg) no-repeat;
     background-size:contain;
     background-position:center;
 }
