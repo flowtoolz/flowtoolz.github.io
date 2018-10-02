@@ -147,6 +147,26 @@ img
     padding-bottom: 0px;
 }
 
+/* Screen Shots */
+
+#screen-shot
+{
+    background:url(task_lists.png) no-repeat;
+    background-size:contain;
+    background-position:center;
+    width: 100%;
+    max-width: 957px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#screen-shot:hover
+{
+    background:url(task_lists_dark.png) no-repeat;
+    background-size:contain;
+    background-position:center;
+}
+
 .image-cell > div
 {
     padding-top:62.5%;
