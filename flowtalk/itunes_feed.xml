@@ -19,11 +19,37 @@
             <itunes:name>Flowtoolz</itunes:name>
             <itunes:email>contact@flowtoolz.com</itunes:email>
         </itunes:owner>
-        <itunes:explicit>no</itunes:explicit>
+        <itunes:explicit>yes</itunes:explicit>
         <itunes:image href="http://www.flowtoolz.com/flowtalk/itunes_logo.png"/>
         <itunes:category text="Society &amp; Culture"></itunes:category>
         
         <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+        
+        <item>
+            <!-- update all this -->
+            <guid>http://www.flowtoolz.com/flowtalk/#3</guid>
+            <title>#3 - Nicolas Alschibaja, Sebastian Telle</title>
+            <itunes:summary>Wir hatten ein interessantes Gespräch über Authentizität, Podcasting, Flow, Kreativität, Gesellschaft, Einheitsbewusstsein, persönliche Transformation, Wahrnehmung, Geist, Intuition, Meditation und mehr.
+                
+                http://www.flowtoolz.com
+                http://www.nicolas-alschibaja.de
+            </itunes:summary>
+            <description>Wir hatten ein interessantes Gespräch über Authentizität, Podcasting, Flow, Kreativität, Gesellschaft, Einheitsbewusstsein, persönliche Transformation, Wahrnehmung, Geist, Intuition, Meditation und mehr.
+                
+                http://www.flowtoolz.com
+                http://www.nicolas-alschibaja.de
+            </description>
+            
+            <!-- copy this this stuff from Anchor rss -->
+            <pubDate>Tue, 02 Oct 2018 11:05:27 GMT</pubDate>
+            <enclosure url="https://anchor.fm/s/6dddbb8/podcast/play/1455365/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2018-9-2%2F4904146-44100-2-f9a146d6e19b3.mp3" length="239861587" type="audio/mpeg"/>
+            <itunes:duration>7106</itunes:duration>
+            <!-- leave all this as it is -->
+            <itunes:author>Flowtoolz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <link>http://www.flowtoolz.com/flowtalk</link>
+        </item>
+        
         <item>
             <title>#2 - Sebastian Telle</title>
             <itunes:summary>Sebastian Telle ist App-Architekt und kreativer Querdenker. Wir unterhielten uns über seine Hintergrundgeschichte, seine neue App Flowlist und über Kommunikation.
@@ -38,14 +64,11 @@
                 http://www.flowtoolz.com
                 http://www.nicolas-alschibaja.de
             </description>
-            <itunes:explicit>no</itunes:explicit>
+            <itunes:explicit>yes</itunes:explicit>
+            <link>http://www.flowtoolz.com/flowtalk</link>
             <!-- links with length in bytes -->
-            <link>http://www.flowtoolz.com/flowtalk/#2</link>
             <guid>http://www.flowtoolz.com/flowtalk/#2</guid>
             <enclosure url="https://anchor.fm/s/6dddbb8/podcast/play/1359308/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2018-8-16%2F4618390-48000-2-bae626d9848df.mp3" length="121272766" type="audio/mpeg"/>
-            <link>
-                https://d3ctxlq1ktw2nl.cloudfront.net/production/2018-8-16/4618390-48000-2-bae626d9848df.mp3
-            </link>
             <!-- date with utc time -->
             <pubDate>Fri, 14 Sep 2018 01:00:00 +0000</pubDate>
             <itunes:author>Flowtoolz</itunes:author>
@@ -67,14 +90,11 @@
                 
                 http://www.flowtoolz.com
             </description>
-            <itunes:explicit>no</itunes:explicit>
+            <itunes:explicit>yes</itunes:explicit>
+            <link>http://www.flowtoolz.com/flowtalk</link>
             <!-- links with length in bytes -->
-            <link>http://www.flowtoolz.com/flowtalk/#1</link>
             <guid>http://www.flowtoolz.com/flowtalk/#1</guid>
             <enclosure url="https://anchor.fm/s/6dddbb8/podcast/play/1359338/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2018-8-16%2F4618497-44100-2-e8ad2d54c4fe7.mp3" length="155776004" type="audio/mpeg"/>
-            <link>
-                https://d3ctxlq1ktw2nl.cloudfront.net/production/2018-8-16/4618497-44100-2-9839f8a9f4732.m4a
-            </link>
             <!-- date with utc time -->
             <pubDate>Sat, 1 Sep 2018 01:00:00 +0000</pubDate>
             <itunes:author>Flowtoolz</itunes:author>
