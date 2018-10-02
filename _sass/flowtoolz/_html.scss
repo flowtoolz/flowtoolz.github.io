@@ -124,7 +124,7 @@ h2 {
 p + h2,
 div + h2,
 img + h2 {
-   margin-top: $spacing-unit;
+   margin-top: $spacing-unit * 2;
 }
 
 h3, h4, h5, h6 {
