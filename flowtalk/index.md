@@ -11,13 +11,15 @@ Flowtalk is a (mostly german) podcast. Our theme is **flow** as a state of ultim
 <br>
 <br>
 
-<div class="ft-podcast-link-grid grid-x small-up-2 medium-up-3">
+<div class="ft-podcast-link-grid grid-x small-up-2 medium-up-3"
+    style="margin-bottom:-32px">
     
     <div class="cell">
         <a href="https://www.youtube.com/channel/UCy3HpEO3Jr-iuvoEAFkpHVg"
             target="_blank"
             class="ft-podcast-link"
-            style="background:url(logos/youtube.svg) no-repeat;background-size:contain;background-position:center;">
+            style="background:url(logos/youtube@2x.png) no-repeat;background-size:contain;background-position:left;">
+            YouTube
         </a>
     </div>
     
@@ -25,23 +27,8 @@ Flowtalk is a (mostly german) podcast. Our theme is **flow** as a state of ultim
         <a href="https://itunes.apple.com/us/podcast/flowtalk/id1434968512?mt=2"
             target="_blank"
             class="ft-podcast-link"
-            style="background:url(https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/podcast-lrg.svg) no-repeat;background-position:center;">
-        </a>
-    </div>
-    
-    <div class="cell">
-        <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy82ZGRkYmI4L3BvZGNhc3QvcnNz"
-            target="_blank"
-            class="ft-podcast-link"
-            style="background:url(logos/google.png) no-repeat;background-size:contain;background-position:center;">
-        </a>
-    </div>
-    
-    <div class="cell">
-        <a href="https://www.stitcher.com/podcast/flowtoolz/flowtalk"
-            target="_blank"
-            class="ft-podcast-link"
-            style="background:url(logos/stitcher.png) no-repeat;background-size:contain;background-position:center;">
+            style="background:url(logos/apple_podcasts@2x.png) no-repeat;background-size:contain;background-position:left;">
+            Apple Podcasts
         </a>
     </div>
     
@@ -49,7 +36,8 @@ Flowtalk is a (mostly german) podcast. Our theme is **flow** as a state of ultim
         <a href="https://open.spotify.com/show/48LmW6cNC12NAFzOhF4f56"
             target="_blank"
             class="ft-podcast-link"
-            style="background:url(logos/spotify.png) no-repeat;background-size:contain;background-position:center;">
+            style="background:url(logos/spotify@2x.png) no-repeat;background-size:contain;background-position:left;">
+            Spotify
         </a>
     </div>
     
@@ -57,7 +45,35 @@ Flowtalk is a (mostly german) podcast. Our theme is **flow** as a state of ultim
         <a href="https://anchor.fm/flowtalk/"
             target="_blank"
             class="ft-podcast-link"
-            style="background:url(logos/anchor.png) no-repeat;background-color:black;background-size:contain;background-position:center;background-origin:content-box;padding:5px">
+            style="background:url(logos/anchor@2x.png) no-repeat;background-size:contain;background-position:left;">
+            Anchor
+        </a>
+    </div>
+    
+    <div class="cell">
+        <a href="https://www.stitcher.com/podcast/flowtoolz/flowtalk"
+            target="_blank"
+            class="ft-podcast-link"
+            style="background:url(logos/stitcher@2x.png) no-repeat;background-size:contain;background-position:left;">
+            Stitcher
+        </a>
+    </div>
+    
+    <div class="cell">
+        <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy82ZGRkYmI4L3BvZGNhc3QvcnNz"
+            target="_blank"
+            class="ft-podcast-link"
+            style="background:url(logos/google_podcasts_outline@2x.png) no-repeat;background-size:contain;background-position:left;">
+            Google Podcasts
+        </a>
+    </div>
+    
+    <div class="cell">
+        <a href="https://pca.st/jUi8"
+            target="_blank"
+            class="ft-podcast-link"
+            style="background:url(logos/pocket_casts@2x.png) no-repeat;background-size:contain;background-position:left;">
+            Pocket Casts
         </a>
     </div>
     
@@ -65,7 +81,8 @@ Flowtalk is a (mostly german) podcast. Our theme is **flow** as a state of ultim
         <a href="https://www.breaker.audio/flowtalk"
             target="_blank"
             class="ft-podcast-link"
-            style="background:url(logos/breaker.svg) no-repeat;background-size:contain;background-position:center;">
+            style="background:url(logos/breaker@2x.png) no-repeat;background-size:contain;background-position:left;">
+            Breaker
         </a>
     </div>
     
@@ -73,15 +90,8 @@ Flowtalk is a (mostly german) podcast. Our theme is **flow** as a state of ultim
         <a href="https://pca.st/jUi8"
             target="_blank"
             class="ft-podcast-link"
-            style="background:url(logos/pocketcasts.png) no-repeat;background-size:contain;background-position:center;">
-        </a>
-    </div>
-    
-    <div class="cell">
-        <a href="https://pca.st/jUi8"
-            target="_blank"
-            class="ft-podcast-link"
-            style="background:url(logos/radiopublic.svg) no-repeat;background-size:contain;background-position:center;">
+            style="background:url(logos/radiopublic@2x.png) no-repeat;background-size:contain;background-position:left;">
+            Radio Public
         </a>
     </div>
     
