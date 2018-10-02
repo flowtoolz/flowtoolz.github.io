@@ -5,7 +5,7 @@ description: Flowtalk is a (mostly german) podcast. Our theme is flow as a state
 permalink: /flowtalk/
 ---
 
-<img src="flowtalk-banner.jpg" style="width:100%" class="ft-shadow">
+<img src="flowtalk-banner.jpg" style="width:100%">
     
 Flowtalk is a (mostly german) podcast. Our theme is **flow** as a state of ultimate focus, awareness, fulfilment, playfulness, naturalness, self-expression, productivity and inner peace. We talk about self-development, philosophy, psychology, spirituality, business, creativity, society, culture and more.
 <br>
@@ -92,7 +92,6 @@ Flowtalk is a (mostly german) podcast. Our theme is **flow** as a state of ultim
 <div class="grid-x grid-margin-x">
     <div class="cell small-12 medium-4">
         <img src="itunes_logo.png"
-        class="ft-shadow"
         style="margin-top:9px">
     </div>
     <div class="cell small-12 medium-8">
@@ -114,7 +113,6 @@ Flowtalk is a (mostly german) podcast. Our theme is **flow** as a state of ultim
 <div class="grid-x grid-margin-x">
     <div class="cell small-12 medium-4">
         <img src="episode-images/sebastian-telle.jpg"
-            class="ft-shadow"
             style="margin-top:9px">
     </div>
     <div class="cell small-12 medium-8">
@@ -132,7 +130,6 @@ Flowtalk is a (mostly german) podcast. Our theme is **flow** as a state of ultim
 <div class="grid-x grid-margin-x">
     <div class="cell small-12 medium-4">
         <img src="episode-images/nicolas-alschibaja.jpg"
-            class="ft-shadow"
             style="margin-top:9px">
             </div>
     <div class="cell small-12 medium-8">
