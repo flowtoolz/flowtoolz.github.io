@@ -39,11 +39,10 @@
                 http://www.flowtoolz.com
                 http://www.nicolas-alschibaja.de
             </description>
-            
             <!-- copy this this stuff from Anchor rss -->
             <pubDate>Tue, 02 Oct 2018 11:05:27 GMT</pubDate>
             <enclosure url="https://anchor.fm/s/6dddbb8/podcast/play/1455365/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2018-9-2%2F4904146-44100-2-f9a146d6e19b3.mp3" length="239861587" type="audio/mpeg"/>
-            <itunes:duration>7106</itunes:duration>
+            <itunes:duration>01:58:26</itunes:duration>
             <!-- leave all this as it is -->
             <itunes:author>Flowtoolz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
@@ -51,6 +50,8 @@
         </item>
         
         <item>
+            <!-- update all this -->
+            <guid>http://www.flowtoolz.com/flowtalk/#2</guid>
             <title>#2 - Sebastian Telle</title>
             <itunes:summary>Sebastian Telle ist App-Architekt und kreativer Querdenker. Wir unterhielten uns über seine Hintergrundgeschichte, seine neue App Flowlist und über Kommunikation.
                 
@@ -64,16 +65,14 @@
                 http://www.flowtoolz.com
                 http://www.nicolas-alschibaja.de
             </description>
+            <!-- copy this this stuff from Anchor rss -->
+            <pubDate>Fri, 14 Sep 2018 01:00:00 +0000</pubDate>
+            <enclosure url="https://anchor.fm/s/6dddbb8/podcast/play/1359308/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2018-8-16%2F4618390-48000-2-bae626d9848df.mp3" length="121272766" type="audio/mpeg"/>
+            <itunes:duration>01:04:04</itunes:duration>
+            <!-- leave all this as it is -->
+            <itunes:author>Flowtoolz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
             <link>http://www.flowtoolz.com/flowtalk</link>
-            <!-- links with length in bytes -->
-            <guid>http://www.flowtoolz.com/flowtalk/#2</guid>
-            <enclosure url="https://anchor.fm/s/6dddbb8/podcast/play/1359308/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2018-8-16%2F4618390-48000-2-bae626d9848df.mp3" length="121272766" type="audio/mpeg"/>
-            <!-- date with utc time -->
-            <pubDate>Fri, 14 Sep 2018 01:00:00 +0000</pubDate>
-            <itunes:author>Flowtoolz</itunes:author>
-            <!-- rough duration -->
-            <itunes:duration>01:04:04</itunes:duration>
         </item>
         
         <item>
