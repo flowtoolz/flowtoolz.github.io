@@ -27,6 +27,30 @@
         
         <item>
             <!-- update all this -->
+            <guid>http://www.flowtoolz.com/flowtalk/#4</guid>
+            <title>#4 - Nicolas Alschibaja, Sebastian Telle</title>
+            <itunes:summary>Nicolas Alschibaja ist ein spiritueller Sucher, Autor und Coach. Sebastian Telle ist kreativer Querdenker und App-Architekt.
+                
+                http://www.flowtoolz.com
+                http://www.nicolas-alschibaja.de
+            </itunes:summary>
+            <description>Nicolas Alschibaja ist ein spiritueller Sucher, Autor und Coach. Sebastian Telle ist kreativer Querdenker und App-Architekt.
+                
+                http://www.flowtoolz.com
+                http://www.nicolas-alschibaja.de
+            </description>
+            <itunes:duration>01:15:57</itunes:duration>
+            <!-- copy this this stuff from Anchor rss -->
+            <pubDate>Thu, 18 Oct 2018 16:35:37 GMT</pubDate>
+            <enclosure url="https://anchor.fm/s/6dddbb8/podcast/play/1561872/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2018-9-18%2F5231925-48000-2-30614de7fb429.mp3" length="182286016" type="audio/mpeg"/>
+            <!-- leave all this as it is -->
+            <itunes:author>Flowtoolz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <link>http://www.flowtoolz.com/flowtalk</link>
+        </item>
+        
+        <item>
+            <!-- update all this -->
             <guid>http://www.flowtoolz.com/flowtalk/#3</guid>
             <title>#3 - Nicolas Alschibaja, Sebastian Telle</title>
             <itunes:summary>Wir hatten ein interessantes Gespräch über Authentizität, Podcasting, Flow, Kreativität, Gesellschaft, Einheitsbewusstsein, persönliche Transformation, Wahrnehmung, Geist, Intuition, Meditation und mehr.
