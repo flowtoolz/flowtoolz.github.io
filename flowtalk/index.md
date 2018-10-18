@@ -97,6 +97,26 @@ Flowtalk is a (mostly german) podcast. Our theme is **flow** as a state of ultim
     
 </div>
 
+<h2>#4 - Nicolas Alschibaja, Sebastian Telle</h2>
+
+<div class="grid-x grid-margin-x">
+    <div class="cell small-12 medium-4">
+        <img src="itunes_logo.png" style="margin-top:9px">
+            </div>
+    <div class="cell small-12 medium-8">
+        Nicolas Alschibaja ist ein spiritueller Sucher, Autor und Coach. Sebastian Telle ist kreativer Querdenker und App-Architekt.
+        <br>
+        <br>
+        <a href="http://nicolas-alschibaja.de" target="_blank">
+            nicolas-alschibaja.de
+        </a>
+        <br>
+        <a href="http://flowlistapp.com" target="_blank">
+            flowlistapp.com
+        </a>
+    </div>
+</div>
+
 <h2>#3 - Nicolas Alschibaja, Sebastian Telle</h2>
 
 <div class="grid-x grid-margin-x">
