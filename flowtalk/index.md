@@ -100,40 +100,22 @@ Flowtalk is a (mostly german) podcast. Our theme is **flow** as a state of ultim
 <h2>#4 - Nicolas Alschibaja, Sebastian Telle</h2>
 
 <div class="grid-x grid-margin-x">
-    <div class="cell small-12 medium-4">
-        <img src="itunes_logo.png" style="margin-top:9px">
+    <div class="cell small-12 medium-6">
+        <img src="episode-images/poster_4.jpg" style="margin-top:9px">
             </div>
-    <div class="cell small-12 medium-8">
-        Nicolas Alschibaja ist ein spiritueller Sucher, Autor und Coach. Sebastian Telle ist kreativer Querdenker und App-Architekt.
-        <br>
-        <br>
-        <a href="http://nicolas-alschibaja.de" target="_blank">
-            nicolas-alschibaja.de
-        </a>
-        <br>
-        <a href="http://flowlistapp.com" target="_blank">
-            flowlistapp.com
-        </a>
+    <div class="cell small-12 medium-6">
+        Nicolas ist spiritueller Sucher, Autor und Coach. Sebastian ist kreativer Querdenker und App-Architekt. Wir unterhielten uns diesmal über den Widerstreit zwischen kreativem Schaffen und bewusstem Loslassen, sowie über die Relativität von Werten.
     </div>
 </div>
 
 <h2>#3 - Nicolas Alschibaja, Sebastian Telle</h2>
 
 <div class="grid-x grid-margin-x">
-    <div class="cell small-12 medium-4">
-        <img src="itunes_logo.png" style="margin-top:9px">
+    <div class="cell small-12 medium-6">
+        <img src="episode-images/poster_3.jpg" style="margin-top:9px">
     </div>
-    <div class="cell small-12 medium-8">
-        Wir hatten ein interessantes Gespräch über Authentizität, Podcasting, Flow, Kreativität, Gesellschaft, Einheitsbewusstsein, persönliche Transformation, Wahrnehmung, Geist, Intuition, Meditation und mehr.
-        <br>
-        <br>
-        <a href="http://nicolas-alschibaja.de" target="_blank">
-            nicolas-alschibaja.de
-        </a>
-        <br>
-        <a href="http://flowlistapp.com" target="_blank">
-            flowlistapp.com
-        </a>
+    <div class="cell small-12 medium-6">
+        Nicolas ist spiritueller Sucher, Autor und Coach. Sebastian ist kreativer Querdenker und App-Architekt. Wir unterhielten uns über Authentizität, Flow, Kreativität, Gesellschaft, Einheitsbewusstsein, Wahrnehmung, Geist, Intuition und Meditation.
     </div>
 </div>
 
