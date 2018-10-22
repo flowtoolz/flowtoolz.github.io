@@ -167,78 +167,22 @@ img
     background-position:center;
 }
 
-.image-cell > div
+/* Feature Grid */
+
+#feature-section
 {
-    padding-top:62.5%;
-    width:100%;
+    padding-bottom:70px;
 }
 
-#screen01:hover
+#feature-section .cell
 {
-    background:url(screens/screen_01-dark.jpg) no-repeat;
-    background-size:contain;
-    background-position:center;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
-#screen01
+#feature-section .cell img
 {
-    background:url(screens/screen_01.jpg) no-repeat;
-    background-size:contain;
-    background-position:center;
+    width: 69px;
+    margin-bottom: 20px;
 }
 
-#screen02:hover
-{
-    background:url(screens/screen_02-dark.jpg) no-repeat;
-    background-size:contain;
-    background-position:center;
-}
-
-#screen02
-{
-    background:url(screens/screen_02.jpg) no-repeat;
-    background-size:contain;
-    background-position:center;
-}
-
-#screen03:hover
-{
-    background:url(screens/screen_03-dark.jpg) no-repeat;
-    background-size:contain;
-    background-position:center;
-}
-
-#screen03
-{
-    background:url(screens/screen_03.jpg) no-repeat;
-    background-size:contain;
-    background-position:center;
-}
-
-#screen04:hover
-{
-    background:url(screens/screen_04-dark.jpg) no-repeat;
-    background-size:contain;
-    background-position:center;
-}
-
-#screen04
-{
-    background:url(screens/screen_04.jpg) no-repeat;
-    background-size:contain;
-    background-position:center;
-}
-
-#screen05:hover
-{
-    background:url(screens/screen_05-dark.jpg) no-repeat;
-    background-size:contain;
-    background-position:center;
-}
-
-#screen05
-{
-    background:url(screens/screen_05.jpg) no-repeat;
-    background-size:contain;
-    background-position:center;
-}

@@ -9,7 +9,7 @@ description: The easiest but most flexible idea organizer, task manager and note
 keywords: free, list, to, do, to do, to do list, self control, note, flow state, notes, note taking, task, manager, task manager, task management, todo list, todolist, business, today, todo, workflow, project, quick, management, project management, easy, progress, notebook, focus, daily, simple, ideas, school, tracker, college, creative, things, personal, done, focused, idea, organization, checklist, agile, organize, productivity, tasks, study, organizer, getting things done, get things done, brainstorm, brainstorming, self management, get shit done, getting shit done, app, mac, macos, osx, mac app, macos app, osx app, free mac app, free macos app, free task manager, free to do list, free todo list, free todolist, free project management, free task management, agenda, evernote, omnifocus, wunderlist, todoist, trello, things 3
 ---
 
-<section>
+<section id="video">
      <div style="text-align:center">
          <h1 style="margin-top:20px">
              <img style="margin-top:-15px;width:100%;max-width:68px"
@@ -19,13 +19,17 @@ keywords: free, list, to, do, to do, to do list, self control, note, flow state,
              </img>
              <span style="margin-left:0px">Flowlist</span>
          </h1>
-         <h2 style="margin-bottom:0px">
+         <h2>
              <nobr>Capture ideas quickly.</nobr> <nobr>Organize your stuff freely.</nobr><br>Get into flow <nobr>and achieve your goals.</nobr>
          </h2>
          
-         <div id="screen-shot">
-             <div style="padding-top:66.8756%;width:100%;"></div>
-         </div>
+         <video style="width:100%;max-width:960px;margin-bottom:60px"
+             controls
+             autoplay
+             onclick="ga('send', 'event', 'video', 'click');"
+             poster="video_poster.png">
+             <source src="AppStore_Preview_60fps.mp4" type="video/mp4">
+        </video>
          
          <p>
              <a onclick="ga('send', 'event', 'button', 'click', 'top section');"
@@ -41,58 +45,32 @@ keywords: free, list, to, do, to do, to do list, self control, note, flow state,
      </div>
  </section>
 
-<!--
  <section>
      <div>
          <h1>Elegant</h1>
          <h2 style="margin-bottom:10px">A unified design <nobr>offers flexibility</nobr><br>as well as simplicity.</h2>
-         <p style="text-align:center;margin-bottom:0px;margin-top:0px">
-             <img style="max-width:957px;"
-                 src="task_lists.png"
-                 title="Hierarchy Item or Task Lists"
-                 alt="{{ page.keywords }}">
-             </img>
-         <p>
+         
+         <div id="screen-shot">
+             <div style="padding-top:66.8756%;width:100%;"></div>
+         </div>
+         
+         
          <div class="grid-x small-up-1 medium-up-2 large-up-3 grid-margin-y grid-margin-x">
              <div class="cell">
                  <h3>The Familiar</h3>
-                 Like other task managers, Flowlist shows 3 main views: A task list in the middle, an overview on the left for context, and a detail view on the right showing details like subtasks of the selected task.
+                 Like other task managers, Flowlist shows your focused items in the middle, an overview to the left and details to the right.
              </div>
              <div class="cell">
                  <h3>More Flexible</h3>
-                 Unlike other task managers, Flowlist does not force your stuff into fixed categories like <i>Project</i> or <i>Subtask</i>. In Flowlist, items may contain items, and that's it. You can create any hierarchy of items.
+                 Unlike other task managers, Flowlist has no fixed categories like <i>Project</i> or <i>Subtask</i>. Instead, items contain items, and that's it.
              </div>
              <div class="cell">
                  <h3>Yet More Elegant</h3>
-                 In Flowlist, the 3 main views are all item lists. Each shows the details of what is selected in the list to its left. Just hit the left or right arrow key to slide the context or the detail view into focus.
+                 Build any item hierachy you want. Focus on any list at any level. Press <span class="fl-command-span">←</span> or <span class="fl-command-span">→</span> to slide context or details into focus.
              </div>
          </div>
      </div>
  </section>
- 
- -->
-
-<div class="image-cell" id="screen01"><div></div></div>
-<div class="image-cell" id="screen02"><div></div></div>
-<div class="image-cell" id="screen03"><div></div></div>
-<div class="image-cell" id="screen04"><div></div></div>
-<div class="image-cell" id="screen05"><div></div></div>
-
-<section id="video">
-    <div style="text-align:center">
-        <h1>Elegant</h1>
-        <h2>
-            This 30s video shows an old version<br>but still illustrates the principles.
-        </h2>
-        <video style="width:100%;max-width:960px"
-            controls
-            autoplay
-            onclick="ga('send', 'event', 'video', 'click');"
-            poster="video_poster.png">
-            <source src="AppStore_Preview_60fps.mp4" type="video/mp4">
-        </video>
-    </div>
-</section>
 
 <section>
     <div style="text-align:center">
@@ -105,42 +83,60 @@ keywords: free, list, to, do, to do, to do list, self control, note, flow state,
         <div>
 </section>
 
-<!--
-<section>
+
+<section id="feature-section">
     <div>
-         <h2>Flowlist evolves continuously<br>based on <a href="https://flowtoolz.typeform.com/to/R5lp8b" target="_blank">feature votes <nobr>from users.</nobr></a></h2>
+        <h1>Creative</h1>
+        <h2>Focus on your ideas<br>and enter a productive flow state</h2>
         <div class="grid-x small-up-1 medium-up-2 large-up-3 grid-margin-y grid-margin-x">
             <div class="cell">
-                <h3>Evolve Your Structure</h3>Group items together. Add subitems into any (empty) item. Move items between levels. Prioritize (reorder) items at all levels. Put them in progress, check them off, review what's done.
+                <img src="features/hierarchy.png"
+                    title="Group items together. Add subitems into any (empty) item. Move items between levels. Prioritize (reorder) items at all levels. Put them in progress, check them off, review what's done.">
+                <h3>Evolve Your Item Hierarchy</h3>
             </div>
             <div class="cell">
-                <h3>Write Rapidly</h3>Items in a list correspond to paragraphs in a text. Items can span multiple lines. Hit return twice to end the current paragraph and start the next one. Hit Space to add an item to the top.
+                <img src="features/structured_text.png"
+                    title="Items in a list correspond to paragraphs in a text. Items can span multiple lines. Hit return twice to end the current paragraph and start the next one. Hit Space to add an item to the top.">
+                    <h3>Create Structured Texts</h3>
             </div>
             <div class="cell">
-                <h3>Tag With Colors</h3>Hit numbers <span class="fl-command-span">1</span> to <span class="fl-command-span">6</span> to toggle a color tag for the selected items. Or hit <span class="fl-command-span">0</span> to remove the current color. For example, make deadlines and meetings red or make meaningful productive items blue.
+                <img src="features/tag.png"
+                    title="Hit numbers 1 to 6 to toggle a color tag for the selected items. Or hit 0 to remove the current color. For example, make deadlines and meetings red or make meaningful productive items blue.">
+                <h3>Tag Anything With Colors</h3>
             </div>
             <div class="cell">
-                <h3>Enter Dark Mode</h3>Switch to Dark Mode at any time. It's a cool looking dark color scheme for the user interface which gives your eyes some rest and allows you to sleep better, work at night and feel like a pro.
+                <img src="features/moon.png"
+                    title="Switch to Dark Mode at any time, independent of your macOS settings. It's a cool looking dark color scheme which allows your eyes some rest and lets you sleep better, work at night and feel like a pro.">
+                <h3>Enjoy Day- and Dark Mode</h3>
             </div>
             <div class="cell">
-                <h3>Import Items</h3>Copy content from any document or website and paste it into one of your list. Flowlist will detect the structure of that content and will paste it as distinct items (if the content is so structured).
+                <img src="features/down_arrow.png"
+                    title="Copy content from any document or website and paste it into one of your list. Flowlist will detect the structure of that content and will paste it as distinct items (if the content is so structured).">
+                <h3>Import from Anywhere</h3>
             </div>
             <div class="cell">
-                <h3>Zoom the UI</h3>Zoom in and out. Via <span class="fl-command-span">⌘+</span> and <span class="fl-command-span">⌘-</span> you adjust the font size and thereby the layout of the whole user interface. Lean back, relax and enjoy Flowlist on 12" laptops as well as on gamer screens.
+                <img src="features/zoom.png"
+                    title="Zoom in and out. Via ⌘+ and ⌘- you adjust the font size and thereby the layout of the whole user interface. Lean back, relax and enjoy Flowlist on 12 inch laptops as well as on gamer screens.">
+                <h3>Zoom the Whole UI</h3>
             </div>
             <div class="cell">
-                <h3>Monotask and Focus</h3>In Monotasking mode, Flowlist blends out any other app as well as the menu bar and the system dock. Fullscreen also works nicely.
+                <img src="features/cross_hair.png"
+                    title="In Monotasking mode, Flowlist blends out any other app as well as the menu bar and the system dock. Fullscreen also works nicely.">
+                <h3>Monotasking and Fullscreen</h3>
             </div>
             <div class="cell">
-                <h3>Enjoy Animations</h3>All navigating and editing are animated, which makes it easy for your eyes to track where you are and how items change.
+                <img src="features/animation.png"
+                    title="All navigating and editing are animated, which makes it easy for your eyes to track where you are and how items change.">
+                <h3>Everything's Animated</h3>
             </div>
             <div class="cell">
-                <h3>Own Your Data</h3>Flowlist auto-saves your data in <i>Home > Library > Containers > com.flowtoolz.flowlist > Data > Documents > flowlist.json</i>.
+                <img src="features/crown.png"
+                    title="Flowlist auto-saves your data in Home > Library > Containers > com.flowtoolz.flowlist > Data > Documents > flowlist.json.">
+                <h3>Own Your Data</h3>
             </div>
         </div>
     </div>
 </section>
--->
 
  <section>
      <div style="text-align:center">
