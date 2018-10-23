@@ -151,7 +151,7 @@ img
 
 #screen-shot
 {
-    background:url(task_lists.png) no-repeat;
+    background:url(task_lists_dark.png) no-repeat;
     background-size:contain;
     background-position:center;
     width: 100%;
@@ -162,7 +162,7 @@ img
 
 #screen-shot:hover
 {
-    background:url(task_lists_dark.png) no-repeat;
+    background:url(task_lists.png) no-repeat;
     background-size:contain;
     background-position:center;
 }
