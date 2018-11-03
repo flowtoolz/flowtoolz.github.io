@@ -18,7 +18,7 @@ Download from  <a href="/cocoalytics/cocoalytics.zip">www.flowtoolz.com/cocoalyt
 
 I've done a lot of conceptual work, copywriting, market analysis and so forth. And I explored the idea through the <a href="/2016/05/15/london-real-business-accelerator.html">London Real Business Accelerator</a>.
 
-Watch the pitch [here](/2016/01/03/cocoalytics-pitch.html). If you're interested in collaborating on such a project contact me. More is to come at [cocoalytics.com](http://cocoalytics.com).
+Watch an early pitch [here](https://www.youtube.com/watch?v=dYZx7Kflhmw). If you're interested in collaborating on such a project contact me. More is to come at [cocoalytics.com](http://cocoalytics.com).
 
 ## The 33Day-Diary
 
