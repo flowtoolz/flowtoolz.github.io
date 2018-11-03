@@ -10,11 +10,15 @@ permalink: /more/
 
 I created Flowlist for myself out of frustration with the many task management apps I used before. Now I'm happily using Flowlist every day since June 2017.
 
-## [Flowtalk](/flowtalk)
+## Cocoalytics
 
-<img src="flowtalk.jpg" class="ft-more-project-image" /> Flowtalk is a podcast. Our theme is “flow” as a state of ultimate focus, awareness, fulfilment, playfulness, naturalness, self-expression, productivity and inner peace.
+<img src="cocoalytics.png" class="ft-more-project-image" /> An app for Swift code visualization and quality analytics for Cocoa projects, i.e. around iOS, macOS and tvOS. The new MVP just shows which files of a code base might need to be split up, based on lines of code.
 
-We talk self-development, philosophy, psychology, spirituality, business, creativity, productivity, culture and more. Visit <a href="/flowtalk" onclick="ga('send', 'event', 'link', 'click', 'www.flowtoolz.com/flowtalk');">www.flowtoolz.com/flowtalk</a>.
+Download from  <a href="/cocoalytics/cocoalytics.zip">www.flowtoolz.com/cocoalytics/cocoalytics.zip</a>.
+
+I've done a lot of conceptual work, copywriting, market analysis and so forth. And I explored the idea through the <a href="/2016/05/15/london-real-business-accelerator.html">London Real Business Accelerator</a>.
+
+Watch the pitch [here](/2016/01/03/cocoalytics-pitch.html). If you're interested in collaborating on such a project contact me. More is to come at [cocoalytics.com](http://cocoalytics.com).
 
 ## The 33Day-Diary
 
@@ -23,20 +27,6 @@ We talk self-development, philosophy, psychology, spirituality, business, creati
 I needed something like the [five minute journal](http://fiveminutejournal.com) for myself, but I was inspired to integrate some extensions into that idea and wanted it to be a beautiful physical object...
 
 Now, the 3rd revision is done. A collaborator of mine handcrafts the books and gives every copy a unique design. I did a photo shoot of a bunch of example copies and had it professionally translated.
-
-## [Sebastian Telle](https://www.facebook.com/pg/sebastiantellemusik/posts)
-
-<img src="music.JPG" class="ft-more-project-image" /> I write and produce indie pop songs under my real name [Sebastian Telle](https://www.facebook.com/pg/sebastiantellemusik/posts) (formerly  as *Mellowtree*).
-
-Dreamy, spacey, catchy art pop. I've been following this vision since I was 14, and created [countless](/2017/09/17/break-free-from-your-musical-baggage.html) ideas.
-
-Currently I'm focusing on generating more viable output, i.e. I'm working on a 10 track debut album. Collaborators are welcome, in particular instrumentalists.
-
-## Flowtoolz Studio
-
-<img src="studio.jpg" class="ft-more-project-image" /> Since around 1996, I've been growing (gardening?) a music home studio, and I'm pretty happy with the minimal but effective and high quality setup.
-
-Since I'm drifting more and more to the production side, I collaborate with musicians and produce their demos. A page with details will follow...
 
 ## [Flowtoolz Github](https://github.com/flowtoolz/)
 
@@ -56,11 +46,25 @@ The book is not exclusively directed at coders, but at everyone in the periphery
 
 As soon as the overall "story arc" is settled, I'll extract some parts as blog posts...
 
-## Cocoalytics
+## [Flowtalk](/flowtalk)
 
-<img src="/cocoalytics/logo.jpg" class="ft-more-project-image" /> An idea for a code visualization and quality analytics tool around iOS, macOS and tvOS. Although there's no finished app to show, I've done a lot of conceptual work, copywriting, market analysis and so forth. And I explored the idea through the <a href="/2016/05/15/london-real-business-accelerator.html">London Real Business Accelerator</a>.
+<img src="flowtalk.jpg" class="ft-more-project-image" /> Flowtalk is a podcast. Our theme is “flow” as a state of ultimate focus, awareness, fulfilment, playfulness, naturalness, self-expression, productivity and inner peace.
 
-Watch the pitch [here](/2016/01/03/cocoalytics-pitch.html), or if you're interested in collaborating on such a project, download some conceptual notes [here](https://bitbucket.org/flowtoolz/cocoalytics/raw/ef819c6af7d74285481bfb7779c57c56b92be670/Strategy/cocoalytics_strategy.pdf). More is to come at [cocoalytics.com](http://cocoalytics.com).
+We talk self-development, philosophy, psychology, spirituality, business, creativity, productivity, culture and more. Visit <a href="/flowtalk" onclick="ga('send', 'event', 'link', 'click', 'www.flowtoolz.com/flowtalk');">www.flowtoolz.com/flowtalk</a>.
+
+## [Sebastian Telle](https://www.facebook.com/pg/sebastiantellemusik/posts)
+
+<img src="music.JPG" class="ft-more-project-image" /> I write and produce indie pop songs under my real name [Sebastian Telle](https://www.facebook.com/pg/sebastiantellemusik/posts) (formerly  as *Mellowtree*).
+
+Dreamy, spacey, catchy art pop. I've been following this vision since I was 14, and created [countless](/2017/09/17/break-free-from-your-musical-baggage.html) ideas.
+
+Currently I'm focusing on generating more viable output, i.e. I'm working on a 10 track debut album. Collaborators are welcome, in particular instrumentalists.
+
+## Flowtoolz Studio
+
+<img src="studio.jpg" class="ft-more-project-image" /> Since around 1996, I've been growing (gardening?) a music home studio, and I'm pretty happy with the minimal but effective and high quality setup.
+
+Since I'm drifting more and more to the production side, I collaborate with musicians and produce their demos. A page with details will follow...
 
 ## StockToolz
 
