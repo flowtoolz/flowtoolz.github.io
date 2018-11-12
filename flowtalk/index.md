@@ -97,12 +97,23 @@ Flowtalk is a (mostly german) podcast. Our theme is **flow** as a state of ultim
     
 </div>
 
+<h2>#5 - Nicolas Alschibaja, Sebastian Telle</h2>
+
+<div class="grid-x grid-margin-x">
+    <div class="cell small-12 medium-6">
+        <img src="episode-images/poster_5.jpg" style="margin-top:9px">
+    </div>
+    <div class="cell small-12 medium-6">
+        Nicolas und ich unterhielten uns diesmal über seine Erfahrungen mit Ayahuasca, bewusstes Planen vs. authentische Motivation, Selbstkenntnis, mein neues Projekt <a href="/more">Cocoalytics</a>, Denken als Werkzeug, Enneagramme und mehr.
+    </div>
+</div>
+
 <h2>#4 - Nicolas Alschibaja, Sebastian Telle</h2>
 
 <div class="grid-x grid-margin-x">
     <div class="cell small-12 medium-6">
         <img src="episode-images/poster_4.jpg" style="margin-top:9px">
-            </div>
+    </div>
     <div class="cell small-12 medium-6">
         Nicolas ist spiritueller Sucher, Autor und Coach. Sebastian ist kreativer Querdenker und App-Architekt. Wir unterhielten uns diesmal über den Widerstreit zwischen kreativem Schaffen und bewusstem Loslassen, sowie über die Relativität von Werten.
     </div>

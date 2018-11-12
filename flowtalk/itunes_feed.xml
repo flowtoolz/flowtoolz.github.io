@@ -25,6 +25,30 @@
         
         <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
         
+         <item>
+            <!-- update all this -->
+            <guid>http://www.flowtoolz.com/flowtalk/#5</guid>
+            <title>#5 - Nicolas Alschibaja, Sebastian Telle</title>
+            <itunes:summary>Nicolas und ich unterhielten uns diesmal über seine Erfahrungen mit Ayahuasca, bewusstes Planen vs. authentische Motivation, Selbstkenntnis, mein neues Projekt Cocoalytics, Denken als Werkzeug, Enneagramme und mehr.
+                
+                http://www.flowtoolz.com
+                http://www.nicolas-alschibaja.de
+            </itunes:summary>
+            <description>Nicolas und ich unterhielten uns diesmal über seine Erfahrungen mit Ayahuasca, bewusstes Planen vs. authentische Motivation, Selbstkenntnis, mein neues Projekt Cocoalytics, Denken als Werkzeug, Enneagramme und mehr.
+                
+                http://www.flowtoolz.com
+                http://www.nicolas-alschibaja.de
+            </description>
+            <itunes:duration>01:40:10</itunes:duration>
+            <!-- copy this this stuff from Anchor rss -->
+            <pubDate>Mon, 12 Nov 2018 14:12:03 GMT</pubDate>
+            <enclosure url="https://anchor.fm/s/6dddbb8/podcast/play/1714782/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2018-10-12%2F5751196-48000-2-92e1e38f83d5e.mp3" length="240406336" type="audio/mpeg"/>
+            <!-- leave all this as it is -->
+            <itunes:author>Flowtoolz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <link>http://www.flowtoolz.com/flowtalk</link>
+        </item>
+         
         <item>
             <!-- update all this -->
             <guid>http://www.flowtoolz.com/flowtalk/#4</guid>
