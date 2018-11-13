@@ -15,7 +15,7 @@ Flowtalk is a (mostly german) podcast. Our theme is **flow** as a state of ultim
     style="margin-bottom:-32px">
     
     <div class="cell">
-        <a href="https://www.youtube.com/channel/UCy3HpEO3Jr-iuvoEAFkpHVg"
+        <a href="https://www.youtube.com/playlist?list=PLoODJOkrD-H7FR5sApUovZQ0GHPZRkCRv"
             target="_blank"
             class="ft-podcast-link"
             style="background:url(logos/youtube@2x.png) no-repeat;background-size:contain;background-position:left;">
