@@ -26,7 +26,7 @@ I pursued that fundamental question ever since. The abstract principles of softw
  
 ## Are We Having Fun Yet?
  
-To my surprise, I didn't find answers at universities. In In fact, their process- and architecture related courses didn't much reflect modern reality. Software engineering, as they presented it, had already been [kind of dead](https://www.computer.org/cms/Computer.org/ComputingNow/homepage/2009/0709/rW_SO_Viewpoints.pdf).
+To my surprise, I didn't find answers at universities. In fact, their process- and architecture related courses didn't much reflect modern reality. Software engineering, as they presented it, had already been [kind of dead](https://www.computer.org/cms/Computer.org/ComputingNow/homepage/2009/0709/rW_SO_Viewpoints.pdf).
 
 So, I went on a journey of working on code, analyzing code, reading about code and thinking deeply about the nature of code. Writing down and integrating everything I learned, a theoretical framework emerged that seemed to answer all my questions and explain common architectures.
 
@@ -46,13 +46,13 @@ However, most code-related techniques are quite low-level: The domain model is j
 
 That's why we developers crave higher-level frameworks and patterns to guide our micro decisions. And that's where the A-word comes in: architecture.
 
-## Is Architecture For Houses? 
+## Is Architecture for Houses? 
 
 Now, let's not get bogged down by definitions. You already have an intuitive understanding of "software architecture". It's a fuzzy term, and we'll deconstruct it anyway.
 
 In the realm of software, "architecture" remains a metaphor. It's a useful one, but like any metaphor, you can take it to a point where it breaks down. Its applicability is limited and depends on what aspects you wanna illuminate. 
 
-One aspect in which the metaphor fails software is that real world construction requires [up front design](https://en.wikipedia.org/wiki/Big_Design_Up_Front) while software can evolve organically.
+One aspect in which the metaphor fails software is this: Real world construction requires [up front design](https://en.wikipedia.org/wiki/Big_Design_Up_Front) while software can evolve organically.
 
 The software architect can quickly build a working product and then iterate over it again and again. It's like starting with a one room house with no windows, plumbing or electricity and then growing that house, step by step, into a futuristic complex.
 
