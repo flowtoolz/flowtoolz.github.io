@@ -73,10 +73,10 @@ Here are just 10 myths:
 
 In this book, I won't directly "challenge" such myths. But when we're able to put them in perspective and understand where they come from, they appear small-minded, arbitrary, over-restrictive and needlessly confusing.
 
-So, instead of promoting some new "architecture", I'll open up a wider thought framework that can relate and explain the patterns we know.
+So, instead of promoting some new "architecture", I will lay out a wider thought framework that can relate and explain the patterns we know.
 
 Equipped with deep clarity about the fundamental principles of code structure, the patterns and rules we think of as "architecture" will dissolve and become non-issues. How to architect clean software systems and how to integrate different approaches will be obvious.
 
-And it should be obvious because software, at its core, is surprisingly simple. Just like life. We'll see that much of it comes down to telling the truth. Code, like speech, must be truthful. Then, it's efficient, lean, beautiful and simple.
+And it should be obvious because software, at its core, is surprisingly simple. Just like life. We'll see that much of it comes down to telling the truth. Code, like speech, must be truthful. Then, it's efficient, lean, simple and beautiful.
 
 When your solution is complex, chances are it's not sophisticated but just clumsy. Chances are you haven't thought the problem through just yet. Welcome to Zen in the Art of Software Architecture.
