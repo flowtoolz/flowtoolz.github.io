@@ -103,18 +103,18 @@ src="/blog-images/software-development/architecture/three-Ps.png"
 title="{{ page.title }}"
 alt="{{ page.title }}. {{ page.keywords }}">
 
-What do they mean in (software) architecture?
+And what do they mean for creating software or buildings?
 
-1. The **product** is the ultimate outcome. The product of software architecture is software, not "architecture".
+1. The **product** is the ultimate outcome. In our context, the product is software, not "architecture".
 
-2. The **process** is the dynamic activity (or negligence) of the architect. It produces the product with respect to the principles.
+2. The **process** produces the product with respect to the principles. It is the dynamic activity (or negligence) of the architect. 
 
-3. The **principles** describe the domain of the craft, its entities and rules. Our domain is code. Note, that technical "system architecture" is a different topic.
+3. The **principles** describe the domain of the craft, its entities and rules. Our domain is code. Note, that technical *system architecture* is a different subject.
 
-The high-level (global) code structure that people commonly call "architecture" is just what holds the software together and makes it a thing at all. It's a level of analysis applicable to any product, even if it wasn't intentionally designed that way.
+The high-level (global) code structure that people commonly call "architecture" is just what holds the software together and makes it a thing at all. It's a level of analysis applicable to any product, even if the product wasn't designed that way.
 
-Principles are the natural laws that govern the universe in which the product arises. They determine what creations can possibly manifest as stable entities. Everything exists as a consequence of such laws and in so far as it is in accordance with them. As far as something is not, it disintegrates.
+Principles are the natural laws that govern the universe in which the product arises. They determine what creations can possibly manifest as stable entities. Everything exists as a consequence of such laws and in so far as it is in accordance with them. As far as something disintegrates, it is obviously, as a *thing*, not in accordance with the laws of its universe.
 
-When we'll speak of *architecture* in this book, we will mean those natural laws rather than an aspect of the product: To grow into a healthy long-lived human being, we must design our lifestyle in accordance with the *architecture* of  human existence. To grow a healthy long-lived code base, we must design it in accordance with the *architecture* of code.
+When we'll speak of *architecture* in this book, we will mean universal principles rather than aspects of the product: To grow into a healthy long-lived human being, we must design our lifestyle in accordance with *the architecture of  human existence*. To grow a healthy long-lived code base, we must design it in accordance with *the architecture of code*.
 
 Now, if we understand software architecture as a set of principles that naturally apply to all software, then what are these principles? Let's narrow them down!
