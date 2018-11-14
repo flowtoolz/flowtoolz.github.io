@@ -126,7 +126,7 @@ We'll also not touch on specific technologies, software types or application dom
 
 Timely products result from agility. Unfortunately, the term "agile" is overused and misunderstood. Let me say this much: Agility is not [SCRUM](https://en.wikipedia.org/wiki/Scrum_(software_development)) but implementing the ideas behind the [Agile Manifesto](http://agilemanifesto.org/principles.html). And clean architecture derives from those ideas. 
 
-Clean architecture has all kinds of effects that help produce more value over time and thereby, deliver timely products: It makes development flexible, puts emphasis on customer value, yields re-usable code, raises team engagement, accelerates onboarding, solves object-oriented design problems, promotes a common domain-specific language, avoids all sorts of technical risks, makes code more testable, etc.
+Clean architecture has all kinds of effects that help produce more value over time and, thereby, deliver timely products: It makes development flexible, puts emphasis on customer value, yields re-usable code, raises team engagement, accelerates onboarding, solves object-oriented design problems, promotes a common domain-specific language, avoids all sorts of technical risks, makes code more testable, etc.
 
 ## Product, Process, Principles
 
