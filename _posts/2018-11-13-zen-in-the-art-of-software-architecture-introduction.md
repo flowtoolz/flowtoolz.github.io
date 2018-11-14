@@ -93,7 +93,40 @@ Equipped with deep clarity about the fundamental principles of code structure, t
 
 And it should be obvious because software, at its core, is surprisingly simple. Just like life. We'll see that much of it comes down to telling the truth. Code, like speech, must be truthful. Then, it's efficient, lean, simple and beautiful.
 
-When your solution is complex, chances are it's not sophisticated but just clumsy. Chances are you haven't thought the problem through just yet.
+When your solution is complex, chances are it's not sophisticated but just clumsy. Chances are you haven't thought the problem through just yet. Welcome to ...
+
+## Zen in the Art of Software Architecture - From Timeless Principles to Timely Products
+
+Before we jump into the [Dharma](https://en.wikipedia.org/wiki/Dharma) of program code, let me recapture the spirit of this book by going over the remaining terms in the title.
+
+### Zen
+
+We'll take a level-headed look at a fuzzy term that normally tends to overwhelm and that some might call a "meaningless buzzword". We'll aim at methodical precision, philosophical depth, ruthless pragmatism and absolute simplicity. 
+
+Understanding universal truths about software, you'll see the big picture and true nature of your project, and that will put you into a flowstate and the "fun" back into functioning code.
+
+### Art
+
+Software architecture requires more than science and craft. In order to build high quality software products with agility, you want to become engineer, craftsman and artist. On top of knowledge and skill, the software artist adds the pschological maturity that enables you to ...
+
+1.  see the true meaning, semantic structure and big picture of a software
+2. let go of mere technicalities, perfectionism and feature creep
+3. feel intuitively when returns diminish and something is good enough
+4. truly empathize with your user
+
+### Timeless Principles
+
+We'll start with abstract principles, then we'll analyze common patterns of architecture and design through the lense of our established thought framework.
+
+We'll look at many hand sketched diagrams but never at code or pseudo code because we need to understand high-level structure not low-level processes.
+
+We'll also not touch on specific technologies, software types or application domains. This book is about the message, not about the medium.
+
+### Timely Products
+
+Timely products result from agility. Unfortunately, the term "agile" is overused and misunderstood. Let me say this much: Agility is not [SCRUM](https://en.wikipedia.org/wiki/Scrum_(software_development)) but implementing the ideas behind the [Agile Manifesto](http://agilemanifesto.org/principles.html). And clean architecture derives from those ideas. 
+
+Clean architecture has all kinds of effects that help produce more value over time and thereby, deliver timely products: It makes development flexible, puts emphasis on customer value, yields re-usable code, raises team engagement, accelerates onboarding, solves object-oriented design problems, promotes a common domain-specific language, avoids all sorts of technical risks, makes code more testable, etc.
 
 ## Product, Process, Principles
 
