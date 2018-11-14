@@ -44,7 +44,7 @@ That's why we developers crave higher-level frameworks and patterns to guide our
 
 Now, let's not get bogged down by definitions. You already have an intuitive understanding of "software architecture". It's a fuzzy term, and we'll deconstruct it anyway.
 
-In the realm of software, the term "architecture" remains a metaphor. It's a useful one, but like any metaphor, you can take it to a point where it breaks down. Its applicability is certainly limited and depends on what aspects it's supposed to illuminate. 
+In the realm of software, "architecture" remains a metaphor. It's a useful one, but like any metaphor, you can take it to a point where it breaks down. Its applicability is limited and depends on what aspects you wanna illuminate. 
 
 One aspect in which the metaphor fails software is that real world construction requires [up front design](https://en.wikipedia.org/wiki/Big_Design_Up_Front) while software can evolve organically.
 
