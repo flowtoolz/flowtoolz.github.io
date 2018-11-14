@@ -16,13 +16,13 @@ keywords: software architecture, software, architecture, zen, code quality, soft
 
 ## Are We Having Fun Yet?
 
-When I was eleven years old, I teached myself Pascal, and shortly after C++. I remember building wild over-engineered little monsters of code.
+When I was eleven years old, I teached myself Pascal and, shortly after, C++. I remember building wild over-engineered little monsters of code.
 
 Again and again, those games, game engines and architectural frameworks would lead into dead ends, where  their structure hopelessly diverged from their purpose and their complexity brought them to a halt.
 
-And again and again I started all over, wondering: How on earth is real professional software even possible? There must be some system or secret that I still don't know.
+And again and again, I started all over, wondering: How on earth is real professional software even possible? There must be some system or secret that I still don't know.
 
-And I pursued the answer to those fundamental questions ever since. The abstract principles of software development have always intrigued me far more than its technical details.
+And I pursued the answer to those fundamental questions ever since. The abstract principles of software development have always intrigued me far more than the technical details.
  
 To my surprise, I didn't find answers at universities. Process- and architecture related courses did not reflect modern reality. Software engineering, as it was presented to us, was [kind of dead](https://www.computer.org/cms/Computer.org/ComputingNow/homepage/2009/0709/rW_SO_Viewpoints.pdf) 10 years ago.
 
@@ -32,13 +32,13 @@ This is a deeply systematic book. But: I won't rattle down a longwinded proof an
 
 ## Where We're Coming From
 
-As proud software craftsmen, we think customer-centric, design domain-driven, implement test-driven, develop behaviour-driven, structure object-oriented, integrate automatically, iterate rapidly and deliver continuously, some even burn out recurringly, fine.
+As proud software craftsmen, we think customer-centric, design domain-driven, implement test-driven, develop behaviour-driven, structure object-oriented, integrate automatically, iterate rapidly, deliver continuously and burn out recurringly, fine.
 
-Some of these techniques are quite far down the pipeline, but no amount of automated testing and rapid iteration can make up for fundamentally flawed code coming in. Everything starts with- and builds upon quality code.
+Some of these techniques are quite far down the pipeline, and no amount of automated testing and rapid iteration can make up for fundamentally flawed code coming in. Everything starts with- and builds upon quality code.
 
 However, most code-related techniques are quite low-level. The domain model is just one part of the application, object-oriented design principles have mostly local scope, and a thousand perfect little TDD cycles with perfect little tests and refactorings can still amount to a mess in the big picture.
 
-That's why developers crave higher-level frameworks and models to guide their micro decisions. And that's where the A-word comes in: architecture.
+That's why we developers crave higher-level frameworks and models to guide our micro decisions. And that's where the A-word comes in: architecture.
 
 Now, let's not get bogged down by definitions. You already have an intuitive understanding of "software architecture". It's a fuzzy term, and we'll deconstruct it anyway.
 
