@@ -40,7 +40,15 @@ However, most code-related techniques are quite low-level. The domain model is j
 
 That's why we developers crave higher-level frameworks and models to guide our micro decisions. And that's where the A-word comes in: architecture.
 
+## Is Architecture For Houses? 
+
 Now, let's not get bogged down by definitions. You already have an intuitive understanding of "software architecture". It's a fuzzy term, and we'll deconstruct it anyway.
+
+In the realm of software, the term "architecture" remains a metaphor. It's a useful one, but like any metaphor, you can take it to a point where it breaks down. Its applicability is certainly limited and depends on what aspects it's supposed to illuminate. 
+
+One aspect in which the metaphor fails software is that real world construction requires [up front design](https://en.wikipedia.org/wiki/Big_Design_Up_Front) while software can evolve organically.
+
+The software architect can quickly build a working product and then iterate over it again and again. It's like starting with a one room house with no windows, plumbing or electricity and then growing that house, step by step, into a futuristic complex.
 
 ## Architecture Pattern Recognition
 
@@ -79,4 +87,26 @@ Equipped with deep clarity about the fundamental principles of code structure, t
 
 And it should be obvious because software, at its core, is surprisingly simple. Just like life. We'll see that much of it comes down to telling the truth. Code, like speech, must be truthful. Then, it's efficient, lean, simple and beautiful.
 
-When your solution is complex, chances are it's not sophisticated but just clumsy. Chances are you haven't thought the problem through just yet. Welcome to Zen in the Art of Software Architecture.
+When your solution is complex, chances are it's not sophisticated but just clumsy. Chances are you haven't thought the problem through just yet.
+
+## Product, Process, Principles
+
+So where do we even begin? Any productive craft invloves these three layers:
+<img style="margin-left:auto;margin-right:auto;display:block;max-width:423px"
+src="/blog-images/software-development/architecture/three-Ps.png"
+title="{{ page.title }}"
+alt="{{ page.title }}. {{ page.keywords }}">
+
+What could these layers mean in (software) architecture?
+
+1. The **product** is the ultimate outcome and purpose. The product of software architecture is the high-level (global) code structure that we often just call *the architecture*.  
+
+2. The **process** is the dynamic activity of the architect that produces the product with respect to the principles.
+
+3. The **principles** describe the domain of the craft, its entities and rules. Our domain is code. Note, that technical "system architecture" is a different topic.
+
+Principles are the natural laws that govern the universe in which the product exists. They determine what products can possibly manifest. Every creation exists as a consequence of such laws and because it is in accordance with them. We'll refer to those laws as *architecture*.
+
+To grow into a healthy happy human, we must design our lifestyle in accordance with the laws (architecture) of  human existence. To grow a healthy happy code base, we must design it in accordance with the laws (architecture) of code.
+
+So, we understand software architecture as set of laws that naturally apply to all software. Fine. Let's narrow them down!
