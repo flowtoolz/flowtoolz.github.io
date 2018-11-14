@@ -52,7 +52,7 @@ The software architect can quickly build a working product and then iterate over
 
 ## Architecture Pattern Recognition
 
-I bet you're already a little "architect" like me, aiming at code monuments of sheer beauty, why else would you pick up a book with such a pretentious title? But what we think is optimal or what feels beautiful isn't necessarily that by the true nature of the subject matter and its intrinsic standards.
+I bet you're already a little "architect" like me, aiming at code monuments of sheer beauty, why else would you pick up a book with such a pretentious title? But what we think is optimal or what feels beautiful isn't necessarily that by the intrinsic standards and true nature of the subject matter.
 
 When developing software, we often cling to a so called "architecture" without really knowing why. Compliance with an architecture pattern yields consistency and beauty in terms of that pattern but not necessarily in terms of the nature of software itself.
 
