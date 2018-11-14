@@ -14,21 +14,27 @@ keywords: software architecture, software, architecture, zen, code quality, soft
     
 <i>This is a series of excerpts from a book draft on software architecture. The content will evolve, and I'll even rework published content without highlighting every edit.</i>
 
-## Are We Having Fun Yet?
+## The Call to Adventure
 
-When I was eleven years old, I teached myself Pascal and, shortly after, C++. I remember building wild over-engineered little monsters of code.
+When I was eleven, I teached myself [Pascal](https://en.wikipedia.org/wiki/Pascal_(programming_language)) and, shortly after, [C++](https://en.wikipedia.org/wiki/C%2B%2B), [Windows programming](https://www.goodreads.com/book/show/420643.Programming_Windows), [DirectX](https://en.wikipedia.org/wiki/DirectX) and [game development](https://www.goodreads.com/book/show/2340474.Tricks_of_the_Game_Programming_Gurus). I remember cranking out countless over-engineered little beasts of code.
 
-Again and again, those games, game engines and architectural frameworks would lead into dead ends, where  their structure hopelessly diverged from their purpose, and their complexity brought them to a halt.
+Again and again, those games, game engines and architectural frameworks would lead into dead ends, where  their structure hopelessly diverged from their purpose, or their complexity brought them to a halt.
 
 And again and again, I started all over, wondering: How on earth is real professional software even possible? There must be some system or secret that I still don't know.
 
 I pursued that fundamental question ever since. The abstract principles of software development have always intrigued me far more than the technical details.
  
-To my surprise, I didn't find answers at universities. Their process- and architecture related courses did not reflect modern reality. Software engineering, as they presented it, had already been [kind of dead](https://www.computer.org/cms/Computer.org/ComputingNow/homepage/2009/0709/rW_SO_Viewpoints.pdf).
+## Are We Having Fun Yet?
+ 
+To my surprise, I didn't find answers at universities. In In fact, their process- and architecture related courses didn't much reflect modern reality. Software engineering, as they presented it, had already been [kind of dead](https://www.computer.org/cms/Computer.org/ComputingNow/homepage/2009/0709/rW_SO_Viewpoints.pdf).
 
-So, I went on a journey of working on code, analyzing code, reading about code and thinking deeply about the nature of code structure. Writing down and integrating everything I learned, a theoretical framework emerged. It is abstract but simple and pragmatic, and I use it to understand and (re-)factor all my projects. I feel it actually goes deeper than software and maybe touches on some principles of life, we'll see.
+So, I went on a journey of working on code, analyzing code, reading about code and thinking deeply about the nature of code. Writing down and integrating everything I learned, a theoretical framework emerged that seemed to answer all my questions and explain common architectures.
 
-This is a deeply systematic book. But: I won't rattle down a longwinded proof and reference list for every statement I make. It's not an academic text. I don't have time for that, and neither have you. For the sake of brevity and practical value, let's focus on the essential line of reasoning. I'll sound opinionated, and you'll be motivated. More fun for both of us :)
+It is abstract but simple and pragmatic, and I've been using it for years now to understand and (re-)factor my projects. I feel it actually goes deeper than software and maybe touches on some principles of life, we'll see.
+
+In order to sort out, delineate and nail down my learnings, I wrote this book. Also, the presented thought framework could be interesting to other people in the periphery of software development. I've put much work into it because it offers a perspective that I had greatly missed in the field.
+
+My approach is deeply systematic. However, I won't rattle down a longwinded proof and reference list for every statement I make. It's not an academic text. I don't have time for that, and neither have you. For the sake of brevity and practical value, let's focus on the essential line of reasoning. I'll sound opinionated, and you'll be motivated. More fun for both of us :)
 
 ## Where We're Coming From
 
@@ -99,14 +105,14 @@ alt="{{ page.title }}. {{ page.keywords }}">
 
 What do they mean in (software) architecture?
 
-1. The **product** is the ultimate outcome. The product of software architecture is the high-level (global) code structure that people commonly call "the architecture".  
+1. The **product** is the ultimate outcome. The product of software architecture is the high-level (global) code structure that people commonly call "the architecture". It's a level of analysis applicable to any software, even if wasn't intentionally designed.
 
-2. The **process** is the dynamic activity of the architect that produces the product with respect to the principles.
+2. The **process** is the dynamic activity (or negligence) of the architect. It produces the product with respect to the principles.
 
 3. The **principles** describe the domain of the craft, its entities and rules. Our domain is code. Note, that technical "system architecture" is a different topic.
 
-Principles are the natural laws that govern the universe in which the product exists. They determine what creations can possibly manifest as stable entities. Everything exists as a consequence of such laws and as far as it's in accordance with them. As far as something is not, it disintegrates. 
+Principles are the natural laws that govern the universe in which the product arises. They determine what creations can possibly manifest as stable entities. Everything exists as a consequence of such laws and in so far as it is in accordance with them. As far as something is not, it disintegrates.
 
-When we'll speak of *architecture* in this book, we will mean those *universal laws*: To grow into a healthy long-lived human, we must design our lifestyle in accordance with the *architecture* of  human existence. To grow a healthy long-lived code base, we must design it in accordance with the *architecture* of code.
+When we'll speak of *architecture* in this book, we will mean those natural laws: To grow into a healthy long-lived human being, we must design our lifestyle in accordance with the *architecture* of  human existence. To grow a healthy long-lived code base, we must design it in accordance with the *architecture* of code.
 
 Now, if we understand software architecture as a set of principles that naturally apply to all software, then what are these principles? Let's narrow them down!
