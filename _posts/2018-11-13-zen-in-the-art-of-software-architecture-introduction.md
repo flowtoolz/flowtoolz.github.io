@@ -91,13 +91,13 @@ When your solution is complex, chances are it's not sophisticated but just clums
 
 ## Product, Process, Principles
 
-So where do we even begin? Any productive craft invloves these three layers:
+So where do we even begin? Any productive craft involves these layers:
 <img style="margin-left:auto;margin-right:auto;display:block;max-width:423px"
 src="/blog-images/software-development/architecture/three-Ps.png"
 title="{{ page.title }}"
 alt="{{ page.title }}. {{ page.keywords }}">
 
-What could these layers mean in (software) architecture?
+What do they mean in (software) architecture?
 
 1. The **product** is the ultimate outcome and purpose. The product of software architecture is the high-level (global) code structure that people commonly call "the architecture".  
 
