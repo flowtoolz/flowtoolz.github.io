@@ -148,6 +148,6 @@ The high-level (global) code structure that people commonly call "architecture" 
 
 Principles are the natural laws that govern the universe in which the product arises. They determine what creations can possibly manifest as stable entities. Everything exists as a consequence of such laws and in so far as it is in accordance with them. As far as something disintegrates, it is obviously, as a *thing*, not in accordance with the laws of its universe.
 
-When we'll speak of *architecture* in this book, we will mean universal principles rather than aspects of the product: To grow into a healthy long-lived human being, we must design our lifestyle in accordance with *the architecture of  human existence*. To grow a healthy long-lived code base, we must design it in accordance with *the architecture of code*.
+When we'll speak of *architecture* in this book, we will mean universal principles rather than the product: To grow into a healthy long-lived human being, we must design our lifestyle in accordance with *the architecture of  human existence*. To grow a healthy long-lived code base, we must design it in accordance with *the architecture of code*.
 
 Now, if we understand software architecture as a set of principles that naturally apply to all software, then what are these principles? Let's narrow them down!
