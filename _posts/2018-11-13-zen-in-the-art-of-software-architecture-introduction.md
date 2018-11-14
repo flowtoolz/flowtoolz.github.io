@@ -22,9 +22,9 @@ Again and again, those games, game engines and architectural frameworks would le
 
 And again and again, I started all over, wondering: How on earth is real professional software even possible? There must be some system or secret that I still don't know.
 
-And I pursued the answer to those fundamental questions ever since. The abstract principles of software development have always intrigued me far more than the technical details.
+I pursued that fundamental question ever since. The abstract principles of software development have always intrigued me far more than the technical details.
  
-To my surprise, I didn't find answers at universities. Process- and architecture related courses did not reflect modern reality. Software engineering, as it was presented to us, was [kind of dead](https://www.computer.org/cms/Computer.org/ComputingNow/homepage/2009/0709/rW_SO_Viewpoints.pdf) 10 years ago.
+To my surprise, I didn't find answers at universities. Their process- and architecture related courses did not reflect modern reality. Software engineering, as they presented it, had already been [kind of dead](https://www.computer.org/cms/Computer.org/ComputingNow/homepage/2009/0709/rW_SO_Viewpoints.pdf).
 
 So, I went on a journey of working on code, analyzing code, reading about code and thinking deeply about the nature of code structure. Writing down and integrating everything I learned, a theoretical framework emerged. It is abstract but simple and pragmatic, and I use it to understand and (re-)factor all my projects. I feel it actually goes deeper than software and maybe touches on some principles of life, we'll see.
 
@@ -38,7 +38,7 @@ Some of these techniques are quite far down the pipeline, and no amount of autom
 
 However, most code-related techniques are quite low-level. The domain model is just one part of the application, object-oriented design principles have mostly local scope, and a thousand perfect little TDD cycles with perfect little tests and refactorings can still amount to a mess in the big picture.
 
-That's why we developers crave higher-level frameworks and models to guide our micro decisions. And that's where the A-word comes in: architecture.
+That's why we developers crave higher-level frameworks and patterns to guide our micro decisions. And that's where the A-word comes in: architecture.
 
 ## Is Architecture For Houses? 
 
@@ -109,4 +109,4 @@ Principles are the natural laws that govern the universe in which the product ex
 
 To grow into a healthy happy human, we must design our lifestyle in accordance with the laws (architecture) of  human existence. To grow a healthy happy code base, we must design it in accordance with the laws (architecture) of code.
 
-So, we understand software architecture as set of laws that naturally apply to all software. Fine. Let's narrow them down!
+Now, if we understand software architecture as a set of principles that naturally apply to all software, then what are these principles? Let's narrow them down!
