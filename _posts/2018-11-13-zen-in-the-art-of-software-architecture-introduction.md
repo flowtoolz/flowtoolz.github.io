@@ -105,14 +105,16 @@ alt="{{ page.title }}. {{ page.keywords }}">
 
 What do they mean in (software) architecture?
 
-1. The **product** is the ultimate outcome. The product of software architecture is the high-level (global) code structure that people commonly call "the architecture". It's a level of analysis applicable to any software, even if wasn't intentionally designed.
+1. The **product** is the ultimate outcome. The product of software architecture is software, not "architecture".
 
 2. The **process** is the dynamic activity (or negligence) of the architect. It produces the product with respect to the principles.
 
 3. The **principles** describe the domain of the craft, its entities and rules. Our domain is code. Note, that technical "system architecture" is a different topic.
 
+The high-level (global) code structure that people commonly call "architecture" is just what holds the software together and makes it a thing at all. It's a level of analysis applicable to any product, even if it wasn't intentionally designed that way.
+
 Principles are the natural laws that govern the universe in which the product arises. They determine what creations can possibly manifest as stable entities. Everything exists as a consequence of such laws and in so far as it is in accordance with them. As far as something is not, it disintegrates.
 
-When we'll speak of *architecture* in this book, we will mean those natural laws: To grow into a healthy long-lived human being, we must design our lifestyle in accordance with the *architecture* of  human existence. To grow a healthy long-lived code base, we must design it in accordance with the *architecture* of code.
+When we'll speak of *architecture* in this book, we will mean those natural laws rather than an aspect of the product: To grow into a healthy long-lived human being, we must design our lifestyle in accordance with the *architecture* of  human existence. To grow a healthy long-lived code base, we must design it in accordance with the *architecture* of code.
 
 Now, if we understand software architecture as a set of principles that naturally apply to all software, then what are these principles? Let's narrow them down!
