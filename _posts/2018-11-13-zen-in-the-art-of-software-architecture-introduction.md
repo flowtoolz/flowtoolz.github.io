@@ -105,8 +105,8 @@ What do they mean in (software) architecture?
 
 3. The **principles** describe the domain of the craft, its entities and rules. Our domain is code. Note, that technical "system architecture" is a different topic.
 
-Principles are the natural laws that govern the universe in which the product exists. They determine what products can possibly manifest as stable entities. Every creation exists as a consequence of such laws and as far as it's in accordance with them. As far as something is not, it disintegrates. 
+Principles are the natural laws that govern the universe in which the product exists. They determine what creations can possibly manifest as stable entities. Everything exists as a consequence of such laws and as far as it's in accordance with them. As far as something is not, it disintegrates. 
 
-When we'll speak of *architecture* in this book, we will mean those *universal laws*: To grow into a healthy happy human, we must design our lifestyle in accordance with the *architecture* of  human existence. To grow a healthy happy code base, we must design it in accordance with the *architecture* of code.
+When we'll speak of *architecture* in this book, we will mean those *universal laws*: To grow into a healthy long-lived human, we must design our lifestyle in accordance with the *architecture* of  human existence. To grow a healthy long-lived code base, we must design it in accordance with the *architecture* of code.
 
 Now, if we understand software architecture as a set of principles that naturally apply to all software, then what are these principles? Let's narrow them down!
