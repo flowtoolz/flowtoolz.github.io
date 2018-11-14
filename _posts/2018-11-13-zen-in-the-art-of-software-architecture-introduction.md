@@ -18,7 +18,7 @@ keywords: software architecture, software, architecture, zen, code quality, soft
 
 When I was eleven years old, I teached myself Pascal and, shortly after, C++. I remember building wild over-engineered little monsters of code.
 
-Again and again, those games, game engines and architectural frameworks would lead into dead ends, where  their structure hopelessly diverged from their purpose and their complexity brought them to a halt.
+Again and again, those games, game engines and architectural frameworks would lead into dead ends, where  their structure hopelessly diverged from their purpose, and their complexity brought them to a halt.
 
 And again and again, I started all over, wondering: How on earth is real professional software even possible? There must be some system or secret that I still don't know.
 
@@ -36,7 +36,7 @@ As proud software craftsmen, we think customer-centric, design domain-driven, im
 
 Some of these techniques are quite far down the pipeline, and no amount of automated testing and rapid iteration can make up for fundamentally flawed code coming in. Everything starts with- and builds upon quality code.
 
-However, most code-related techniques are quite low-level. The domain model is just one part of the application, object-oriented design principles have mostly local scope, and a thousand perfect little TDD cycles with perfect little tests and refactorings can still amount to a mess in the big picture.
+However, most code-related techniques are quite low-level: The domain model is just one part of the application, object-oriented design principles have mostly local scope, and a thousand perfect little TDD cycles with perfect little tests and refactorings can still amount to a mess in the big picture.
 
 That's why we developers crave higher-level frameworks and patterns to guide our micro decisions. And that's where the A-word comes in: architecture.
 
