@@ -14,9 +14,23 @@ keywords: software architecture, software, architecture, zen, code quality, soft
     
 <i>This is a series of excerpts from a book draft on software architecture. The content will evolve, and I'll even rework published content without highlighting every edit.</i>
 
-## Where We're Coming From
+## Are We Having Fun Yet?
 
-This is a deeply systematic book. But: I won't rattle down a longwinded proof and reference list for every statement I make. It's not an academic text. I don't have time for that, and neither have you. For the sake of brevity and practical value, let's focus on the essential line of reasoning. I'll sound opinionated, and you'll be motivated. More fun for both of us.
+When I was eleven years old, I teached myself Pascal, and shortly after C++. I remember building wild over-engineered little monsters of code.
+
+Again and again, those games, game engines and architectural frameworks would lead into dead ends, where  their structure hopelessly diverged from their purpose and their complexity brought them to a halt.
+
+And again and again I started all over, wondering: How on earth is real professional software even possible? There must be some system or secret that I still don't know.
+
+And I pursued the answer to those fundamental questions ever since. The abstract principles of software development have always intrigued me far more than its technical details.
+ 
+To my surprise, I didn't find answers at universities. Process- and architecture related courses did not reflect modern reality. Software engineering, as it was presented to us, was [kind of dead](https://www.computer.org/cms/Computer.org/ComputingNow/homepage/2009/0709/rW_SO_Viewpoints.pdf) 10 years ago.
+
+So, I went on a journey of working on code, analyzing code, reading about code and thinking deeply about the nature of code structure. Writing down and integrating everything I learned, a theoretical framework emerged. It is abstract but simple and pragmatic, and I use it to understand and (re-)factor all my projects. I feel it actually goes deeper than software and maybe touches on some principles of life, we'll see.
+
+This is a deeply systematic book. But: I won't rattle down a longwinded proof and reference list for every statement I make. It's not an academic text. I don't have time for that, and neither have you. For the sake of brevity and practical value, let's focus on the essential line of reasoning. I'll sound opinionated, and you'll be motivated. More fun for both of us :)
+
+## Where We're Coming From
 
 As proud software craftsmen, we think customer-centric, design domain-driven, implement test-driven, develop behaviour-driven, structure object-oriented, integrate automatically, iterate rapidly and deliver continuously, some even burn out recurringly, fine.
 
