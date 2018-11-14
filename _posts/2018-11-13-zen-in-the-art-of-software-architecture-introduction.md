@@ -99,13 +99,13 @@ alt="{{ page.title }}. {{ page.keywords }}">
 
 What could these layers mean in (software) architecture?
 
-1. The **product** is the ultimate outcome and purpose. The product of software architecture is the high-level (global) code structure that we often just call *the architecture*.  
+1. The **product** is the ultimate outcome and purpose. The product of software architecture is the high-level (global) code structure that people commonly call "the architecture".  
 
 2. The **process** is the dynamic activity of the architect that produces the product with respect to the principles.
 
 3. The **principles** describe the domain of the craft, its entities and rules. Our domain is code. Note, that technical "system architecture" is a different topic.
 
-Principles are the natural laws that govern the universe in which the product exists. They determine what products can possibly manifest. Every creation exists as a consequence of such laws and because it is in accordance with them. We'll refer to those laws as *architecture*.
+Principles are the natural laws that govern the universe in which the product exists. They determine what products can possibly manifest. Every creation exists as a consequence of such laws and because it is in accordance with them. When we'll talk of *architecture* in this book, we will primarily mean those laws.
 
 To grow into a healthy happy human, we must design our lifestyle in accordance with the laws (architecture) of  human existence. To grow a healthy happy code base, we must design it in accordance with the laws (architecture) of code.
 
