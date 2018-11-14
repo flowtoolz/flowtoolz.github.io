@@ -28,9 +28,9 @@ I pursued that fundamental question ever since. The abstract principles of softw
  
 To my surprise, I didn't find answers at universities. In fact, their process- and architecture related courses didn't much reflect modern reality. Software engineering, as they presented it, had already been [kind of dead](https://www.computer.org/cms/Computer.org/ComputingNow/homepage/2009/0709/rW_SO_Viewpoints.pdf).
 
-So, I went on a journey of working on code, analyzing code, reading about code and thinking deeply about the nature of code. Writing down and integrating everything I learned, a theoretical framework emerged that seemed to answer all my questions and explain common architectures.
+So, I went on a journey of working on code, analyzing code, reading about code and thinking deeply about the nature of code. Writing down and integrating everything I learned, a theoretical framework emerged that seemed to explain common "architectures" and answer all my questions.
 
-It is abstract but simple and pragmatic, and I've been using it for years now to understand and (re-)factor my projects. I feel it actually goes deeper than software and maybe touches on some principles of life, we'll see.
+It is abstract but simple and pragmatic, and I've been using it for years now to understand and (re-)factor my projects. I feel it actually goes deeper than software and may touch on some principles of life, we'll see.
 
 In order to sort out, delineate and nail down my learnings, I wrote this book. Also, the presented thought framework could be interesting to other people in the periphery of software development. I've put much work into it because it offers a perspective that I had greatly missed in the field.
 
