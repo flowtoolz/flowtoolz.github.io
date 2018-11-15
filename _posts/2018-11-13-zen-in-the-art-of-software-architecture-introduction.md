@@ -34,7 +34,7 @@ It is abstract but simple and pragmatic, and I've been using it for years now to
 
 In order to sort out, delineate and nail down my learnings, I wrote this book. Also, the presented thought framework could be interesting to other people in the periphery of software development. I've put much work into it because it offers a perspective that I had greatly missed in the field.
 
-My approach is systematic. However, I won't rattle down a longwinded proof and reference list for every statement I make. It's not an academic text. I don't have time for that, and neither have you. For the sake of brevity and practical value, let's focus on the essential line of reasoning. I'll sound opinionated, and you'll be motivated. More fun for both of us :)
+My approach is systematic. However, I won't rattle down a longwinded proof and reference list for every statement I make. It's not an academic text. I don't have time for that, and neither have you. For the sake of brevity and practical value, let's focus on the essential line of reasoning. I'll sound opinionated, and you'll stay motivated. More fun for both of us :)
 
 ## Where We're Coming From
 
@@ -50,7 +50,7 @@ That's why we developers crave higher-level frameworks and patterns to guide our
 
 Now, let's not get bogged down by definitions. You already have an intuitive understanding of *software architecture*. It's a fuzzy term, and we'll deconstruct it anyway.
 
-In the realm of software, architecture remains a metaphor. It's a useful one, but like any metaphor, you can take it to a point where it breaks down. Its applicability is limited and depends on what aspects you wanna illuminate. 
+In the realm of software, architecture remains a metaphor. It's a useful one. But, like any metaphor, you can take it to a point where it breaks down. Its applicability is limited and depends on what aspects you want to illuminate.
 
 One aspect in which the metaphor fails software is this: Real world construction requires [up front design](https://en.wikipedia.org/wiki/Big_Design_Up_Front) while software can evolve organically.
 
@@ -103,7 +103,7 @@ Understanding universal truths about software, you'll see the big picture and tr
 
 ### Art
 
-Software architecture requires more than science and craft. In order to build high quality software products with agility, you want to become engineer, craftsman and artist. On top of knowledge and skill, the software artist adds the pschological maturity that enables you to ...
+Software architecture requires more than science and craft. In order to build high quality software products with agility, you want to become an engineer, a craftsman and an artist. On top of knowledge and skill, the software artist adds the pschological maturity that enables you to ...
 
 1.  see the true meaning, semantic structure and big picture of a software
 2. let go of mere technicalities, perfectionism and feature creep
@@ -132,7 +132,7 @@ src="/blog-images/software-development/architecture/three-Ps.png"
 title="{{ page.title }}"
 alt="{{ page.title }}. {{ page.keywords }}">
 
-Here is what they meanin:
+Here is what they mean:
 
 1. The **product** is the ultimate outcome. In our context, the product is software, not "architecture".
 
