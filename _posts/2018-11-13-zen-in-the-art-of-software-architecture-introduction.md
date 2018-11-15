@@ -16,7 +16,7 @@ keywords: software architecture, software, architecture, zen, code quality, soft
 
 ## The Call to Adventure
 
-When I was eleven, I teached myself [Pascal](https://en.wikipedia.org/wiki/Pascal_(programming_language)) and, shortly after, [C++](https://en.wikipedia.org/wiki/C%2B%2B), [Windows programming](https://www.goodreads.com/book/show/420643.Programming_Windows), [DirectX](https://en.wikipedia.org/wiki/DirectX) and [game development](https://www.goodreads.com/book/show/2340474.Tricks_of_the_Game_Programming_Gurus). I remember cranking out countless over-engineered little beasts of code.
+When I was eleven, I taught myself [Pascal](https://en.wikipedia.org/wiki/Pascal_(programming_language)) and, shortly after, [C++](https://en.wikipedia.org/wiki/C%2B%2B), [Windows programming](https://www.goodreads.com/book/show/420643.Programming_Windows), [DirectX](https://en.wikipedia.org/wiki/DirectX) and [game development](https://www.goodreads.com/book/show/2340474.Tricks_of_the_Game_Programming_Gurus). I remember cranking out countless over-engineered little beasts of code.
 
 Again and again, those games, game engines and architectural frameworks would lead into dead ends, where  their structure hopelessly diverged from their purpose, or their complexity brought them to a halt.
 
@@ -34,7 +34,7 @@ It is abstract but simple and pragmatic, and I've been using it for years now to
 
 In order to sort out, delineate and nail down my learnings, I wrote this book. Also, the presented thought framework could be interesting to other people in the periphery of software development. I've put much work into it because it offers a perspective that I had greatly missed in the field.
 
-My approach is deeply systematic. However, I won't rattle down a longwinded proof and reference list for every statement I make. It's not an academic text. I don't have time for that, and neither have you. For the sake of brevity and practical value, let's focus on the essential line of reasoning. I'll sound opinionated, and you'll be motivated. More fun for both of us :)
+My approach is systematic. However, I won't rattle down a longwinded proof and reference list for every statement I make. It's not an academic text. I don't have time for that, and neither have you. For the sake of brevity and practical value, let's focus on the essential line of reasoning. I'll sound opinionated, and you'll be motivated. More fun for both of us :)
 
 ## Where We're Coming From
 
@@ -85,7 +85,7 @@ Here are just 10 myths:
 
 ## Where We're Going
 
-In this book, I won't directly "challenge" such myths. But when we're able to put them in perspective and understand where they come from, they appear small-minded, arbitrary, over-restrictive and needlessly confusing.
+I won't directly "challenge" such myths. But when we're able to put them in perspective and understand where they come from, they appear small-minded, arbitrary, over-restrictive and needlessly confusing.
 
 So, instead of promoting some new "architecture", I will lay out a wider thought framework that can relate and explain the patterns we know.
 
@@ -120,7 +120,7 @@ We'll start with abstract principles, then we'll analyze common patterns of arch
 
 We'll look at many hand sketched diagrams but never at code or pseudo code because we need to understand high-level structure not low-level processes.
 
-We'll also not touch on specific technologies, software types or application domains. This book is about the message, not about the medium.
+We'll also not touch on specific technologies, software types or application domains. We'll care more about the message and less about the medium.
 
 ### Timely Products
 
@@ -148,6 +148,6 @@ The high-level (global) code structure that people commonly call "architecture" 
 
 Principles are the natural laws that govern the universe in which the product arises. They determine what creations can possibly manifest as stable entities. Everything exists as a consequence of such laws and in so far as it is in accordance with them. As far as something disintegrates, it is obviously, as a *thing*, not in accordance with the laws of its universe.
 
-When we'll speak of *architecture* in this book, we will mean universal principles rather than the product: To grow into a healthy long-lived human being, we must design our lifestyle in accordance with *the architecture of  human existence*. To grow a healthy long-lived code base, we must design it in accordance with *the architecture of code*.
+When we'll speak of *architecture*, we will mean universal principles rather than the product: To grow into a healthy long-lived human being, we must design our lifestyle in accordance with *the architecture of  human existence*. To grow a healthy long-lived code base, we must design it in accordance with *the architecture of code*.
 
 Now, if we understand software architecture as a set of principles that naturally apply to all software, then what are these principles? Let's narrow them down!
