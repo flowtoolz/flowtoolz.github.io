@@ -144,11 +144,11 @@ Here is their meaning in (software-) architecture:
 
 Note, that our approach applies to everything made of code, independent of the underlying hardware-structure. Technical *system architecture* is a different subject.  So you may have any type of software in mind: A highly distributed system, a microservice, a mobile app, a web service, whatever you're doing.
 
-Now, the high-level (global) code structure that people commonly call "architecture" is just what holds the software together and makes it a thing at all. It's a level of analysis applicable to any product, even if the product wasn't designed at that level.
+Now, the gobal high-level code structure that people commonly call "architecture" describes what holds a particular software product together and what makes it a *thing* at all. It's a level of analysis applicable to any product, even if the product wasn't designed at that level.
 
 ### Principles
 
-Principles are the natural laws that govern the universe in which the product arises. They determine what creations can possibly manifest as stable entities. Everything exists as a consequence of such laws and only as far as it is in accordance with them. As far as something disintegrates, it is obviously, as a *thing*, not in accordance with the laws of its universe.
+Principles are the natural laws that govern the universe in which the product arises. They determine what can possibly manifest as a stable entity. Everything exists as a consequence of such laws and only as far as it is in accordance with them. As far as something disintegrates, it is obviously, as a *thing*, not in accordance with the laws of its universe.
 
 When we'll speak of *architecture*, we will mean universal principles rather than the product: To grow into a healthy long-lived human being, we must design our lifestyle in accordance with *the architecture of  human existence*. To grow a healthy long-lived code base, we must design it in accordance with *the architecture of code*.
 
