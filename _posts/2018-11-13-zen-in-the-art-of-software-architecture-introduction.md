@@ -132,7 +132,7 @@ src="/blog-images/software-development/architecture/three-Ps.png"
 title="{{ page.title }}"
 alt="{{ page.title }}. {{ page.keywords }}">
 
-Here is their meaning in (software-) architecture:
+Here is what they meanin:
 
 1. The **product** is the ultimate outcome. In our context, the product is software, not "architecture".
 
