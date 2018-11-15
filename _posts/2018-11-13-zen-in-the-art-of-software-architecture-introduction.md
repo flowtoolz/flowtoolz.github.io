@@ -3,7 +3,7 @@ title: "Zen in the Art of Software Architecture, Part 1"
 layout: post
 excerpt: "An excerpt from the introduction to ”Zen in the Art of Software Architecture”, a book I'm writing. Get a feel for tone and content. Much more will come."
 image_url: /blog-images/software-development/architecture/zen-architecture.jpg
-keywords: software architecture, software, architecture, zen, code quality, software quality, book, software development, architecture pattern, design pattern
+keywords: software architecture, software, architecture, zen, code quality, software quality, book, software development, architecture pattern, design pattern, productivity, philosophy
 ---
 
 <img style="margin-left:auto;margin-right:auto;display:block;"
@@ -126,7 +126,7 @@ Clean architecture has all kinds of effects that help produce more value over ti
 
 ## Product, Process, Principles
 
-So where do we even begin? Any productive craft involves these layers:
+So where do we even begin? Every type of productivity involves these layers:
 <img style="margin-left:auto;margin-right:auto;display:block;max-width:423px"
 src="/blog-images/software-development/architecture/three-Ps.png"
 title="{{ page.title }}"
@@ -153,3 +153,5 @@ Principles are the natural laws that govern the universe in which the product ar
 When we'll speak of *architecture*, we will mean universal principles rather than the product: To grow into a healthy long-lived human being, we must design our lifestyle in accordance with *the architecture of  human existence*. To grow a healthy long-lived code base, we must design it in accordance with *the architecture of code*.
 
 Now, if we understand software architecture as a set of principles that naturally apply to all software, then what are these principles? Let's narrow them down!
+
+... to be continued ...
