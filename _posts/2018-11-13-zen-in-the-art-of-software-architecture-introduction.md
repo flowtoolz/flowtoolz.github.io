@@ -6,6 +6,8 @@ image_url: /blog-images/software-development/architecture/zen-architecture.jpg
 keywords: software architecture, software, architecture, zen, code quality, software quality, book, software development, architecture pattern, design pattern, productivity, philosophy
 ---
 
+## From Timeless Principles to Timely Products
+
 <img style="margin-left:auto;margin-right:auto;display:block;"
     src="/blog-images/software-development/architecture/zen-architecture.jpg"
     title="{{ page.title }}"
@@ -30,7 +32,7 @@ To my surprise, I didn't find the answer at universities. In fact, their process
 
 So, I went on a journey of working on code, analyzing code, reading about code and thinking deeply about the nature of code. Writing down and integrating everything I learned, a theoretical framework emerged that seemed to explain common "architectures" and to answer all my questions.
 
-It is abstract but simple and pragmatic, and I've been using it for years now to understand and (re-)factor my projects. I feel it actually goes deeper than software and may touch on some principles of life, we'll see.
+It's abstract but simple and pragmatic, and I've been using it for years now to understand and (re-)factor my projects. I feel it might actually draw parallels to some deeper truths beyond software, we'll see.
 
 In order to sort out, delineate and nail down my learnings, I wrote this book. Also, the presented thought framework could be interesting to other people in the periphery of software development. I've put much work into it because it offers a perspective that I had greatly missed in the field.
 
@@ -40,7 +42,7 @@ My approach is systematic. However, I won't rattle down a longwinded proof and r
 
 As proud software craftsmen, our thinking is customer-centric, our code structure is object-oriented, our design is domain-driven, our implementation is test-driven and our development is behaviour-driven. We integrate automatically, iterate rapidly, deliver continuously and burn out occasionaly, fine.
 
-Some of these techniques are quite far down the pipeline, and no amount of automated testing or rapid iteration can make up for fundamentally flawed code coming in. Everything starts with- and builds upon quality code.
+Many of these techniques come in quite far down the delivery pipeline, yet all steps in the pipeline rely and build upon quality input. No amount of automated testing or rapid iteration can adress, or even recognize, the long-term costs and implications fundamentally flawed code.
 
 However, most code-related techniques are quite low-level: The domain model is only one part of the application, object-oriented design principles have mostly local scope, and a thousand perfect little TDD cycles with perfect little tests and refactorings can still amount to a mess in the big picture.
 
@@ -58,69 +60,69 @@ The software architect can quickly build a working product and then iterate over
 
 ## Architecture Pattern Recognition
 
-I bet you're already a little "architect" like me, aiming at code monuments of sheer beauty, why else would you pick up a book with such a pretentious title? But what we think is optimal or what feels beautiful isn't necessarily that by the intrinsic standards and true nature of the subject matter.
+I bet you're already a little "architect" like me, aiming at code monuments of sheer beauty, why else would you pick up a book with such a pretentious title? But **what we think is optimal or what feels beautiful isn't necessarily that by the intrinsic standards and true nature of the subject matter**.
 
-When developing software, we often cling to a so called "architecture" without really knowing why. Compliance with an architecture pattern yields consistency and beauty in terms of that pattern but not necessarily in terms of the nature of software itself.
+When developing software, we often cling to a so called "architecture" without really knowing why. **Compliance with an architecture pattern yields consistency and beauty in terms of that pattern but not necessarily in terms of the nature of software itself.**
 
 For instance, [Model-View-Presenter](https://en.wikipedia.org/wiki/Model–view–presenter) is not an architecture. It's a subjective observation, a simplified model of reality, a perceived pattern.
 
-Such a pattern is descriptive, not normative. It describes a regularity that emerges in clean architectures. The pattern is ultimately a consequence of clean design. It is not the basis or cause for clean design.
+**Such a pattern is descriptive, not normative. It describes a regularity that emerges in clean architectures. The pattern is ultimately a consequence of clean design. It is not the basis or cause for clean design.**
 
-There are myths in our field that we've conjured up through blind adherence to observed patterns. But when you turn an observation into a dogma, you've lost the way.
+There are myths in our field that we've conjured up through blind adherence to observed patterns. But **when you turn an observation into a dogma, you've lost the way**.
 
-Here are just 10 **myths**:
+Here are just 10 of those **myths**:
 
 1. Views must not access models
-2. App state (and structs) must be immutable
+2. The application state must be immutable
 3. Everything must be unit-tested
 4. Independence is for re-usability
-5. The model is the state of the app
+5. The model is the state of the application
 6. Singletons are bad
 7. Views must have no behaviour
 8. View controllers are the only acceptable "manager" type of class
-9. The view model layer is only for output
+9. The view-model layer is only for output
 10. Different "architectures" are mutually exclusive
 
-I won't directly challenge such myths. But when we're able to put them in perspective and understand where they come from, they appear small-minded, arbitrary, over-restrictive and needlessly confusing.
+I won't directly challenge such myths. But when we're able to put them in perspective and understand where they come from, they appear small-minded, arbitrary, over-restrictive, superficial and needlessly confusing.
 
 ## Where We're Going
 
-Instead of promoting some new "architecture", I will lay out a wider thought framework that can relate and explain the patterns we know.
+Instead of promoting some new "architecture", we will lay out a wider thought framework that can relate and explain the patterns we know.
 
 Equipped with deep clarity about the fundamental principles of code structure, the patterns and rules we think of as architecture will dissolve and become non-issues. How to architect clean software systems and how to integrate different approaches will be obvious.
 
-And it should be obvious because software, at its core, is surprisingly simple. Just like life. We'll see that much of it comes down to telling the truth. Code, like speech, must be truthful. Then, it's efficient, lean, simple and beautiful.
+And it should be obvious because software, at its core, is surprisingly simple. Just like life. We'll see that much of it comes down to telling the truth.
 
-When your solution is complex, chances are it's not sophisticated but just clumsy. Chances are you haven't thought the problem through just yet.
+**Code, like speech, must be truthful. Then, it's lasting, beautiful, lean, efficient and simple. When our solution is complex, chances are it's not sophisticated but just clumsy. Chances are we don't know the true problem just yet.**
 
-Now, before we jump into the [Dharma](https://en.wikipedia.org/wiki/Dharma) of program code, let me recapture the spirit of this book by going over the remaining terms in the title: *Zen in the Art of Software Architecture - From Timeless Principles to Timely Products*
+Now, before we jump into the [dharma](https://en.wikipedia.org/wiki/Dharma) of program code, let me recapture the spirit of this book by going over the remaining terms in the title: *Zen in the Art of Software Architecture - From Timeless Principles to Timely Products*
 
 ### Zen
 
 We'll take a level-headed look at a fuzzy term that normally tends to overwhelm and that some might call a "meaningless buzzword". We'll aim at methodical precision, philosophical depth, ruthless pragmatism and absolute simplicity. 
 
-Understanding universal truths about software, you'll see the big picture and true nature of your project, and that will put you into a flowstate and the "fun" back into functioning code.
+Understanding universal truths about software, you'll see the big picture and true nature of your project, and that will put you into a flow state and the "fun" back into functioning code.
 
 ### Art
 
-Software architecture requires more than science and craft. In order to build high quality software products with agility, you want to become an engineer, a craftsman and an artist. On top of knowledge and skill, the software artist adds the pschological maturity that enables you to ...
+Software architecture requires more than science and craft. In order to build high quality software products with agility, you want to become an engineer, a craftsman and an artist. On top of knowledge and skill, the *software artist* adds the pschological maturity that allows him to ...
 
-1.  see the true meaning, semantic structure and big picture of a software
-2. let go of mere technicalities, perfectionism and feature creep
-3. feel intuitively when returns diminish and something is good enough
-4. truly empathize with your user
+1.  See the true meaning and semantic structure of a software
+2. Let go of mere technicalities, perfectionism and feature creep
+3. Intuitively feel when returns diminish and something is *good enough*
+4. Truly empathize with users
 
 ### Timeless Principles
 
-We'll start with abstract principles, then we'll analyze common patterns of architecture and design through the lense of our established thought framework.
+Two steps make the core of this book: 1) Deducting abstract principles, and 2) analyzing common patterns of architecture and design through the lense of the established thought framework.
 
-We'll look at many hand sketched diagrams but never at code or pseudo code because we need to understand high-level structure not low-level processes.
+In the process, we'll look at many hand sketched diagrams but never at code or pseudo code because we want to understand high-level structure not low-level processes.
 
-We'll also not touch on specific technologies, software types or application domains. We'll care more about the message and less about the medium.
+We'll also not touch on specific technologies, software types or application domains. Our focus will be on the message rather than the medium, so to speak.
 
 ### Timely Products
 
-Timely products result from agility. Unfortunately, the term "agile" is overused and misunderstood. Let me say this much: Agility is not [SCRUM](https://en.wikipedia.org/wiki/Scrum_(software_development)) but implementing the ideas behind the [Agile Manifesto](http://agilemanifesto.org/principles.html). And clean architecture derives from those ideas. 
+Timely products result from agility. Unfortunately, the term "agile" is overused and misunderstood. Let me say this much: Agility is not [SCRUM](https://en.wikipedia.org/wiki/Scrum_(software_development)) but any implementation of the ideas behind the [Agile Manifesto](http://agilemanifesto.org/principles.html). And clean architecture derives from those ideas. 
 
 Clean architecture has all kinds of effects that help produce more value over time and, thereby, deliver timely products: It makes development flexible, puts emphasis on customer value, yields re-usable code, raises team engagement, accelerates onboarding, solves object-oriented design problems, promotes a common domain-specific language, avoids all sorts of technical risks, makes code more testable, etc.
 
@@ -138,19 +140,19 @@ Here is what they mean:
 
 2. The **process** produces the product with respect to the principles. It is the dynamic activity (or negligence) of the architect. 
 
-3. The **principles** describe the domain of the craft, its entities and rules. Our domain is code.
+3. The **principles** describe the domain of production, its entities and rules. Our domain is code.
 
 ### Product
 
 Note, that our approach applies to everything made of code, independent of the underlying hardware-structure. Technical *system architecture* is a different subject.  So you may have any type of software in mind: A highly distributed system, a microservice, a mobile app, a web service, whatever you're doing.
 
-Now, the gobal high-level code structure that people commonly call "architecture" describes what holds a particular software product together and what makes it a *thing* at all. It's a level of analysis applicable to any product, even if the product wasn't designed at that level.
+Now, **the gobal high-level code structure that people commonly call "architecture" describes what holds a particular software product together and what makes it a *thing* at all**. It's a level of analysis applicable to any product, even if the product wasn't designed at that level.
 
 ### Principles
 
-Principles are the natural laws that govern the universe in which the product arises. They determine what can possibly manifest as a stable entity. Everything exists as a consequence of such laws and only as far as it is in accordance with them. As far as something disintegrates, it is obviously, as a *thing*, not in accordance with the laws of its universe.
+**Principles are the natural laws that govern the universe in which the product arises. They determine what can possibly manifest as a stable entity.** Everything exists as a consequence of such laws and only as far as it is in accordance with them. As far as something disintegrates, it is obviously, as a *thing*, not in accordance with the laws of its universe.
 
-When we'll speak of *architecture*, we will mean universal principles rather than the product: To grow into a healthy long-lived human being, we must design our lifestyle in accordance with *the architecture of  human existence*. To grow a healthy long-lived code base, we must design it in accordance with *the architecture of code*.
+**When we'll speak of *architecture*, we will mean universal principles rather than the product**: To grow into a healthy long-lived human being, we must design our lifestyle in accordance with *the architecture of  human existence*. To grow a healthy long-lived code base, we must design it in accordance with *the architecture of code*.
 
 Now, if we understand software architecture as a set of principles that naturally apply to all software, then what are these principles? Let's narrow them down!
 
