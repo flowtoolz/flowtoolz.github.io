@@ -6,15 +6,13 @@ image_url: /blog-images/software-development/architecture/zen-architecture.jpg
 keywords: software architecture, software, architecture, zen, code quality, software quality, book, software development, architecture pattern, design pattern, productivity, philosophy
 ---
 
-## From Timeless Principles to Timely Products
-
 <img style="margin-left:auto;margin-right:auto;display:block;"
     src="/blog-images/software-development/architecture/zen-architecture.jpg"
     title="{{ page.title }}"
     alt="{{ page.title }}. {{ page.keywords }}"
     class="ft-shadow">
     
-<i>This is a series of excerpts from a book draft on software architecture. The content will evolve, and I'll even rework published content without highlighting every edit.</i>
+<i>This is a series of excerpts from a book I'm writing: "Zen in the Art of Software Architecture - From Timeless Principles to Timely Products". The draft will evolve, and I'll rework published content without highlighting every edit.</i>
 
 ## The Call to Adventure
 
@@ -42,9 +40,9 @@ My approach is systematic. However, I won't rattle down a longwinded proof and r
 
 As proud software craftsmen, our thinking is customer-centric, our code structure is object-oriented, our design is domain-driven, our implementation is test-driven and our development is behaviour-driven. We integrate automatically, iterate rapidly, deliver continuously and burn out occasionaly, fine.
 
-Many of these techniques come in quite far down the delivery pipeline, yet all steps in the pipeline rely and build upon quality input. No amount of automated testing or rapid iteration can adress, or even recognize, the long-term costs and implications fundamentally flawed code.
+Many of these techniques come in quite far down the delivery pipeline, yet all steps in the pipeline rely and build upon quality input. **No amount of automated testing or continuous integration can adress, or even recognize, the future costs and implications of fundamentally flawed code.**
 
-However, most code-related techniques are quite low-level: The domain model is only one part of the application, object-oriented design principles have mostly local scope, and a thousand perfect little TDD cycles with perfect little tests and refactorings can still amount to a mess in the big picture.
+However, most code-related techniques are quite low-level: The domain model is only one part of the application, object-oriented design principles have mostly local scope, and **a thousand perfect little TDD cycles with perfect little tests and refactorings can still amount to a mess on the grand scale**.
 
 That's why we developers crave higher-level frameworks and patterns to guide our micro decisions. And that's where the A-word comes in: *Architecture*.
 
@@ -83,7 +81,7 @@ Here are just 10 of those **myths**:
 9. The view-model layer is only for output
 10. Different "architectures" are mutually exclusive
 
-I won't directly challenge such myths. But when we're able to put them in perspective and understand where they come from, they appear small-minded, arbitrary, over-restrictive, superficial and needlessly confusing.
+I won't challenge them directly. But when we're able to put such ideas in perspective and understand where they come from, they appear small-minded, arbitrary, over-restrictive, superficial and needlessly confusing.
 
 ## Where We're Going
 
