@@ -9,8 +9,7 @@ keywords: software architecture, software, architecture, zen, code quality, soft
 <img style="margin-left:auto;margin-right:auto;display:block;"
     src="/blog-images/software-development/architecture/zen-architecture.jpg"
     title="{{ page.title }}"
-    alt="{{ page.title }}. {{ page.keywords }}"
-    class="ft-shadow">
+    alt="{{ page.title }}. {{ page.keywords }}">
     
 <i>This is a series of excerpts from a book I'm writing: "Zen in the Art of Software Architecture - From Timeless Principles to Timely Products". The draft will evolve, and I'll rework published content without highlighting every edit.</i>
 
@@ -60,7 +59,7 @@ The software architect can quickly build a working product and then iterate over
 
 I bet you're already a little "architect" like me, aiming at code monuments of sheer beauty, why else would you pick up a book with such a pretentious title? But **what we think is optimal or what feels beautiful isn't necessarily that by the intrinsic standards and true nature of the subject matter**.
 
-When developing software, we often cling to a so called "architecture" without really knowing why. **Compliance with an architecture pattern yields consistency and beauty in terms of that pattern but not necessarily in terms of the nature of software itself.**
+When developing software, we often cling to some so called "architecture" without really knowing why. **Compliance with an architecture pattern yields consistency and beauty in terms of that pattern but not necessarily in terms of the nature of software itself.**
 
 [Model-View-Presenter](https://en.wikipedia.org/wiki/Model–view–presenter), for instance, is not an architecture. It's a subjective observation, a simplified model of reality, a perceived pattern.
 
