@@ -62,9 +62,9 @@ I bet you're already a little "architect" like me, aiming at code monuments of s
 
 When developing software, we often cling to a so called "architecture" without really knowing why. **Compliance with an architecture pattern yields consistency and beauty in terms of that pattern but not necessarily in terms of the nature of software itself.**
 
-For instance, [Model-View-Presenter](https://en.wikipedia.org/wiki/Model–view–presenter) is not an architecture. It's a subjective observation, a simplified model of reality, a perceived pattern.
+[Model-View-Presenter](https://en.wikipedia.org/wiki/Model–view–presenter), for instance, is not an architecture. It's a subjective observation, a simplified model of reality, a perceived pattern.
 
-**Such a pattern is descriptive, not normative. It describes a regularity that emerges in clean architectures. The pattern is ultimately a consequence of clean design. It is not the basis or cause for clean design.**
+**Concepts like MVP, MVC, MVVM or VIPER are more descriptive than normative. They describe patterns that emerge in clean architectures. But they're never the true basis or cause for clean architecture.**
 
 There are myths in our field that we've conjured up through blind adherence to observed patterns. But **when you turn an observation into a dogma, you've lost the way**.
 
