@@ -34,11 +34,12 @@ paginate: 15
 excerpt_separator: <!--more-->
 
 github_username: flowtoolz
-facebook_username: SebastianFlowtoolz
+facebook_username: flowtoolz
 linkedin_username: flowtoolz
 xing_username: Sebastian_Telle
 goodreads_username: flowtoolz
 medium_username: flowtoolz
+instagram_username: flowtoolz
 
 # Build settings
 markdown: kramdown
