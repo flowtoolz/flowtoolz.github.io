@@ -6,9 +6,15 @@ permalink: /more/
 
 ## [Flowlist](/flowlist)
 
-<img src="flowlist.png" class="ft-more-project-image" /> A minimalist macOS app for note taking, idea development and self management. Its simple concept of hierarchical notes and its radical support of flow states make it unique, widely applicable and incredibly fun. Check out <a href="/flowlist" onclick="ga('send', 'event', 'link', 'click', 'flowlistapp.com');">flowlistapp.com</a>.
+<img src="flowlist.png" class="ft-more-project-image" /> Flowlist is an elegant tool for self-management and creative writing. Unbelievably easy yet infinitely flexible. Organize your brain in flow!
 
-I created Flowlist for myself out of frustration with the many task management apps I used before. Now I'm happily using Flowlist every day since June 2017.
+I created Flowlist for myself out of frustration with the many task management apps I used before. Now I'm happily using Flowlist every day since June 2017.  Check out <a href="/flowlist" onclick="ga('send', 'event', 'link', 'click', 'flowlistapp.com');">flowlistapp.com</a>.
+
+The simple concept of hierarchical lists, the fully animated beautiful interface and the consequent design for creative focus make Flowlist unique, widely applicable and incredibly fun!
+
+Flowlist does not force your stuff into categories like "Project" or "Subtask". Instead, items are universal and may contain other items, like folders on your Mac contain other folders. You're free to organize yourself in your own way.
+
+A novel interaction concept combines intuitive key commands, a radically clean interface and meaningful animations, so you can rapidly navigate and edit your item hierarchy in a state of deep concentration.
 
 ## Cocoalytics
 
