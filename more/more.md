@@ -4,11 +4,24 @@ title: More
 permalink: /more/
 ---
 
+## Cocoalytics.com / Codeface.io
+
+<img src="cocoalytics.png" class="ft-more-project-image" /> Cocoalytics visualizes the quality and architecture of Swift code. Interactive diagrams let you explore the structure of your code base and compare it against meaningful quality metrics.
+
+I assessed the idea way back in the <a href="/2016/05/15/london-real-business-accelerator.html">London Real Business Accelerator</a>, doing some conceptual work, copywriting, market analysis and so forth. There, I also recorded this [pitch](https://www.youtube.com/watch?v=dYZx7Kflhmw). 
+
+Now, I'm back at this, planning to turn it into something serious. For a proof of concept, Cocoalytics now retrieves dependency graphs from Swift code, and I'm working on visualizing them via graph drawings that the user can manipulate. 
+
+More will follow at [cocoalytics.com](http://cocoalytics.com) for Swift, and at [codeface.io](http://codeface.io) for languages beyond the Cocoa realm, including Java and Kotlin.
+
+Interested in collaborating?
+<a onclick="ga('send', 'event', 'email', 'click', 'hello@cocoalytics.com');" class="u-email" href="mailto:hello@cocoalytics.com">hello@cocoalytics.com</a>
+
 ## [Flowlist](/flowlist)
 
-<img src="flowlist.png" class="ft-more-project-image" /> Flowlist is an elegant tool for self-management and creative writing. Unbelievably easy yet infinitely flexible. Organize your brain in flow!
+<img src="flowlist.png" class="ft-more-project-image" /> Flowlist is an elegant tool for self-management and creative writing. Unbelievably easy yet infinitely flexible. Check out <a href="/flowlist" onclick="ga('send', 'event', 'link', 'click', 'flowlistapp.com');">flowlistapp.com</a> and organize your brain in flow!
 
-I created Flowlist for myself out of frustration with the many task management apps I used before. Now I'm happily using Flowlist every day since June 2017.  Check out <a href="/flowlist" onclick="ga('send', 'event', 'link', 'click', 'flowlistapp.com');">flowlistapp.com</a>.
+I created Flowlist for myself out of frustration with the many task managers I had tried before. Now, I'm happily using Flowlist daily since June 2017, writing texts and organizing my whole life.
 
 The simple concept of hierarchical lists, the fully animated beautiful interface and the consequent design for creative focus make Flowlist unique, widely applicable and incredibly fun!
 
@@ -16,41 +29,33 @@ Flowlist does not force your stuff into categories like "Project" or "Subtask". 
 
 A novel interaction concept combines intuitive key commands, a radically clean interface and meaningful animations, so you can rapidly navigate and edit your item hierarchy in a state of deep concentration.
 
-## Cocoalytics
+## [Flowtoolz Github](https://github.com/flowtoolz/)
 
-<img src="cocoalytics.png" class="ft-more-project-image" /> An app for Swift code visualization and quality analytics for Cocoa projects, i.e. around iOS, macOS and tvOS. The new MVP just shows which files of a code base might need to be split up, based on lines of code.
+<img src="/assets/simpleicons.org/github.svg" class="ft-more-project-image" /> I just started to put some [code on Github](https://github.com/flowtoolz/). Most notably, I released [SwiftObserver](https://github.com/flowtoolz/SwiftObserver), a framework for reactive programming, which you can install via [Cocoapods](https://cocoapods.org) and via [Carthage](https://github.com/Carthage/Carthage).
 
-Download from  <a href="/cocoalytics/cocoalytics.zip">www.flowtoolz.com/cocoalytics/cocoalytics.zip</a>.
+Then there is [GetLaid](https://github.com/flowtoolz/GetLaid), a real neat Swift AutoLayout wrapper.
 
-I've done a lot of conceptual work, copywriting, market analysis and so forth. And I explored the idea through the <a href="/2016/05/15/london-real-business-accelerator.html">London Real Business Accelerator</a>.
+You'll also find [UIObserver](https://github.com/flowtoolz/UIObserver) (a UI layer for SwiftObserver) and the general helper frameworks [SwiftyToolz](https://github.com/flowtoolz/SwiftyToolz), [FoundationToolz](https://github.com/flowtoolz/FoundationToolz) and [UIToolz](https://github.com/flowtoolz/UIToolz), only UIToolz is not yet properly published.
 
-Watch an early pitch [here](https://www.youtube.com/watch?v=dYZx7Kflhmw). If you're interested in collaborating on such a project contact me. More is to come at [cocoalytics.com](http://cocoalytics.com).
+<div style="clear:left"></div>
 
-## The 33Day-Diary
+## [Zen in the Art of Software Architecture](/2018/11/13/zen-in-the-art-of-software-architecture-introduction.html)
+
+<img src="software_architecture.jpg" class="ft-more-project-image" style="width:25%"/> ... is the tongue-in-cheek working title of a book I'm writing. It will be a casual and entertaining but also consistent and systematic dive into the fundamental principles that make software hold together or fall apart. 
+
+The blog post series of excerpts from the draft starts [here](/2018/11/13/zen-in-the-art-of-software-architecture-introduction.html).
+
+I've been obsessing about the nature of software structure since I started coding at age 12. Now I'm gathering and integrating all my notes and writings on the subject. The draft is currently 100+ pages long.
+
+The book is not exclusively directed at coders, but at everyone in the periphery of software development. It will have no code in it, not even pseudo code! It offers a fundamental and new perspective on the qualitative aspects of software, and it will contain lots of hand-drawn diagrams.
+
+## [The 33Day-Diary](/diary)
 
 <img src="diary.jpg" class="ft-more-project-image" /> A structured journal that leads through a sort of meditation routine for 33 days, based on positive psychology. A page with more infos is available in english  at [www.flowtoolz.com/diary](/diary) and in german at [www.flowtoolz.com/tagebuch](/tagebuch).
 
 I needed something like the [five minute journal](http://fiveminutejournal.com) for myself, but I was inspired to integrate some extensions into that idea and wanted it to be a beautiful physical object...
 
 Now, the 3rd revision is done. A collaborator of mine handcrafts the books and gives every copy a unique design. I did a photo shoot of a bunch of example copies and had it professionally translated.
-
-## [Flowtoolz Github](https://github.com/flowtoolz/)
-
-<img src="/assets/simpleicons.org/github.svg" class="ft-more-project-image" /> I just started to put some [code on Github](https://github.com/flowtoolz/). Most notably, I released [GetLaid](https://github.com/flowtoolz/GetLaid), an AutoLayout wrapper and [SwiftObserver](https://github.com/flowtoolz/SwiftObserver), a framework for reactive programming, which you can install via [Cocoapods](https://cocoapods.org) and via [Carthage](https://github.com/Carthage/Carthage).
-
-You'll also find [UIObserver](https://github.com/flowtoolz/UIObserver) (a UI layer for SwiftObserver) and the general helper frameworks [SwiftyToolz](https://github.com/flowtoolz/SwiftyToolz), [FoundationToolz](https://github.com/flowtoolz/FoundationToolz) and [UIToolz](https://github.com/flowtoolz/UIToolz), only UIToolz is not yet available via Carthage or Cocoapods.
-
-<div style="clear:left"></div>
-
-## Zen in the Art of Software Architecture
-
-<img src="software_architecture.jpg" class="ft-more-project-image" style="width:25%"/> ... is the tongue-in-cheek working title of a book I'm writing. It will be a casual and entertaining but also consistent and systematic dive into the fundamental principles that make software hold together or fall apart.
-
-I've been obsessing about the nature of software structure since I started coding at age 12. Now I'm gathering and integrating all my notes and writings on the subject. The draft is currently 80+ pages long.
-
-The book is not exclusively directed at coders, but at everyone in the periphery of software development. It will have no code in it, not even pseudo code! It offers a fundamental and new perspective on the qualitative aspects of software, and it will contain lots of hand-drawn diagrams.
-
-As soon as the overall "story arc" is settled, I'll extract some parts as blog posts...
 
 ## [Flowtalk](/flowtalk)
 
