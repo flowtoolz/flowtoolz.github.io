@@ -10,7 +10,7 @@ permalink: /more/
 
 I assessed the idea way back in the <a href="/2016/05/15/london-real-business-accelerator.html">London Real Business Accelerator</a>, doing some conceptual work, copywriting, market analysis and so forth. There, I also recorded this [pitch](https://www.youtube.com/watch?v=dYZx7Kflhmw). 
 
-Now, I'm back at this, planning to turn it into something serious. For a proof of concept, Cocoalytics now retrieves dependency graphs from Swift code, and I'm working on visualizing them via graph drawings that the user can manipulate. 
+Now, I'm back at this, planning to turn it into something serious. For a proof of concept, Codeface now retrieves dependency graphs from Swift code, and I'm working on visualizing them via graph drawings that the user can manipulate. 
 
 More will follow at [cocoalytics.com](http://cocoalytics.com) for Swift, and at [codeface.io](http://codeface.io) for a more general version, supporting languages beyond the Cocoa realm, including Java and Kotlin.
 
