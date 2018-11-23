@@ -4,18 +4,18 @@ title: More
 permalink: /more/
 ---
 
-## Cocoalytics.com / Codeface.io
+## Codeface.io
 
-<img src="cocoalytics.png" class="ft-more-project-image" /> Cocoalytics visualizes the quality and architecture of Swift code. Interactive diagrams let you explore the structure of your code base and compare it against meaningful quality metrics.
+<img src="cocoalytics.png" class="ft-more-project-image" /> Codeface visualizes the quality and architecture of code. Interactive diagrams let you explore the structure of your code base and compare it against meaningful quality metrics.
 
 I assessed the idea way back in the <a href="/2016/05/15/london-real-business-accelerator.html">London Real Business Accelerator</a>, doing some conceptual work, copywriting, market analysis and so forth. There, I also recorded this [pitch](https://www.youtube.com/watch?v=dYZx7Kflhmw). 
 
 Now, I'm back at this, planning to turn it into something serious. For a proof of concept, Cocoalytics now retrieves dependency graphs from Swift code, and I'm working on visualizing them via graph drawings that the user can manipulate. 
 
-More will follow at [cocoalytics.com](http://cocoalytics.com) for Swift, and at [codeface.io](http://codeface.io) for languages beyond the Cocoa realm, including Java and Kotlin.
+More will follow at [cocoalytics.com](http://cocoalytics.com) for Swift, and at [codeface.io](http://codeface.io) for a more general version, supporting languages beyond the Cocoa realm, including Java and Kotlin.
 
 Interested in collaborating?
-<a onclick="ga('send', 'event', 'email', 'click', 'hello@cocoalytics.com');" class="u-email" href="mailto:hello@cocoalytics.com">hello@cocoalytics.com</a>
+<a onclick="ga('send', 'event', 'email', 'click', 'hello@cocoalytics.com');" class="u-email" href="mailto:hello@cocoalytics.com">hello@codeface.io</a>
 
 ## [Flowlist](/flowlist)
 

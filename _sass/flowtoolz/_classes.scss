@@ -119,35 +119,40 @@
  * Site footer
  */
 
- footer {
+ footer
+{
    border-top: 1px solid $grey-color-light;
    padding-top: 0;
    padding-bottom: 0;
-   padding-top: $spacing-unit;
-   padding-bottom: $spacing-unit;
+   padding-top: $spacing-unit * 2;
+   padding-bottom: $spacing-unit * 2;
  }
 
-footer p {
+footer p
+{
  text-align: center;
- color: lighten($grey-color, 20%);
  margin-bottom: 0;
+    color: #afafaf;
 }
 
-footer a > img {
+footer a > img.needs-left-margin
+{
+margin-left: $spacing-unit / 2;
+}
+
+footer a > img
+{
    width: 32px;
    display: inline-block;
    margin-bottom: $spacing-unit / 2;
    transition: filter .2s ease-in-out;
    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
    filter: grayscale(100%); /* FF 35+ */
-   opacity: 0.25;
+   opacity: 0.33;
 }
 
-footer a > img.needs-left-margin {
-   margin-left: $spacing-unit / 2;
-}
-
-footer a > img:hover {
+footer a > img:hover
+{
    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
   filter: grayscale(0%); /* FF 35+ */
 }
