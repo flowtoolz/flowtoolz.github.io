@@ -25,7 +25,7 @@ Das Gespräch folgt einem Grundmuster:
 ## Ping-Pong statt verschränkter Monologe
 
 * Was am Anfang in den beiden Interviews vorteilhaft war: Wir sind tiefer in konkrete Themen reingegangen. Aspekte davon könnte man weitertragen.
-* D.h. wir würden zum einen konkrete Themen angehen (siehe) oben, und diese zum anderen mehr im Dialog herausarbeiten. Wir sollten versuchen die Themen des jeweils anderen durch ständiges gezieltes nachhaken auf eine allgemeinverständliche Ebene zu bringen. Statt Vorträge zu halten sollten wir den Ball öfter hin und herspielen, das ist lebendiger und "more engaging".
+* D.h. wir würden zum einen konkrete Themen angehen (siehe oben), und diese zum anderen mehr im Dialog herausarbeiten. Wir sollten versuchen die Themen des jeweils anderen durch ständiges gezieltes nachhaken auf eine allgemeinverständliche Ebene zu bringen. Statt Vorträge zu halten, sollten wir den Ball öfter hin und herspielen, das ist lebendiger und "more engaging".
 * Verantwortlich für roten Faden und Gesamtablauf sind beide, d.h. es gibt keinen designierten "Host" der das Gespräch leitet.
 
 ## Kompaktheit
