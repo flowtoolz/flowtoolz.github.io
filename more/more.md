@@ -12,7 +12,7 @@ I assessed the idea way back in the <a href="/2016/05/15/london-real-business-ac
 
 Now, I'm back at this, planning to turn it into something serious. For a proof of concept, Codeface now retrieves dependency graphs from Swift code, and I'm working on visualizing them via graph drawings that the user can manipulate. 
 
-More will follow at [cocoalytics.com](http://cocoalytics.com) for Swift, and at [codeface.io](http://codeface.io) for a more general version, supporting languages beyond the Cocoa realm, including Java and Kotlin.
+More will follow at [cocoalytics.com](https://cocoalytics.com) for Swift, and at [codeface.io](https://codeface.io) for a more general version, supporting languages beyond the Cocoa realm, including Java and Kotlin.
 
 Interested in collaborating?
 <a onclick="ga('send', 'event', 'email', 'click', 'hello@cocoalytics.com');" class="u-email" href="mailto:hello@cocoalytics.com">hello@codeface.io</a>
@@ -53,7 +53,7 @@ The book is not exclusively directed at coders, but at everyone in the periphery
 
 <img src="diary.jpg" class="ft-more-project-image" /> A structured journal that leads through a sort of meditation routine for 33 days, based on positive psychology. A page with more infos is available in english  at [www.flowtoolz.com/diary](/diary) and in german at [www.flowtoolz.com/tagebuch](/tagebuch).
 
-I needed something like the [five minute journal](http://fiveminutejournal.com) for myself, but I was inspired to integrate some extensions into that idea and wanted it to be a beautiful physical object...
+I needed something like the [five minute journal](https://fiveminutejournal.com) for myself, but I was inspired to integrate some extensions into that idea and wanted it to be a beautiful physical object...
 
 Now, the 3rd revision is done. A collaborator of mine handcrafts the books and gives every copy a unique design. I did a photo shoot of a bunch of example copies and had it professionally translated.
 

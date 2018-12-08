@@ -361,7 +361,7 @@ function parseStyleToObject(str) {
     key = decodeURIComponent(key);
 
     // missing `=` should be `null`:
-    // http://w3.org/TR/2012/WD-url-20120524/#collect-url-parameters
+    // https://w3.org/TR/2012/WD-url-20120524/#collect-url-parameters
     val = val === undefined ? null : decodeURIComponent(val);
 
     if (!ret.hasOwnProperty(key)) {
@@ -1121,7 +1121,7 @@ function parseValue(str) {
   return str;
 }
 // Convert PascalCase to kebab-case
-// Thank you: http://stackoverflow.com/a/8955580
+// Thank you: https://stackoverflow.com/a/8955580
 function hyphenate(str) {
   return str.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase();
 }
@@ -1838,7 +1838,7 @@ var Plugin = function () {
 }();
 
 // Convert PascalCase to kebab-case
-// Thank you: http://stackoverflow.com/a/8955580
+// Thank you: https://stackoverflow.com/a/8955580
 
 
 function hyphenate(str) {
@@ -1868,7 +1868,7 @@ function getPluginName(obj) {
  *                                         *
  * This util was created by Marius Olbertz *
  * Please thank Marius on GitHub /owlbertz *
- * or the web http://www.mariusolbertz.de/ *
+ * or the web https://www.mariusolbertz.de/ *
  *                                         *
  ******************************************/
 

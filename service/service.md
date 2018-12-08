@@ -23,37 +23,37 @@ permalink: /service/
 <div class="ft-client-grid grid-x small-up-2 medium-up-3 large-up-3">
 
    <div class="cell" style="background-image:url(clients/aida.svg);">
-      <a href="http://www.aida.de">
+      <a href="https://www.aida.de">
          <div></div>
       </a>
    </div>
 
    <div class="cell" style="background-image:url(clients/mindlink.svg);">
-      <a href="http://mindlink.ch">
+      <a href="https://mindlink.ch">
          <div></div>
       </a>
    </div>
 
    <div class="cell" style="background-image:url(clients/sanitas.png);">
-      <a href="http://sanitas.com">
+      <a href="https://sanitas.com">
          <div></div>
       </a>
    </div>
 
    <div class="cell" style="background-image:url(clients/allianz.svg);">
-      <a href="http://www.allianz.com">
+      <a href="https://www.allianz.com">
          <div></div>
       </a>
    </div>
 
    <div class="cell" style="background-image:url(clients/gruenderschiff.png);">
-      <a href="http://www.gruenderschiff.de">
+      <a href="https://www.gruenderschiff.de">
          <div></div>
       </a>
    </div>
 
    <div class="cell" style="background-image:url(clients/londonreal.png);">
-      <a href="http://www.londonreal.tv">
+      <a href="https://www.londonreal.tv">
          <div></div>
       </a>
    </div>
@@ -65,13 +65,13 @@ permalink: /service/
    </div>
 
    <div class="cell" style="background-image:url(clients/formigas.png);">
-      <a href="http://www.formigas.de">
+      <a href="https://www.formigas.de">
          <div></div>
       </a>
    </div>
 
    <div class="cell" style="background-image:url(clients/socialbit.png);">
-      <a href="http://www.socialbit.de">
+      <a href="https://www.socialbit.de">
          <div></div>
       </a>
    </div>
@@ -85,12 +85,12 @@ permalink: /service/
 <div class="cell">
    <h3>MyAIDA</h3>
 
-   I'm helping the team at the <a href="http://costadigital.io">Costa Digital Unit</a> rebuild the MyAIDA app for iOS. The app lets guests of <a href="https://www.aida.de">AIDA Cruises</a> see what's going on on their cruise ship, book events, chat with each other and more.
+   I'm helping the team at the <a href="https://costadigital.io">Costa Digital Unit</a> rebuild the MyAIDA app for iOS. The app lets guests of <a href="https://www.aida.de">AIDA Cruises</a> see what's going on on their cruise ship, book events, chat with each other and more.
 </div>
 <div class="cell">
    <h3><a href="https://itunes.apple.com/de/app/sanitas-active/id1140475651">SanitasActive</a></h3>
 
-   A <a href="https://itunes.apple.com/de/app/sanitas-active/id1140475651">fitness tracking iOS app</a> that I wrote for <a href="https://www.sanitas.com">Sanitas Grundversicherungen AG</a> as a freelancer at <a href="http://www.jls.ch">JLS Digital AG</a>. It rewards running, swimming and cycling and supports AppleHealth, Garmin and Fitbit.
+   A <a href="https://itunes.apple.com/de/app/sanitas-active/id1140475651">fitness tracking iOS app</a> that I wrote for <a href="https://www.sanitas.com">Sanitas Grundversicherungen AG</a> as a freelancer at <a href="https://www.jls.ch">JLS Digital AG</a>. It rewards running, swimming and cycling and supports AppleHealth, Garmin and Fitbit.
 </div>
 <div class="cell">
    <h3><a href="https://www.allianz.com/de/produkte_loesungen/globale_geschaeftseinheiten/amos/">Allianz oneMobile</a></h3>
@@ -98,19 +98,19 @@ permalink: /service/
    I helped the team at <a href="https://www.allianz.com/de/produkte_loesungen/globale_geschaeftseinheiten/amos/">Allianz Managed Operations &amp; Services SE</a> create a platform with which worldwide organizational units of <a href="https://www.allianz.com">Allianz SE</a> build, test and deliver native and cross-platform apps.
 </div>
 <div class="cell">
-   <h3><a href="http://www.flowtoolz.com/londonrealapp">London Real TV</a></h3>
+   <h3><a href="https://www.flowtoolz.com/londonrealapp">London Real TV</a></h3>
 
-   I created the <a href="http://www.flowtoolz.com/londonrealapp">Londonreal TV app</a> for Apple's tvOS, from concept to release. You can watch the latest full London Real episodes for free and explore episodes through a table of contents.
+   I created the <a href="https://www.flowtoolz.com/londonrealapp">Londonreal TV app</a> for Apple's tvOS, from concept to release. You can watch the latest full London Real episodes for free and explore episodes through a table of contents.
 </div>
 <div class="cell">
    <h3><a href="https://itunes.apple.com/de/app/holidaycheck/id431838682?mt=8">HolidayCheck</a></h3>
 
-   I helped the team at <a href="http://www.holidaycheck.ch">HolidayCheck AG</a> build the <a href="https://itunes.apple.com/de/app/holidaycheck/id431838682?mt=8">HolidayCheck iOS app</a>. The app lets you find and book your next vacation as well as upload and rate photos and videos.
+   I helped the team at <a href="https://www.holidaycheck.ch">HolidayCheck AG</a> build the <a href="https://itunes.apple.com/de/app/holidaycheck/id431838682?mt=8">HolidayCheck iOS app</a>. The app lets you find and book your next vacation as well as upload and rate photos and videos.
 </div>
 <div class="cell">
    <h3><a href="https://www.cleverlotto.de">CleverLotto</a></h3>
 
-   I helped the team at <a href="http://www.formigas.de">Formigas</a> build the <a href="https://cleverlotto.de">CleverLotto</a> app for iOS. The app lets lottery players buy and manage tickets for different german lotteries. Check it out <a href="https://itunes.apple.com/de/app/clever-lotto-6aus49-eurojackpot/id390946943?mt=8">in the AppStore</a>.
+   I helped the team at <a href="https://www.formigas.de">Formigas</a> build the <a href="https://cleverlotto.de">CleverLotto</a> app for iOS. The app lets lottery players buy and manage tickets for different german lotteries. Check it out <a href="https://itunes.apple.com/de/app/clever-lotto-6aus49-eurojackpot/id390946943?mt=8">in the AppStore</a>.
 </div>
 <div class="cell">
    <h3><a href="https://www.instagram.com/vooxly/">Vooxly</a></h3>
@@ -132,7 +132,7 @@ permalink: /service/
 
    <div class="cell">
       <p>
-      <i>Agile</i> is not a marketing buzzword to us. We carry the ideas of the <a href="http://agilemanifesto.org/principles.html">agile manifesto</a> in our hearts. All our work rests on the following principles.
+      <i>Agile</i> is not a marketing buzzword to us. We carry the ideas of the <a href="https://agilemanifesto.org/principles.html">agile manifesto</a> in our hearts. All our work rests on the following principles.
       </p>
    </div>
 

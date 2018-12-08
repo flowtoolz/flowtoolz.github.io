@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<rss xmlns:itunes="https://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
     <channel>
         <title>Flowtalk</title>
         <itunes:subtitle>Focus. Play. Create.</itunes:subtitle>
         <description>Flowtalk is a (mostly german) podcast. Our theme is flow as a state of ultimate focus, awareness, fulfilment, playfulness, naturalness, self-expression, productivity and inner peace. We talk about self-development, philosophy, psychology, spirituality, business, creativity, society, culture and more.
             
-            http://www.flowtoolz.com
+            https://www.flowtoolz.com
         </description>
         <itunes:summary>Flowtalk is a (mostly german) podcast. Our theme is flow as a state of ultimate focus, awareness, fulfilment, playfulness, naturalness, self-expression, productivity and inner peace. We talk about self-development, philosophy, psychology, spirituality, business, creativity, society, culture and more. 
             
-            http://www.flowtoolz.com
+            https://www.flowtoolz.com
         </itunes:summary>
         <language>de-de</language>
-        <link>http://www.flowtoolz.com/flowtalk</link>
+        <link>https://www.flowtoolz.com/flowtalk</link>
         <copyright>Flowtoolz 2018</copyright>
         <itunes:author>Flowtoolz</itunes:author>
         <itunes:owner>
@@ -20,24 +20,24 @@
             <itunes:email>contact@flowtoolz.com</itunes:email>
         </itunes:owner>
         <itunes:explicit>yes</itunes:explicit>
-        <itunes:image href="http://www.flowtoolz.com/flowtalk/itunes_logo.png"/>
+        <itunes:image href="https://www.flowtoolz.com/flowtalk/itunes_logo.png"/>
         <itunes:category text="Society &amp; Culture"></itunes:category>
         
         <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
         
          <item>
             <!-- update all this -->
-            <guid>http://www.flowtoolz.com/flowtalk/#5</guid>
+            <guid>https://www.flowtoolz.com/flowtalk/#5</guid>
             <title>#5 - Nicolas Alschibaja, Sebastian Telle</title>
             <itunes:summary>Nicolas und ich unterhielten uns diesmal über seine Erfahrungen mit Ayahuasca, bewusstes Planen vs. authentische Motivation, Selbstkenntnis, mein neues Projekt Cocoalytics, Denken als Werkzeug, Enneagramme und mehr.
                 
-                http://www.flowtoolz.com
-                http://www.nicolas-alschibaja.de
+                https://www.flowtoolz.com
+                https://www.nicolas-alschibaja.de
             </itunes:summary>
             <description>Nicolas und ich unterhielten uns diesmal über seine Erfahrungen mit Ayahuasca, bewusstes Planen vs. authentische Motivation, Selbstkenntnis, mein neues Projekt Cocoalytics, Denken als Werkzeug, Enneagramme und mehr.
                 
-                http://www.flowtoolz.com
-                http://www.nicolas-alschibaja.de
+                https://www.flowtoolz.com
+                https://www.nicolas-alschibaja.de
             </description>
             <itunes:duration>01:40:10</itunes:duration>
             <!-- copy this this stuff from Anchor rss -->
@@ -46,22 +46,22 @@
             <!-- leave all this as it is -->
             <itunes:author>Flowtoolz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
-            <link>http://www.flowtoolz.com/flowtalk</link>
+            <link>https://www.flowtoolz.com/flowtalk</link>
         </item>
          
         <item>
             <!-- update all this -->
-            <guid>http://www.flowtoolz.com/flowtalk/#4</guid>
+            <guid>https://www.flowtoolz.com/flowtalk/#4</guid>
             <title>#4 - Nicolas Alschibaja, Sebastian Telle</title>
             <itunes:summary>Nicolas ist spiritueller Sucher, Autor und Coach. Sebastian ist kreativer Querdenker und App-Architekt. Wir unterhielten uns diesmal über den Widerstreit zwischen kreativem Schaffen und bewusstem Loslassen, sowie über die Relativität von Werten.
                 
-                http://www.flowtoolz.com
-                http://www.nicolas-alschibaja.de
+                https://www.flowtoolz.com
+                https://www.nicolas-alschibaja.de
             </itunes:summary>
             <description>Nicolas ist spiritueller Sucher, Autor und Coach. Sebastian ist kreativer Querdenker und App-Architekt. Wir unterhielten uns diesmal über den Widerstreit zwischen kreativem Schaffen und bewusstem Loslassen, sowie über die Relativität von Werten.
                 
-                http://www.flowtoolz.com
-                http://www.nicolas-alschibaja.de
+                https://www.flowtoolz.com
+                https://www.nicolas-alschibaja.de
             </description>
             <itunes:duration>01:15:57</itunes:duration>
             <!-- copy this this stuff from Anchor rss -->
@@ -70,22 +70,22 @@
             <!-- leave all this as it is -->
             <itunes:author>Flowtoolz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
-            <link>http://www.flowtoolz.com/flowtalk</link>
+            <link>https://www.flowtoolz.com/flowtalk</link>
         </item>
         
         <item>
             <!-- update all this -->
-            <guid>http://www.flowtoolz.com/flowtalk/#3</guid>
+            <guid>https://www.flowtoolz.com/flowtalk/#3</guid>
             <title>#3 - Nicolas Alschibaja, Sebastian Telle</title>
             <itunes:summary>Nicolas ist spiritueller Sucher, Autor und Coach. Sebastian ist kreativer Querdenker und App-Architekt. Wir unterhielten uns über Authentizität, Flow, Kreativität, Gesellschaft, Einheitsbewusstsein, Wahrnehmung, Geist, Intuition und Meditation.
                 
-                http://www.flowtoolz.com
-                http://www.nicolas-alschibaja.de
+                https://www.flowtoolz.com
+                https://www.nicolas-alschibaja.de
             </itunes:summary>
             <description>Nicolas ist spiritueller Sucher, Autor und Coach. Sebastian ist kreativer Querdenker und App-Architekt. Wir unterhielten uns über Authentizität, Flow, Kreativität, Gesellschaft, Einheitsbewusstsein, Wahrnehmung, Geist, Intuition und Meditation.
                 
-                http://www.flowtoolz.com
-                http://www.nicolas-alschibaja.de
+                https://www.flowtoolz.com
+                https://www.nicolas-alschibaja.de
             </description>
             <!-- copy this this stuff from Anchor rss -->
             <pubDate>Tue, 02 Oct 2018 11:05:27 GMT</pubDate>
@@ -94,24 +94,24 @@
             <!-- leave all this as it is -->
             <itunes:author>Flowtoolz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
-            <link>http://www.flowtoolz.com/flowtalk</link>
+            <link>https://www.flowtoolz.com/flowtalk</link>
         </item>
         
         <item>
             <!-- update all this -->
-            <guid>http://www.flowtoolz.com/flowtalk/#2</guid>
+            <guid>https://www.flowtoolz.com/flowtalk/#2</guid>
             <title>#2 - Sebastian Telle</title>
             <itunes:summary>Sebastian Telle ist App-Architekt und kreativer Querdenker. Wir unterhielten uns über seine Hintergrundgeschichte, seine neue App Flowlist und über Kommunikation.
                 
-                http://www.flowlistapp.com
-                http://www.flowtoolz.com
-                http://www.nicolas-alschibaja.de
+                https://www.flowlistapp.com
+                https://www.flowtoolz.com
+                https://www.nicolas-alschibaja.de
             </itunes:summary>
             <description>Sebastian Telle ist App-Architekt und kreativer Querdenker. Wir unterhielten uns über seine Hintergrundgeschichte, seine neue App Flowlist und über Kommunikation.
                 
-                http://www.flowlistapp.com
-                http://www.flowtoolz.com
-                http://www.nicolas-alschibaja.de
+                https://www.flowlistapp.com
+                https://www.flowtoolz.com
+                https://www.nicolas-alschibaja.de
             </description>
             <!-- copy this this stuff from Anchor rss -->
             <pubDate>Fri, 14 Sep 2018 01:00:00 +0000</pubDate>
@@ -120,27 +120,27 @@
             <!-- leave all this as it is -->
             <itunes:author>Flowtoolz</itunes:author>
             <itunes:explicit>yes</itunes:explicit>
-            <link>http://www.flowtoolz.com/flowtalk</link>
+            <link>https://www.flowtoolz.com/flowtalk</link>
         </item>
         
         <item>
             <title>#1 - Nicolas Alschibaja</title>
             <itunes:summary>Nicolas Alschibaja ist ein spiritueller Sucher, Autor und Coach. In dieser Pilotfolge von Flowtalk unterhalten wir uns über seine Hintergrundgeschichte sowie über Bewusstsein, Präsenz und Gelassenheit.
                 
-                http://nicolas-alschibaja.de
+                https://nicolas-alschibaja.de
                 
-                http://www.flowtoolz.com
+                https://www.flowtoolz.com
             </itunes:summary>
             <description>Nicolas Alschibaja ist ein spiritueller Sucher, Autor und Coach. In dieser Pilotfolge von Flowtalk unterhalten wir uns über seine Hintergrundgeschichte sowie über Bewusstsein, Präsenz und Gelassenheit.
                 
-                http://nicolas-alschibaja.de
+                https://nicolas-alschibaja.de
                 
-                http://www.flowtoolz.com
+                https://www.flowtoolz.com
             </description>
             <itunes:explicit>yes</itunes:explicit>
-            <link>http://www.flowtoolz.com/flowtalk</link>
+            <link>https://www.flowtoolz.com/flowtalk</link>
             <!-- links with length in bytes -->
-            <guid>http://www.flowtoolz.com/flowtalk/#1</guid>
+            <guid>https://www.flowtoolz.com/flowtalk/#1</guid>
             <enclosure url="https://anchor.fm/s/6dddbb8/podcast/play/1359338/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2018-8-16%2F4618497-44100-2-e8ad2d54c4fe7.mp3" length="155776004" type="audio/mpeg"/>
             <!-- date with utc time -->
             <pubDate>Sat, 1 Sep 2018 01:00:00 +0000</pubDate>

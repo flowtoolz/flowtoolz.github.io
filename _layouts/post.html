@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<article class="wrapper h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="wrapper h-entry" itemscope itemtype="https://schema.org/BlogPosting">
 
    <header class="post-header">
    <h1 class="post-title p-name" itemprop="name headline">
@@ -15,7 +15,7 @@ layout: default
          {{ page.date | date: "%b %-d, %Y" }}
       </time>
       •
-      <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <span itemprop="author" itemscope itemtype="https://schema.org/Person">
          <span class="p-author h-card" itemprop="name">
             {{ page.author | default: site.author }}
          </span>

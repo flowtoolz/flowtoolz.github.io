@@ -140,7 +140,7 @@ Flowtalk is a (mostly german) podcast. Our theme is **flow** as a state of ultim
         Sebastian Telle ist App-Architekt und kreativer Querdenker. Wir unterhielten uns über seine Hintergrundgeschichte, die neue App Flowlist und über Kommunikation.
         <br>
         <br>
-        <a href="http://flowlistapp.com" target="_blank">
+        <a href="https://flowlistapp.com" target="_blank">
             flowlistapp.com
         </a>
     </div>
@@ -156,7 +156,7 @@ Flowtalk is a (mostly german) podcast. Our theme is **flow** as a state of ultim
         Nicolas Alschibaja ist ein spiritueller Sucher, Autor und Coach. In dieser Pilotfolge von Flowtalk unterhalten wir uns über seine Hintergrundgeschichte sowie über Bewusstsein, Präsenz und Gelassenheit.
         <br>
         <br>
-        <a href="http://nicolas-alschibaja.de" target="_blank">
+        <a href="https://nicolas-alschibaja.de" target="_blank">
             nicolas-alschibaja.de
         </a>
     </div>
