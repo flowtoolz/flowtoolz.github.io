@@ -57,11 +57,13 @@ I needed something like the [five minute journal](https://fiveminutejournal.com)
 
 Now, the 3rd revision is done. A collaborator of mine handcrafts the books and gives every copy a unique design. I did a photo shoot of a bunch of example copies and had it professionally translated.
 
+<!--
 ## [Flowtalk](/flowtalk)
 
 <img src="flowtalk.jpg" class="ft-more-project-image" /> Flowtalk is a podcast. Our theme is “flow” as a state of ultimate focus, awareness, fulfilment, playfulness, naturalness, self-expression, productivity and inner peace.
 
 We talk self-development, philosophy, psychology, spirituality, business, creativity, productivity, culture and more. Visit <a href="/flowtalk" onclick="ga('send', 'event', 'link', 'click', 'www.flowtoolz.com/flowtalk');">www.flowtoolz.com/flowtalk</a>.
+-->
 
 ## [Sebastian Telle](https://www.facebook.com/pg/sebastiantellemusik/posts)
 
