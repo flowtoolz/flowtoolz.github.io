@@ -25,6 +25,30 @@
         
         <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
         
+        <item>
+            <!-- update all this -->
+            <guid>https://www.flowtoolz.com/flowtalk/#6</guid>
+            <title>#6 - Nicolas Alschibaja, Sebastian Telle</title>
+            <itunes:summary>Diesmal sprachen wir über die Zukunft von Flowtalk, Gesprächskultur, Selbstentwicklung, meine Herausforderungen bei der Entwicklung von Flowlist und die Rolle von Marketing in unseren Berufen.
+                
+                https://www.flowtoolz.com
+                https://www.nicolas-alschibaja.de
+            </itunes:summary>
+            <description>Diesmal sprachen wir über die Zukunft von Flowtalk, Gesprächskultur, Selbstentwicklung, meine Herausforderungen bei der Entwicklung von Flowlist und die Rolle von Marketing in unseren Berufen.
+                
+                https://www.flowtoolz.com
+                https://www.nicolas-alschibaja.de
+            </description>
+            <itunes:duration>01:14:24</itunes:duration>
+            <!-- copy this this stuff from Anchor rss -->
+            <pubDate>Fri, 14 Dec 2018 19:08:22 GMT</pubDate>
+            <enclosure url="https://anchor.fm/s/6dddbb8/podcast/play/1917602/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2018-11-14%2F7155591-48000-2-051718f69f5ee.mp3" length="178546816" type="audio/mpeg"/>
+            <!-- leave all this as it is -->
+            <itunes:author>Flowtoolz</itunes:author>
+            <itunes:explicit>yes</itunes:explicit>
+            <link>https://www.flowtoolz.com/flowtalk</link>
+        </item>
+        
          <item>
             <!-- update all this -->
             <guid>https://www.flowtoolz.com/flowtalk/#5</guid>

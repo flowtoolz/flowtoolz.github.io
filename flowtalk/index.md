@@ -97,6 +97,17 @@ Flowtalk is a (mostly german) podcast. Our theme is **flow** as a state of ultim
     
 </div>
 
+<h2>#6 - Nicolas Alschibaja, Sebastian Telle</h2>
+
+<div class="grid-x grid-margin-x">
+    <div class="cell small-12 medium-6">
+        <img src="episode-images/poster_6.jpg" style="margin-top:9px">
+            </div>
+    <div class="cell small-12 medium-6">
+        Diesmal sprachen wir über die Zukunft von Flowtalk, Gesprächskultur, Selbstentwicklung, meine Herausforderungen bei der Entwicklung von <a href="/flowlist">Flowlist</a> und die Rolle von Marketing in unseren Berufen.
+    </div>
+</div>
+
 <h2>#5 - Nicolas Alschibaja, Sebastian Telle</h2>
 
 <div class="grid-x grid-margin-x">
