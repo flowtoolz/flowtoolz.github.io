@@ -7,11 +7,11 @@ keywords: software architecture, software, architecture, zen, code quality, soft
 ---
 
 <img style="margin-left:auto;margin-right:auto;display:block;"
-​    src="/blog-images/software-development/architecture/zen-architecture.jpg"
-​    title="{{ page.title }}"
-​    alt="{{ page.title }}. {{ page.keywords }}">
-​    
-<i>This is a series of excerpts from a book I'm writing: "Zen in the Art of Software Architecture - From Timeless Principles to Timely Products". The draft will evolve, and I'll rework published content without highlighting every edit. Last edit: Jan 07, 2019</i>
+    src="/blog-images/software-development/architecture/zen-architecture.jpg"
+    title="{{ page.title }}"
+    alt="{{ page.title }}. {{ page.keywords }}">
+​  
+<i>This starts a series of excerpts from a book: "Zen in the Art of Software Architecture - From Timeless Principles to Timely Products". The draft will evolve, and I'll rework published content without highlighting every edit. Last edit: Jan 07, 2019</i>
 
 ## The Call to Adventure
 
