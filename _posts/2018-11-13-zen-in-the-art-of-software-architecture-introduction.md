@@ -7,11 +7,11 @@ keywords: software architecture, software, architecture, zen, code quality, soft
 ---
 
 <img style="margin-left:auto;margin-right:auto;display:block;"
-    src="/blog-images/software-development/architecture/zen-architecture.jpg"
-    title="{{ page.title }}"
-    alt="{{ page.title }}. {{ page.keywords }}">
-    
-<i>This is a series of excerpts from a book I'm writing: "Zen in the Art of Software Architecture - From Timeless Principles to Timely Products". The draft will evolve, and I'll rework published content without highlighting every edit.</i>
+​    src="/blog-images/software-development/architecture/zen-architecture.jpg"
+​    title="{{ page.title }}"
+​    alt="{{ page.title }}. {{ page.keywords }}">
+​    
+<i>This is a series of excerpts from a book I'm writing: "Zen in the Art of Software Architecture - From Timeless Principles to Timely Products". The draft will evolve, and I'll rework published content without highlighting every edit. Last edit: Jan 07, 2019</i>
 
 ## The Call to Adventure
 
@@ -22,9 +22,9 @@ Again and again, those games, game engines and architectural frameworks would le
 And again and again, I started all over, wondering: How on earth is real professional software even possible? There must be some system or secret that I still don't know.
 
 I pursued that fundamental question ever since. The abstract principles of software development have always intrigued me far more than the technical details.
- 
+
 ## Are We Having Fun Yet?
- 
+
 To my surprise, I didn't find the answer at universities. In fact, their process- and architecture related courses didn't much reflect modern reality. Software engineering, as they presented it, had already been [kind of dead](https://www.computer.org/cms/Computer.org/ComputingNow/homepage/2009/0709/rW_SO_Viewpoints.pdf).
 
 So, I went on a journey of working on code, analyzing code, reading about code and thinking deeply about the nature of code. Writing down and integrating everything I learned, a theoretical framework emerged that seemed to explain common "architectures" and to answer all my questions.
@@ -67,18 +67,19 @@ When developing software, we often cling to some so called "architecture" withou
 
 There are myths in our field that we've conjured up through blind adherence to observed patterns. But **when you turn an observation into a dogma, you've lost the way**.
 
-Here are just 10 of those **myths**:
+Here are just some of those **myths**:
 
-1. Views must not access models
-2. The application state must be immutable
-3. Everything must be unit-tested
-4. Independence is for re-usability
-5. The model is the state of the application
-6. Singletons are bad
-7. Views must have no behaviour
-8. View controllers are the only acceptable "manager" type of class
-9. The view-model layer is only for output
-10. Different "architectures" are mutually exclusive
+* Views must not access models
+* Ideally, all code should be functional (spoiler: it can't be)
+* The functional core of an app resides in the model
+* Everything must be unit-tested
+* Independence is for re-usability
+* The "model" is the state of the application
+* Singletons are bad
+* Views must have no behaviour
+* View controllers are the only acceptable "controller" type of class
+* The view-model layer is only for output
+* Different "architectures" are mutually exclusive
 
 I won't challenge them directly. But when we're able to put such ideas in perspective and understand where they come from, they appear small-minded, arbitrary, over-restrictive, superficial and needlessly confusing.
 
