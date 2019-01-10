@@ -7,11 +7,11 @@ keywords: software architecture, software, architecture, zen, code quality, soft
 ---
 
 <img style="margin-left:auto;margin-right:auto;display:block;"
-    src="/blog-images/software-development/architecture/zen-architecture.jpg"
-    title="{{ page.title }}"
-    alt="{{ page.title }}. {{ page.keywords }}">
+​    src="/blog-images/software-development/architecture/zen-architecture.jpg"
+​    title="{{ page.title }}"
+​    alt="{{ page.title }}. {{ page.keywords }}">
 ​  
-<i>This starts a series of excerpts from a book: "Zen in the Art of Software Architecture - From Timeless Principles to Timely Products". The draft will evolve, and I'll rework published content without highlighting every edit. Last edit: Jan 07, 2019</i>
+<i>This starts a series of excerpts from a book: "Zen in the Art of Software Architecture - From Timeless Principles to Timely Products". The draft will evolve, and I'll rework published content without highlighting every edit. Last edit: Jan 10, 2019</i>
 
 ## The Call to Adventure
 
@@ -37,11 +37,11 @@ My approach is systematic. However, I won't rattle down a longwinded proof and r
 
 ## Where We're Coming From
 
-As proud software craftsmen, our thinking is customer-centric, our code structure is object-oriented, our design is domain-driven, our implementation is test-driven and our development is behaviour-driven. We integrate automatically, iterate rapidly, deliver continuously and burn out occasionaly, fine.
+As proud software craftsmen, our thinking is customer-centric, our code is object-oriented and functional, our design is domain-driven, our development is test- and behaviour-driven. We integrate automatically, iterate rapidly, deliver continuously and burn out occasionaly, fine.
 
 Many of these techniques come in quite far down the delivery pipeline, yet all steps in the pipeline rely and build upon quality input. **No amount of automated testing or continuous integration can adress, or even recognize, the future costs and implications of fundamentally flawed code.**
 
-However, most code-related techniques are quite low-level: The domain model is only one part of the application, object-oriented design principles have mostly local scope, and **a thousand perfect little TDD cycles with perfect little tests and refactorings can still amount to a mess on the grand scale**.
+However, most code-related techniques are quite low-level: The domain model is only one part of the application, design principles and patterns have quite local scope, and **a thousand perfect little TDD cycles with perfect little tests and refactorings can still amount to a mess on the grand scale**.
 
 That's why we developers crave higher-level frameworks and patterns to guide our micro decisions. And that's where the A-word comes in: *Architecture*.
 
@@ -63,14 +63,14 @@ When developing software, we often cling to some so called "architecture" withou
 
 [Model-View-Presenter](https://en.wikipedia.org/wiki/Model–view–presenter), for instance, is not an architecture. It's a subjective observation, a simplified model of reality, a perceived pattern.
 
-**Concepts like MVP, MVC, MVVM or VIPER are more descriptive than normative. They describe patterns that emerge in clean architectures. But they're never the true basis or cause for clean architecture.**
+**Concepts like MVP, MVC, MVVM or VIPER are more descriptive than normative. They describe patterns that emerge in effective architectures. But they're never the true basis or cause for effective architecture.**
 
 There are myths in our field that we've conjured up through blind adherence to observed patterns. But **when you turn an observation into a dogma, you've lost the way**.
 
 Here are just some of those **myths**:
 
 * Views must not access models
-* Ideally, all code should be functional (spoiler: it can't be)
+* Ideally, all code should be functional (spoiler: it can't be and it shouldn't)
 * The functional core of an app resides in the model
 * Everything must be unit-tested
 * Independence is for re-usability
@@ -120,9 +120,11 @@ We'll also not touch on specific technologies, software types or application dom
 
 ### Timely Products
 
-Timely products result from agility. Unfortunately, the term "agile" is overused and misunderstood. Let me say this much: Agility is not [SCRUM](https://en.wikipedia.org/wiki/Scrum_(software_development)) but any implementation of the ideas behind the [Agile Manifesto](https://agilemanifesto.org/principles.html). And clean architecture derives from those ideas. 
+Timely products result from agility. Unfortunately, the term "agile" is overused and misunderstood. Let me say this much: Agility is not [Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)). Agile Software Development is any implementation of the ideas behind the [Agile Manifesto](https://agilemanifesto.org/principles.html). And effective architecture as we understand it derives from those ideas.
 
-Clean architecture has all kinds of effects that help produce more value over time and, thereby, deliver timely products: It makes development flexible, puts emphasis on customer value, yields re-usable code, raises team engagement, accelerates onboarding, solves object-oriented design problems, promotes a common domain-specific language, avoids all sorts of technical risks, makes code more testable, etc.
+Effective architecture has all kinds of effects that help produce more value over time and, thereby, deliver timely products: It makes development flexible, puts emphasis on customer value, yields re-usable code, raises team engagement, accelerates onboarding, solves object-oriented design problems, promotes a common domain-specific language, avoids all sorts of technical risks, makes code more testable and so on.
+
+We could drone on endlessly listing the direct and implied benefits. However, those benefits are not the reason for why we aim at effective architecture. They are just side effects, arbitrary manifestations of effective architecture. Of course, what "effective" means relates to the essential role and purpose of code, so we'll dive into that soon.
 
 ## Product, Process, Principles
 
@@ -152,6 +154,6 @@ Now, **the gobal high-level code structure that people commonly call "architectu
 
 **When we'll speak of *architecture*, we will mean universal principles rather than the product**: To grow into a healthy long-lived human being, we must design our lifestyle in accordance with *the architecture of  human existence*. To grow a healthy long-lived code base, we must design it in accordance with *the architecture of code*.
 
-Now, if we understand software architecture as a set of principles that naturally apply to all software, then what are these principles? Let's narrow them down!
+Now, if we understand *software architecture* as a set of principles that naturally apply to all software, then what are these principles? Let's narrow them down!
 
 ... to be continued ...
