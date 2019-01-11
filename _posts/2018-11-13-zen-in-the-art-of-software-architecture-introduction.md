@@ -121,36 +121,6 @@ Timely products result from agility. Unfortunately, the term "agile" is overused
 
 Effective architecture has all kinds of effects that help produce more value over time and, thereby, deliver timely products: It makes development flexible, puts emphasis on customer value, yields re-usable code, raises team engagement, accelerates onboarding, solves object-oriented design problems, promotes a common domain-specific language, avoids all sorts of technical risks, makes code more testable and so on.
 
-We could drone on endlessly listing the direct and implied benefits. However, those benefits are not the reason for why we aim at effective architecture. They are just side effects, arbitrary manifestations of effective architecture. Of course, what "effective" means relates to the essential role and purpose of code, so we'll dive into that soon.
-
-## Product, Process, Principles
-
-So where do we even begin? Every type of productivity involves these layers:
-<img style="margin-left:auto;margin-right:auto;display:block;max-width:423px"
-src="/blog-images/software-development/architecture/three-Ps.png"
-title="{{ page.title }}"
-alt="{{ page.title }}. {{ page.keywords }}">
-
-Here is what they mean:
-
-1. The **product** is the ultimate outcome. In our context, the product is software, not "architecture".
-
-2. The **process** produces the product with respect to the principles. It is the dynamic activity (or negligence) of the architect. 
-
-3. The **principles** describe the domain of production, its entities and rules. Our domain is code.
-
-### Product
-
-Note, that our approach applies to everything made of code, independent of the underlying hardware-structure. Technical *system architecture* is a different subject.  So you may have any type of software in mind: A highly distributed system, a microservice, a mobile app, a web service, whatever you're doing.
-
-Now, **the gobal high-level code structure that people commonly call "architecture" describes what holds a particular software product together and what makes it a *thing* at all**. It's a level of analysis applicable to any product, even if the product wasn't designed at that level.
-
-### Principles
-
-**Principles are the natural laws that govern the universe in which the product arises. They determine what can possibly manifest as a stable entity.** Everything exists as a consequence of such laws and only as far as it is in accordance with them. As far as something disintegrates, it is obviously, as a *thing*, not in accordance with the laws of its universe.
-
-**When we'll speak of *architecture*, we will mean universal principles rather than the product**: To grow into a healthy long-lived human being, we must design our lifestyle in accordance with *the architecture of  human existence*. To grow a healthy long-lived code base, we must design it in accordance with *the architecture of code*.
-
-Now, if we understand *software architecture* as a set of principles that naturally apply to all software, then what are these principles? Let's narrow them down!
+We could drone on endlessly listing the direct and implied benefits. However, those benefits are not the reason for why we aim at effective architecture. They are just side effects, arbitrary manifestations of effective architecture. Of course, what "effective" means relates to the essential role and purpose of code, and we'll look at that more closely soon.
 
 ... to be continued ...
