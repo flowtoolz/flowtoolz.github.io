@@ -44,35 +44,29 @@ The natural laws of life relate to its structure. Structure is defined by *struc
 
 The natural laws of code also relate to structure. So what are the elements and relationships in code?
 
-When we structure code, we often focus on classes or similar namespaces. But really, code can be structured at all scales. There are smaller elements that can be contained in classes. And there are bigger elements that can contain multiple classes.
+When we structure code, we often focus on classes or similar namespaces. But really, code can be structured at all scales. There are small elements that can be contained in classes. And there are large elements that can contain multiple classes.
 
 An element within a class could be a function, method, property, variable, inner class and so forth. An element that groups multiple classes could be a layer, component, package, module, library, framework, micro service or even just a file.
 
 Structural elements of code may widely differ in size, usage and meaning. But in regards to structure, they're just *code artefacts*, pieces of code that can be formally distinguished, irrespective of their meaning.
 
-> In contrast to "artefact", related terms like "item", "element", "object", "component", "composite" and "entity" have specific meanings in certain contexts of software or mathematics.
+Note: In contrast to "artefact", similar terms like "item", "element", "object", "component", "composite" and "entity" have specific meanings in certain contexts of software or mathematics.
 
-Aside from the hierarchical composition of artefacts, like a module containing multiple classes, artefacts can also relate to each other in more interesting ways. Think of a class that derives from another, or of an executable that calls a remote micro service. All these relationships make the structure of code and are the focus of architectural principles.
+Aside from the hierarchical composition of code artefacts, like a module containing multiple classes, they can also relate to each other in more interesting ways. Think of a class that derives from another, or of an executable that calls a remote micro service. All these relationships make the structure of code and are the focus of architectural principles.
 
 ## The Role of Uncle Bob's Principles
 
-Robert C. Martin (a.k.a. Uncle Bob) is not just a pioneer of the agile and craftsmanship movements, he also laid the foundation for methodical software architecture. His 11 principles on package and class design are profound and have vast implications on code structure.
+Robert C. Martin (a.k.a. Uncle Bob) is not just a pioneer of the agile and craftsmanship movements, he also laid the foundation for methodical software architecture. His principles on class and package design are profound and have vast implications on code structure.
 
-While Uncle Bob is a legend among developers, many don't know the principles he repeatedly wrote about. Such basics are most essential but, I guess, not very sexy. 
+**While Uncle Bob is a legend among developers, most do not know, let alone apply, the 11 principles he repeatedly wrote about since publishing them 19 years ago. As true software craftsmen, our thinking should revolve around such essential timeless principles, instead of the ephemeral (and by themselves meaningless) technical details of the latest technologies.**
 
 This book includes the wisdom of all of Uncle Bob's principles and more. However, we'll cover that wisdom from a different perspective, in different terms, less as a list of abstract definitions, and more integrated into a meaningful learning process.
 
-As far as this book relates to Uncle Bob's principles, I hope to provide an additional way of understanding their essence, and I abstracted them in three main ways:
+Our approach and line of reasoning will lead to results that contain abstractions of Uncle Bob's principles. We'll also present some explicit arguments for why certain generalizations of those principles make sense for our purposes.
 
-1. The original principles target either packages or classes. However, the scope of application can be extended. Some (like package cohesion principles) even apply to methods.
-2. To really get to the core, I dropped the somewhat arbitrary and unnecessary distinction between package and class principles.
-3. As steps (1) and (2) generalized the original principles, they also exposed some redundancy which we could then remove by merging some principles together.
+Most importantly, **the laws that we'll derive do not parcel out classes or packages. Instead, they apply to all code artefacts at all scales, from functions to large sub-systems**. This also means we **should** apply them at all scales, because conforming to a law at one level, say classes, doesn't guarantee conformance at another, like at the package level.
 
-Why these generalizations make sense for our purposes, will become even clearer in light of our own approach and line of reasoning over the following chapters.
-
-Just note, that our principles apply to all artefacts at all scales. That also means we should apply them at all scales, because satisfying a principle on one level, say classes, doesn't automatically satisfy it on another, like for packages.
-
-Now, let's advance to the core of effective architecture and then dive into the first of N laws.
+As far as this book conveys the ideas of Uncle Bob's principles, I hope to provide an additional way of understanding their essence. Now, let's advance to the core of effective architecture and then derive our first law.
 
 ## Effective Code Tells the Truth
 
@@ -80,9 +74,9 @@ Now, let's advance to the core of effective architecture and then dive into the 
 
 Code is never the problem, it's those annoying people who want us to change the code all the time, right?
 
-Functional and technical requirements are in flux. For a code base to survive, it must adapt to an ever changing world. In the evolution of organisms and code, flexibility is resilience, and rigidity is death. It's called software not hardware afterall.
+Functional and technical requirements are in flux. For a code base to survive, it must adapt to an ever changing world. **In the evolution of organisms and code, flexibility is resilience and rigidity is death.** Afterall, we call it software not hardware.
 
-However, reality doesn't change in arbitrary glitches. At least, I'd like to believe mine doesn't. Instead, it's bound by structure, its entities and rules. Some changes happen easily, while others require lots of energy or are simply impossible.
+However, reality doesn't change in arbitrary glitches. At least, I'd like to believe mine doesn't. Instead, it's bound by an innate structure, its entities and rules. Some changes happen easily, while others require lots of energy or are simply impossible.
 
 <!-- todo: consider: when people decide to kill off and rebuilt parts of a software product. The "reality" changes abruptly -->
 
@@ -90,7 +84,7 @@ However, reality doesn't change in arbitrary glitches. At least, I'd like to bel
 
 When things change and the code can't keep up, it means the code didn't correspond to reality very well in the first place. I'm not saying code should map all details of the world, but it must map the relevant parts truthfully.
 
-Pieces of code represent pieces of reality, including the reality of domain, requirements and platform. The real-world concepts it represents are the *meaning* of code. Code is *meaningful* when it truthfully reflects the structure and mechanics of reality, no matter at what level of detail. Since *meaningful code* already corresponds to reality, it can easily adopt any changes that happen there.
+**Pieces of code represent pieces of reality, including the reality of domain, requirements and platform. The real-world concepts it represents are the *meaning* of code. Code is *meaningful* when it truthfully reflects the structure and mechanics of reality, no matter at what level of detail. Since *meaningful code* already corresponds to reality, it can easily adopt any changes that happen there.**
 
 We intuitively understand how impactful a change is, in other words: we know its meaning. The effort that's required to implement that change in code should match our intuitive expectation. To put it simply: A "small" feature should be quick to implement.
 
@@ -100,8 +94,6 @@ This can mean, for instance, the necessary general frameworks are not available 
 
 Sometimes the foul parts are beyond the control of developers, like when platform frameworks are designed in unfathomable ways. On the other hand: If the changing part of reality, like a functional requirement, does not intrinsically depend on the framework, then the corresponding code shouldn't depend on it either, otherwise the code wouldn't be true to that reality.
 
-Describing reality accurately is not just some heuristic for how to write resilient code. In a way, it's the whole purpose of code. Code expresses conceptual and technical realities. And effective code tells the truth.
+Describing reality accurately is not just some heuristic for how to write resilient code. In a way, it's the whole purpose of code. **Code expresses conceptual and technical realities. And effective code tells the truth.**
 
-In a way, this is *Law Zero*. It's the core of all principles and patterns we'll discuss. At the same time, those principles and patterns will also shine light on this core and will help us recognize and leverage the notion that code, in its essence, speaks about reality.
-
-Certainly, writing code is to speak in a programming language. So for now, let's not lie. Lies make bad karma. Let's just tell the truth. We'll see soon enough that effectiveness will follow.
+We might look at this as *Law Zero*. It's the core of all laws and patterns we'll discuss. At the same time, those laws and patterns will also shine light on this core and will help us recognize and leverage the notion that code, in its essence, speaks about reality. Certainly, writing code is to speak in a programming language. So for now, let's not lie. Lies make bad karma. Let's just tell the truth. We'll see that effectiveness will follow.
