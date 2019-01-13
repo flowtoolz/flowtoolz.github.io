@@ -16,15 +16,19 @@ When I was eleven, I taught myself [Pascal](https://en.wikipedia.org/wiki/Pascal
 
 Again and again, those games, game engines and architectural frameworks would lead into dead ends, where  their structure hopelessly diverged from their purpose, or their complexity brought them to a halt.
 
+<img style="margin-left:auto;margin-right:auto;display:block;" src="/blog-images/software-development/architecture/first-steps.png" title="{{ page.title }}" alt="{{ page.title }}. {{ page.keywords }}">
+
 And again and again, I started all over, wondering: How on earth is real professional software even possible? There must be some system or secret that I still don't know.
 
-I pursued that fundamental question ever since. The abstract principles of software development have always intrigued me far more than the technical details.
+I chased answers to that fundamental question ever since. The abstract principles of software development have always intrigued me far more than the technical details.
 
 ## Are We Having Fun Yet?
 
-To my surprise, I didn't find the answer at universities. In fact, their process- and architecture related courses didn't much reflect modern reality. Software engineering, as they presented it, had already been [kind of dead](https://www.computer.org/cms/Computer.org/ComputingNow/homepage/2009/0709/rW_SO_Viewpoints.pdf).
+To my surprise, I didn't find answers at universities. In fact, their process- and architecture related courses didn't much reflect modern reality. Software engineering, as they presented it, had already been [kind of dead](https://blog.codinghorror.com/software-engineering-dead/).
 
-So, I went on a journey of working on code, analyzing code, reading about code and thinking deeply about the nature of code. Writing down and integrating everything I learned, a theoretical framework emerged that seemed to explain common "architectures" and to answer all my questions.
+<img style="margin-left:auto;margin-right:auto;display:block;" src="/blog-images/software-development/architecture/audimax-dresden.jpg" title="{{ page.title }}" alt="{{ page.title }}. {{ page.keywords }}">
+
+So I went on a journey of working on code, analyzing code, reading about code and thinking deeply about the nature of code. Writing down and integrating everything I learned, a theoretical framework emerged that seemed to explain common "architectures" and to answer all my questions.
 
 It's abstract but simple and pragmatic, and I've been using it for years now to understand and (re-)factor my projects. I feel it might actually draw parallels to some deeper truths beyond software, we'll see.
 
@@ -35,6 +39,8 @@ My approach is systematic. However, I won't rattle down a longwinded proof and r
 ## Where We're Coming From
 
 As proud software craftsmen, our thinking is customer-centric, our code is object-oriented and functional, our design is domain-driven, our development is test- and behaviour-driven. We integrate automatically, iterate rapidly, deliver continuously and burn out occasionaly, fine.
+
+<img style="margin-left:auto;margin-right:auto;display:block;" src="/blog-images/software-development/architecture/craftsmanship-tools.jpg" title="{{ page.title }}" alt="{{ page.title }}. {{ page.keywords }}">
 
 Many of these techniques come in quite far down the delivery pipeline, yet all steps in the pipeline rely and build upon quality input. **No amount of automated testing or continuous integration can adress, or even recognize, the future costs and implications of fundamentally flawed code.**
 
@@ -48,6 +54,8 @@ Now, let's not get bogged down by definitions. You already have an intuitive und
 
 In the realm of software, architecture remains a metaphor. It's a useful one. But, like any metaphor, you can take it to a point where it breaks down. Its applicability is limited and depends on what aspects you want to illuminate.
 
+<img style="margin-left:auto;margin-right:auto;display:block;" src="/blog-images/software-development/architecture/modern-architecture.jpg" title="{{ page.title }}" alt="{{ page.title }}. {{ page.keywords }}">
+
 One aspect in which the metaphor fails software is this: Real world construction requires [up front design](https://en.wikipedia.org/wiki/Big_Design_Up_Front) while software can evolve organically.
 
 The software architect can quickly build a working product and then iterate over it again and again. It's like starting with a one room house with no windows, plumbing or electricity and then growing that house, step by step, into a futuristic complex.
@@ -59,6 +67,8 @@ I bet you're already a little "architect" like me, aiming at code monuments of s
 When developing software, we often cling to some so called "architecture" without really knowing why. **Compliance with an architecture pattern yields consistency and beauty in terms of that pattern but not necessarily in terms of the nature of software itself.**
 
 [Model-View-Presenter](https://en.wikipedia.org/wiki/Model–view–presenter), for instance, is not an architecture. It's a subjective observation, a simplified model of reality, a perceived pattern.
+
+<img style="margin-left:auto;margin-right:auto;display:block;" src="/blog-images/software-development/architecture/ice-crystal.jpg" title="{{ page.title }}" alt="{{ page.title }}. {{ page.keywords }}">
 
 **Concepts like MVP, MVC, MVVM or VIPER are more descriptive than normative. They describe patterns that emerge in effective architectures. But they're never the true basis or cause for effective architecture.**
 
@@ -88,9 +98,11 @@ Equipped with deep clarity about the fundamental principles of code structure, t
 
 And it should be obvious because software, at its core, is surprisingly simple. Just like life. We'll see that much of it comes down to telling the truth.
 
+<img style="margin-left:auto;margin-right:auto;display:block;" src="/blog-images/software-development/architecture/pinocchio.jpg" title="{{ page.title }}" alt="{{ page.title }}. {{ page.keywords }}">
+
 **Code, like speech, must be truthful. Then, it's lasting, beautiful, lean, efficient and simple. When our solution is complex, chances are it's not sophisticated but just clumsy. Chances are we don't know the true problem just yet.**
 
-Now, before we jump into the [dharma](https://en.wikipedia.org/wiki/Dharma) of program code, let me recapture the spirit of this book by going over the remaining terms in the title: *Zen in the Art of Software Architecture - From Timeless Principles to Timely Products*
+Now, before we get into the [dharma](https://en.wikipedia.org/wiki/Dharma) of program code, let me recapture the spirit of this book by going over the remaining terms in the title: *Zen in the Art of Software Architecture - From Timeless Principles to Timely Products*
 
 ### Zen
 
