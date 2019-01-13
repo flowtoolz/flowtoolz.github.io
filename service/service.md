@@ -78,7 +78,7 @@ permalink: /service/
 
 </div>
 
-<h1 style="text-align:center">Projects</h1>
+<h1 style="text-align:center;margin-top:1.6em">Projects</h1>
 
 <div class="grid-x small-up-1 medium-up-2 grid-margin-y grid-margin-x">
 
@@ -120,7 +120,7 @@ permalink: /service/
 
 </div>
 
-<h1 style="text-align:center">Manifesto</h1>
+<h1 style="text-align:center;margin-top:1.6em">Manifesto</h1>
 
 <div class="grid-x small-up-1 medium-up-2 grid-margin-y grid-margin-x">
 
