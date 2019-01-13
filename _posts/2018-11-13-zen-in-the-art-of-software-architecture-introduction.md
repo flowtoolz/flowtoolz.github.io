@@ -8,13 +8,13 @@ keywords: software architecture, software, architecture, zen, code quality, soft
 
 <img style="margin-left:auto;margin-right:auto;display:block;" src="/blog-images/software-development/architecture/zen-architecture.jpg" title="{{ page.title }}" alt="{{ page.title }}. {{ page.keywords }}">
 
-<i>This starts a series of excerpts from a book: "Zen in the Art of Software Architecture - From Timeless Principles to Timely Products". The draft will evolve, and I'll rework published content without highlighting every edit. Last edit: Jan 10, 2019</i>
+<i>This starts a series of excerpts from a book: "Zen in the Art of Software Architecture - From Timeless Principles to Timely Products". The draft will evolve, and I'll rework published content without highlighting every edit. Last edit: Jan 13, 2019</i>
 
 ## The Call to Adventure
 
 When I was eleven, I taught myself [Pascal](https://en.wikipedia.org/wiki/Pascal_(programming_language)) and, shortly after, [C++](https://en.wikipedia.org/wiki/C%2B%2B), [Windows programming](https://www.goodreads.com/book/show/420643.Programming_Windows), [DirectX](https://en.wikipedia.org/wiki/DirectX) and [game development](https://www.goodreads.com/book/show/2340474.Tricks_of_the_Game_Programming_Gurus). I remember cranking out countless over-engineered little beasts of code.
 
-Again and again, those games, game engines and architectural frameworks would lead into dead ends, where  their structure hopelessly diverged from their purpose, or their complexity brought them to a halt.
+Again and again, those games, game engines and architectural frameworks would lead into dead ends, where  their structure hopelessly diverged from their purpose or their complexity brought them to a halt.
 
 <img style="margin-left:auto;margin-right:auto;display:block;" src="/blog-images/software-development/architecture/first-steps.png" title="{{ page.title }}" alt="{{ page.title }}. {{ page.keywords }}">
 
@@ -32,7 +32,7 @@ So I went on a journey of working on code, analyzing code, reading about code an
 
 It's abstract but simple and pragmatic, and I've been using it for years now to understand and (re-)factor my projects. I feel it might actually draw parallels to some deeper truths beyond software, we'll see.
 
-In order to sort out, delineate and nail down my learnings, I wrote this book. Also, the presented thought framework could be interesting to other people in the periphery of software development. I've put much work into it because it offers a perspective that I had greatly missed in the field.
+In order to sort out, delineate and nail down my learnings, I'm writing this book. Also, the presented thought framework could be interesting to other people in the periphery of software development. I've put much work into it because it offers a perspective that I had greatly missed in the field.
 
 My approach is systematic. However, I won't rattle down a longwinded proof and reference list for every statement I make. It's not an academic text. I don't have time for that, and neither have you. For the sake of brevity and practical value, let's focus on the essential line of reasoning. I'll sound opinionated, and you'll stay motivated. More fun for both of us :)
 
