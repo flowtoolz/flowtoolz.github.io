@@ -8,7 +8,7 @@ keywords: software architecture, software, architecture, zen, code quality, soft
 
 <img style="margin-left:auto;margin-right:auto;display:block;" src="/blog-images/software-development/architecture/zen-architecture.jpg" title="{{ page.title }}" alt="{{ page.title }}. {{ page.keywords }}">
 
-<i>This starts a series of  book excerpts from: "Zen in the Art of Software Architecture - From Timeless Principles to Timely Products". The keeps evolving, and I change published content without highlighting every edit. Last edit: Jan 14, 2019</i>
+<i>This starts a series of book excerpts from: "Zen in the Art of Software Architecture - From Timeless Principles to Timely Products". The draft keeps evolving, and I change published content without highlighting every edit. Last edit: Jan 14, 2019</i>
 
 <i>Read the 2nd half of the introduction in [Part 2](/2019/01/14/zen-in-the-art-of-software-architecture-2.html).</i>
 
@@ -36,7 +36,7 @@ It's abstract but simple and pragmatic, and I've been using it for years now to 
 
 In order to sort out, delineate and nail down my learnings, I'm writing this book. Also, the presented thought framework could be interesting to other people in the periphery of software development. I've put much work into it because it offers a perspective that I had greatly missed in the field.
 
-My approach is systematic. However, I won't rattle down a longwinded proof and reference list for every statement I make. It's not an academic text. I don't have time for that, and neither have you. For the sake of brevity and practical value, let's focus on the essential line of reasoning. I'll sound opinionated, and you'll stay motivated. More fun for both of us :)
+My approach is systematic. However, I won't rattle down a longwinded proof and reference list for every statement I make. It's not an academic text. I don't have time for that, and neither have you. For the sake of brevity and practical value, let's focus on the essential line of reasoning. I'll sound opinionated, and you'll stay motivated. More fun for both of us 😃
 
 ## Where We're Coming From
 
