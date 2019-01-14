@@ -8,7 +8,9 @@ keywords: software architecture, software, architecture, zen, code quality, soft
 
 <img style="margin-left:auto;margin-right:auto;display:block;" src="/blog-images/software-development/architecture/zen-dojo.jpg" title="{{ page.title }}" alt="{{ page.title }}. {{ page.keywords }}">
 
-<i>This is a series of excerpts from a book: "Zen in the Art of Software Architecture - From Timeless Principles to Timely Products". The draft will evolve, and I'll rework published content without highlighting every edit.</i>
+<i>This continues a series of book excerpts from: "Zen in the Art of Software Architecture - From Timeless Principles to Timely Products". The draft is evolving, and I change posts without highlighting every edit. Last edit: Jan 14, 2019</i>
+
+<i>Read [Part 1 over here](/2018/11/13/zen-in-the-art-of-software-architecture-introduction.html). I've reworked that quite a bit.</i>
 
 ## Product, Process, Principles
 
@@ -40,7 +42,7 @@ Everything exists as a consequence of such laws and only as far as it is in acco
 
 **When we'll speak of *architecture*, we will mean universal principles rather than the product**: To grow into a healthy long-lived human being, we must design our lifestyle in accordance with *the architecture of  human existence*. To grow a healthy long-lived code base, we must design it in accordance with *the architecture of code*.
 
-Now, if we understand *software architecture* as a set of principles that naturally apply to all code, then what are these principles? Let's narrow them down!
+Now, if we understand *software architecture* as a set of laws that naturally apply to all code, then what are these laws? Let's narrow them down!
 
 ## The Structure of Code
 
@@ -84,13 +86,13 @@ Code is never the problem, it's those annoying people who want it to change all 
 
 Functional and technical requirements are in flux. For a code base to survive, it must adapt to an ever changing world. **In the evolution of organisms and code, flexibility is resilience and rigidity is death.** In other words: Software is supposed to be soft. We rather have incorrect code that we can change easily than correct code that noone dares to touch anymore.
 
-And why does the real world effect our code? Because **pieces of code represent pieces of reality, including the reality of domain, requirements and platform.**
+And why does the real world effect our code at all? Because **pieces of code represent pieces of reality, including the realities of domain, requirements and platform.**
 
 <img style="margin-left:auto;margin-right:auto;display:block;max-width:530.5px" src="/blog-images/software-development/architecture/code-mapping-reality.png" title="{{ page.title }}" alt="{{ page.title }}. {{ page.keywords }}">
 
 **The real-world concepts it represents are the *meaning* of code. Code is *meaningful* when it truthfully reflects the structure and mechanics of reality, no matter at what level of detail.**
 
-Luckily, reality doesn't change through arbitrary glitches. At least, I'd like to believe mine doesn't. Instead, it's bound by an innate structure, its entities and rules. Some aspects of the world change easily, while other changes require lots of energy or are simply impossible.
+Luckily, reality doesn't change through arbitrary glitches. At least, I'd like to believe mine doesn't. Instead, it's bound by an innate structure, its entities and rules. Some aspects of the world change easily, while other changes require lots of energy, are unlikely or simply impossible.
 
 The same limitations apply to the code representing that reality. That's why we intuitively understand how impactful a change request is. In other words: we know its meaning. 
 
@@ -102,14 +104,18 @@ The same limitations apply to the code representing that reality. That's why we 
 
 That's not to say code should map all details of the world, but it must map the relevant aspects **truthfully**.
 
-Consequently, when things change and our code can't keep up, it means the code didn't correspond to reality very well in the first place. In that case, some part in the whole software system is foul. Some part is not aligned with reality.
+The reverse applies as well: When things change and our code can't keep up as expected, it means the code didn't correspond to reality very well in the first place. In that case, some part in the whole software system is foul. Some part is not aligned with reality.
 
 This could mean, for instance, the necessary general frameworks are not available and application-agnostic functionality must be implemented, which is not part of our mental model of the application's reality. We intuitively assume that what is common across applications would pre-exist. And we'd be right to assume that because it should pre-exist in our tech stack.
 
-Sometimes, the foul parts are beyond the control of developers, like when platform frameworks are designed in unfathomable ways. On the other hand: If the changing part of reality, like a functional requirement, does not intrinsically depend on the framework, then the corresponding code shouldn't depend on it either, otherwise the code wouldn't be true to that reality.
+Sometimes, the foul parts are beyond the control of developers, like when platform frameworks are designed in unfathomable ways. On the other hand: If the changing part of reality, like a functional requirement, does not intrinsically depend on any framework, then the corresponding code shouldn't depend on it either, otherwise the code wouldn't be true to that reality.
+
+## Conclusion
 
 Describing reality accurately is not just some heuristic for how to write resilient code. In a way, it's the whole purpose of code. **Code expresses conceptual and technical realities. And effective code tells the truth.**
 
 We might look at this as *Law Zero*. It's the core of all laws and patterns we'll discuss. At the same time, those laws and patterns will also shine light on this core and will help us recognize and leverage the notion that code, in its essence, speaks about reality. 
 
 Certainly, writing code is to speak in a programming language. So for now, let's just not lie. Lies make bad karma. Let's just tell the truth. We'll see that effectiveness will follow.
+
+... to be continued ...

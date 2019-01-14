@@ -8,7 +8,9 @@ keywords: software architecture, software, architecture, zen, code quality, soft
 
 <img style="margin-left:auto;margin-right:auto;display:block;" src="/blog-images/software-development/architecture/zen-architecture.jpg" title="{{ page.title }}" alt="{{ page.title }}. {{ page.keywords }}">
 
-<i>This starts a series of excerpts from a book: "Zen in the Art of Software Architecture - From Timeless Principles to Timely Products". The draft will evolve, and I'll rework published content without highlighting every edit. Last edit: Jan 13, 2019</i>
+<i>This starts a series of  book excerpts from: "Zen in the Art of Software Architecture - From Timeless Principles to Timely Products". The keeps evolving, and I change published content without highlighting every edit. Last edit: Jan 14, 2019</i>
+
+<i>Read the 2nd half of the introduction in [Part 2](/2019/01/14/zen-in-the-art-of-software-architecture-2.html).</i>
 
 ## The Call to Adventure
 
@@ -121,7 +123,7 @@ Software architecture requires more than science and craft. In order to build hi
 
 ### Timeless Principles
 
-Two steps make the core of this book: 1) Deducting abstract principles, and 2) analyzing common patterns of architecture and design through the lense of the established thought framework.
+Two steps make the core of this book: 1) Deducting universal laws of code structure, and 2) analyzing common patterns of architecture and design through the lense of the established thought framework.
 
 In the process, we'll look at many hand sketched diagrams but never at code or pseudo code because we want to understand high-level structure not low-level processes.
 
@@ -135,4 +137,4 @@ Effective architecture has all kinds of effects that help produce more value ove
 
 We could drone on endlessly listing the direct and implied benefits. However, those benefits are not the reason for why we aim at effective architecture. They are just side effects, arbitrary manifestations of effective architecture. Of course, what "effective" means relates to the essential role and purpose of code, and we'll look at that more closely soon.
 
-... to be continued ...
+Read the 2nd half of the introduction in [Part 2](/2019/01/14/zen-in-the-art-of-software-architecture-2.html).
