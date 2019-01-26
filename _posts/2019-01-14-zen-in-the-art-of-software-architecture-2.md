@@ -8,7 +8,7 @@ keywords: software architecture, software, architecture, zen, code quality, soft
 
 <img style="margin-left:auto;margin-right:auto;display:block;" src="/blog-images/software-development/architecture/zen-dojo.jpg" title="{{ page.title }}" alt="{{ page.title }}. {{ page.keywords }}">
 
-<i>This continues a series of book excerpts from: "Zen in the Art of Software Architecture - From Timeless Principles to Timely Products". The draft is evolving, and I change posts without highlighting every edit. Last edit: Jan 14, 2019</i>
+<i>This continues a series of book excerpts from: "Zen in the Art of Software Architecture - From Timeless Principles to Timely Products". The draft is evolving, and I change posts without highlighting every edit. Last edit: Jan 26, 2019</i>
 
 <i>Read [Part 1 over here](/2018/11/13/zen-in-the-art-of-software-architecture-introduction.html). I've reworked that quite a bit.</i>
 
@@ -56,11 +56,11 @@ When we structure code, we often focus on classes or similar namespaces. But rea
 
 An element within a class could be a function, method, property, variable, inner class and so forth. An element that groups multiple classes could be a component, package, module, layer, library, framework, micro service or even just a file.
 
-Structural elements of code may widely differ in size, usage and meaning. But in regards to structure, they're just *code artifacts*, pieces of code that can be formally distinguished, irrespective of their meaning. In contrast, similar terms like "item", "element", "object", "component", "composite" and "entity" have specific meanings in certain contexts of software or mathematics.
+**Structural elements of code may widely differ in size, usage and meaning. But in regards to structure, they're just *code artifacts*, pieces of code that can be formally distinguished, irrespective of their meaning.** In contrast, similar terms like "item", "element", "object", "component", "composite" and "entity" have specific meanings in certain contexts of software or mathematics.
 
 <img style="margin-left:auto;margin-right:auto;display:block;max-width:655.5px" src="/blog-images/software-development/architecture/code-artifact-hierarchy.png" title="{{ page.title }}" alt="{{ page.title }}. {{ page.keywords }}">
 
-Aside from the hierarchical composition of code artifacts, like a module containing multiple files, they can also relate to each other in more interesting ways. Think of a class that derives from another, or of an executable that calls a remote micro service. All these relationships make the structure of code and are the focus of architectural principles.
+**Aside from the hierarchical composition of code artifacts, like a module containing multiple files, they also relate to each other in more interesting ways. Think of a class that derives from another, or of an executable that calls a remote micro service. All these relationships make the structure of code and are the focus of architectural principles.**
 
 ## The Role of Uncle Bob's Principles
 
@@ -94,7 +94,7 @@ And why does the real world effect our code at all? Because **pieces of code rep
 
 Luckily, reality doesn't change through arbitrary glitches. At least, I'd like to believe mine doesn't. Instead, it's bound by an innate structure, its entities and rules. Some aspects of the world change easily, while other changes require lots of energy, are unlikely or simply impossible.
 
-The same limitations apply to the code representing that reality. That's why we intuitively understand how impactful a change request is. In other words: we know its meaning. 
+This continuity of the real world equally applies to the code representing that world. That's why we intuitively understand how impactful a change request is. In other words: We know its meaning. 
 
 <!-- todo: examples of easy and hard changes in reality and how they map to developer expectations in an app in that domain -->
 
@@ -104,7 +104,7 @@ The same limitations apply to the code representing that reality. That's why we 
 
 That's not to say code should map all details of the world, but it must map the relevant aspects **truthfully**.
 
-The reverse applies as well: When things change and our code can't keep up as expected, it means the code didn't correspond to reality very well in the first place. In that case, some part in the whole software system is foul. Some part is not aligned with reality.
+The reverse is also true: When things change and our code can't keep up as expected, it means the code didn't correspond to reality very well in the first place. In that case, some part in the whole software system is foul. Some part is not aligned with reality.
 
 This could mean, for instance, the necessary general frameworks are not available and application-agnostic functionality must be implemented, which is not part of our mental model of the application's reality. We intuitively assume that what is common across applications would pre-exist. And we'd be right to assume that because it should pre-exist in our tech stack.
 
@@ -112,7 +112,7 @@ Sometimes, the foul parts are beyond the control of developers, like when platfo
 
 ## Conclusion
 
-Describing reality accurately is not just some heuristic for how to write resilient code. In a way, it's the whole purpose of code. **Code expresses conceptual and technical realities. And effective code tells the truth.**
+To map reality truthfully is not just some heuristic for how to write resilient code. In a way, it's the whole purpose of code. **Code expresses conceptual and technical realities. And effective code tells the truth.**
 
 We might look at this as *Law Zero*. It's the core of all laws and patterns we'll discuss. At the same time, those laws and patterns will also shine light on this core and will help us recognize and leverage the notion that code, in its essence, speaks about reality. 
 
