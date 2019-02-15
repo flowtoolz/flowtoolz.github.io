@@ -12,7 +12,7 @@ I assessed the idea way back in the <a href="/2016/05/15/london-real-business-ac
 
 Now, I'm back at this, planning to turn it into something serious. For a proof of concept, Codeface now retrieves dependency graphs from Swift code, and I'm working on visualizing them via graph drawings that the user can manipulate. 
 
-More will follow at [cocoalytics.com](https://cocoalytics.com) for Swift, and at [codeface.io](https://codeface.io) for a more general version, supporting languages beyond the Cocoa realm, including Java and Kotlin.
+More will follow at [cocoalytics.com](http://cocoalytics.com) for Swift, and at [codeface.io](http://codeface.io) for a more general version, supporting languages beyond the Cocoa realm, including Java and Kotlin.
 
 Interested in collaborating?
 <a onclick="ga('send', 'event', 'email', 'click', 'hello@cocoalytics.com');" class="u-email" href="mailto:hello@cocoalytics.com">hello@codeface.io</a>
