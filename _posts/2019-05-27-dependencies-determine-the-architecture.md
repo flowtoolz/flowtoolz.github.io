@@ -38,7 +38,7 @@ Often, we cling to some so called "architecture" without really knowing why. **C
 
 [Model-View-Presenter](https://en.wikipedia.org/wiki/Model–view–presenter), for instance, is not an architecture. It's a subjective observation, a simplified model of reality, a perceived pattern:
 
-![](/blog-images/software-development/architecture/dependence/mvp.pdf)
+![](/blog-images/software-development/architecture/dependence/mvp.jpg)
 
 **Concepts like MVP, MVC, MVVM and VIPER are more descriptive than normative. They describe patterns that emerge in effective architectures. But they're never the true basis or cause for effective architecture.**
 
@@ -64,7 +64,7 @@ We won't challenge them directly. But when we're able to put such ideas in persp
 
 So, if architecture patterns aren't architecture, then what is? Let's start at the beginning. Every type of productivity involves these layers:
 
-![](/blog-images/software-development/architecture/dependence/product-process-principles.pdf)
+![](/blog-images/software-development/architecture/dependence/product-process-principles.jpg)
 
 Here is what they mean in our context:
 
@@ -94,7 +94,7 @@ Before we proceed, you might be wondering what Uncle Bob has to say about all th
 
 ## The Role of Uncle Bob's Principles
 
-[Robert C. Martin (a.k.a. Uncle Bob)](https://blog.cleancoder.com) is not just a pioneer of the agile and craftsmanship movements, he also laid a foundation for methodical software architecture. His [11 principles of class and package design](https://web.archive.org/web/20150906155800/http://www.objectmentor.com/resources/articles/Principles_and_Patterns.pdf) are profound and have vast implications on code structure.
+[Robert C. Martin (a.k.a. Uncle Bob)](https://blog.cleancoder.com) is not just a pioneer of the agile and craftsmanship movements, he also laid a foundation for methodical software architecture. His [11 principles of class and package design](https://web.archive.org/web/20150906155800/http://www.objectmentor.com/resources/articles/Principles_and_Patterns.jpg) are profound and have vast implications on code structure.
 
 ![](/blog-images/software-development/architecture/dependence/robert-martin-uncle-bob.jpg)
 
@@ -128,15 +128,15 @@ An element within a class could be a function, method, property, variable, inner
 
 **Aside from the hierarchical composition of code artifacts, like a framework containing multiple files, code artifacts also relate to each other in more interesting ways. Think of a class that derives from another, or of a function that calls a remote micro service. All these relationships make the structure of code and are the focus of architectural principles.**
 
-![](/blog-images/software-development/architecture/dependence/code-artifact-hierarchy.pdf)
+![](/blog-images/software-development/architecture/dependence/code-artifact-hierarchy.jpg)
 
 When code artifacts *relate* to another, they *depend* on another. This technical dependence is easy to identify: **A code artifact `A` directly depends on another code artifact `B`, when `A` references `B` in any form or directly uses any functionality of `B`.** Or the other way around: If there's any aspect of `B` (name, interface, behaviour etc.) that, when changed, would require `A` to adapt, then `A` directly depends on `B`:
 
-![](/blog-images/software-development/architecture/dependence/a-depends-on-b.pdf)
+![](/blog-images/software-development/architecture/dependence/a-depends-on-b.jpg)
 
 **For technical dependence itself, the semantics of how artifacts relate is utterly irrelevant.** Whether class `A` calls a function of class `B`, owns an object of type `B`, is instrinsically composed of objects of type `B` or derives itself from `B` doesn't alter the fact that `A` depends on `B`. In terms of UML class diagrams, arrows signify dependence but the arrow types are irrelevant for that matter:
 
-![](/blog-images/software-development/architecture/dependence/uml-arrows.pdf)
+![](/blog-images/software-development/architecture/dependence/uml-arrows.jpg)
 
 ## Architecture Diagrams
 
@@ -152,7 +152,7 @@ Architecture identifies and relates *code artifacts* rather than *runtime instan
 
 Note, that patterns of object-oriented design are defined in terms of classes, not objects. Here is a [class diagram](https://en.wikipedia.org/wiki/Class_diagram) and one of many possible corresponding [object diagrams](https://en.wikipedia.org/wiki/Object_diagram):
 
-![](/blog-images/software-development/architecture/dependence/classes-vs-objects.pdf)
+![](/blog-images/software-development/architecture/dependence/classes-vs-objects.jpg)
 
 Runtime reference doesn't even imply type dependence. Because of polymorphism, protocols and related techniques, instance `a` of type `A` can come to reference instance `b` of type `B` without `A` depending on `B`. Think, for example, of the delegate pattern.
 
@@ -162,7 +162,7 @@ Also, there can be multiple runtime instances of the same code artifact. In the 
 
 Information flow unfolds at runtime and is typically implicit in a sequence of runtime instances interacting with another. [UML sequence diagrams](https://en.wikipedia.org/wiki/Sequence_diagram) are a corresponding visual language:
 
-![](/blog-images/software-development/architecture/dependence/sequence-diagram.pdf)
+![](/blog-images/software-development/architecture/dependence/sequence-diagram.jpg)
 
 The instance that initiates the interaction must have a reference to the other. But one reference in only one direction (also called the direction of control) is enough to let information flow in both directions.
 
