@@ -8,7 +8,7 @@ keywords: software architecture, software, architecture, zen, code quality, soft
 
 <img style="margin-left:auto;margin-right:auto;display:block;" src="/blog-images/software-development/architecture/dependence/zen-stack.jpg" title="{{ page.title }}" alt="{{ page.title }}. {{ page.keywords }}">
 
-<i>Previous posts [Part 1](/2018/11/13/zen-in-the-art-of-software-architecture-introduction.html) and [Part 2](/2019/01/14/zen-in-the-art-of-software-architecture-2.html) introduced the series but were a bit all over the place in hindsight. Also, I cannibalized them for this one, as this book draft keeps evolving. Last edit: May 27, 2019</i>
+<i>As this book draft as a whole keeps evolving, I had to prune the [intro to this series](/2019/01/14/zen-in-the-art-of-software-architecture-introduction.html) and it got a lot shorter. Some of the previous material will reappear in this and future posts. Last edit: May 27, 2019</i>
 
 In the following, we derive *Law #1: Dependencies Determine the Architecture*. As all our laws rely upon the previous ones, this is the most fundamental of them all. We first develop a notion of *software architecture* and then bring *dependencies* into the picture.
 
@@ -76,7 +76,7 @@ Here is what they mean in our context:
 
 Note, that our approach applies to everything made of code, independent of the underlying hardware-structure. Technical *system architecture* is a different subject. So you may have any type of software in mind: A highly distributed system, a microservice, a mobile app, a web service, whatever you're doing.
 
-![](/blog-images/software-development/architecture/program-code.jpg)
+![](/blog-images/software-development/architecture/dependence/program-code.jpg)
 
 Now, **the gobal high-level code structure that we commonly call "architecture" describes what holds a particular software product together and what makes it a *thing* at all**. It's a level of analysis applicable to any product, even if the product wasn't designed at that level.
 
@@ -84,7 +84,7 @@ Now, **the gobal high-level code structure that we commonly call "architecture" 
 
 **Principles, on the other hand, are the natural laws that govern the universe in which the product arises. They determine what can possibly manifest as a stable entity.**
 
-![](/blog-images/software-development/architecture/blackboard-equations.jpg)
+![](/blog-images/software-development/architecture/dependence/blackboard-equations.jpg)
 
 Everything exists as a consequence of such laws and only as far as it is in accordance with them. As far as something disintegrates, it is obviously, as a *thing*, not in accordance with the laws of its universe.
 
@@ -96,7 +96,7 @@ Before we proceed, you might be wondering what Uncle Bob has to say about all th
 
 [Robert C. Martin (a.k.a. Uncle Bob)](https://blog.cleancoder.com) is not just a pioneer of the agile and craftsmanship movements, he also laid a foundation for methodical software architecture. His [11 principles of class and package design](https://web.archive.org/web/20150906155800/http://www.objectmentor.com/resources/articles/Principles_and_Patterns.pdf) are profound and have vast implications on code structure.
 
-![](/blog-images/software-development/architecture/robert-martin-uncle-bob.jpg)
+![](/blog-images/software-development/architecture/dependence/robert-martin-uncle-bob.jpg)
 
 **While Uncle Bob is a legend among developers, most do not know, let alone apply, the principles he repeatedly wrote about since first publishing them more than two decades ago. As true software craftsmen, our thinking should revolve around such essential timeless principles, instead of the ephemeral (and by themselves meaningless) technical details of the latest technologies.**
 
@@ -112,7 +112,7 @@ As far as this book conveys the ideas of Uncle Bob's principles, it provides an 
 
 If *software architecture* roots in a set of laws that naturally apply to all code, then what are these laws? Let's narrow down the first one!
 
-![](/blog-images/software-development/architecture/building-blocks-of-life.jpg)
+![](/blog-images/software-development/architecture/dependence/building-blocks-of-life.jpg)
 
 The natural laws of life relate to its structure. Structure is defined by *structural elements* and the *relationships* between them. The elements of life are atoms, organic compounds, peptides, lipids, RNA, DNA, amino acids and so forth. And how they relate to each other obviously makes all the difference.
 
@@ -183,3 +183,5 @@ In his landmark publication "Design Principles and Design Patterns", Robert C. M
 > "What kind of changes cause designs to rot? Changes that introduce new and unplanned for dependencies. Each of the four symptoms mentioned above is either directly, or indirectly caused by improper dependencies between the modules of the software. It is the dependency architecture that is degrading, and with it the ability of the software to be maintained."
 
 As mentioned earlier, Martin's ideas on architecture apply not only to "modules". We may read "modules" as "code artifacts" to really grasp the universal force of dependence, on which to meditate should be the first step of any trip into the heights and depths of kick-ass coding.
+
+... to be continued ...
