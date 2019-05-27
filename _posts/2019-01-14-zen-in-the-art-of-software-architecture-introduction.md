@@ -1,7 +1,7 @@
 ---
 title: "Zen in the Art of Software Architecture, Introduction"
 layout: post
-excerpt: "A short intro to ”Zen in the Art of Software Architecture - From Timeless Principles to Timely Products”. The why, what and how of this book project."
+excerpt: "A short intro to ”Zen in the Art of Software Architecture - From Timeless Principles to Timely Products”. The why, what and how of this project."
 image_url: /blog-images/software-development/architecture/introduction/zen-dojo.jpg
 keywords: software architecture, software, architecture, zen, code quality, software quality, book, software development, architecture pattern, design pattern, productivity, philosophy
 ---
