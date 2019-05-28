@@ -8,9 +8,9 @@ keywords: software architecture, software, architecture, zen, code quality, soft
 
 <img style="margin-left:auto;margin-right:auto;display:block;" src="/blog-images/software-development/architecture/dependence/zen-stack.jpg" title="{{ page.title }}" alt="{{ page.title }}. {{ page.keywords }}">
 
-<i>As this book draft as a whole keeps evolving, I had to prune the [intro to this series](/2019/01/14/zen-in-the-art-of-software-architecture-introduction.html) and it got a lot shorter. Some of the previous material will reappear in this and future posts. Last edit: May 27, 2019</i>
+*As the book draft as a whole keeps evolving, I had to heavily prune the* [*intro to this series*](https://www.flowtoolz.com/2019/01/14/zen-in-the-art-of-software-architecture-introduction.html)*. Some of the previous material will reappear in this and future posts. Last edit: May 27, 2019*
 
-In the following, we derive *Law #1: Dependencies Determine the Architecture*. As all our laws rely upon the previous ones, this is the most fundamental of them all. We first develop a notion of *software architecture* and then bring *dependencies* into the picture.
+In the following, we develop *Law #1: Dependencies Determine the Architecture*. As all our laws rely upon the previous ones, this is the most fundamental of them all. We first develop a notion of *software architecture* and then bring *dependencies* into the picture.
 
 ## Is Architecture for Buildings? 
 
@@ -130,7 +130,7 @@ An element within a class could be a function, method, property, variable, inner
 
 ![](/blog-images/software-development/architecture/dependence/code-artifact-hierarchy.jpg)
 
-When code artifacts *relate* to another, they *depend* on another. This technical dependence is easy to identify: **A code artifact `A` directly depends on another code artifact `B`, when `A` references `B` in any form or directly uses any functionality of `B`.** Or the other way around: If there's any aspect of `B` (name, interface, behaviour etc.) that, when changed, would require `A` to adapt, then `A` directly depends on `B`:
+When code artifacts *relate* to another, they *depend* on another. This technical dependence is easy to identify: **A code artifact `A` directly depends on another code artifact `B`, when `A` refers to `B` in any form or directly uses any functionality of `B`.** Or the other way around: If there's any aspect of `B` (name, interface, behaviour etc.) that, when changed, would require `A` to adapt, then `A` directly depends on `B`:
 
 ![](/blog-images/software-development/architecture/dependence/a-depends-on-b.jpg)
 
