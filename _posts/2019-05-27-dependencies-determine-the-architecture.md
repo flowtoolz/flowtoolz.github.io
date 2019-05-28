@@ -128,7 +128,7 @@ When code artifacts *relate* to another, they *depend* on another. This technica
 
 ![](/blog-images/software-development/architecture/dependence/a-depends-on-b.jpg)
 
-**For technical dependence itself, the semantics of how artifacts relate is utterly irrelevant.** Whether class `A` calls a function of class `B`, owns an object of type `B`, is instrinsically composed of objects of type `B` or derives itself from `B` doesn't alter the fact that `A` depends on `B`. In terms of UML class diagrams, arrows signify dependence but the arrow types are irrelevant for that matter:
+**For technical dependence itself, the semantics of how artifacts relate is utterly irrelevant.** Whether class `A` calls a function of class `B`, has a property of type `B`, is intrinsically composed of properties of type `B` or derives itself from `B` doesn't alter the fact that `A` depends on `B`. In terms of UML class diagrams, arrows signify dependence but the arrow types are irrelevant for that matter:
 
 ![](/blog-images/software-development/architecture/dependence/uml-arrows.jpg)
 
@@ -140,7 +140,7 @@ When code artifacts *relate* to another, they *depend* on another. This technica
 
 ### Dependence vs. Runtime Reference
 
-Architecture identifies and relates *code artifacts* rather than *runtime instances*. The latter are basically memory areas that applications allocate at runtime. They could be objects, which are instances of classes, or even processes, which are instances of their respective program code. Runtime instances can reference each other through memory address pointers, network requests and other mechanisms.
+Architecture identifies and relates *code artifacts* rather than *runtime instances*. The latter are basically memory areas that applications allocate at runtime. They could be objects, which are instances of classes, or even processes, which are instances of their respective program code. Runtime instances can reference each other through memory address pointers, URLs and other mechanisms.
 
 **A runtime situation can be interesting but is only loosely related to code structure.** To mix both perspectives is surprisingly tempting, so their distinction gets clouded in casual conversations and sloppy sketches, but it is profound in reality. **Combining structural dependence and instance reference in the same diagram would make that diagram meaningless.**
 
@@ -154,7 +154,7 @@ Also, there can be multiple runtime instances of the same code artifact. In the 
 
 ### Dependence vs. Information Flow
 
-Information flow unfolds at runtime and is typically implicit in a sequence of runtime instances interacting with another. [UML sequence diagrams](https://en.wikipedia.org/wiki/Sequence_diagram) are a corresponding visual language:
+*Information flow* unfolds at runtime and is typically implicit in a sequence of runtime instances interacting with another. [UML sequence diagrams](https://en.wikipedia.org/wiki/Sequence_diagram) are a corresponding visual language:
 
 ![](/blog-images/software-development/architecture/dependence/sequence-diagram.jpg)
 
