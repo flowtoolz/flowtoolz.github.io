@@ -10,13 +10,13 @@ keywords: software architecture, software, architecture, zen, code quality, soft
 
 *As the book draft as a whole keeps evolving, I had to heavily prune the* [*intro to this series*](https://www.flowtoolz.com/2019/01/14/zen-in-the-art-of-software-architecture-introduction.html)*. Some of the previous material will reappear in this and future posts. Last edit: May 27, 2019*
 
-In the following, we develop *Law #1: Dependencies Determine the Architecture*. As all our laws rely upon the previous ones, this is the most fundamental of them all. We first develop a notion of *software architecture* and then bring *dependencies* into the picture.
+In the following, we develop *Law #1: Dependencies Determine the Architecture*. As all our laws rely upon the previous ones, this is the most fundamental of them all. We first find a notion of *software architecture* and then bring *dependencies* into the picture.
 
 ## Is Architecture for Buildings? 
 
 *Software architecture* is a fuzzy term and we'll deconstruct it anyway, so let's not get bogged down by "definitions". Instead, let's build upon our intuitive understanding and address common misconceptions.
 
-In the realm of software, architecture is, first and foremost, a metaphor. It's a useful one. But, like any metaphor, you can take it to a point where it breaks down. Its applicability is limited and depends on what aspects we want to illuminate.
+In the realm of software, architecture is, first and foremost, a metaphor. It's a useful one. But, like with any metaphor, you can take it to a point where it breaks down. Its applicability is limited and depends on what aspects we want to illuminate.
 
 One aspect in which the metaphor fails software is this: Real world construction requires [up front design](https://en.wikipedia.org/wiki/Big_Design_Up_Front) while software can evolve organically. The software architect can quickly build a working product and then iterate over it again and again. It's like starting with a small hut, with no windows, plumbing or electricity, and then growing that hut, step by step, into a futuristic complex.
 
@@ -30,7 +30,7 @@ For buildings, those natural laws are the laws of physics. For software, noone h
 
 ## Architecture Pattern Recognition
 
-A central misconception is that "architectural" patterns and principles target the appropriate level of analysis, the "big picture". While that zoomed out perspective might be general enough in scope, it is rarely general enough conceptually. We can think more deeply. And we should because, as they say, you can't solve a problem at the same level at which it occurs.
+A central misconception is that "architectural" patterns and principles target an appropriate level of analysis, the "big picture". While that zoomed out perspective might be general enough in scope, it is rarely general enough conceptually. We can think more deeply. And we should because, as they say, you can't solve a problem at the same level at which it occurs.
 
 So, in daily practice, we feel we have an intuition of what "clean" design, proper "engineering" and "elegant" solutions would look like. But **what we think is optimal or what feels beautiful isn't necessarily that by the intrinsic standards and true nature of the subject matter**.
 
@@ -78,7 +78,7 @@ Note, that our approach applies to everything made of code, independent of the u
 
 ![](/blog-images/software-development/architecture/dependence/program-code.jpg)
 
-Now, **the gobal high-level code structure that we commonly call *architecture* describes what holds a particular software product together and what makes it a *thing* at all**. It's a level of analysis applicable to any product, even if the product wasn't designed at that level.
+Now, **the global high-level code structure that we commonly call *architecture* describes what holds a particular software product together and what makes it a *thing* at all**. It's a level of analysis applicable to any product, even if the product wasn't designed at that level.
 
 ### Principles
 
@@ -174,7 +174,7 @@ When the distinction wasn't as clear to me yet, I sometimes began to mark inform
 
 We tend to associate software architecture with principles and patterns of object-oriented design. At an abstract level, all those principles, like the [ADP](https://en.wikipedia.org/wiki/Acyclic_dependencies_principle), and patterns, like [Model-View-Controller](https://en.wikipedia.org/wiki/Model–view–controller), are defined in terms of type dependence. **To structure code is to manage dependencies.**
 
-In addition, code is just one side of the coin. **Dependencies between code artifacts are surface level manifestations of dependencies between real-world concerns. In a way, dependence is the underlying ordering principle of everything.** It doesn't only form the language of technical design patterns, it is also the living reason and driving force behind them.
+Furthermore, code is just one side of the coin. **Dependencies between code artifacts are surface level manifestations of dependencies between real-world concerns. In a way, dependence is the underlying ordering principle of everything.** It doesn't only form the language of technical design patterns, it is also the living reason and driving force behind them.
 
 In their fundamental role, **dependencies and their real-world meaning determine whether code meets the most essential non-functional requirement, which is *maintainability***, the ability to be changed. Without changes in software, there is no *software development*.
 
