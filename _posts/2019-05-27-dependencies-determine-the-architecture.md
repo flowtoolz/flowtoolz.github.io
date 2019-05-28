@@ -30,7 +30,7 @@ For buildings, those natural laws are the laws of physics. For software, noone h
 
 ## Architecture Pattern Recognition
 
-A central misconception is that "architectural" patterns and principles target the appropriate level of analysis, the "big picture". In reality, they often only touch the surface. We can think more deeply than that. And we should because, as they say, you can't solve a problem at the same level at which it occurs.
+A central misconception is that "architectural" patterns and principles target the appropriate level of analysis, the "big picture". While that zoomed out perspective might be general enough in scope, it is rarely general enough conceptually. We can think more deeply. And we should because, as they say, you can't solve a problem at the same level at which it occurs.
 
 So, in daily practice, we feel we have an intuition of what "clean" design, proper "engineering" and "elegant" solutions would look like. But **what we think is optimal or what feels beautiful isn't necessarily that by the intrinsic standards and true nature of the subject matter**.
 
@@ -78,7 +78,7 @@ Note, that our approach applies to everything made of code, independent of the u
 
 ![](/blog-images/software-development/architecture/dependence/program-code.jpg)
 
-Now, **the gobal high-level code structure that we commonly call "architecture" describes what holds a particular software product together and what makes it a *thing* at all**. It's a level of analysis applicable to any product, even if the product wasn't designed at that level.
+Now, **the gobal high-level code structure that we commonly call *architecture* describes what holds a particular software product together and what makes it a *thing* at all**. It's a level of analysis applicable to any product, even if the product wasn't designed at that level.
 
 ### Principles
 
@@ -172,9 +172,9 @@ When the distinction wasn't as clear to me yet, I sometimes began to mark inform
 
 ## Dependence and Software Development
 
-We tend to associate "software architecture" with principles and patterns of object-oriented design. At an abstract level, all those principles, like the [ADP](https://en.wikipedia.org/wiki/Acyclic_dependencies_principle), and patterns, like [Model-View-Controller](https://en.wikipedia.org/wiki/Model–view–controller), are defined in terms of type dependence. **To structure code is to manage dependencies.**
+We tend to associate software architecture with principles and patterns of object-oriented design. At an abstract level, all those principles, like the [ADP](https://en.wikipedia.org/wiki/Acyclic_dependencies_principle), and patterns, like [Model-View-Controller](https://en.wikipedia.org/wiki/Model–view–controller), are defined in terms of type dependence. **To structure code is to manage dependencies.**
 
-At the same time, code is just one side of the coin. **Dependencies between code artifacts are surface level manifestations of dependencies between real-world concerns. In a way, dependence is the underlying ordering principle of everything.** It doesn't only form the language of technical design patterns, it is also the living reason and driving force behind them.
+In addition, code is just one side of the coin. **Dependencies between code artifacts are surface level manifestations of dependencies between real-world concerns. In a way, dependence is the underlying ordering principle of everything.** It doesn't only form the language of technical design patterns, it is also the living reason and driving force behind them.
 
 In their fundamental role, **dependencies and their real-world meaning determine whether code meets the most essential non-functional requirement, which is *maintainability***, the ability to be changed. Without changes in software, there is no *software development*.
 
