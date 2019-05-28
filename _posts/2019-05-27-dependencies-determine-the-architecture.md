@@ -20,7 +20,7 @@ In the realm of software, architecture is, first and foremost, a metaphor. It's 
 
 One aspect in which the metaphor fails software is this: Real world construction requires [up front design](https://en.wikipedia.org/wiki/Big_Design_Up_Front) while software can evolve organically. The software architect can quickly build a working product and then iterate over it again and again. It's like starting with a small hut, with no windows, plumbing or electricity, and then growing that hut, step by step, into a futuristic complex.
 
-![](/blog-images/software-development/architecture/dependence/construction-vs-iteration.png)
+![](/blog-images/software-development/architecture/dependence/construction-vs-iteration.jpg)
 
 Another mismatch worth remembering is that architecture of buildings involves the aesthetics they present to the end customer. In that sense, it is artistic and subjective. What interests us about software architecture is neither artistic nor subjective.
 
@@ -30,9 +30,9 @@ For buildings, those natural laws are the laws of physics. For software, noone h
 
 ## Architecture Pattern Recognition
 
-A central misconception is that "architectural" patterns and principles target an appropriate level of analysis, the "big picture". While that zoomed out perspective might be general enough in scope, it is rarely general enough conceptually. We can think more deeply. And we should because, as they say, you can't solve a problem at the same level at which it occurs.
+**“Architectural” patterns and principles are supposed to paint the big picture. And while that zoomed out perspective is wide in scope, it is often shallow conceptually.** We want a deeper level of analysis because, as they say, you can’t solve a problem at the same level at which it occurs.
 
-So, in daily practice, we feel we have an intuition of what "clean" design, proper "engineering" and "elegant" solutions would look like. But **what we think is optimal or what feels beautiful isn't necessarily that by the intrinsic standards and true nature of the subject matter**.
+In daily practice, we feel we have an intuition of what "clean" design, proper "engineering" and "elegant" solutions would look like. But **what we think is optimal or what feels beautiful isn't necessarily that by the intrinsic standards and true nature of the subject matter**.
 
 Often, we cling to some so called "architecture" without really knowing why. **Compliance with an architecture pattern yields consistency and beauty in terms of that pattern but not necessarily in terms of the nature of software itself.**
 
@@ -76,15 +76,11 @@ Here is what they mean in our context:
 
 Note, that our approach applies to everything made of code, independent of the underlying hardware-structure. Technical *system architecture* is a different subject. So you may have any type of software in mind: A highly distributed system, a microservice, a mobile app, a web service, whatever you're doing.
 
-![](/blog-images/software-development/architecture/dependence/program-code.jpg)
-
 Now, **the global high-level code structure that we commonly call *architecture* describes what holds a particular software product together and what makes it a *thing* at all**. It's a level of analysis applicable to any product, even if the product wasn't designed at that level.
 
 ### Principles
 
 **Principles, on the other hand, are the natural laws that govern the universe in which the product arises. They determine what can possibly manifest as a stable entity.**
-
-![](/blog-images/software-development/architecture/dependence/blackboard-equations.jpg)
 
 Everything exists as a consequence of such laws and only as far as it is in accordance with them. As far as something disintegrates, it is obviously, as a *thing*, not in accordance with the laws of its universe.
 
@@ -111,8 +107,6 @@ As far as this book conveys the ideas of Uncle Bob's principles, it provides an 
 ## Code Artifacts
 
 If *software architecture* roots in a set of laws that naturally apply to all code, then what are these laws? Let's narrow down the first one!
-
-![](/blog-images/software-development/architecture/dependence/building-blocks-of-life.jpg)
 
 The natural laws of life relate to its structure. Structure is defined by *structural elements* and the *relationships* between them. The elements of life are atoms, organic compounds, peptides, lipids, RNA, DNA, amino acids and so forth. And how they relate to each other obviously makes all the difference.
 
