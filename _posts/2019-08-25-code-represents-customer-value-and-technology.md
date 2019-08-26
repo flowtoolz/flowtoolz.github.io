@@ -60,7 +60,7 @@ This partial continuity and predictability of the world equally applies to the c
 
 The reverse also applies: When things change and our code can't keep up as expected, it means it didn't correspond to reality very well in the first place. In that case, some part in the whole software system is foul. Some part is not aligned with the truth.
 
-To see things as they are and then paint an accurate picture is not just some heuristic for how to write resilient code. It is the actual purpose of code. **Code expresses conceptual and technical realities. And effective code tells the truth.**
+To see things as they are and then paint an accurate picture is not just some heuristic for how to write resilient code. It is the very nature of code. **Code expresses conceptual and technical realities. And effective code tells the truth.**
 
 This axiomatic, almost banal realization is the core of all laws and patterns we'll discuss. At the same time, those laws and patterns will also shine light on this core and will help us recognize and leverage the notion that code, in essence, speaks about the real world.
 
