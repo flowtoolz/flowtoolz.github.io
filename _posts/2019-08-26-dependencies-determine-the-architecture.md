@@ -1,7 +1,7 @@
 ---
 title: "Dependencies Determine the Architecture"
 layout: post
-excerpt: "In part 4 of this series, we discuss dependencies between code artifacts as the universal force that determines code structure and thereby architecture."
+excerpt: "In part 4 of this series, we discuss dependencies as the universal force that determines the structure of reality and of code."
 image_url: /blog-images/software-development/architecture/zen-stack.jpg
 keywords: software architecture, software, architecture, zen, code quality, software quality, book, software development, architecture pattern, design pattern, productivity, philosophy, dependence, object-oriented design
 ---
