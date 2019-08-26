@@ -2,7 +2,7 @@
 title: "Code Represents Customer Value and Technology"
 layout: post
 excerpt: "In part 3 of this series, we think about the fundamental role of code to get a sense of the fundamental role of architecture."
-image_url: /blog-images/software-development/architecture/dependence/zen-stack.jpg
+image_url: /blog-images/software-development/architecture/customer-value-before-technology.jpeg
 keywords: software architecture, software, architecture, zen, code quality, software quality, book, software development, architecture pattern, design pattern, productivity, philosophy, dependence, object-oriented design
 ---
 
