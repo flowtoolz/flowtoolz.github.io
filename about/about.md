@@ -6,7 +6,7 @@ permalink: /about/
 
 ## Hi! My name is Sebastian,
 
-<img src="sebastian-telle.jpg" class="ft-more-project-image" /> I'm the founder of Flowtoolz. I started coding in 1994, studied fine arts, computer and media science and got my master's degree in information engineering from Konstanz University.
+<img src="sebastian-telle.jpg" class="ft-about-portrait-image" /> I'm the founder of Flowtoolz. I started coding in 1994, studied fine arts, computer and media science and got my master's degree in information engineering from Konstanz University.
 
 I've worked as a research assistant, web developer, editor and as software engineer for iOS, tvOS and macOS. My focus always goes to the big picture. In Software Engineering this translates to the question: <i>What is a natural clean design and clean architecture of software?</i>
 
