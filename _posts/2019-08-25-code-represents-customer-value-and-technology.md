@@ -6,7 +6,7 @@ image_url: /blog-images/software-development/architecture/dependence/zen-stack.j
 keywords: software architecture, software, architecture, zen, code quality, software quality, book, software development, architecture pattern, design pattern, productivity, philosophy, dependence, object-oriented design
 ---
 
-<img style="margin-left:auto;margin-right:auto;display:block;" src="/blog-images/software-development/architecture/zen-stack.jpg" title="{{ page.title }}" alt="{{ page.title }}. {{ page.keywords }}">
+<img style="margin-left:auto;margin-right:auto;display:block;" src="/blog-images/software-development/architecture/customer-value-before-technology.jpeg" title="{{ page.title }}" alt="{{ page.title }}. {{ page.keywords }}">
 
 If *software architecture* roots in a set of laws that naturally apply to all code, then what are these laws? Let's narrow down the first one! In this text, we excavate the fundamental role of *software architecture* by digging into the essence of code.
 

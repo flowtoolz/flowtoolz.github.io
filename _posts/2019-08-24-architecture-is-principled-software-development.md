@@ -1,12 +1,12 @@
 ---
 title: "Architecture is Principled Software Development"
 layout: post
-excerpt: "In part 2 of this series, we discuss the role of principles or \"natural laws\" that govern the realm of code."
+excerpt: "In part 2 of this series on software architecture, we discuss the relevance of principles or \"natural laws\" that govern the realm of code."
 image_url: /blog-images/software-development/architecture/dependence/zen-stack.jpg
 keywords: software architecture, software, architecture, zen, code quality, software quality, book, software development, architecture pattern, design pattern, productivity, philosophy, dependence, object-oriented design
 ---
 
-<img style="margin-left:auto;margin-right:auto;display:block;" src="/blog-images/software-development/architecture/zen-stack.jpg" title="{{ page.title }}" alt="{{ page.title }}. {{ page.keywords }}">
+<img style="margin-left:auto;margin-right:auto;display:block;" src="/blog-images/software-development/architecture/dharma-wheel.jpg" title="{{ page.title }}" alt="{{ page.title }}. {{ page.keywords }}">
 
 ## Is Architecture for Buildings? 
 
