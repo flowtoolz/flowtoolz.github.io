@@ -46,7 +46,7 @@ We're interested in a thought framework not in technical frameworks. Our questio
 
 ## Effective Code Tells the Truth
 
-**Value- and tech environment are both real domains. And, of course, the "real world" is sometimes a capricious chimera. Code is under this constant pressure to adapt because its very purpose is to represent two evolving realities and to mediate between them.**
+**Value- and tech environment are both real domains. And, of course, the "real world" is sometimes a capricious chimera. Code is under this constant pressure to adapt because it represents two evolving realities and mediates between them.**
 
 **The real-world concerns it represents are the *meaning* of code. Code is *meaningful* when it truthfully reflects the structure and mechanics of reality, no matter at what level of detail.**
 
