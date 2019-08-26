@@ -124,5 +124,3 @@ So we can make two assessments of the nature of code:
 2. The value it generates is the ultimate purpose of code, so technology is secondary.
 
 This result took only a subtle (almost self-evident) step in terms of analysis, yet it allows for a leap in terms of practical implications. If we truly let the fact sink in that code represents *real* things, and if our thinking truly is "customer centric", then many daily questions in the trenches of code production answer themselves, from naming and ordering over optimization and organization to high-level architecture.
-
-... to be continued ...

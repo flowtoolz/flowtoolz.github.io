@@ -101,5 +101,3 @@ Our line of reasoning leads to results that contain abstractions of Uncle Bob's 
 Most importantly, **the laws we deduct do not parcel out classes or packages. Instead, they apply to all code artifacts at all scales, from functions to large sub-systems**. This also means we **should** apply them at all scales because conforming to a law at one level, say at the class level, does not guarantee conformance at others, like at the package level.
 
 As far as this book conveys the ideas of Uncle Bob's principles, it provides an additional access to their essence. **Getting a feel for underlying reasons has a bigger impact on practice and is more profoundly valuable than just knowing a list of Dos and Don'ts.**
-
-... to be continued ...

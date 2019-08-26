@@ -92,5 +92,3 @@ Timely products result from agility. Unfortunately, the term "agile" is overused
 Effective architecture has all kinds of effects that help produce more value over time and, thereby, deliver timely products: It makes development flexible, puts emphasis on customer value, yields re-usable code, raises team engagement, accelerates onboarding, solves object-oriented design problems, promotes a common domain-specific language, avoids all sorts of technical risks, makes code more testable and so on.
 
 We could drone on endlessly listing the direct and implied benefits. However, those benefits are not the reason for why we aim at effective architecture. They are just side effects, arbitrary manifestations of effective architecture. Of course, what "effective" means relates to the essential role and purpose of code, and we'll look at that more closely soon.
-
-Continue reading [Part 2](/2019/05/27/dependencies-determine-the-architecture.html).
