@@ -5,18 +5,28 @@
 @font-face
 {
     font-family: FlowtoolzRegular;
-    src: url("/assets/fonts/Merriweather-Regular.ttf") format("truetype");
+    src: url("/assets/fonts/OpenSans-Regular.ttf") format("truetype");
+}
+
+@font-face
+{
+font-family: FlowtoolzSemiBold;
+src: url("/assets/fonts/OpenSans-SemiBold.ttf") format("truetype");
 }
 
 @font-face
 {
     font-family: FlowtoolzBold;
-    src: url("/assets/fonts/Bold.otf") format("opentype");
+    src: url("/assets/fonts/OpenSans-Bold.ttf") format("truetype");
 }
 
-$base-font-family: FlowtoolzRegular, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$base-font-family: FlowtoolzRegular, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 
-h1, h2, h3, strong {
+b, strong {
+    font-family: FlowtoolzSemiBold;
+}
+
+h1, h2, h3 {
    font-family: FlowtoolzBold;
 }
 
