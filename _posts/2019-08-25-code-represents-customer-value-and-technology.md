@@ -30,13 +30,15 @@ The two environments are clearly distinct in the sense that the machine on which
 
 ### Value Environment
 
-**The conceptual environment of code is naturally quite abstract. and ultimately reflects assumptions about what people value. So let's call it the *value environment*.** It includes a detailed idea of the product's philosophy, application domain, use cases and design.
+**The conceptual environment of code is the concrete *value* we want people to get out of the product, and it also reflects what people generally *value*. So let's call it the *value environment*.**
+
+More specifically, the value environment implies a complete description of the product from the user's perspective, including a detailed idea of the product's philosophy, application domain, use cases and design.
 
 ### Tech Environment
 
-**The *tech environment* of code are all pre-existing [APIs](https://en.wikipedia.org/wiki/Application_programming_interface) the code can directly talk to. Mainly, that's the programming language itself as well as frameworks provided by the system vendor and 3rd parties.** Note how this differs from the developer's tech stack.
+**The *tech environment* of code are all pre-existing [APIs](https://en.wikipedia.org/wiki/Application_programming_interface) the code can directly talk to. Mainly, that's the programming language itself as well as frameworks provided by the system vendor and by 3rd parties.** Note how this differs from a developer's [tech stack](https://stackshare.io/stacks).
 
-The pupose of most frameworks is communication with hardware, and we can understand much of the tech environment as a hardware representation. 
+The pupose of most software frameworks is communication with hardware, and we can understand much of the tech environment as a hardware representation. 
 
 It should be clear that we can't consider software frameworks as *defining* the architecture, let alone as *being* it. There is no such thing as an "architectural software framework". No tool has the power to dictate the structure of what we build. 
 
