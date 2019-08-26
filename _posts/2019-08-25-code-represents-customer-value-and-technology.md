@@ -101,13 +101,6 @@ In other words, naming is hard because it poses two intricate questions over and
 1. What is it *really* that we try to build?
 2. How do these frameworks and devices *really* work?
 
-At this point, we can at least derive a few low-level heuristics on how to tell the truth with names:
-
-- Be precise, i.e. as specific as possible. Don't prematurely generalize a name just because a thing might take on more responsibility in the future. Name it exactly as what it is right now.
-- Avoid abbreviations and don't shy away from long names. The truth isn't necessarily pretty.
-- Start the name of a function, method or procedure with a verb. Because it *does* things.
-- Use consistent names to strengthen their meaningfulness. Names should not only be consistent across the codebase but also match the terms in which stakeholders describe the product.
-
 ## The Value Environment Is Paramount
 
 You likely saw this coming from a mile away: Although value- and tech environment are clearly distinct ideas that we could easily spin as some sort of profound dualism, they have no parity at this grand level of analysis. **Value- and tech environment are not true equals. What software does for the user is more important than what it requires from the developer.**
