@@ -39,11 +39,11 @@ You'll also find [UIObserver](https://github.com/flowtoolz/UIObserver) (a UI lay
 
 <div style="clear:left"></div>
 
-## [Zen in the Art of Software Architecture](/2018/11/13/zen-in-the-art-of-software-architecture-introduction.html)
+## [Zen in the Art of Software Architecture](/)
 
 <img src="software_architecture.jpg" class="ft-more-project-image" style="width:25%"/> ... is the tongue-in-cheek working title of a book I'm writing. It will be a casual and entertaining but also consistent and systematic dive into the fundamental principles that make software hold together or fall apart. 
 
-The blog post series of excerpts from the draft starts [here](/2018/11/13/zen-in-the-art-of-software-architecture-introduction.html).
+A series of excerpts from the draft starts is published on the [blog](/).
 
 I've been obsessing about the nature of software structure since I started coding at age 12. Now I'm gathering and integrating all my notes and writings on the subject. The draft is currently 100+ pages long.
 
