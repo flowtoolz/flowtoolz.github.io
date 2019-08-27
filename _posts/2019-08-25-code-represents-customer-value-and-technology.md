@@ -10,7 +10,7 @@ keywords: software architecture, software, architecture, zen, code quality, soft
 
 If *software architecture* roots in a set of laws that naturally apply to all code, then what are these laws? Let's narrow down the first one! In this text, we excavate the fundamental role of *software architecture* by digging into the essence of code.
 
-Note, that when we talk of users, designers, developers and so forth, we mean abstract view points, not job descriptions or actual people. Could be that one person plays all the roles, could be that a view point is held by an institution or certain demographic. Those possible concretions don't matter here.
+Note, that when we talk of users, designers, developers and so forth, we mean abstract view points, not job descriptions or actual people. Could be that one person plays all the roles, could be that a view point is held by an institution or certain demographic. The possible concretions don't matter here.
 
 ## Value Environment and Tech Environment
 
@@ -52,7 +52,7 @@ We're interested in a thought framework not in technical frameworks. Our questio
 
 <!-- todo: make clear how even high-level structure of code maps reality and can more or less truthfully represent the structure of reality...  -->
 
-Luckily, reality doesn't evolve through arbitrary glitches. At least, I'd like to believe mine doesn't. Instead, it's bound by its innate laws and structure. Some aspects of the world change easily, while other changes require lots of energy, are unlikely or simply impossible.
+Luckily, reality doesn't evolve through arbitrary glitches. At least, I'd like to believe mine doesn't. Instead, it's bound by innate laws and structure. Some aspects of the world change easily, while other changes require lots of energy, are unlikely or simply impossible.
 
 This partial continuity and predictability of the world equally applies to the code representing that world. That's why we intuitively understand how impactful a change request is. In other words: We know its meaning. 
 
@@ -80,7 +80,7 @@ Certainly, writing code is to speak in a programming language. So, above all, le
 >
 > -- Gospel of John
 
-Code should tell the truth, but how does it tell us anything at all? Let's talk about naming.
+Code shall tell the truth, but how can it tell us anything at all? Let's talk about naming.
 
 You might think naming code artifacts is somewhat important because names help everyone understand what the hell the code does. And while that is true, the process of naming things has far greater significance.
 
@@ -92,14 +92,16 @@ The expressiveness of code relies entirely on names. Even its structure would be
 
 This might be the most well known quote in all IT. So naming is not just crucial but also hard. Why?
 
-To name a code artifact, we have to think about what it actually means. What is the role of this variable, function, class, file, module or product? What does it represent? When an artifact's innate name isn't obvious, it likely doesn't correspond to anything real yet, at least not to only one thing. Either we haven't precisely mapped the involved concepts and technicalities to code or we haven't even understood them properly.
+To name a code artifact, we have to think about what it actually means. What is the role of this variable, function, enumeration, interface, class, file, module or micro service? What does it represent?
+
+When an artifact's innate name isn't obvious, it likely doesn't correspond to anything real yet, at least not to only one thing. Either we haven't precisely mapped the involved concepts and technicalities to code or we haven't even understood them properly.
 
 Naming is difficult because it is a bi-directional process. By figuring out how to name our code artifacts we also figure out what code artifacts we should have in the first place. We articulate but also investigate value- and tech environment. 
 
 In other words, naming is hard because it poses two intricate questions over and over, while our answers keep evolving:
 
-1. What is it *really* that we try to build?
-2. How do these frameworks and devices *really* work?
+1. What is it *really* that we try to build? (What is the value environment?)
+2. How do these frameworks and devices *really* work? (What is the tech environment?)
 
 ## The Value Environment Is Paramount
 
