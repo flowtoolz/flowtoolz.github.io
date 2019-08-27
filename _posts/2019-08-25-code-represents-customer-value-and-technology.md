@@ -100,8 +100,8 @@ Naming is difficult because it is a bi-directional process. By figuring out how 
 
 In other words, naming is hard because it poses two intricate questions over and over, while our answers keep evolving:
 
-1. What is it *really* that we try to build? (What is the value environment?)
-2. How do these frameworks and devices *really* work? (What is the tech environment?)
+1. What is it *really* that we try to build?<br>(What is the value environment?)
+2. How do these frameworks and devices *really* work?<br>(What is the tech environment?)
 
 ## The Value Environment Is Paramount
 
