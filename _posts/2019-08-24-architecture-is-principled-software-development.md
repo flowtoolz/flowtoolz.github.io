@@ -76,17 +76,21 @@ Now, **the global high-level code structure that we commonly call *architecture*
 
 ### Principles
 
-**Principles, on the other hand, are the natural laws that govern the universe in which the product arises. They determine what can possibly manifest as a stable entity.**
+**Principles, on the other hand, are the natural laws that govern the universe in which the product arises. They determine what can possibly manifest as a stable entity.** Everything exists as a consequence of such laws and only as far as it is in accordance with them. As far as something disintegrates, it is obviously, as a *thing*, not in accordance with the laws of its universe.
 
-Everything exists as a consequence of such laws and only as far as it is in accordance with them. As far as something disintegrates, it is obviously, as a *thing*, not in accordance with the laws of its universe.
+"Architecture" indeed often refers to the core nature and smallest building blocks of a thing. The "architecture of the universe" means physical laws and subatomic particles. The "architecture of life" can refer to the bio chemsistry and molecules that gave rise to the first living organism.
 
-**Our notion of *architecture* includes a core of universal principles in addition to the product structure to which they apply**: To grow into a healthy long-lived human being, we must design our lifestyle in accordance with *the architecture of human existence*. To grow a healthy long-lived code base, we must design it in accordance with *the architecture of code*.
+So we cannot work against this pre-existing architecture, only with it. To grow into a healthy long-lived human being, we must design our lifestyle in accordance with *the architecture of human existence*. To grow a healthy long-lived code base, we must design it in accordance with *the architecture of code*.
 
-While principles might seem trivial or abstract at first, their beauty lies in their combinded far reaching implications. A deeper understanding of code provides guidance and clarity, not only for how we solve global structure, but also down to the nitty gritty details of how to lay out a ten line function. It will always just feel logical and not anymore like guess work, black magic, subjective taste, art, intuition or dogma.
+**Our notion of *software architecture* includes not only the product structure itself but also the universal principles that enable and regulate it.** 
 
-Before we proceed, you might be wondering what Uncle Bob has to say about all this. How do his famous principles fit into the picture?
+While principles might seem trivial or abstract at first, their beauty lies in their combinded far reaching implications. A deeper understanding of code provides guidance and clarity, not only for how to solve global structure but also down to the nitty gritty details of how to lay out a four line function.
+
+With a principled mind, we see into the logical heart of things, and our professional decisions feel less like guess work, personal taste, intuititive art, black magic or mindless copying of "best practices".
 
 ## The Role of Uncle Bob's Principles
+
+You might be wondering what Uncle Bob has to say about all this. How do his famous principles fit into the picture?
 
 [Robert C. Martin (a.k.a. Uncle Bob)](https://blog.cleancoder.com) is not just a pioneer of the agile and craftsmanship movements, he also laid a foundation for methodical software architecture. His [11 principles of class and package design](https://web.archive.org/web/20150906155800/http://www.objectmentor.com/resources/articles/Principles_and_Patterns.jpg) are profound and have vast implications on code structure.
 
