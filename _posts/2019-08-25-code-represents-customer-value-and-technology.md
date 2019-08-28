@@ -46,21 +46,21 @@ We're interested in a thought framework not in technical frameworks. Our questio
 
 ## Effective Code Tells the Truth
 
-**Value- and tech environment are both real domains. And, of course, the "real world" is sometimes a capricious chimera. Code is under this constant pressure to adapt because it represents two changing realities and mediates between them.**
+Value- and tech environment are both very real. Abstract maybe, but neither arbitrary nor virtual. They are external to the code and yet all it represents. Unfortunately, the "real world" can be a capricious chimera. Code is under this constant pressure to adapt because it mediates between two changing realities.
 
 **The real-world concerns it represents are the *meaning* of code. Code is *meaningful* when it truthfully reflects the structure and mechanics of reality, no matter at what level of detail.**
 
 <!-- todo: make clear how even high-level structure of code maps reality and can more or less truthfully represent the structure of reality...  -->
 
-Luckily, reality doesn't evolve through arbitrary glitches. At least, I'd like to believe mine doesn't. Instead, it's bound by inherent laws. Some aspects of the world change easily, while other changes require lots of energy, are unlikely or simply impossible.
+Luckily, reality doesn't evolve through arbitrary glitches. At least, I'd like to believe mine doesn't. Instead, it is bound by inherent laws. Some aspects of the world change easily, while other changes require lots of energy, are unlikely or simply impossible.
 
 This partial continuity and predictability of the world equally applies to the code representing that world. That's why we intuitively understand how impactful a change request is. In other words: We know its meaning. 
 
 **When code already corresponds well to reality, the effort that's required to adopt a real-world change in code matches our intuitive expectation. To put it simply: With meaningful code, a "small" feature is quick to implement.**  That's not to say code should map all details of the world, but whatever aspects it needs to represent it must represent **truthfully**.
 
-The reverse also applies: When things change and our code can't keep up as expected, it means some part of the software system is foul. Some part is not aligned with the truth.
+The reverse also applies: When things change and our code can't keep up as expected, it means some part of it is foul. Some part is at odds with the truth.
 
-To see things as they are and then paint an accurate picture is not just some heuristic for how to write resilient code, it matches what code really does. **Code expresses conceptual and technical realities. And effective code tells the truth.**
+To see things as they are and then paint an accurate picture is more than some heuristic for how to write resilient code because it matches what code really does. **Code expresses conceptual and technical realities. And effective code tells the truth.**
 
 This axiomatic, almost banal realization is the core of all laws and patterns we'll discuss. At the same time, those laws and patterns will also shine light on this core and will help us recognize and leverage the notion that code, in essence, speaks about the real world.
 
@@ -96,7 +96,7 @@ To name a code artifact, we have to think about what it actually means. What is 
 
 When an artifact's intrinsic name isn't obvious, it likely doesn't correspond to anything real yet, at least not to only one thing. Either we haven't precisely mapped the involved concepts and technicalities to code or we haven't even understood them properly.
 
-Naming is difficult because it is a bi-directional process. By figuring out how to name our code artifacts we also figure out what code artifacts we should have in the first place. We articulate but also investigate value- and tech environment, answering two intricate questions over and over:
+Naming is difficult because it is a bi-directional process. By figuring out how to name our code artifacts we also figure out what code artifacts we should have in the first place. We articulate but also investigate value- and tech environment, constantly answering two intricate questions:
 
 1. What is it *really* that we try to build?<br>(What is the value environment?)
 2. How do these frameworks and devices *really* work?<br>(What is the tech environment?)
