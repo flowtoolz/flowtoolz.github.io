@@ -86,7 +86,7 @@ So we cannot work against this pre-existing architecture, only with it. To grow 
 
 While principles might seem trivial or abstract at first, their beauty lies in their combinded far reaching implications. A deeper understanding of code provides guidance and clarity, not only for how to lay out global structure but also down to the nitty gritty details of how to lay out a four line function.
 
-With a principled mind, we see into the logical heart of things, and our professional decisions feel less like guess work, personal taste, intuititive art, black magic or mindless copying of "best practices".
+With a principled mind, we see into the logical heart of things, and our professional decisions are no longer guess work, personal taste, intuititive art, black magic or mindless copying of "best practices".
 
 ## The Role of Uncle Bob's Principles
 
