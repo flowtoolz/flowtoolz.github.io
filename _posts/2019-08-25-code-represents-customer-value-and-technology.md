@@ -52,7 +52,7 @@ We're interested in a thought framework not in technical frameworks. Our questio
 
 <!-- todo: make clear how even high-level structure of code maps reality and can more or less truthfully represent the structure of reality...  -->
 
-Luckily, reality doesn't evolve through arbitrary glitches. At least, I'd like to believe mine doesn't. Instead, it's bound by innate laws and structure. Some aspects of the world change easily, while other changes require lots of energy, are unlikely or simply impossible.
+Luckily, reality doesn't evolve through arbitrary glitches. At least, I'd like to believe mine doesn't. Instead, it's bound by inherent laws. Some aspects of the world change easily, while other changes require lots of energy, are unlikely or simply impossible.
 
 This partial continuity and predictability of the world equally applies to the code representing that world. That's why we intuitively understand how impactful a change request is. In other words: We know its meaning. 
 
@@ -94,7 +94,7 @@ This might be the most well known quote in all IT. So naming is not just crucial
 
 To name a code artifact, we have to think about what it actually means. What is the role of this variable, function, enumeration, interface, class, file, module or micro service? What does it represent?
 
-When an artifact's innate name isn't obvious, it likely doesn't correspond to anything real yet, at least not to only one thing. Either we haven't precisely mapped the involved concepts and technicalities to code or we haven't even understood them properly.
+When an artifact's intrinsic name isn't obvious, it likely doesn't correspond to anything real yet, at least not to only one thing. Either we haven't precisely mapped the involved concepts and technicalities to code or we haven't even understood them properly.
 
 Naming is difficult because it is a bi-directional process. By figuring out how to name our code artifacts we also figure out what code artifacts we should have in the first place. We articulate but also investigate value- and tech environment, answering two intricate questions over and over:
 
