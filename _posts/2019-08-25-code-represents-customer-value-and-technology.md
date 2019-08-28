@@ -46,7 +46,7 @@ We're interested in a thought framework not in technical frameworks. Our questio
 
 ## Effective Code Tells the Truth
 
-**Value- and tech environment are both real domains. And, of course, the "real world" is sometimes a capricious chimera. Code is under this constant pressure to adapt because it represents two evolving realities and mediates between them.**
+**Value- and tech environment are both real domains. And, of course, the "real world" is sometimes a capricious chimera. Code is under this constant pressure to adapt because it represents two changing realities and mediates between them.**
 
 **The real-world concerns it represents are the *meaning* of code. Code is *meaningful* when it truthfully reflects the structure and mechanics of reality, no matter at what level of detail.**
 
@@ -58,9 +58,9 @@ This partial continuity and predictability of the world equally applies to the c
 
 **When code already corresponds well to reality, the effort that's required to adopt a real-world change in code matches our intuitive expectation. To put it simply: With meaningful code, a "small" feature is quick to implement.**  That's not to say code should map all details of the world, but whatever aspects it needs to represent it must represent **truthfully**.
 
-The reverse also applies: When things change and our code can't keep up as expected, it means it didn't correspond to reality very well in the first place. In that case, some part in the whole software system is foul. Some part is not aligned with the truth.
+The reverse also applies: When things change and our code can't keep up as expected, it means some part of the software system is foul. Some part is not aligned with the truth.
 
-To see things as they are and then paint an accurate picture is not just some heuristic for how to write resilient code. It is the very nature of code. **Code expresses conceptual and technical realities. And effective code tells the truth.**
+To see things as they are and then paint an accurate picture is not just some heuristic for how to write resilient code, it matches what code really does. **Code expresses conceptual and technical realities. And effective code tells the truth.**
 
 This axiomatic, almost banal realization is the core of all laws and patterns we'll discuss. At the same time, those laws and patterns will also shine light on this core and will help us recognize and leverage the notion that code, in essence, speaks about the real world.
 
@@ -96,9 +96,7 @@ To name a code artifact, we have to think about what it actually means. What is 
 
 When an artifact's innate name isn't obvious, it likely doesn't correspond to anything real yet, at least not to only one thing. Either we haven't precisely mapped the involved concepts and technicalities to code or we haven't even understood them properly.
 
-Naming is difficult because it is a bi-directional process. By figuring out how to name our code artifacts we also figure out what code artifacts we should have in the first place. We articulate but also investigate value- and tech environment. 
-
-In other words, naming is hard because it poses two intricate questions over and over, while our answers keep evolving:
+Naming is difficult because it is a bi-directional process. By figuring out how to name our code artifacts we also figure out what code artifacts we should have in the first place. We articulate but also investigate value- and tech environment, answering two intricate questions over and over:
 
 1. What is it *really* that we try to build?<br>(What is the value environment?)
 2. How do these frameworks and devices *really* work?<br>(What is the tech environment?)
