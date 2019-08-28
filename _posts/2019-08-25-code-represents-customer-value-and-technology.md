@@ -1,7 +1,7 @@
 ---
 title: "Code Represents Customer Value and Technology"
 layout: post
-excerpt: "In part 3 of this series, we think about the fundamental role of code to get a sense of the fundamental role of architecture."
+excerpt: "In part 3 of this series, we show how the meaning of code roots first in its conceptual- and second in its technical environment."
 image_url: /blog-images/software-development/architecture/customer-value-before-technology.jpeg
 keywords: software architecture, software, architecture, zen, code quality, software quality, book, software development, architecture pattern, design pattern, productivity, philosophy, dependence, object-oriented design
 ---
