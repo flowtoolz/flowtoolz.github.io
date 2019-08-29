@@ -48,9 +48,9 @@ We're interested in a thought framework not in technical frameworks. Our questio
 
 **Value- and tech environment may hold some difficult or implicit concepts that are hard to model, but they hold *all* the concepts our code represents. We never need to "invent" anything.** Inventions wouldn't correspond to anything in the environments, so they would neither contribute customer value nor help in dealing with the technology. They would only add useless complexity. 
 
-**Code has exactly two sources of truth: its value- and its tech environment. They are its *meaning*. Code is *meaningful* when it truthfully reflects their terms, structure and mechanics, no matter at what level of detail.**
+**Code has exactly two sources of truth: its value- and its tech environment. They are its *meaning*. Code is *meaningful* when it reflects the reality of their terms, structure and mechanics, no matter at what level of detail.**
 
-The two environments are very real - abstract maybe, but neither arbitrary nor virtual. Of course, the "real world" can be a capricious chimera. Code is under this constant pressure to adapt because it mediates between two changing realities.
+The two environments are very real - abstract maybe, but neither arbitrary nor virtual. And the "real world" can be a capricious chimera. Code is under this constant pressure to adapt because it mediates between two changing realities.
 
 Luckily, reality doesn't evolve through arbitrary glitches. At least, I'd like to believe mine doesn't. Instead, its bound by inherent laws. Some aspects of the world change easily, while other changes require lots of energy, are unlikely or simply impossible.
 
@@ -96,7 +96,7 @@ To name a code artifact, we have to think about what it actually means. What is 
 
 When an artifact's intrinsic name isn't obvious, it likely doesn't correspond to anything real yet, at least not to only one thing. Either we haven't precisely mapped the involved concepts and technicalities to code or we haven't even understood them properly.
 
-Naming is difficult because it is a bi-directional process. By figuring out how to name our code artifacts we also figure out what code artifacts we should have in the first place. We articulate but also investigate value- and tech environment, constantly answering two intricate questions:
+Naming is difficult because it is a bi-directional process. By figuring out how to name our code artifacts we also figure out what code artifacts we should have to begin with. We articulate but also investigate value- and tech environment, constantly answering two intricate questions:
 
 1. What is it *really* that we try to build?<br>(What is the value environment?)
 2. How do these frameworks and devices *really* work?<br>(What is the tech environment?)
