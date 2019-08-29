@@ -20,15 +20,13 @@ When we structure code, we often focus on classes or similar namespaces. Yet cod
 
 An element within a class could be a function, method, property, variable, inner class and so forth. An element that groups multiple classes could be a component, package, module, layer, library, framework, micro service or even just a file.
 
-**Structural elements of code may widely differ in size, usage and meaning. But in regards to structure, they are just *code artifacts*, pieces of code that can be formally distinguished, irrespective of their meaning.** In contrast, similar terms like *item*, *element*, *object*, *component*, *composite* and *entity* have specific meanings in certain contexts of software or mathematics.
+**Those structural elements of code may widely differ in size, usage and meaning. But in regards to structure, they are just *code artifacts*, pieces of code that can be formally distinguished, irrespective of their meaning.**
 
-**An artefact is typically made up of nested artefacts that we call its parts. For examples: a module containing files, a file with a class in it, a class and the statements in its body (methods, properties, nested types ...), a function and the statements in its body.**
-
-We need nesting to structure our code, even to the highest levels where a program might be made of multiple modules. That structure is an approximation of the meaning of our code. As far as the artifact corresponds to a real concept, and therefor its parts are truly coupled, this structural composition is worth it.
+**A code artefact is typically composed of nested artefacts that we might call its parts. Examples would be a program containing modules, a module containing files, a file containing actual language contructs, and a function containing statements in its body.** Nesting can go many levels deep, and we need it to structure our code.
 
 ## Dependencies
 
-**Aside from the hierarchical nesting of code artifacts, like a framework containing multiple files, code artifacts also relate to each other in more interesting ways. Think of a class that derives from another, or of a function that calls a remote micro service. All these relationships make the structure of code and are the focus of architectural principles.**
+**Aside from the hierarchical nesting of code artifacts, they also relate to each other in more interesting ways. Think of a class that derives from another, or of a function that calls a remote micro service. All these relationships make the structure of code and are the focus of architectural principles.**
 
 ![](/blog-images/software-development/architecture/code-artifact-hierarchy.jpg)
 

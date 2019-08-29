@@ -46,13 +46,13 @@ We're interested in a thought framework not in technical frameworks. Our questio
 
 ## Effective Code Tells the Truth
 
-Value- and tech environment are both very real. Abstract maybe, but neither arbitrary nor virtual. They are external to the code and yet all it represents. Unfortunately, the "real world" can be a capricious chimera. Code is under this constant pressure to adapt because it mediates between two changing realities.
+**Value- and tech environment may hold some difficult or implicit concepts that are hard to model, but they hold *all* the concepts our code represents. We never need to "invent" anything.** Inventions wouldn't correspond to anything in the environments, so they would neither contribute customer value nor help in dealing with the technology. They would only add useless complexity. 
 
-**The real-world concerns it represents are the *meaning* of code. Code is *meaningful* when it truthfully reflects the structure and mechanics of reality, no matter at what level of detail.**
+**Code has exactly two sources of truth: its value- and its tech environment. They are its *meaning*. Code is *meaningful* when it truthfully reflects their terms, structure and mechanics, no matter at what level of detail.**
 
-<!-- todo: make clear how even high-level structure of code maps reality and can more or less truthfully represent the structure of reality...  -->
+The two environments are very real - abstract maybe, but neither arbitrary nor virtual. Of course, the "real world" can be a capricious chimera. Code is under this constant pressure to adapt because it mediates between two changing realities.
 
-Luckily, reality doesn't evolve through arbitrary glitches. At least, I'd like to believe mine doesn't. Instead, it is bound by inherent laws. Some aspects of the world change easily, while other changes require lots of energy, are unlikely or simply impossible.
+Luckily, reality doesn't evolve through arbitrary glitches. At least, I'd like to believe mine doesn't. Instead, its bound by inherent laws. Some aspects of the world change easily, while other changes require lots of energy, are unlikely or simply impossible.
 
 This partial continuity and predictability of the world equally applies to the code representing that world. That's why we intuitively understand how impactful a change request is. In other words: We know its meaning. 
 
@@ -62,9 +62,9 @@ The reverse also applies: When things change and our code can't keep up as expec
 
 To see things as they are and then paint an accurate picture is more than some heuristic for how to write resilient code because it matches what code really does. **Code expresses conceptual and technical realities. And effective code tells the truth.**
 
-This axiomatic, almost banal realization is the core of all laws and patterns we'll discuss. At the same time, those laws and patterns will also shine light on this core and will help us recognize and leverage the notion that code, in essence, speaks about the real world.
+This axiomatic realization is almost banal. But it pays to deepen our awareness of it because, in practice, we're often tempted to fabricate merely convenient concepts instead of making an effort to uncover the true inherent concepts of value- and tech environment.
 
-Certainly, writing code is to speak in a programming language. So, above all, let's not lie. Lies make bad karma. Let's just tell the truth and effectiveness will follow.
+Writing code is to speak in a programming language. So, above all, let's not lie. Lies make bad karma. Let's just tell the truth and effectiveness will follow.
 
 <!-- ... More Examples to Make All this More Concrete ... -->
 
