@@ -96,7 +96,7 @@ Code that violates fundamental principles causes myriads of negative symptoms. A
 
 Obviously, all that complexity is superficial and unnecessary. If we see the underlying common problem, we can just solve that. And that's the beauty, elegance and simplicity principled software design has to offer.
 
-Ultimately, negative consequences and bad karma aren't event the proper reason for why we should adhere to principles. Our reason should be the realization that violating them is to ignore reality and to resist the natural laws of the universe. Who would ever want to do that? We stick to principles as a matter of principle.
+Ultimately, negative consequences and bad karma aren't even the proper reason for why we should adhere to principles. Our reason should be the realization that violating them is to ignore reality and to resist the natural laws of the universe. Who would ever want to do that? We stick to principles as a matter of principle.
 
 ## The Role of Uncle Bob's Principles
 
