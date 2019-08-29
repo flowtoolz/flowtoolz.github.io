@@ -76,17 +76,27 @@ Now, **the global high-level code structure that we commonly call *architecture*
 
 ### Principles
 
-**Principles, on the other hand, are the natural laws that govern the universe in which the product arises. They determine what can possibly manifest as a stable entity.** Everything exists as a consequence of such laws and only as far as it is in accordance with them. As far as something disintegrates, it is obviously, as a *thing*, not in accordance with the laws of its universe.
+**Principles, on the other hand, are the natural laws that govern the universe in which the product arises. They determine what can possibly manifest as a stable entity.** 
 
-"Architecture" indeed often refers to the core nature and smallest building blocks of a thing. The "architecture of the universe" means physical laws and subatomic particles. The "architecture of life" can refer to the bio chemsistry and molecules that gave rise to the first living organism.
-
-So we cannot work against this pre-existing architecture, only with it. To grow into a healthy long-lived human being, we must design our lifestyle in accordance with *the architecture of human existence*. To grow a healthy long-lived code base, we must design it in accordance with *the architecture of code*.
+Everything exists as a consequence of such laws and only as far as it is in accordance with them. As far as something disintegrates, it is obviously, as a *thing*, not in accordance with the laws of its universe.
 
 **Our notion of *software architecture* includes not only the product structure itself but also the universal principles that enable and regulate it.** 
 
-While principles might seem trivial or abstract at first, their beauty lies in their combinded far reaching implications. A deeper understanding of code provides guidance and clarity, from how to lay out global structure down to the nitty gritty details of how to lay out a four line function.
+## Principled Software Development
+
+"Architecture" indeed often refers to the core nature and smallest building blocks of a thing. The "architecture of the universe" refers to physical laws and subatomic particles. The "architecture of life" can refer to the bio chemsistry and molecules that gave rise to the first living organism.
+
+And we cannot work *against* such pre-existing architecture, we have to work *with* it. To grow into a healthy long-lived human being, we must design our lifestyle in accordance with *the architecture of human existence*. To grow a healthy long-lived code base, we must design it in accordance with *the architecture of code*.
+
+While principles might seem trivial or abstract at first, their power lies in their combinded far reaching implications. A deeper understanding of code provides guidance and clarity, from how to lay out global structure down to the nitty gritty details of how to lay out a four line function.
 
 With a principled mind, we see into the logical heart of things, and our professional decisions are no longer guess work, personal taste, intuititive art, black magic or mindless copying of "best practices".
+
+Code that violates fundamental principles causes myriads of negative symptoms. And hundred of books have been written about these symptoms. They name them, describe them, explain them, classify them, warn against them and prescribe patterns to deal with them.
+
+Obviously, all that complexity is superficial and unnecessary. If we see the underlying common problem, we can just solve that. And that's the beauty, elegance and simplicity principled software design has to offer.
+
+Ultimately, negative consequences and bad karma aren't event the proper reason for why we should adhere to principles. Our reason should be the realization that violating them is to ignore reality and to resist the natural laws of the universe. Who would ever want to do that? We stick to principles as a matter of principle.
 
 ## The Role of Uncle Bob's Principles
 
