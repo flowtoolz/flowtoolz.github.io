@@ -1,14 +1,14 @@
 ---
-title: "Code is Structured by Composition and Dependence"
+title: "Code is Structured by Nesting and Dependence"
 layout: post
-excerpt: "In part 4 of this series, we show how dependencies between composed code artifacts define the structural side of architecture."
+excerpt: "In part 4 of this series, we show how dependencies between hierarchically composed code artifacts define the structure of code."
 image_url: /blog-images/software-development/architecture/zen-stack.jpg
 keywords: software architecture, software, architecture, zen, code quality, software quality, book, software development, architecture pattern, design pattern, productivity, philosophy, dependence, object-oriented design
 ---
 
 <img style="margin-left:auto;margin-right:auto;display:block;" src="/blog-images/software-development/architecture/zen-stack.jpg" title="{{ page.title }}" alt="{{ page.title }}. {{ page.keywords }}">
 
-In this text, we establish the notion that architecture is technically determined by dependencies. The texts follwing this one will build upon all introduced ideas and ultimately tie everything together.
+In this text, we establish the notion that architecture is determined by structural composition and dependencies. The texts follwing this one will build upon all introduced ideas and ultimately tie everything together.
 
 ## Code Artifacts
 
@@ -22,9 +22,13 @@ An element within a class could be a function, method, property, variable, inner
 
 **Structural elements of code may widely differ in size, usage and meaning. But in regards to structure, they are just *code artifacts*, pieces of code that can be formally distinguished, irrespective of their meaning.** In contrast, similar terms like *item*, *element*, *object*, *component*, *composite* and *entity* have specific meanings in certain contexts of software or mathematics.
 
+**An artefact is typically made up of nested artefacts that we call its parts. For examples: a module containing files, a file with a class in it, a class and the statements in its body (methods, properties, nested types ...), a function and the statements in its body.**
+
+We need nesting to structure our code, even to the highest levels where a program might be made of multiple modules. That structure is an approximation of the meaning of our code. As far as the artifact corresponds to a real concept, and therefor its parts are truly coupled, this structural composition is worth it.
+
 ## Dependencies
 
-**Aside from the hierarchical composition of code artifacts, like a framework containing multiple files, code artifacts also relate to each other in more interesting ways. Think of a class that derives from another, or of a function that calls a remote micro service. All these relationships make the structure of code and are the focus of architectural principles.**
+**Aside from the hierarchical nesting of code artifacts, like a framework containing multiple files, code artifacts also relate to each other in more interesting ways. Think of a class that derives from another, or of a function that calls a remote micro service. All these relationships make the structure of code and are the focus of architectural principles.**
 
 ![](/blog-images/software-development/architecture/code-artifact-hierarchy.jpg)
 
@@ -62,26 +66,36 @@ Also, there can be multiple runtime instances of the same code artifact. In the 
 
 ![](/blog-images/software-development/architecture/sequence-diagram.jpg)
 
-The instance that initiates the interaction must have a reference to the other. But one reference in only one direction (also called the direction of control) is enough to let information flow in both directions.
+The instance that initiates the interaction must have a reference to the other. However, one reference alone (in the "direction of control") is already enough to let information flow both ways. So, **information flow per se tells us very little about reference direction.**
 
-So, **information flow per se tells us very little about reference direction. But the real havoc sets in when we draw it into architecture diagrams where it isn't even an applicable concept.** After all, information flows between runtime instances, not between code artifacts.
+**Now, the real havoc sets in when we draw information flow into architecture diagrams where it isn't even an applicable concept.** After all, information flows between runtime instances, not between code artifacts.
 
 When the distinction wasn't as clear to me yet, I sometimes began to mark information flow in structure diagrams. Sooner or later, I got stuck because I undermined the meaningfulness of those diagrams, ultimately rendering them useless. **When we conflate different levels of analysis in the same representation, we're not thinking clearly.**
 
-## Dependence and Software Development
+## More On Nesting (Structural Composition)
 
-We tend to associate software architecture with principles and patterns of object-oriented design. At an abstract level, all those principles, like the [ADP](https://en.wikipedia.org/wiki/Acyclic_dependencies_principle), and patterns, like [Model-View-Controller](https://en.wikipedia.org/wiki/Model–view–controller), are defined in terms of type dependence. **To structure code is to manage dependencies.**
+First, the obvious: An artifact contains all its parts. So if you depend on it, you depend on all the parts.
 
-Furthermore, code is just one side of the coin. **Dependencies between code artifacts are technical manifestations of dependencies between real-world concerns. In a way, dependence is the underlying ordering principle of everything.** It doesn't only form the language of design patterns, it is also the living reason and driving force behind them.
+### Nesting Bundles Dependencies
 
-But who cares about structure or the meaning of dependencies? Code is never an issue anyway, it's just those annoying people who want us to change the code all the time, right?
+So far so banal, now here's the thing: The nature of structural composition is that the composed artifact is like any other artefact. So the cost of abstracting away the parts is that they are only accessible through their parent artifact.
 
-Certainly, functional and technical requirements are in flux. For a code base to survive, it must adapt to an ever changing world. **In the evolution of organisms and code, flexibility is resilience and rigidity is death.** In other words: Software is supposed to be soft. We rather have incorrect code that we can change easily than correct code that noone dares to touch anymore.
+In other words, you cannot directly depend on anything within an artifact. Only the artifact itself does that. So if you want to depend on any one of its parts, you have to depend on the whole and thereby an *all* its parts. An artifact shields its parts from any direct dependence and thereby bundles all dependencies on its elements.
 
-And that's why dependencies are the structural essence of software. In their fundamental role, **dependencies and their real-world meaning determine whether code meets the most essential requirement, which is *maintainability***, the ability to be changed. Without changes in software, there is no *software development*.
+An artifact does not just bundle incoming dependencies but also outgoing ones: If only one part `P` in artifact `A` depends on some external artefact `B` outside of `A`, then clients of `A` will always depend on `B` as well, even if they're not interested in `B` at all, and even if what they need from `A` doesn't require anything from `B` either.
 
-In his landmark publication "Design Principles and Design Patterns", Robert C. Martin writes:
+<!-- todo: example diagrams -->
 
-> "What kind of changes cause designs to rot? Changes that introduce new and unplanned for dependencies. Each of the four symptoms mentioned above is either directly, or indirectly caused by improper dependencies between the modules of the software. It is the dependency architecture that is degrading, and with it the ability of the software to be maintained."
+### Nesting Has Nothing to Do With the Facade Pattern
 
-As mentioned earlier, Martin's ideas on architecture apply not only to "modules". We may read "modules" as "code artifacts" to really grasp the universal force of dependence. And to meditate on this force should be the first step of any adventure trip into the heights and depths of kick-ass coding.
+Note that structural composition and the facade pattern are similar but totally independent concepts from different levels of analysis. A facade involves a dedicated element that provides one unified interface for a whole module so that clients of the module don't have to deal with its other internals.
+
+### Nesting is Not UML Class Composition Or Aggregation
+
+Structural composition of code artifacts is not to be confused with "composition" or "aggregation" in UML. First of all, artifact nesting is much more general and applies to all code artifacts at all scales, while UML composition refers to types and in particular to classes.
+
+UML class composition and aggregation express some sort of parent child relationship between the two concepts the artifacts represent, so it refers to their *meaning*. Structural composition on the other hand refers to the mere nested structure of the actual pieces of code.
+
+UML composition and structural composition are similar but orthoganal concepts. We can have each without the other.
+
+Regarding dependencies, there is one other crucial difference: With UML composition, you can depend on the component without depending on the composite. All other implications for dependence are essentially the same.
