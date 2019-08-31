@@ -92,11 +92,13 @@ While principles might seem trivial or abstract at first, their power lies in th
 
 With a principled mind, we see into the logical heart of things, and our professional decisions are no longer guess work, personal taste, intuititive art, black magic or mindless copying of "best practices".
 
-Code that violates fundamental principles causes myriads of negative symptoms. And hundred of books have been written about these symptoms. They name them, describe them, explain them, classify them, warn against them and prescribe patterns to deal with them.
+Code that violates fundamental principles causes myriads of negative symptoms. And hundred of books have been written about these symptoms. They name them, describe them, explain them, classify them, warn against them and prescribe patterns to deal with them. Obviously, all that complexity is superficial and unnecessary if we see the common underlying problem. And that's the beauty, elegance and simplicity principled software design has to offer.
 
-Obviously, all that complexity is superficial and unnecessary. If we see the underlying common problem, we can just solve that. And that's the beauty, elegance and simplicity principled software design has to offer.
+All advice on code design preaches that ["strategic"](https://www.goodreads.com/book/show/39996759-a-philosophy-of-software-design) or ["clean"](https://www.goodreads.com/book/show/3735293-clean-code) development is superior over tactical hacking, and that discipline pays off over time. Yet in practice, the often arbitrary collections of symptom-level heuristics never inspire the deep clarity we would need to actually stop, think and clean up.
 
-Ultimately, negative consequences and bad karma aren't even the proper reason for why we should adhere to principles. Our reason should be the realization that violating them is to ignore reality and to resist the natural laws of the universe. Who would ever want to do that? We stick to principles as a matter of principle.
+To walk the walk, we must be able to clearly distinguish the correct solution from all its sloppy alternatives. And the post-modernist in all of us feels that there is no such thing as a "correct" solution and that nothing objective can be said about "good" code. However, if we assess code at a fundamental level, we can clinically describe what it is, without judgement or imperative. Such observed principles are the basis for more clarity and objective reasoning in practice.
+
+Ultimately, negative consequences and bad karma aren't even the proper reason for why we should adhere to principles. Our reason should be the realization that "violating" them is to ignore reality and to resist natural laws. Who would ever want to do that? We stick to principles as a matter of principle.
 
 ## The Role of Uncle Bob's Principles
 
