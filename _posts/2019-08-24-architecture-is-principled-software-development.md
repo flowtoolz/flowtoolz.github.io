@@ -84,21 +84,27 @@ Everything exists as a consequence of such laws and only as far as it is in acco
 
 ## Principled Software Development
 
+### Applicability
+
+Code that violates fundamental principles causes myriads of negative symptoms. And hundred of books have been written about these symptoms. They name them, describe them, explain them, classify them, warn against them and prescribe patterns to deal with them. Obviously, all that complexity is superficial and unnecessary if we see the common underlying problem. And that's the simplicity, elegance and beauty principled software design has to offer.
+
+While principles might seem trivial or abstract at first, their power lies in their combinded far reaching implications. A deeper understanding of code provides guidance and clarity, from how to lay out global structure down to the nitty gritty details of how to lay out a four line function.
+
+### Objectivity
+
+All advice on code design preaches that ["strategic"](https://www.goodreads.com/book/show/39996759-a-philosophy-of-software-design) or ["clean"](https://www.goodreads.com/book/show/3735293-clean-code) engineering is superior over tactical hacking, and that discipline pays off over time. Yet in practice, the often arbitrary collections of conflicting symptom-level heuristics never inspire the deep clarity we would need to actually stop, think and clean up. To walk the walk, we must be able to clearly distinguish the correct path from all its sloppy alternatives.
+
+Now, the post-modernist in all of us might feel that there is no such thing as a "correct" path and that nothing objective can be said about "good" code. However, if we assess code at a fundamental level, we can clinically describe what it is, without judgement or imperative. Such observed principles are the basis for more clarity and objective reasoning in practice.
+
+With a principled mind, we see into the logical heart of things, and our professional decisions are no longer guess work, personal taste, intuititive art, black magic or mindless copying of "best practices".
+
+### Humility
+
 "Architecture" indeed often refers to the core nature and smallest building blocks of a thing. The "architecture of the universe" refers to physical laws and subatomic particles. The "architecture of life" can refer to the bio chemsistry and molecules that gave rise to the first living organism.
 
 And we cannot work *against* such pre-existing architecture, we have to work *with* it. To grow into a healthy long-lived human being, we must design our lifestyle in accordance with *the architecture of human existence*. To grow a healthy long-lived code base, we must design it in accordance with *the architecture of code*.
 
-While principles might seem trivial or abstract at first, their power lies in their combinded far reaching implications. A deeper understanding of code provides guidance and clarity, from how to lay out global structure down to the nitty gritty details of how to lay out a four line function.
-
-With a principled mind, we see into the logical heart of things, and our professional decisions are no longer guess work, personal taste, intuititive art, black magic or mindless copying of "best practices".
-
-Code that violates fundamental principles causes myriads of negative symptoms. And hundred of books have been written about these symptoms. They name them, describe them, explain them, classify them, warn against them and prescribe patterns to deal with them. Obviously, all that complexity is superficial and unnecessary if we see the common underlying problem. And that's the beauty, elegance and simplicity principled software design has to offer.
-
-All advice on code design preaches that ["strategic"](https://www.goodreads.com/book/show/39996759-a-philosophy-of-software-design) or ["clean"](https://www.goodreads.com/book/show/3735293-clean-code) development is superior over tactical hacking, and that discipline pays off over time. Yet in practice, the often arbitrary collections of symptom-level heuristics never inspire the deep clarity we would need to actually stop, think and clean up.
-
-To walk the walk, we must be able to clearly distinguish the correct solution from all its sloppy alternatives. And the post-modernist in all of us feels that there is no such thing as a "correct" solution and that nothing objective can be said about "good" code. However, if we assess code at a fundamental level, we can clinically describe what it is, without judgement or imperative. Such observed principles are the basis for more clarity and objective reasoning in practice.
-
-Ultimately, negative consequences and bad karma aren't even the proper reason for why we should adhere to principles. Our reason should be the realization that "violating" them is to ignore reality and to resist natural laws. Who would ever want to do that? We stick to principles as a matter of principle.
+Ultimately, negative consequences and bad karma aren't even the proper reason for why we should adhere to principles. Our reason should be the realization that "violating" them is to ignore reality and to resist the natural laws of the universe. Who would ever want to do that? We stick to principles as a matter of principle.
 
 ## The Role of Uncle Bob's Principles
 
