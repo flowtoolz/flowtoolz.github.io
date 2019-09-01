@@ -8,9 +8,11 @@ keywords: software architecture, software, architecture, zen, code quality, soft
 
 <img style="margin-left:auto;margin-right:auto;display:block;" src="/blog-images/software-development/architecture/zen-stack.jpg" title="{{ page.title }}" alt="{{ page.title }}. {{ page.keywords }}">
 
-In this text, we establish the notion that architecture is determined by structural composition and dependencies. The texts follwing this one will build upon all introduced ideas and ultimately tie everything together.
+[Previously](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html), we explored the meaning of code. Here, we focus on its technical structure. We'll see how it is determined by hierarchical nesting and dependencies of code artifacts.
 
-## Code Artifacts
+This is the second and last "axiomatic" discussion. The texts follwing this one will build more upon already introduced ideas and ultimately tie everything together.
+
+## Nested Code Artifacts
 
 The natural laws of life relate to its structure. Structure is defined by *structural elements* and the *relationships* between them. The elements of life are atoms, organic compounds, peptides, lipids, RNA, DNA, amino acids and so forth. And how they relate to each other obviously makes all the difference.
 
@@ -18,11 +20,21 @@ The natural laws of code also relate to structure. So what are the elements and 
 
 When we structure code, we often focus on classes or similar namespaces. Yet code is structured at all scales. There are small elements contained in classes. And there are large elements containing multiple classes.
 
-An element within a class could be a function, method, property, variable, inner class and so forth. An element that groups multiple classes could be a component, package, module, layer, library, framework, micro service or even just a file.
+An element within a class could be a function, property, enumeration, inner class and so forth. An element that groups multiple classes could be a component, package, module, layer, library, framework, micro service or even just a file.
 
 **Those structural elements of code may widely differ in size, usage and meaning. But in regards to structure, they are just *code artifacts*, pieces of code that can be formally distinguished, irrespective of their meaning.**
 
 **A code artefact is typically composed of nested artefacts that we might call its parts. Examples would be a program containing modules, a module containing files, a file containing actual language contructs, and a function containing statements in its body.** Nesting can go many levels deep, and we need it to structure our code.
+
+<!-- todo: diagram! -->
+
+### Structure is Not Meaning
+
+When we want to understand mere technical code structure, we must be careful not to confuse that with the structure of its meaning. In particular, we must be aware of the limits of UML notation in that regard. 
+
+UML class diagrams depict a weird mixture of classes (code artifacts) and the concepts (meaning) those classes represent. For instance, UML class composition expresses that a composite consists of a component and that the component cannot exist outside of the composite. However, that description does not apply to their actual pieces of code. Whether the component is declared within the scope of the composite's code is a totally independent question.
+
+Also note, that structural nesting is much more general and applies to all code artifacts at all scales, while composition in UML applies to types and in particular to classes. Structural nesting and UML composition are similar but orthoganal concepts. We can have each without the other.
 
 ## Dependencies
 
@@ -37,6 +49,22 @@ When code artifacts *relate* to another, they *depend* on another. This technica
 **For technical dependence itself, the semantics of how artifacts relate is utterly irrelevant.** Whether class `A` calls a function of class `B`, has a property of type `B`, is intrinsically composed of properties of type `B` or derives itself from `B` doesn't alter the fact that `A` depends on `B`. In terms of UML class diagrams, arrows signify dependence but the arrow types are irrelevant for that matter:
 
 ![](/blog-images/software-development/architecture/uml-arrows.jpg)
+
+<!-- todo: transitively implied dependencies: just as relevant but no need to draw them in a diagram. don't fool yourself with "encapsulation", information hiding and layering: those ideas do not alter the dependency structure and are therefor rather cosmetic. indirection is not decoupling! -->
+
+<!-- todo: von meaning abgrenzen, siehe schlechtes bsp. in "a philosophy of ..." wo alle views ihre eigene hintergrundfarbe definiert haben obwohl die value env. impliziert es gäbe nur eine... die tatsache dass man beim ändern einer farbe auch die anderen beachten muss ist keine dependency sondern folgt daraus dass die value environment, also die realität dessen was dargestellt werden soll nicht präzise im code abgebildet ist ...  -->
+
+### Nesting Bundles Dependencies
+
+First, the obvious: An artifact contains all its parts. So if you depend on it, you depend on all the parts.
+
+So far so banal, now here's the thing: The nature of structural composition is that the composed artifact is like any other artefact. So the cost of abstracting away the parts is that they are only accessible through their parent artifact.
+
+In other words, you cannot directly depend on anything within an artifact. Only the artifact itself does that. So if you want to depend on any one of its parts, you have to depend on the whole and thereby an *all* its parts. An artifact shields its parts from any direct dependence and thereby bundles all incoming dependencies.
+
+An artifact does not just bundle incoming dependencies but also outgoing ones: If only one part `P` in artifact `A` depends on some external artefact `B` outside of `A`, then clients of `A` will always depend on `B` as well, even if they're not interested in `B` at all, and even if what they need from `A` doesn't require anything from `B` either.
+
+<!-- todo: example diagrams -->
 
 ## Architecture Diagrams
 
@@ -69,31 +97,3 @@ The instance that initiates the interaction must have a reference to the other. 
 **Now, the real havoc sets in when we draw information flow into architecture diagrams where it isn't even an applicable concept.** After all, information flows between runtime instances, not between code artifacts.
 
 When the distinction wasn't as clear to me yet, I sometimes began to mark information flow in structure diagrams. Sooner or later, I got stuck because I undermined the meaningfulness of those diagrams, ultimately rendering them useless. **When we conflate different levels of analysis in the same representation, we're not thinking clearly.**
-
-## More On Nesting (Structural Composition)
-
-First, the obvious: An artifact contains all its parts. So if you depend on it, you depend on all the parts.
-
-### Nesting Bundles Dependencies
-
-So far so banal, now here's the thing: The nature of structural composition is that the composed artifact is like any other artefact. So the cost of abstracting away the parts is that they are only accessible through their parent artifact.
-
-In other words, you cannot directly depend on anything within an artifact. Only the artifact itself does that. So if you want to depend on any one of its parts, you have to depend on the whole and thereby an *all* its parts. An artifact shields its parts from any direct dependence and thereby bundles all dependencies on its elements.
-
-An artifact does not just bundle incoming dependencies but also outgoing ones: If only one part `P` in artifact `A` depends on some external artefact `B` outside of `A`, then clients of `A` will always depend on `B` as well, even if they're not interested in `B` at all, and even if what they need from `A` doesn't require anything from `B` either.
-
-<!-- todo: example diagrams -->
-
-### Nesting Has Nothing to Do With the Facade Pattern
-
-Note that structural composition and the facade pattern are similar but totally independent concepts from different levels of analysis. A facade involves a dedicated element that provides one unified interface for a whole module so that clients of the module don't have to deal with its other internals.
-
-### Nesting is Not UML Class Composition Or Aggregation
-
-Structural composition of code artifacts is not to be confused with "composition" or "aggregation" in UML. First of all, artifact nesting is much more general and applies to all code artifacts at all scales, while UML composition refers to types and in particular to classes.
-
-UML class composition and aggregation express some sort of parent child relationship between the two concepts the artifacts represent, so it refers to their *meaning*. Structural composition on the other hand refers to the mere nested structure of the actual pieces of code.
-
-UML composition and structural composition are similar but orthoganal concepts. We can have each without the other.
-
-Regarding dependencies, there is one other crucial difference: With UML composition, you can depend on the component without depending on the composite. All other implications for dependence are essentially the same.
