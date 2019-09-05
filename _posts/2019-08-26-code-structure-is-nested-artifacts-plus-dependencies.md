@@ -12,13 +12,13 @@ The natural laws of life relate to its structure. Structure is defined by *eleme
 
 The natural laws of code also relate to structure. So what are the elements and relationships in code?
 
-[Previously](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html), we explored the way code conveys meaning. Here, we examine the way it is structured. To that purpose, we put tech- and value environment aside for a moment and focus instead on the actual source code, its organizational units and circuitry.
+[Previously](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html), we explored the way code conveys meaning. Here, we examine the way it is structured. To that purpose, we put [tech- and value environment](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html) aside for a moment and focus instead on the actual source code, its organizational units and circuitry.
 
 This is the second and last "axiomatic" discussion. The texts follwing this one will build more upon already introduced ideas and ultimately tie everything together.
 
 ## Artifacts
 
-When we structure source code, we mostly think about classes and similar namespaces. Of course, code is structured at other scales as well. There are smaller language constructs contained in classes, like functions, properties, nested types and so forth. And there are larger scopes containing multiple classes, like architectural layers, micro services, libraries, frameworks, modules, packages and even just source files.
+When we structure source code, we mostly think about classes and similar namespaces. Of course, code is structured at other scales as well. There are smaller language constructs contained in classes, like functions, properties and nested types. And there are larger scopes containing multiple classes, like architectural layers, micro services, libraries, frameworks, modules, packages and even just source files.
 
 Those organizational units of code may widely differ in size, usage and meaning. But for the purpose of this analysis, we can regard them as pure *code artifacts*, pieces of code that are structurally distinct, irrespective of what they mean.
 
@@ -28,35 +28,47 @@ A code artifact is typically composed of other smaller artifacts that we might c
 
 ## Dependencies
 
-Aside from the hierarchical composition of code artifacts, they also relate to each other in more interesting ways. Think of a class that derives from another, or of a function that calls a remote micro service. All these relationships make the structure of code and are the focus of architectural principles.
+Aside from the hierarchical composition of code artifacts, they also relate to each other in more interesting ways. Think of a class that derives from another, or of a function that calls a remote micro service. All these relationships define the structure of code and are the focus of architectural principles.
 
 ![](/blog-images/software-development/architecture/code-artifact-hierarchy.jpg)
 
-When code artifacts *relate* to another, they *depend* on another. This technical dependence is easy to identify: **A code artifact `A` directly depends on another code artifact `B`, when `A` refers to `B` in any form or directly uses any functionality of `B`.** Or the other way around: If there's any aspect of `B` (name, interface, behaviour etc.) that, when changed, would require `A` to adapt, then `A` directly depends on `B`:
+When code artifacts *relate* to another, they *depend* on another. This technical dependence is easy to identify: **A code artifact `A` directly depends on another code artifact `B`, when `A` refers to `B` in any form or directly uses any functionality of `B`.** Or the other way around: If there's any formal aspect of `B` (name, interface, specification) that, when changed, would require us to adapt and recompile `A`, then `A` directly depends on `B`:
 
 ![](/blog-images/software-development/architecture/a-depends-on-b.jpg)
 
-For technical dependence itself, the semantics of how artifacts relate is utterly irrelevant. Whether class `A` calls a function of class `B`, has a property of type `B`, is intrinsically composed of properties of type `B` or derives itself from `B` doesn't alter the fact that `A` depends on `B`. In terms of UML class diagrams, arrows signify dependence but the arrow types are irrelevant for that matter:
+For structural dependence itself, the semantics of how artifacts relate is utterly irrelevant. Whether class `A` calls a function of class `B`, has a property of type `B`, is intrinsically composed of properties of type `B` or derives itself from `B` doesn't alter the fact that `A` depends on `B`. In terms of UML class diagrams, arrows signify dependence but the arrow types are irrelevant for that matter:
 
 ![](/blog-images/software-development/architecture/uml-arrows.jpg)
 
-<!-- todo: transitively implied dependencies: just as relevant but no need to draw them in a diagram. don't fool yourself with "encapsulation", information hiding and layering: those ideas do not alter the dependency structure and are therefor rather cosmetic. indirection is not decoupling! -->
+## Implicit Dependencies
 
-<!-- todo: von meaning abgrenzen, siehe schlechtes bsp. in "a philosophy of ..." wo alle views ihre eigene hintergrundfarbe definiert haben obwohl die value env. impliziert es gäbe nur eine... die tatsache dass man beim ändern einer farbe auch die anderen beachten muss ist keine dependency sondern folgt daraus dass die value environment, also die realität dessen was dargestellt werden soll nicht präzise im code abgebildet ist ...  -->
+### Rules
 
-## Nesting Bundles Dependencies
+Transitivity (1) and nesting (2, 3) generate implicit dependencies via these rules:
 
-First, the obvious: An artifact contains all its parts. So if you depend on it, you depend on all the parts.
+1. If `A` depends on `B` and `B` depends on `C`, then `A` implicitly depends on `C`.
+2. A code artifact implicitly depends on all its parts.
+3. If `A` depends on a part of `B` while `A` itself is not part of `B`, then `A` implicitly depends on `B`.
 
-So far so banal, now here's the thing: The nature of structural composition is that the composed artifact is like any other artefact. So the cost of abstracting away the parts is that they are only accessible through their parent artifact.
+Rule 3 essentially means that an artifact (`B`) shields its parts from any direct dependence and thereby bundles all incoming dependencies.
 
-In other words, you cannot directly depend on anything within an artifact. Only the artifact itself does that. So if you want to depend on any one of its parts, you have to depend on the whole and thereby an *all* its parts. An artifact shields its parts from any direct dependence and thereby bundles all incoming dependencies.
+<!-- todo: diagrams for the rules -->
 
-An artifact does not just bundle incoming dependencies but also outgoing ones: If only one part `P` in artifact `A` depends on some external artefact `B` outside of `A`, then clients of `A` will always depend on `B` as well, even if they're not interested in `B` at all, and even if what they need from `A` doesn't require anything from `B` either.
+### Implications
+
+First of all, note that the rules do **not** imply that the parts of an artifact would *implicitly* depend on that artifact. In other words, a part does **not automatically** depend on the whole. It is however possible that a part **explicitly** depends on the whole, in which case rule 2 implies a dependence cycle between the two.
+
+From rules 1 and 2 follows that if `A` depends on `B`, then `A` implicitly depends on all parts of `B`. So if just one part of `B` depends on `C`, then all clients of `B` depend on `C` as well, even if they're not particularly interested in `C` and even if what they need from `B` doesn't require anything from `C` either.
+
+All rules together imply that if `A` depends on one part of `B`, then `A` implicitly depends on all parts of `B`.
+
+An implicit dependence is less direct but structurally and logically just as relevant. We better not fool ourselves in thinking that indirection, layering, "encapsulation", information hiding or the facade pattern would equal *decoupling*. Those ideas do not alter the actual dependency structure and are comparatively cosmetic.
 
 <!-- todo: example diagrams -->
 
 ## The Structure of Code is Not its Meaning
+
+<!-- todo: von meaning abgrenzen, siehe schlechtes bsp. in "a philosophy of ..." wo alle views ihre eigene hintergrundfarbe definiert haben obwohl die value env. impliziert es gäbe nur eine... die tatsache dass man beim ändern einer farbe auch die anderen beachten muss ist keine dependency sondern folgt daraus dass die value environment, also die realität dessen was dargestellt werden soll nicht präzise im code abgebildet ist ...  -->
 
 When we want to understand mere technical code structure, we must be careful not to confuse that with the structure of its meaning. In particular, we must be aware of the limits of UML notation in that regard. 
 
