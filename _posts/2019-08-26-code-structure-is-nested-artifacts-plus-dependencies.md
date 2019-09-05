@@ -42,25 +42,21 @@ For structural dependence itself, the semantics of how artifacts relate is utter
 
 ## Implicit Dependencies
 
-### Rules
-
-Transitivity (1) and nesting (2, 3) generate implicit dependencies via these rules:
+Transitivity (1) and nesting (2, 3) generate implicit dependencies of three types:
 
 1. If `A` depends on `B` and `B` depends on `C`, then `A` implicitly depends on `C`.
 2. A code artifact implicitly depends on all its parts.
 3. If `A` depends on a part of `B` while `A` itself is not part of `B`, then `A` implicitly depends on `B`.
 
-Rule 3 essentially means that an artifact (`B`) shields its parts from any direct dependence and thereby bundles all incoming dependencies.
+Type 3 essentially refers to how an artifact (`B`) shields its parts from any direct dependence and thereby bundles all incoming dependencies.
 
 <!-- todo: diagrams for the rules -->
 
-### Implications
+First of all, note that the parts of an artifact do **not implicitly** depend on that artifact. In other words, a part does **not automatically** depend on the whole. It is however possible that a part **explicitly** depends on the whole, in which case type 2 creates a dependence cycle between the two.
 
-First of all, note that the rules do **not** imply that the parts of an artifact would *implicitly* depend on that artifact. In other words, a part does **not automatically** depend on the whole. It is however possible that a part **explicitly** depends on the whole, in which case rule 2 implies a dependence cycle between the two.
+Types 1 and 2 imply that if `A` depends on `B`, then `A` implicitly depends on all parts of `B`. So if just one part of `B` depends on `C`, then all clients of `B` depend on `C` as well, even if they're not particularly interested in `C` and even if what they need from `B` doesn't require anything from `C` either.
 
-From rules 1 and 2 follows that if `A` depends on `B`, then `A` implicitly depends on all parts of `B`. So if just one part of `B` depends on `C`, then all clients of `B` depend on `C` as well, even if they're not particularly interested in `C` and even if what they need from `B` doesn't require anything from `C` either.
-
-All rules together imply that if `A` depends on one part of `B`, then `A` implicitly depends on all parts of `B`.
+All types together imply that if `A` depends on one part of `B`, then `A` implicitly depends on all parts of `B`.
 
 An implicit dependence is less direct but structurally and logically just as relevant. We better not fool ourselves in thinking that indirection, layering, "encapsulation", information hiding or the facade pattern would equal *decoupling*. Those ideas do not alter the actual dependency structure and are comparatively cosmetic.
 
