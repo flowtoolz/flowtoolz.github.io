@@ -52,7 +52,7 @@ Dependencies can imply that an artifact effectively, although indirectly, depend
 1. **Transitivity:** If `A` depends on `B` and `B` depends on `C` then `A` implicitly depends on `C`.
 2. **Bundling:** If `A` depends on a part of `B` while `A` itself is not part of `B` then `A` implicitly depends on `B`.
 
-Bundling refers to how an artifact generalizes its parts in terms of incoming dependencies. This only occurs because such incoming dependencies cross the artifact's boundary. Since `A` is outside the scope of `B` it has to know about `B` or at least require the existence of `B` in order to depend on any part inside of `B`. Would `A` itself be a part of `B`, it could depend on any other such part, totally ignorant of the enclosing scope `B`.
+Bundling refers to how an artifact generalizes its parts in terms of incoming dependencies. This only occurs because such incoming dependencies cross the artifact's boundary. Since `A` is outside the scope of `B` it has to know about `B` or at least require the presence of `B` in order to depend on any part inside of `B`. Would `A` itself be a part of `B`, it could depend on any other such part, totally ignorant of the all-encompassing scope `B`.
 
 We had to list dependency bundling for logical completeness. But in most practical contexts, depending on an artifact's parts requires an explicit reference to that artifact anyway. Think of how a source file `A` depends on a type declared within another file `B`. In most programming languages, `A` would need to explicitly import `B`. An example exception to this is the language Swift.
 
@@ -64,7 +64,7 @@ We had to list dependency bundling for logical completeness. But in most practic
 
 First of all, note that the parts of an artifact do **not implicitly** depend on that artifact. In other words, an artifact does **not automatically** depend on its enclosing scope. It is however possible that a part **explicitly** depends on the whole, in which case nesting creates a dependence cycle between the two.
 
-Transitivity and nesting imply that if `A` depends on `B`, then `A` depends on all parts of `B`. Transitivity, nesting and bundling all together imply that if `A` depends on one part of `B`, then `A` depends on all parts of `B`. And if just one part of those parts depends on `C`, then every client `A` of `B` depend on `C` as well, even if `A` is not particularly interested in `C` and even if what it needs from `B` doesn't require anything from `C` either.
+Transitivity and nesting imply that if `A` depends on `B`, then `A` depends on all parts of `B`. Transitivity, nesting and bundling all together imply that if `A` depends just on one part of `B`, then it still depends on all parts of `B`. And if just one of those parts depends on `C`, then every client `A` of `B` depend on `C` as well, even if `A` is not particularly interested in `C` and even if what it needs from `B` doesn't require anything from `C` either.
 
 An implicit dependence is less direct but structurally and logically just as relevant. We better not fool ourselves in thinking that indirection, layering, "encapsulation", information hiding or the facade pattern would equal *decoupling*. Those ideas do not alter the effective dependency structure and are comparatively cosmetic.
 
