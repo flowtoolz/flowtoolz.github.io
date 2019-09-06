@@ -1,5 +1,5 @@
 ---
-title: "Code Structure = Nested Artifacts + Dependencies"
+title: "Code Structure is Determined by Dependencies"
 layout: post
 excerpt: "In part 4 of this series, we show how dependencies between hierarchically composed artifacts define the structure of source code."
 image_url: /blog-images/software-development/architecture/zen-stack.jpg
