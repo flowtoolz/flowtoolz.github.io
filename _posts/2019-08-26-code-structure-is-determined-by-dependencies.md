@@ -20,49 +20,61 @@ This is the second and last "axiomatic" discussion. The texts follwing this one 
 
 When we structure source code, we mostly think about classes and similar namespaces. Of course, code is structured at other scales as well. There are smaller language constructs contained in classes, like functions, properties and nested types. And there are larger scopes containing multiple classes, like architectural layers, micro services, libraries, frameworks, modules, packages and even just source files.
 
-Those organizational units of code may widely differ in size, usage and meaning. But for the purpose of this analysis, we can regard them as pure *code artifacts*, pieces of code that are structurally distinct, irrespective of what they mean.
-
-A code artifact is typically composed of other smaller artifacts that we might call its parts. Examples would be a project containing modules, a module containing files, a file containing actual language contructs, and a function containing statements in its body. This nesting can go many levels deep, and we need it to structure our code.
+Those organizational units of code may widely differ in size, usage and meaning. But for the purpose of this analysis, we can regard them as pure *code artifacts*, pieces of code that are structurally distinct, irrespective of what they represent.
 
 <!-- todo: diagram! -->
 
-## Dependencies
-
-Aside from the hierarchical composition of code artifacts, they also relate to each other in more interesting ways. Think of a class that derives from another, or of a function that calls a remote micro service. All these relationships define the structure of code and are the focus of architectural principles.
+A code artifact is typically composed of other smaller artifacts that we might call its parts. Examples would be a project containing modules, a module containing files, a file containing actual language contructs, and a function containing statements in its body. This nesting can go many levels deep, and we need it to structure our code.
 
 ![](/blog-images/software-development/architecture/code-artifact-hierarchy.jpg)
 
-When code artifacts *relate* to another, they *depend* on another. This technical dependence is easy to identify: **A code artifact `A` directly depends on another code artifact `B`, when `A` refers to `B` in any form or directly uses any functionality of `B`.** Or the other way around: If there's any formal aspect of `B` (name, interface, specification) that, when changed, would require us to adapt and recompile `A`, then `A` directly depends on `B`:
+Aside from the hierarchical composition of code artifacts, they also relate to each other in more interesting ways. Think of a class that derives from another, or of a function that calls a remote micro service. All these relationships define the structure of code and are the focus of architectural principles.
+
+## Dependence
+
+When code artifacts *relate* to another, they *depend* on another. Those dependencies are either explicit or implicit.
+
+### Explicit Dependence
+
+There are two types of *explicit dependence*, and they're easy to identify:
+
+1. **Calling:** If code artifact `A` directly refers to code artifact `B` or any of `B`'s interface in any form then `A` explicitly depends on `B`.
+2. **Nesting:** If code artifact `B` is nested inside of code artifact `A` and so is an inherent part of `A` then `A` explicitly depends on `B`.
+
+If `A` and `B` are actually compiled together, dependence by calling can also be defined like so: If we could change `B` in a way that would require a change of `A` for both to compile again, then `A` explicitly depends on `B`:
 
 ![](/blog-images/software-development/architecture/a-depends-on-b.jpg)
 
-For structural dependence itself, the semantics of how artifacts relate is utterly irrelevant. Whether class `A` calls a function of class `B`, has a property of type `B`, is intrinsically composed of properties of type `B` or derives itself from `B` doesn't alter the fact that `A` depends on `B`. In terms of UML class diagrams, arrows signify dependence but the arrow types are irrelevant for that matter:
+### Implicit Dependence
 
-![](/blog-images/software-development/architecture/uml-arrows.jpg)
+Dependencies can imply that an artifact effectively, although indirectly, depends on another artifact, which amounts to an *implicit dependency*. There are two types of *implicit dependence*:
 
-## Implicit Dependencies
+1. **Transitivity:** If `A` depends on `B` and `B` depends on `C` then `A` implicitly depends on `C`.
+2. **Bundling:** If `A` depends on a part of `B` while `A` itself is not part of `B` then `A` implicitly depends on `B`.
 
-Transitivity (1) and nesting (2, 3) generate implicit dependencies of three types:
+Bundling refers to how an artifact generalizes its parts in terms of incoming dependencies. This only occurs because such incoming dependencies cross the artifact's boundary. Since `A` is outside the scope of `B` it has to know about `B` or at least require the existence of `B` in order to depend on any part inside of `B`. Would `A` itself be a part of `B`, it could depend on any other such part, totally ignorant of the enclosing scope `B`.
 
-1. If `A` depends on `B` and `B` depends on `C`, then `A` implicitly depends on `C`.
-2. A code artifact implicitly depends on all its parts.
-3. If `A` depends on a part of `B` while `A` itself is not part of `B`, then `A` implicitly depends on `B`.
-
-Type 3 essentially refers to how an artifact (`B`) shields its parts from any direct dependence and thereby bundles all incoming dependencies.
+We had to list dependency bundling for logical completeness. But in most practical contexts, depending on an artifact's parts requires an explicit reference to that artifact anyway. Think of how a source file `A` depends on a type declared within another file `B`. In most programming languages, `A` would need to explicitly import `B`. An example exception to this is the language Swift.
 
 <!-- todo: diagrams for the rules -->
 
-First of all, note that the parts of an artifact do **not implicitly** depend on that artifact. In other words, a part does **not automatically** depend on the whole. It is however possible that a part **explicitly** depends on the whole, in which case type 2 creates a dependence cycle between the two.
+<!-- todo: utilize the term "enclosing" to distinguish part from its container -->
 
-Types 1 and 2 imply that if `A` depends on `B`, then `A` implicitly depends on all parts of `B`. So if just one part of `B` depends on `C`, then all clients of `B` depend on `C` as well, even if they're not particularly interested in `C` and even if what they need from `B` doesn't require anything from `C` either.
+### Further Implications
 
-All types together imply that if `A` depends on one part of `B`, then `A` implicitly depends on all parts of `B`.
+First of all, note that the parts of an artifact do **not implicitly** depend on that artifact. In other words, an artifact does **not automatically** depend on its enclosing scope. It is however possible that a part **explicitly** depends on the whole, in which case nesting creates a dependence cycle between the two.
 
-An implicit dependence is less direct but structurally and logically just as relevant. We better not fool ourselves in thinking that indirection, layering, "encapsulation", information hiding or the facade pattern would equal *decoupling*. Those ideas do not alter the actual dependency structure and are comparatively cosmetic.
+Transitivity and nesting imply that if `A` depends on `B`, then `A` depends on all parts of `B`. Transitivity, nesting and bundling all together imply that if `A` depends on one part of `B`, then `A` depends on all parts of `B`. And if just one part of those parts depends on `C`, then every client `A` of `B` depend on `C` as well, even if `A` is not particularly interested in `C` and even if what it needs from `B` doesn't require anything from `C` either.
+
+An implicit dependence is less direct but structurally and logically just as relevant. We better not fool ourselves in thinking that indirection, layering, "encapsulation", information hiding or the facade pattern would equal *decoupling*. Those ideas do not alter the effective dependency structure and are comparatively cosmetic.
 
 <!-- todo: example diagrams -->
 
 ## The Structure of Code is Not its Meaning
+
+For structural dependence itself, the semantics of how artifacts relate is utterly irrelevant. Whether class `A` calls a function of class `B`, has a property of type `B`, is intrinsically composed of properties of type `B` or derives itself from `B` doesn't alter the fact that `A` depends on `B`. In terms of UML class diagrams, arrows signify dependence but the arrow types are irrelevant for that matter:
+
+![](/blog-images/software-development/architecture/uml-arrows.jpg)
 
 <!-- todo: von meaning abgrenzen, siehe schlechtes bsp. in "a philosophy of ..." wo alle views ihre eigene hintergrundfarbe definiert haben obwohl die value env. impliziert es gäbe nur eine... die tatsache dass man beim ändern einer farbe auch die anderen beachten muss ist keine dependency sondern folgt daraus dass die value environment, also die realität dessen was dargestellt werden soll nicht präzise im code abgebildet ist ...  -->
 
