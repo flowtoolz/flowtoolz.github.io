@@ -18,13 +18,13 @@ The natural laws of code also relate to structure. So what are the elements and 
 
 [Previously](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html), we explored the way code conveys meaning. Here, we examine the way it is structured. To that purpose, we put [tech- and value environment](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html) aside for a moment and focus instead on the actual source code, its organizational units and circuitry.
 
-We tend to associate software architecture with principles and patterns of object-oriented design. At an abstract level, all those principles, like the [ADP](https://en.wikipedia.org/wiki/Acyclic_dependencies_principle), and patterns, like [Model-View-Controller](https://en.wikipedia.org/wiki/Model–view–controller), are defined in terms of type dependence. In that sense, structuring code is to manage dependencies.
-
 But who cares about structure or dependencies? Code is never an issue anyway, it's just those annoying people who want us to change the code all the time, right?
 
 Certainly, functional and technical requirements are in flux. For a code base to survive, it must adapt to an ever changing world. In the evolution of organisms and code, flexibility is resilience and rigidity is death. In other words: Software is supposed to be soft. We rather have incorrect code that we can change easily than correct code that noone dares to touch anymore.
 
 And that's why dependencies form the central issue of complex yet evolving systems like software. They determine whether code meets the most essential requirement, which is *maintainability*, the ability to be changed. Without changes in software, there is no *software development*.
+
+We tend to associate software architecture with principles and patterns of object-oriented design. At an abstract level, all those principles, like the [ADP](https://en.wikipedia.org/wiki/Acyclic_dependencies_principle), and patterns, like [Model-View-Controller](https://en.wikipedia.org/wiki/Model–view–controller), are indeed defined in terms of type dependence. To structure code is to manage dependencies.
 
 In his landmark publication "Design Principles and Design Patterns", Robert C. Martin states:
 
