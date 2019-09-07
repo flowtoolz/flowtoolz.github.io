@@ -28,9 +28,11 @@ A code artifact is typically composed of other smaller artifacts that we might c
 
 ![](/blog-images/software-development/architecture/code-artifact-hierarchy-no-dependence.jpg)
 
-Aside from the hierarchical composition of code artifacts, they also relate to each other in more interesting ways. Think of a class that derives from another, or of a function that calls a remote micro service. All these relationships define the structure of code and are the focus of architectural principles:
+Aside from the hierarchical composition of code artifacts, they also relate to each other in more interesting ways. Think of a class that derives from another, or of a function that calls a remote micro service:
 
 ![](/blog-images/software-development/architecture/code-artifact-hierarchy.jpg)
+
+All these relationships define the structure of code and are the focus of architectural principles.
 
 ## Dependence
 
