@@ -24,7 +24,7 @@ When we structure source code, we mostly think about classes and similar namespa
 
 Those organizational units of code may widely differ in size, usage and meaning. But for the purpose of this analysis, we can regard them as pure *code artifacts*, pieces of code that are structurally distinct, irrespective of what they represent.
 
-A code artifact is typically composed of other smaller artifacts that we might call its parts. Examples would be a project containing modules, a module containing files, a file containing actual language contructs, and a function containing statements in its body. This nesting can go many levels deep, and we need it to structure our code:
+A code artifact is typically composed of other smaller artifacts that we might call its *parts*. An artifact constitutes the *scope* of its parts. Examples would be a project containing modules, a module containing files, a file containing actual language contructs, and a function containing statements in its body. This nesting can go many levels deep, and we need it to structure our code:
 
 ![](/blog-images/software-development/architecture/code-artifact-hierarchy-no-dependence.jpg)
 
@@ -72,7 +72,7 @@ Dependency bundling may sound academic but it effects almost every codebase. Thi
 
 ### Further Implications
 
-First of all, note that the parts of an artifact do not implicitly depend on that artifact. In other words, an artifact does not automatically depend on its enclosing scope. It is however possible that a part explicitly depends on the whole, in which case nesting creates a dependence cycle between the two:
+First of all, note that the parts of an artifact do not automatically depend on that artifact. In other words, an artifact does not *implicitly* depend on its enclosing scope. It is however possible that an artifact *explicitly* depends on its scope, in which case nesting creates a dependence cycle between the two:
 
 ![](/blog-images/software-development/architecture/explicit-dependence-onto-scope.jpg)
 
