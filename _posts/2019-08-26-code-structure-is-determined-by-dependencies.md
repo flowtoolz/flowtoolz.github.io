@@ -76,7 +76,7 @@ A given set of dependencies can imply that an artifact effectively, although ind
 
 ![](/blog-images/software-development/architecture/dependency-bundling.jpg)
 
-Bundling refers to how an artifact (`C`) generalizes its parts in terms of incoming dependencies. This only occurs because such incoming dependencies cross the artifact's boundary. Since `A` is outside the scope of `C` it has to know about `C` or at least require the presence of `C` in order to depend on any part `B` inside of `C`. Would `A` itself be a part of `C`, it could depend on any other such part, totally ignorant of the all-encompassing scope `C`:
+Bundling refers to how an artifact `C` generalizes its parts in terms of incoming dependencies. This only occurs because such dependencies cross the artifact's boundary. Since `A` is outside of `C` it has to know about `C` or at least require the presence of `C` in order to depend on any part `B` inside of `C`. Would `A` itself be a part of `C`, it could depend on any other such part, totally ignorant of the all-encompassing scope `C`:
 
 ![](/blog-images/software-development/architecture/no-dependence-onto-scope.jpg)
 
