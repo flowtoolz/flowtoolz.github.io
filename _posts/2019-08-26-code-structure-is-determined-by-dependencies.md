@@ -18,6 +18,22 @@ The natural laws of code also relate to structure. So what are the elements and 
 
 This is the second and last "axiomatic" discussion. The texts follwing this one will build more upon already introduced ideas and ultimately tie everything together.
 
+## Dependence Determines Fluidity
+
+We tend to associate software architecture with principles and patterns of object-oriented design. At an abstract level, all those principles, like the [ADP](https://en.wikipedia.org/wiki/Acyclic_dependencies_principle), and patterns, like [Model-View-Controller](https://en.wikipedia.org/wiki/Model–view–controller), are defined in terms of type dependence. To structure code is to manage dependencies.
+
+But who cares about structure or dependencies? Code is never an issue anyway, it's just those annoying people who want us to change the code all the time, right?
+
+Certainly, functional and technical requirements are in flux. For a code base to survive, it must adapt to an ever changing world. In the evolution of organisms and code, flexibility is resilience and rigidity is death. In other words: Software is supposed to be soft. We rather have incorrect code that we can change easily than correct code that noone dares to touch anymore.
+
+And that's why dependencies form the central issue of complex yet fluid systems like software. They determine whether code meets the most essential requirement, which is *maintainability*, the ability to be changed. Without changes in software, there is no *software development*.
+
+In his landmark publication "Design Principles and Design Patterns", Robert C. Martin states:
+
+> "What kind of changes cause designs to rot? Changes that introduce new and unplanned for dependencies. Each of the four symptoms mentioned above is either directly, or indirectly caused by improper dependencies between the modules of the software. It is the dependency architecture that is degrading, and with it the ability of the software to be maintained."
+
+As mentioned earlier, Martin's ideas on architecture apply not only to "modules". We may read "modules" as "code artifacts" to really grasp the universal force of dependence. And to meditate on this force should be the first step of any adventure trip into the heights and depths of kick-ass coding.
+
 ## Artifacts
 
 When we structure source code, we mostly think about classes and similar namespaces. Of course, code is structured at other scales as well. There are smaller language constructs contained in classes, like functions, properties and nested types. And there are larger scopes containing multiple classes, like architectural layers, micro services, libraries, frameworks, modules, packages and even just source files.
