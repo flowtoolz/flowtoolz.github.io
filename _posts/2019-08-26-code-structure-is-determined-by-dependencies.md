@@ -54,11 +54,11 @@ As [mentioned earlier](https://www.flowtoolz.com/2019/08/24/architecture-is-prin
 
 Now how exactly does one code artifact depend on another? The two types of *explicit dependence* are easy to identify:
 
-1. **Nesting:** If code artifact `B` is nested inside of code artifact `A` and so is an inherent part of `A`, then `A` explicitly depends on `B`:
+1. **Nesting:** If `B` is nested inside of `A` and so is an inherent part of `A`, then `A` explicitly depends on `B`:
 
 ![](/blog-images/software-development/architecture/b-is-part-of-a.jpg)
 
-2. **Calling:** If code artifact `A` directly refers to code artifact `B` or any of `B`'s interface in any form, then `A` explicitly depends on `B`:
+2. **Calling:** If `A` directly refers to `B` or any of `B`'s interface in any form, then `A` explicitly depends on `B`:
 
 ![](/blog-images/software-development/architecture/a-depends-on-b.jpg)
 
