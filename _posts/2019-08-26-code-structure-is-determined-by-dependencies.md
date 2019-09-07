@@ -8,8 +8,6 @@ keywords: software architecture, software, architecture, zen, code quality, soft
 
 <img style="margin-left:auto;margin-right:auto;display:block;" src="/blog-images/software-development/architecture/zen-stack.jpg" title="{{ page.title }}" alt="{{ page.title }}. {{ page.keywords }}">
 
-<!-- todo: start with a motivation: dependencies define structure and determnine maintainability ... -->
-
 The natural laws of life relate to its structure. Structure is defined by *elements* and the *relationships* between them. The elements of life are atoms, organic compounds, peptides, lipids, RNA, DNA, amino acids and so forth. And how they relate to each other obviously makes all the difference.
 
 The natural laws of code also relate to structure. So what are the elements and relationships in code?
@@ -18,7 +16,7 @@ The natural laws of code also relate to structure. So what are the elements and 
 
 This is the second and last "axiomatic" discussion. The texts follwing this one will build more upon already introduced ideas and ultimately tie everything together.
 
-## Dependence Determines Fluidity
+## Structure Sets the Stage
 
 We tend to associate software architecture with principles and patterns of object-oriented design. At an abstract level, all those principles, like the [ADP](https://en.wikipedia.org/wiki/Acyclic_dependencies_principle), and patterns, like [Model-View-Controller](https://en.wikipedia.org/wiki/Model–view–controller), are defined in terms of type dependence. To structure code is to manage dependencies.
 
@@ -26,13 +24,13 @@ But who cares about structure or dependencies? Code is never an issue anyway, it
 
 Certainly, functional and technical requirements are in flux. For a code base to survive, it must adapt to an ever changing world. In the evolution of organisms and code, flexibility is resilience and rigidity is death. In other words: Software is supposed to be soft. We rather have incorrect code that we can change easily than correct code that noone dares to touch anymore.
 
-And that's why dependencies form the central issue of complex yet fluid systems like software. They determine whether code meets the most essential requirement, which is *maintainability*, the ability to be changed. Without changes in software, there is no *software development*.
+And that's why dependencies form the central issue of complex yet evolving systems like software. They determine whether code meets the most essential requirement, which is *maintainability*, the ability to be changed. Without changes in software, there is no *software development*.
 
 In his landmark publication "Design Principles and Design Patterns", Robert C. Martin states:
 
 > "What kind of changes cause designs to rot? Changes that introduce new and unplanned for dependencies. Each of the four symptoms mentioned above is either directly, or indirectly caused by improper dependencies between the modules of the software. It is the dependency architecture that is degrading, and with it the ability of the software to be maintained."
 
-As mentioned earlier, Martin's ideas on architecture apply not only to "modules". We may read "modules" as "code artifacts" to really grasp the universal force of dependence. And to meditate on this force should be the first step of any adventure trip into the heights and depths of kick-ass coding.
+As [mentioned earlier](https://www.flowtoolz.com/2019/08/24/architecture-is-principled-software-development.html), Martin's ideas on architecture apply not only to "modules". We may read "modules" as "units of code" to really grasp the universal force of dependence. And to meditate on this force should be the first step of any trip into the heights and depths of kick-ass coding.
 
 ## Artifacts
 
