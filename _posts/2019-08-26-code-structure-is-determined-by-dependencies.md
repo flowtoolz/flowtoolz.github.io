@@ -58,11 +58,11 @@ Now how exactly does one code artifact depend on another? The two types of *expl
 
 1. **Nesting:** If `B` is nested inside of `A` and so is an inherent part of `A`, then `A` explicitly depends on `B`:
 
-![](/blog-images/software-development/architecture/b-is-part-of-a.jpg)
+   ![](/blog-images/software-development/architecture/b-is-part-of-a.jpg)
 
 2. **Calling:** If `A` directly refers to `B` or any of `B`'s interface in any form, then `A` explicitly depends on `B`:
 
-![](/blog-images/software-development/architecture/a-depends-on-b.jpg)
+   ![](/blog-images/software-development/architecture/a-depends-on-b.jpg)
 
 If `A` and `B` are actually compiled together, dependence by explicit reference (calling) can also be defined like so: If we could change `B` in a way that would require a change of `A` for both to compile again, then `A` explicitly depends on `B`.
 
@@ -72,11 +72,11 @@ A given set of dependencies can imply that an artifact effectively, although ind
 
 1. **Transitivity:** If `A` depends on `B` and `B` depends on `C`, then `A` implicitly depends on `C`:
 
-![](/blog-images/software-development/architecture/transitive-dependency.jpg)
+   ![](/blog-images/software-development/architecture/transitive-dependency.jpg)
 
 2. **Bundling:** If `A` depends on a part `B` of `C` while `A` itself is not part of `C`, then `A` implicitly depends on `C`:
 
-![](/blog-images/software-development/architecture/dependency-bundling.jpg)
+   ![](/blog-images/software-development/architecture/dependency-bundling.jpg)
 
 Bundling refers to how a code artifact `C` generalizes its parts in terms of incoming dependencies. This only occurs because such dependencies cross the artifact's boundary. Since `A` is outside of `C` it has to know about `C` or at least require the presence of `C` in order to depend on any part `B` inside of `C`. Would `A` itself be a part of `C`, it could depend on any other such part, totally ignorant of the all-encompassing scope `C`:
 
