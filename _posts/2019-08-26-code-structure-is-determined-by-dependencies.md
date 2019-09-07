@@ -22,6 +22,8 @@ But who cares about code structure? Code is never an issue anyway, it's just tho
 
 Certainly, functional and technical requirements are in flux. For a code base to survive, it must adapt to an ever changing world. In the evolution of organisms and code, flexibility is resilience and rigidity is death. In other words: Software is supposed to be soft. We rather have incorrect code that we can change easily than correct code that noone dares to touch anymore.
 
+<!-- todo: add diagram that shows how code depends on 2 environments (to pick up where the results of the previous post) and draws a parallel to an organism depending on its environment (to strengthen that metaphor as we've used it multiple times now) -->
+
 And that's why structure is the central issue of complex yet evolving systems like software. It determines whether code meets the most essential requirement, which is *maintainability*, the ability to be changed. Without changes in software, there is no *software development*.
 
 ## Artifacts
@@ -90,7 +92,7 @@ First of all, note that the parts of an artifact do not automatically depend on 
 
 ![](/blog-images/software-development/architecture/explicit-dependence-onto-scope.jpg)
 
-Transitivity and nesting imply that if `A` depends on `B`, then `A` depends on all parts of `B`:
+Nesting and transitivity imply that if `A` depends on `B`, then `A` depends on all parts of `B`:
 
 ![](/blog-images/software-development/architecture/transitive-dependency-on-a-part.jpg)
 
@@ -103,20 +105,6 @@ And if just one of those other parts has an external dependency `E`, then every 
 ![](/blog-images/software-development/architecture/dependency-hell.jpg)
 
 So a code artifact `C` bundles outgoing dependencies of its parts as well as incoming ones. And that's how the four dependency types of the apocalypse together create [dependency hell](https://en.wikipedia.org/wiki/Dependency_hell).
-
-## Code Structure is Not About Meaning
-
-For structural dependence itself, the semantics of how artifacts relate is utterly irrelevant. Whether class `A` calls a function of class `B`, has a property of type `B`, is intrinsically composed of properties of type `B` or derives itself from `B` doesn't alter the fact that `A` depends on `B`. In terms of UML class diagrams, arrows signify dependence but the arrow types are irrelevant for that matter:
-
-![](/blog-images/software-development/architecture/uml-arrows.jpg)
-
-<!-- todo: von meaning abgrenzen, siehe schlechtes bsp. in "a philosophy of ..." wo alle views ihre eigene hintergrundfarbe definiert haben obwohl die value env. impliziert es gäbe nur eine... die tatsache dass man beim ändern einer farbe auch die anderen beachten muss ist keine dependency sondern folgt daraus dass die value environment, also die realität dessen was dargestellt werden soll nicht präzise im code abgebildet ist ...  -->
-
-When we want to understand mere technical code structure, we must be careful not to confuse that with the structure of its meaning. In particular, we must be aware of the limits of UML notation in that regard. 
-
-UML class diagrams depict a weird mixture of classes (code artifacts) and the concepts (meaning) those classes represent. For instance, UML class composition expresses that a composite consists of a component and that the component cannot exist outside of the composite. However, that description does not apply to the actual pieces of code. Whether the component is declared within the scope of the composite's code is a totally independent question.
-
-Also note, that structural nesting is much more general and applies to all code artifacts at all scales, while composition in UML applies to types and in particular to classes. Structural nesting and conceptual composition are similar but orthoganal concepts. We can have each without the other.
 
 ## Code Structure is Not About Runtime
 
@@ -149,3 +137,17 @@ The instance that initiates the interaction must have a reference to the other. 
 Now, the real havoc sets in when we draw information flow into architecture diagrams where it isn't even an applicable concept. After all, information flows between runtime instances, not between code artifacts.
 
 When the distinction wasn't as clear to me yet, I sometimes began to mark information flow in structure diagrams. Sooner or later, I got stuck because I undermined the meaningfulness of those diagrams, ultimately rendering them useless. When we conflate different levels of analysis in the same representation, we're not thinking clearly.
+
+## Code Structure is Not About Meaning
+
+For structural dependence itself, the semantics of how artifacts relate is utterly irrelevant. Whether class `A` calls a function of class `B`, has a property of type `B`, is intrinsically composed of properties of type `B` or derives itself from `B` doesn't alter the fact that `A` depends on `B`. In terms of UML class diagrams, arrows signify dependence but the arrow types are irrelevant for that matter:
+
+![](/blog-images/software-development/architecture/uml-arrows.jpg)
+
+<!-- todo: von meaning abgrenzen, siehe schlechtes bsp. in "a philosophy of ..." wo alle views ihre eigene hintergrundfarbe definiert haben obwohl die value env. impliziert es gäbe nur eine... die tatsache dass man beim ändern einer farbe auch die anderen beachten muss ist keine dependency sondern folgt daraus dass die value environment, also die realität dessen was dargestellt werden soll nicht präzise im code abgebildet ist ...  -->
+
+When we want to understand mere technical code structure, we must be careful not to confuse that with the structure of its meaning. In particular, we must be aware of the limits of UML notation in that regard. 
+
+UML class diagrams depict a weird mixture of classes (code artifacts) and the concepts (meaning) those classes represent. For instance, UML class composition expresses that a composite consists of a component and that the component cannot exist outside of the composite. However, that description does not apply to the actual pieces of code. Whether the component is declared within the scope of the composite's code is a totally independent question.
+
+Also note, that structural nesting is much more general and applies to all code artifacts at all scales, while composition in UML applies to types and in particular to classes. Structural nesting and conceptual composition are similar but orthoganal concepts. We can have each without the other.
