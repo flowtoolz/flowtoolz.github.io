@@ -48,7 +48,7 @@ In his landmark publication "Design Principles and Design Patterns", Robert C. M
 
 > "What kind of changes cause designs to rot? Changes that introduce new and unplanned for dependencies. Each of the four symptoms mentioned above is either directly, or indirectly caused by improper dependencies between the modules of the software. It is the dependency architecture that is degrading, and with it the ability of the software to be maintained."
 
-As [mentioned earlier](https://www.flowtoolz.com/2019/08/24/architecture-is-principled-software-development.html), Martin's ideas on architecture apply not only to "modules". We may read "modules" as "units of code" to really grasp the universal force of dependence. And to meditate on this force should be the first step of any trip into the heights and depths of kick-ass coding.
+As [mentioned earlier](https://www.flowtoolz.com/2019/08/24/architecture-is-principled-software-development.html), Martin's ideas on architecture apply not only to "modules". We may read "modules" as "code artifacts" to really grasp the universal force of dependence. And to meditate on this force should be the first step of any trip into the heights and depths of kick-ass coding.
 
 ### Explicit Dependence
 
