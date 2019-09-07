@@ -80,9 +80,9 @@ Bundling refers to how an artifact `C` generalizes its parts in terms of incomin
 
 ![](/blog-images/software-development/architecture/no-dependence-onto-scope.jpg)
 
-Dependency bundling may sound academic but it effects almost every codebase. Think of how a source file `A` uses a type `B` declared within another file `C`. In most programming languages, `A` would have **no explicit** [import/include/require statement](https://en.wikipedia.org/wiki/Include_directive) for `C` and would thereby **implicitly** depend on `C`. Notable exceptions to this are C/C++, PHP and HTML/CSS.
+Dependency bundling may sound academic but it effects virtually every practical context at any scale. Think of how a source file `A` uses a type `B` declared within another file `C`. In most programming languages, `A` would have **no explicit** [import/include/require statement](https://en.wikipedia.org/wiki/Include_directive) for `C` and would thereby **implicitly** depend on `C`. Few languages like C/C++, PHP and HTML/CSS make dependencies between source files explicit.
 
-<!-- todo: diagrams for the rules -->
+Implicit dependence is less direct but structurally and logically just as relevant. We better not fool ourselves in thinking that techniques like [layering](https://en.wikipedia.org/wiki/Layer_(object-oriented_design)), [encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)), [information hiding](https://en.wikipedia.org/wiki/Information_hiding) or the [facade pattern](https://en.wikipedia.org/wiki/Facade_pattern) would equal true [*decoupling*](https://en.wikipedia.org/wiki/Loose_coupling). Indirection does not alter the effective dependency structure and has a comparatively cosmetic effect.
 
 ### Further Implications
 
@@ -90,11 +90,19 @@ First of all, note that the parts of an artifact do not automatically depend on 
 
 ![](/blog-images/software-development/architecture/explicit-dependence-onto-scope.jpg)
 
-Transitivity and nesting imply that if `A` depends on `B`, then `A` depends on all parts of `B`. Transitivity, nesting and bundling all together imply that if `A` depends just on one part of `B`, then it still depends on all parts of `B`. And if just one of those parts depends on `C`, then every client `A` of `B` depends on `C` as well, even if `A` is not particularly interested in `C` and even if what it needs from `B` doesn't require anything from `C` either. So an artifact bundles outgoing dependencies of its parts as well as incoming ones.
+Transitivity and nesting imply that if `A` depends on `B`, then `A` depends on all parts of `B`:
 
-Implicit dependence is less direct but structurally and logically just as relevant. We better not fool ourselves in thinking that techniques like [layering](https://en.wikipedia.org/wiki/Layer_(object-oriented_design)), [encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)), [information hiding](https://en.wikipedia.org/wiki/Information_hiding) or the [facade pattern](https://en.wikipedia.org/wiki/Facade_pattern) would equal true [*decoupling*](https://en.wikipedia.org/wiki/Loose_coupling). Indirection does not alter the effective dependency structure and has a comparatively cosmetic effect.
+![](/blog-images/software-development/architecture/transitive-dependency-on-a-part.jpg)
 
-<!-- todo: example diagrams -->
+Bundling, nesting and transitivity all together imply that if `A` depends just on one part `B` of `C`, then it still implicitly depends on all other parts `D` of `C` as well:
+
+![](/blog-images/software-development/architecture/transitive-dependency-on-all-other-parts.jpg)
+
+And if just one of those other parts has an external dependency `E`, then every client `A` of `C` depends on `E` as well, even if that client is not particularly interested in `E` and even if the `B` it is interested in doesn't require anything from `E` either:
+
+![](/blog-images/software-development/architecture/dependency-hell.jpg)
+
+So an artifact `C` bundles outgoing dependencies of its parts as well as incoming ones. And that's how the four dependency types together create dependency hell.
 
 ## Code Structure is Not About Meaning
 
