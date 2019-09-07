@@ -62,7 +62,9 @@ A given set of dependencies can imply that an artifact effectively, although ind
 
    ![](/blog-images/software-development/architecture/dependency-bundling.jpg)
 
-Bundling refers to how an artifact generalizes its parts in terms of incoming dependencies. This only occurs because such incoming dependencies cross the artifact's boundary. Since `A` is outside the scope of `C` it has to know about `C` or at least require the presence of `C` in order to depend on any part `B` inside of `C`. Would `A` itself be a part of `C`, it could depend on any other such part, totally ignorant of the all-encompassing scope `C`.
+Bundling refers to how an artifact (`C`) generalizes its parts in terms of incoming dependencies. This only occurs because such incoming dependencies cross the artifact's boundary. Since `A` is outside the scope of `C` it has to know about `C` or at least require the presence of `C` in order to depend on any part `B` inside of `C`. Would `A` itself be a part of `C`, it could depend on any other such part, totally ignorant of the all-encompassing scope `C`:
+
+![](/blog-images/software-development/architecture/no-dependence-onto-scope.jpg)
 
 Dependency bundling may sound academic but it effects almost every codebase. Think of how a source file `A` uses a type `B` declared within another file `C`. In most programming languages, `A` would have **no explicit** [import/include/require statement](https://en.wikipedia.org/wiki/Include_directive) for `C` and would thereby **implicitly** depend on `C`. Notable exceptions to this are C/C++, PHP and HTML/CSS.
 
