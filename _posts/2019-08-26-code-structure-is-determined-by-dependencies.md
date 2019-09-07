@@ -86,7 +86,9 @@ Dependency bundling may sound academic but it effects virtually every practical 
 
 Implicit dependence is less direct but structurally and logically just as relevant. We better not fool ourselves in thinking that techniques like [layering](https://en.wikipedia.org/wiki/Layer_(object-oriented_design)), [encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)), [information hiding](https://en.wikipedia.org/wiki/Information_hiding) or the [facade pattern](https://en.wikipedia.org/wiki/Facade_pattern) would equal true [*decoupling*](https://en.wikipedia.org/wiki/Loose_coupling). Indirection does not alter the effective dependency structure and has a comparatively cosmetic effect.
 
-### Further Implications
+### Dependency Hell
+
+So what kind of dependencies can we derive from the listed dependency types? Actually, they allow for some wild conclusions.
 
 First of all, note that the parts of an artifact do not automatically depend on that artifact. In other words, an artifact does not *implicitly* depend on its enclosing scope. It is however possible that an artifact *explicitly* depends on its scope, in which case nesting creates a dependence cycle between the two:
 
