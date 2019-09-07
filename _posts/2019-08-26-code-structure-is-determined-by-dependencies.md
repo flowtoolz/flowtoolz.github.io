@@ -38,39 +38,37 @@ When code artifacts *relate* to another, they *depend* on another. Those depende
 
 There are two types of *explicit dependence*, and they're easy to identify:
 
-1. **Calling:** If code artifact `A` directly refers to code artifact `B` or any of `B`'s interface in any form then `A` explicitly depends on `B`.
-2. **Nesting:** If code artifact `B` is nested inside of code artifact `A` and so is an inherent part of `A` then `A` explicitly depends on `B`.
+1. **Nesting:** If code artifact `B` is nested inside of code artifact `A` and so is an inherent part of `A`, then `A` explicitly depends on `B`.
+2. **Calling:** If code artifact `A` directly refers to code artifact `B` or any of `B`'s interface in any form, then `A` explicitly depends on `B`.
 
-If `A` and `B` are actually compiled together, dependence by calling can also be defined like so: If we could change `B` in a way that would require a change of `A` for both to compile again, then `A` explicitly depends on `B`:
+   ![](/blog-images/software-development/architecture/a-depends-on-b.jpg)
 
-![](/blog-images/software-development/architecture/a-depends-on-b.jpg)
+If `A` and `B` are actually compiled together, dependence by explicit reference (calling) can also be defined like so: If we could change `B` in a way that would require a change of `A` for both to compile again, then `A` explicitly depends on `B`.
 
 ### Implicit Dependence
 
 Dependencies can imply that an artifact effectively, although indirectly, depends on another artifact, which amounts to an *implicit dependency*. There are two types of *implicit dependence*:
 
-1. **Transitivity:** If `A` depends on `B` and `B` depends on `C` then `A` implicitly depends on `C`.
-2. **Bundling:** If `A` depends on a part of `B` while `A` itself is not part of `B` then `A` implicitly depends on `B`.
+1. **Transitivity:** If `A` depends on `B` and `B` depends on `C`, then `A` implicitly depends on `C`.
+2. **Bundling:** If `A` depends on a part of `B` while `A` itself is not part of `B`, then `A` implicitly depends on `B`.
 
 Bundling refers to how an artifact generalizes its parts in terms of incoming dependencies. This only occurs because such incoming dependencies cross the artifact's boundary. Since `A` is outside the scope of `B` it has to know about `B` or at least require the presence of `B` in order to depend on any part inside of `B`. Would `A` itself be a part of `B`, it could depend on any other such part, totally ignorant of the all-encompassing scope `B`.
 
-We had to list dependency bundling for logical completeness. But in most practical contexts, depending on an artifact's parts requires an explicit reference to that artifact anyway. Think of how a source file `A` depends on a type declared within another file `B`. In most programming languages, `A` would need to explicitly import `B`. An example exception to this is the language Swift.
+Dependency bundling may sound academic but it effects almost every codebase. Think of how a source file `A` uses a type declared within another file `B`. In most programming languages, `A` would have **no explicit** [import/include/require statement](https://en.wikipedia.org/wiki/Include_directive) for `B` and would thereby **implicitly** depend on `B`. Notable exceptions to this are C/C++, PHP and HTML/CSS.
 
 <!-- todo: diagrams for the rules -->
-
-<!-- todo: utilize the term "enclosing" to distinguish part from its container -->
 
 ### Further Implications
 
 First of all, note that the parts of an artifact do **not implicitly** depend on that artifact. In other words, an artifact does **not automatically** depend on its enclosing scope. It is however possible that a part **explicitly** depends on the whole, in which case nesting creates a dependence cycle between the two.
 
-Transitivity and nesting imply that if `A` depends on `B`, then `A` depends on all parts of `B`. Transitivity, nesting and bundling all together imply that if `A` depends just on one part of `B`, then it still depends on all parts of `B`. And if just one of those parts depends on `C`, then every client `A` of `B` depends on `C` as well, even if `A` is not particularly interested in `C` and even if what it needs from `B` doesn't require anything from `C` either.
+Transitivity and nesting imply that if `A` depends on `B`, then `A` depends on all parts of `B`. Transitivity, nesting and bundling all together imply that if `A` depends just on one part of `B`, then it still depends on all parts of `B`. And if just one of those parts depends on `C`, then every client `A` of `B` depends on `C` as well, even if `A` is not particularly interested in `C` and even if what it needs from `B` doesn't require anything from `C` either. So an artifact bundles outgoing dependencies of its parts as well as incoming ones.
 
-Implicit dependence is less direct but structurally and logically just as relevant. We better not fool ourselves in thinking that indirection, layering, "encapsulation", information hiding or the facade pattern would equal *decoupling*. Those ideas do not alter the effective dependency structure and are comparatively cosmetic.
+Implicit dependence is less direct but structurally and logically just as relevant. We better not fool ourselves in thinking that techniques like [layering](https://en.wikipedia.org/wiki/Layer_(object-oriented_design)), [encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)), [information hiding](https://en.wikipedia.org/wiki/Information_hiding) or the [facade pattern](https://en.wikipedia.org/wiki/Facade_pattern) would equal true [*decoupling*](https://en.wikipedia.org/wiki/Loose_coupling). Indirection does not alter the effective dependency structure and has a comparatively cosmetic effect.
 
 <!-- todo: example diagrams -->
 
-## The Structure of Code is Not its Meaning
+## Code Structure is Not About Meaning
 
 For structural dependence itself, the semantics of how artifacts relate is utterly irrelevant. Whether class `A` calls a function of class `B`, has a property of type `B`, is intrinsically composed of properties of type `B` or derives itself from `B` doesn't alter the fact that `A` depends on `B`. In terms of UML class diagrams, arrows signify dependence but the arrow types are irrelevant for that matter:
 
@@ -84,7 +82,7 @@ UML class diagrams depict a weird mixture of classes (code artifacts) and the co
 
 Also note, that structural nesting is much more general and applies to all code artifacts at all scales, while composition in UML applies to types and in particular to classes. Structural nesting and conceptual composition are similar but orthoganal concepts. We can have each without the other.
 
-## Architecture Diagrams
+## Code Structure is Not About Runtime
 
 We can now describe code structure more precisely as a number of hierarchically composed artifacts that depend on another. And we'll sometimes refer to that structure as *architecture*.
 
