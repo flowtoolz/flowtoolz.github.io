@@ -64,9 +64,9 @@ We had to list dependency bundling for logical completeness. But in most practic
 
 First of all, note that the parts of an artifact do **not implicitly** depend on that artifact. In other words, an artifact does **not automatically** depend on its enclosing scope. It is however possible that a part **explicitly** depends on the whole, in which case nesting creates a dependence cycle between the two.
 
-Transitivity and nesting imply that if `A` depends on `B`, then `A` depends on all parts of `B`. Transitivity, nesting and bundling all together imply that if `A` depends just on one part of `B`, then it still depends on all parts of `B`. And if just one of those parts depends on `C`, then every client `A` of `B` depend on `C` as well, even if `A` is not particularly interested in `C` and even if what it needs from `B` doesn't require anything from `C` either.
+Transitivity and nesting imply that if `A` depends on `B`, then `A` depends on all parts of `B`. Transitivity, nesting and bundling all together imply that if `A` depends just on one part of `B`, then it still depends on all parts of `B`. And if just one of those parts depends on `C`, then every client `A` of `B` depends on `C` as well, even if `A` is not particularly interested in `C` and even if what it needs from `B` doesn't require anything from `C` either.
 
-An implicit dependence is less direct but structurally and logically just as relevant. We better not fool ourselves in thinking that indirection, layering, "encapsulation", information hiding or the facade pattern would equal *decoupling*. Those ideas do not alter the effective dependency structure and are comparatively cosmetic.
+Implicit dependence is less direct but structurally and logically just as relevant. We better not fool ourselves in thinking that indirection, layering, "encapsulation", information hiding or the facade pattern would equal *decoupling*. Those ideas do not alter the effective dependency structure and are comparatively cosmetic.
 
 <!-- todo: example diagrams -->
 
