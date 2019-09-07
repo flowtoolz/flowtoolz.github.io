@@ -52,19 +52,19 @@ If `A` and `B` are actually compiled together, dependence by explicit reference 
 
 ### Implicit Dependence
 
-Dependencies can imply that an artifact effectively, although indirectly, depends on another artifact, which amounts to an *implicit dependency*. There are two types of *implicit dependence*:
+A given set of dependencies can imply that an artifact effectively, although indirectly, has another dependency, which would amount to an *implicit dependency*. There are two types of *implicit dependence*:
 
 1. **Transitivity:** If `A` depends on `B` and `B` depends on `C`, then `A` implicitly depends on `C`:
 
    ![](/blog-images/software-development/architecture/transitive-dependency.jpg)
 
-2. **Bundling:** If `A` depends on a part of `B` while `A` itself is not part of `B`, then `A` implicitly depends on `B`:
+2. **Bundling:** If `A` depends on a part `B` of `C` while `A` itself is not part of `C`, then `A` implicitly depends on `C`:
 
    ![](/blog-images/software-development/architecture/dependency-bundling.jpg)
 
-Bundling refers to how an artifact generalizes its parts in terms of incoming dependencies. This only occurs because such incoming dependencies cross the artifact's boundary. Since `A` is outside the scope of `B` it has to know about `B` or at least require the presence of `B` in order to depend on any part inside of `B`. Would `A` itself be a part of `B`, it could depend on any other such part, totally ignorant of the all-encompassing scope `B`.
+Bundling refers to how an artifact generalizes its parts in terms of incoming dependencies. This only occurs because such incoming dependencies cross the artifact's boundary. Since `A` is outside the scope of `C` it has to know about `C` or at least require the presence of `C` in order to depend on any part `B` inside of `C`. Would `A` itself be a part of `C`, it could depend on any other such part, totally ignorant of the all-encompassing scope `C`.
 
-Dependency bundling may sound academic but it effects almost every codebase. Think of how a source file `A` uses a type declared within another file `B`. In most programming languages, `A` would have **no explicit** [import/include/require statement](https://en.wikipedia.org/wiki/Include_directive) for `B` and would thereby **implicitly** depend on `B`. Notable exceptions to this are C/C++, PHP and HTML/CSS.
+Dependency bundling may sound academic but it effects almost every codebase. Think of how a source file `A` uses a type `B` declared within another file `C`. In most programming languages, `A` would have **no explicit** [import/include/require statement](https://en.wikipedia.org/wiki/Include_directive) for `C` and would thereby **implicitly** depend on `C`. Notable exceptions to this are C/C++, PHP and HTML/CSS.
 
 <!-- todo: diagrams for the rules -->
 
