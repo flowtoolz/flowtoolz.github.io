@@ -42,7 +42,7 @@ All these relationships define the structure of code and are the focus of archit
 
 ## Dependence
 
-We tend to associate software architecture with principles and patterns of object-oriented design. At an abstract level, all those principles, like the [ADP](https://en.wikipedia.org/wiki/Acyclic_dependencies_principle), and patterns, like [Model-View-Controller](https://en.wikipedia.org/wiki/Model–view–controller), are defined in terms of type dependence. That's because when code artifacts *relate* to another, they *depend* on another. 
+We tend to associate software architecture with principles and patterns of object-oriented design. At an abstract level, all those principles, like the [ADP](https://en.wikipedia.org/wiki/Acyclic_dependencies_principle), and patterns, like [Model-View-Controller](https://en.wikipedia.org/wiki/Model–view–controller), are defined in terms of type dependence. That's because when code artifacts *relate* to another, they *depend* on another. To structure code is to manage dependencies.
 
 In his landmark publication "Design Principles and Design Patterns", Robert C. Martin states:
 
