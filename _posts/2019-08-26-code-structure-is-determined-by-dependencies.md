@@ -8,6 +8,8 @@ keywords: software architecture, software, architecture, zen, code quality, soft
 
 <img style="margin-left:auto;margin-right:auto;display:block;" src="/blog-images/software-development/architecture/zen-stack.jpg" title="{{ page.title }}" alt="{{ page.title }}. {{ page.keywords }}">
 
+<!-- todo: start with a motivation: dependencies define structure and determnine maintainability ... -->
+
 The natural laws of life relate to its structure. Structure is defined by *elements* and the *relationships* between them. The elements of life are atoms, organic compounds, peptides, lipids, RNA, DNA, amino acids and so forth. And how they relate to each other obviously makes all the difference.
 
 The natural laws of code also relate to structure. So what are the elements and relationships in code?
@@ -22,13 +24,13 @@ When we structure source code, we mostly think about classes and similar namespa
 
 Those organizational units of code may widely differ in size, usage and meaning. But for the purpose of this analysis, we can regard them as pure *code artifacts*, pieces of code that are structurally distinct, irrespective of what they represent.
 
-<!-- todo: diagram! -->
+A code artifact is typically composed of other smaller artifacts that we might call its parts. Examples would be a project containing modules, a module containing files, a file containing actual language contructs, and a function containing statements in its body. This nesting can go many levels deep, and we need it to structure our code:
 
-A code artifact is typically composed of other smaller artifacts that we might call its parts. Examples would be a project containing modules, a module containing files, a file containing actual language contructs, and a function containing statements in its body. This nesting can go many levels deep, and we need it to structure our code.
+![](/blog-images/software-development/architecture/code-artifact-hierarchy-no-dependence.jpg)
+
+Aside from the hierarchical composition of code artifacts, they also relate to each other in more interesting ways. Think of a class that derives from another, or of a function that calls a remote micro service. All these relationships define the structure of code and are the focus of architectural principles:
 
 ![](/blog-images/software-development/architecture/code-artifact-hierarchy.jpg)
-
-Aside from the hierarchical composition of code artifacts, they also relate to each other in more interesting ways. Think of a class that derives from another, or of a function that calls a remote micro service. All these relationships define the structure of code and are the focus of architectural principles.
 
 ## Dependence
 
@@ -38,8 +40,11 @@ When code artifacts *relate* to another, they *depend* on another. Those depende
 
 There are two types of *explicit dependence*, and they're easy to identify:
 
-1. **Nesting:** If code artifact `B` is nested inside of code artifact `A` and so is an inherent part of `A`, then `A` explicitly depends on `B`.
-2. **Calling:** If code artifact `A` directly refers to code artifact `B` or any of `B`'s interface in any form, then `A` explicitly depends on `B`.
+1. **Nesting:** If code artifact `B` is nested inside of code artifact `A` and so is an inherent part of `A`, then `A` explicitly depends on `B`:
+
+   ![](/blog-images/software-development/architecture/b-is-part-of-a.jpg)
+
+2. **Calling:** If code artifact `A` directly refers to code artifact `B` or any of `B`'s interface in any form, then `A` explicitly depends on `B`:
 
    ![](/blog-images/software-development/architecture/a-depends-on-b.jpg)
 
@@ -49,8 +54,13 @@ If `A` and `B` are actually compiled together, dependence by explicit reference 
 
 Dependencies can imply that an artifact effectively, although indirectly, depends on another artifact, which amounts to an *implicit dependency*. There are two types of *implicit dependence*:
 
-1. **Transitivity:** If `A` depends on `B` and `B` depends on `C`, then `A` implicitly depends on `C`.
-2. **Bundling:** If `A` depends on a part of `B` while `A` itself is not part of `B`, then `A` implicitly depends on `B`.
+1. **Transitivity:** If `A` depends on `B` and `B` depends on `C`, then `A` implicitly depends on `C`:
+
+   ![](/blog-images/software-development/architecture/transitive-dependency.jpg)
+
+2. **Bundling:** If `A` depends on a part of `B` while `A` itself is not part of `B`, then `A` implicitly depends on `B`:
+
+   ![](/blog-images/software-development/architecture/dependency-bundling.jpg)
 
 Bundling refers to how an artifact generalizes its parts in terms of incoming dependencies. This only occurs because such incoming dependencies cross the artifact's boundary. Since `A` is outside the scope of `B` it has to know about `B` or at least require the presence of `B` in order to depend on any part inside of `B`. Would `A` itself be a part of `B`, it could depend on any other such part, totally ignorant of the all-encompassing scope `B`.
 
