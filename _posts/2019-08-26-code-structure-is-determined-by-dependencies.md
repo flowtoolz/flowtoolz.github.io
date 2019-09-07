@@ -8,17 +8,17 @@ keywords: software architecture, software, architecture, zen, code quality, soft
 
 <img style="margin-left:auto;margin-right:auto;display:block;" src="/blog-images/software-development/architecture/zen-stack.jpg" title="{{ page.title }}" alt="{{ page.title }}. {{ page.keywords }}">
 
+This is the second and last "axiomatic" discussion. The texts follwing this one will build more upon already introduced ideas and ultimately tie them all together.
+
+## Structure Sets the Stage
+
 The natural laws of life relate to its structure. Structure is defined by *elements* and the *relationships* between them. The elements of life are atoms, organic compounds, peptides, lipids, RNA, DNA, amino acids and so forth. And how they relate to each other obviously makes all the difference.
 
 The natural laws of code also relate to structure. So what are the elements and relationships in code?
 
 [Previously](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html), we explored the way code conveys meaning. Here, we examine the way it is structured. To that purpose, we put [tech- and value environment](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html) aside for a moment and focus instead on the actual source code, its organizational units and circuitry.
 
-This is the second and last "axiomatic" discussion. The texts follwing this one will build more upon already introduced ideas and ultimately tie everything together.
-
-## Structure Sets the Stage
-
-We tend to associate software architecture with principles and patterns of object-oriented design. At an abstract level, all those principles, like the [ADP](https://en.wikipedia.org/wiki/Acyclic_dependencies_principle), and patterns, like [Model-View-Controller](https://en.wikipedia.org/wiki/Model–view–controller), are defined in terms of type dependence. To structure code is to manage dependencies.
+We tend to associate software architecture with principles and patterns of object-oriented design. At an abstract level, all those principles, like the [ADP](https://en.wikipedia.org/wiki/Acyclic_dependencies_principle), and patterns, like [Model-View-Controller](https://en.wikipedia.org/wiki/Model–view–controller), are defined in terms of type dependence. In that sense, structuring code is to manage dependencies.
 
 But who cares about structure or dependencies? Code is never an issue anyway, it's just those annoying people who want us to change the code all the time, right?
 
