@@ -24,14 +24,6 @@ Certainly, functional and technical requirements are in flux. For a code base to
 
 And that's why structure is the central issue of complex yet evolving systems like software. It determines whether code meets the most essential requirement, which is *maintainability*, the ability to be changed. Without changes in software, there is no *software development*.
 
-We tend to associate software architecture with principles and patterns of object-oriented design. At an abstract level, all those principles, like the [ADP](https://en.wikipedia.org/wiki/Acyclic_dependencies_principle), and patterns, like [Model-View-Controller](https://en.wikipedia.org/wiki/Model–view–controller), are indeed defined in terms of type dependence. To structure code is to manage dependencies.
-
-In his landmark publication "Design Principles and Design Patterns", Robert C. Martin states:
-
-> "What kind of changes cause designs to rot? Changes that introduce new and unplanned for dependencies. Each of the four symptoms mentioned above is either directly, or indirectly caused by improper dependencies between the modules of the software. It is the dependency architecture that is degrading, and with it the ability of the software to be maintained."
-
-As [mentioned earlier](https://www.flowtoolz.com/2019/08/24/architecture-is-principled-software-development.html), Martin's ideas on architecture apply not only to "modules". We may read "modules" as "units of code" to really grasp the universal force of dependence. And to meditate on this force should be the first step of any trip into the heights and depths of kick-ass coding.
-
 ## Artifacts
 
 When we structure source code, we mostly think about classes and similar namespaces. Of course, code is structured at other scales as well. There are smaller language constructs contained in classes, like functions, properties and nested types. And there are larger scopes containing multiple classes, like architectural layers, micro services, libraries, frameworks, modules, packages and even just source files.
@@ -50,11 +42,17 @@ All these relationships define the structure of code and are the focus of archit
 
 ## Dependence
 
-When code artifacts *relate* to another, they *depend* on another. Those dependencies are either explicit or implicit.
+We tend to associate software architecture with principles and patterns of object-oriented design. At an abstract level, all those principles, like the [ADP](https://en.wikipedia.org/wiki/Acyclic_dependencies_principle), and patterns, like [Model-View-Controller](https://en.wikipedia.org/wiki/Model–view–controller), are defined in terms of type dependence. That's because when code artifacts *relate* to another, they *depend* on another. 
+
+In his landmark publication "Design Principles and Design Patterns", Robert C. Martin states:
+
+> "What kind of changes cause designs to rot? Changes that introduce new and unplanned for dependencies. Each of the four symptoms mentioned above is either directly, or indirectly caused by improper dependencies between the modules of the software. It is the dependency architecture that is degrading, and with it the ability of the software to be maintained."
+
+As [mentioned earlier](https://www.flowtoolz.com/2019/08/24/architecture-is-principled-software-development.html), Martin's ideas on architecture apply not only to "modules". We may read "modules" as "units of code" to really grasp the universal force of dependence. And to meditate on this force should be the first step of any trip into the heights and depths of kick-ass coding.
 
 ### Explicit Dependence
 
-There are two types of *explicit dependence*, and they're easy to identify:
+Now how exactly does one code artifact depend on another? The two types of *explicit dependence* are easy to identify:
 
 1. **Nesting:** If code artifact `B` is nested inside of code artifact `A` and so is an inherent part of `A`, then `A` explicitly depends on `B`:
 
