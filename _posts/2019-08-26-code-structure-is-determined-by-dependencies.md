@@ -24,7 +24,7 @@ Functional and technical requirements are in flux. For a code base to survive, i
 
 ![](/blog-images/software-development/architecture/code-adapts-to-environment.jpg)
 
-In the evolution of organisms and code, flexibility is resilience and rigidity is death. And that's why structure is the central issue of complex yet evolving systems.
+In the evolution of organisms and code, flexibility is resilience and rigidity is death. And that's why structure is the central issue of such complex yet evolving systems.
 
 Software is supposed to be soft. We rather have incorrect code that we can change easily than correct code that noone dares to touch anymore. How code is structured determines whether it meets the most essential requirement, which is *maintainability*, the ability to be changed. Without changes in software, there is no *software development*.
 
