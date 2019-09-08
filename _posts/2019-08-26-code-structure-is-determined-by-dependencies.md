@@ -30,7 +30,7 @@ Software is supposed to be soft. We rather have incorrect code that we can chang
 
 ## Artifacts
 
-When we structure source code, we often think about classes and similar namespaces. And there are many other types of organizational units, at many other scales: project, application, layer, micro service, module, framework, library, package, source file, type, interface, nested type, function, property, statement, variable and more.
+When we structure source code, we often think about classes and similar namespaces. And there are many more types of organizational units, at many more scales: project, application, layer, micro service, module, framework, library, package, source file, type, interface, nested type, function, property, statement, variable and more.
 
 Depending on context, those structural elements may widely differ in size, usage and exact technical definition. But for the purpose of this analysis, we regard them as *code artifacts*, pieces of code that are structurally distinct, irrespective of what they mean.
 
