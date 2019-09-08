@@ -173,11 +173,11 @@ UML offers countless variants of diagrams and all of them have their place. Just
 
 The confusion between structure and meaning goes beyond UML. 
 
-Imagine having multiple ok buttons in an application. Now the designer decides that ok buttons ought to be green, so the developer goes and  sets the background color of every ok button:
+Imagine having multiple ok buttons in an application. Now the designer decides that ok buttons ought to be green, so the developer goes and sets the background color of every ok button:
 
 ![](/blog-images/software-development/architecture/buttons-with-false-dependency.jpg)
 
-Doesn't that introduce dependencies between the buttons? After all, if the designer now wants that green a little brighter, we can't change one button in isolation, we have to change all the ok buttons.
+Doesn't that introduce dependencies between the buttons? After all, we now can't change one button's color in isolation, we'd have to adjust all other ok buttons.
 
 What if the designer would suddenly declare that all buttons are actually unique and could have different colors? Now the green background colors would stop being dependencies. How can a dependency in code fluctuate with the mood of the designer?
 
