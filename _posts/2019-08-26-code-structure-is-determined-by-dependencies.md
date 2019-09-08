@@ -183,7 +183,7 @@ What if the designer would suddenly declare that all buttons are actually unique
 
 This is not real dependence. None of the buttons call or contain another. Wether we "must" change the other buttons when we change one of them depends entirely on our idea of the design, which is part of the [value environment](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html). So is the concept of an ok button or at least of an ok button color a real thing or not?
 
-The problem of having to adjust all the button colors arises when we say the concept of an ok button color exists while we don't express it in code. Would the concept exist in code as well, there would be only one place to change it:
+The problem of having to adjust all the button colors arises when we think the concept of an ok button color exists while we don't express it in code, in which case we're lying. Would the concept exist in code as well, there would be only one place to change it:
 
 ![](/blog-images/software-development/architecture/buttons-depending-on-color.jpg)
 
