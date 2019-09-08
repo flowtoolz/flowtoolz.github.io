@@ -151,6 +151,8 @@ When the distinction wasn't as clear to me yet, I sometimes began to mark inform
 
 ## Code Structure is Not About Meaning
 
+### UML
+
 For structural dependence itself, the semantics of how artifacts relate is utterly irrelevant. Whether class `A` calls a function of class `B`, has a property of type `B`, is intrinsically composed of properties of type `B` or derives itself from `B` doesn't alter the fact that `A` depends on `B`. In terms of [UML class diagrams](https://en.wikipedia.org/wiki/Class_diagram), arrows signify dependence but the arrow types are irrelevant for that matter:
 
 ![](/blog-images/software-development/architecture/uml-arrows.jpg)
@@ -163,8 +165,27 @@ For example, composition in a UML class diagram describes how two concepts (from
 
 `A` must depend on `B`, but does it just reference `B` or is it the scope of its part `B`? Conceptual and structural composition are similar but orthoganal perspectives. We can have each without the other.
 
-UML offers countless variants of diagrams and all of them have their place. Just note that the diagrams in this book are not UML unless explicitly stated. We just borrow visual elements from UML here and there, like we use the inheritance arrow to mark an explicit dependence as a type inheritence or type conformance:
+UML offers countless variants of diagrams and all of them have their place. Just note that the diagrams in this book are not UML unless explicitly stated. We just borrow visual elements from UML here and there, like we use the inheritance arrow to mark an explicit dependence as a type inheritence or interface/protocol conformance:
 
 ![](/blog-images/software-development/architecture/dependency-by-inheritance.jpg)
 
-<!-- todo: von meaning abgrenzen, siehe schlechtes bsp. in "a philosophy of ..." wo alle views ihre eigene hintergrundfarbe definiert haben obwohl die value env. impliziert es gäbe nur eine... die tatsache dass man beim ändern einer farbe auch die anderen beachten muss ist keine dependency sondern folgt daraus dass die value environment, also die realität dessen was dargestellt werden soll nicht präzise im code abgebildet ist ...  -->
+### Untrue Code
+
+The confusion between structure and meaning goes beyond UML. 
+
+Imagine having multiple ok buttons in an application. Now the designer decides that ok buttons ought to be green, so the developer goes and  sets the background color of every ok button:
+
+![](/blog-images/software-development/architecture/buttons-with-false-dependency.jpg)
+
+Doesn't that introduce dependencies between the buttons? After all, if the designer now wants that green a little lighter, we can't change one button in isolation, we have to change all the ok buttons.
+
+What if the designer would suddenly declare that all buttons are actually unique and could have different colors? Now the green background colors would stop being dependencies. How can a dependency in code fluctuate with the mood of the designer?
+
+This is not real dependence. None of the buttons call or contain another. Wether we "must" change the other buttons when we change one of them depends entirely on our idea of the design, which is part of the [value environment](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html). So is the concept of an ok button or at least of an ok button color a real thing or not?
+
+The problem of having to adjust all the button colors arises when we say the concept of an ok button color exists while we don't express it in code. Would the concept exist in code as well, there would be only one place to change it:
+
+![](/blog-images/software-development/architecture/buttons-depending-on-color.jpg)
+
+Producing untruthful code is not the same as introducing dependencies. It relates to architecture in so far as it violates the principle that [the meaning of code roots in value- and tech environment](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html). We'll connect the meaning and structure of code in the next post.
+
