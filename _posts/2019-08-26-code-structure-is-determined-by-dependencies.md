@@ -151,20 +151,20 @@ When the distinction wasn't as clear to me yet, I sometimes began to mark inform
 
 ## Code Structure is Not About Meaning
 
-For structural dependence itself, the semantics of how artifacts relate is utterly irrelevant. Whether class `A` calls a function of class `B`, has a property of type `B`, is intrinsically composed of properties of type `B` or derives itself from `B` doesn't alter the fact that `A` depends on `B`. In terms of UML class diagrams, arrows signify dependence but the arrow types are irrelevant for that matter:
+For structural dependence itself, the semantics of how artifacts relate is utterly irrelevant. Whether class `A` calls a function of class `B`, has a property of type `B`, is intrinsically composed of properties of type `B` or derives itself from `B` doesn't alter the fact that `A` depends on `B`. In terms of [UML class diagrams](https://en.wikipedia.org/wiki/Class_diagram), arrows signify dependence but the arrow types are irrelevant for that matter:
 
 ![](/blog-images/software-development/architecture/uml-arrows.jpg)
+
+The UML class diagram is a modelling tool that's supposed to convey the meaning of code. But there's also an implicit assumption that meaning is more or less congruent with structure, and that can muddy the water.
+
+For example, composition in a UML class diagram describes how two concepts (from tech- or value environment) relate to another, stating that a composite consists of a component while the component cannot exist alone outside the composite. While that description can be meaningful, it tells us very little about how the actual code artifacts relate:
+
+![](/blog-images/software-development/architecture/uml-class-diagram-vs-structure.jpg)
+
+`A` must depend on `B`, but does it just reference `B` or is it the scope of its part `B`? Conceptual and structural composition are similar but orthoganal perspectives. We can have each without the other.
 
 UML offers countless variants of diagrams and all of them have their place. Just note that the diagrams in this book are not UML unless explicitly stated. We just borrow visual elements from UML here and there, like we use the inheritance arrow to mark an explicit dependence as a type inheritence or type conformance:
 
 ![](/blog-images/software-development/architecture/dependency-by-inheritance.jpg)
-
-The [UML class diagram](https://en.wikipedia.org/wiki/Class_diagram) is a modelling tool that's supposed to convey the meaning of code. But there's also an implicit assumption that meaning is more or less congruent with structure, and that can muddy the water.
-
-For example, composition in a UML class diagram describes how two concepts (from tech- or value environment) relate to another, stating that a composite consists of a component while the component cannot exist alone outside the composite. While that description can be meaningful, it tells us very little about how the actual code artifacts relate. `A` must depend on `B`, but does it just reference `B` or is it the scope of its part `B`?
-
-![](/blog-images/software-development/architecture/uml-class-diagram-vs-structure.jpg)
-
-Conceptual and structural composition are similar but orthoganal perspectives. We can have each without the other.
 
 <!-- todo: von meaning abgrenzen, siehe schlechtes bsp. in "a philosophy of ..." wo alle views ihre eigene hintergrundfarbe definiert haben obwohl die value env. impliziert es gäbe nur eine... die tatsache dass man beim ändern einer farbe auch die anderen beachten muss ist keine dependency sondern folgt daraus dass die value environment, also die realität dessen was dargestellt werden soll nicht präzise im code abgebildet ist ...  -->
