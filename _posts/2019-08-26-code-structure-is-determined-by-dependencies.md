@@ -16,27 +16,29 @@ The natural laws of life relate to its structure. Structure is defined by *eleme
 
 The natural laws of code also relate to structure. So what are the elements and relationships in code?
 
-[Previously](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html), we explored the way code conveys meaning. Here, we examine the way it is structured. To that purpose, we put [tech- and value environment](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html) aside for a moment and focus instead on the actual source code, its organizational units and circuitry.
+Previously, we explored the way code conveys meaning. Here, we examine the way it is structured. To that purpose, we're gonna put [tech- and value environment](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html) aside and focus instead on the actual raw source code, its organizational units and circuitry.
 
-But who cares about code structure? Code is never an issue anyway, it's just those annoying people who want us to change the code all the time, right?
+And who cares about code structure? Code is never the issue anyway, it's just those annoying people who want us to change the code all the time, right?
 
-Certainly, functional and technical requirements are in flux. For a code base to survive, it must adapt to an ever changing world. In the evolution of organisms and code, flexibility is resilience and rigidity is death. In other words: Software is supposed to be soft. We rather have incorrect code that we can change easily than correct code that noone dares to touch anymore.
+Functional and technical requirements are in flux. For a code base to survive, it must adapt to an ever changing [environment](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html):
 
-<!-- todo: add diagram that shows how code depends on 2 environments (to pick up where the results of the previous post) and draws a parallel to an organism depending on its environment (to strengthen that metaphor as we've used it multiple times now) -->
+![](/blog-images/software-development/architecture/code-adapts-to-environment.jpg)
 
-And that's why structure is the central issue of complex yet evolving systems like software. It determines whether code meets the most essential requirement, which is *maintainability*, the ability to be changed. Without changes in software, there is no *software development*.
+In the evolution of organisms and code, flexibility is resilience and rigidity is death. And that's why structure is the central issue of complex yet evolving systems.
+
+Software is supposed to be soft. We rather have incorrect code that we can change easily than correct code that noone dares to touch anymore. How code is structured determines whether it meets the most essential requirement, which is *maintainability*, the ability to be changed. Without changes in software, there is no *software development*.
 
 ## Artifacts
 
-When we structure source code, we mostly think about classes and similar namespaces. Of course, code is structured at other scales as well. There are smaller language constructs contained in classes, like functions, properties and nested types. And there are larger scopes containing multiple classes, like architectural layers, micro services, libraries, frameworks, modules, packages and even just source files.
+When we structure source code, we often think about classes and similar namespaces. And there are many other types of organizational units, at many other scales: project, application, layer, micro service, module, framework, library, package, source file, type, interface, nested type, function, property, statement, variable and more.
 
-Those organizational units of code may widely differ in size, usage and meaning. But for the purpose of this analysis, we can regard them as pure *code artifacts*, pieces of code that are structurally distinct, irrespective of what they represent.
+Depending on context, those structural elements may widely differ in size, usage and exact technical definition. But for the purpose of this analysis, we regard them as *code artifacts*, pieces of code that are structurally distinct, irrespective of what they mean.
 
-A code artifact is typically composed of other smaller artifacts that we might call its *parts*. An artifact constitutes the *scope* of its parts. Examples would be a project containing modules, a module containing files, a file containing actual language contructs, and a function containing statements in its body. This nesting can go many levels deep, and we need it to structure our code:
+A code artifact is hierarchically composed of other smaller artifacts that we might call its *parts*. An artifact constitutes the *scope* of its parts:
 
 ![](/blog-images/software-development/architecture/code-artifact-hierarchy-no-dependence.jpg)
 
-Aside from the hierarchical composition of code artifacts, they also relate to each other in more interesting ways. Think of a class that derives from another, or of a function that calls a remote micro service:
+Aside from this scope-part relationship, code artifacts also relate to each other in more interesting ways. Think of a class that derives from an interface, or of a struct that calls a remote micro service:
 
 ![](/blog-images/software-development/architecture/code-artifact-hierarchy.jpg)
 
