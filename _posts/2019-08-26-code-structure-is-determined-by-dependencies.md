@@ -84,7 +84,7 @@ Bundling refers to how a code artifact `C` generalizes its parts in terms of inc
 
 ![](/blog-images/software-development/architecture/no-dependence-onto-scope.jpg)
 
-Dependency bundling may sound academic but it effects virtually every practical context at any scale. Think of how a source file `A` uses a type `B` declared within another file `C`. In most programming languages, `A` would have **no explicit** [import/include/require statement](https://en.wikipedia.org/wiki/Include_directive) for `C` and would thereby **implicitly** depend on `C`. Few languages like C/C++, PHP and HTML/CSS make dependencies between source files explicit.
+Dependency bundling may sound academic but it effects practice. Think of how a source file `A` uses a type `B` declared within another file `C`. In most programming languages, `A` would have **no explicit** [import/include/require statement](https://en.wikipedia.org/wiki/Include_directive) for `C` and would thereby **implicitly** depend on `C`. Few languages like C/C++, PHP and HTML/CSS make dependencies between source files explicit.
 
 Implicit dependence is less direct but structurally and logically just as relevant. We better not fool ourselves in thinking that techniques like [layering](https://en.wikipedia.org/wiki/Layer_(object-oriented_design)), [encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)), [information hiding](https://en.wikipedia.org/wiki/Information_hiding) or the [facade pattern](https://en.wikipedia.org/wiki/Facade_pattern) would equal true [*decoupling*](https://en.wikipedia.org/wiki/Loose_coupling). Indirection does not alter the effective dependency structure and has a comparatively cosmetic effect.
 
@@ -121,7 +121,7 @@ These confusions particularly arise when we draw architecture diagrams, borrowin
 
 ## Code Structure is Not About Runtime
 
-When we slip into thinking about run time, we contaminate architectural reasoning and diagrams with relationships other than structural dependence, in particular with runtime reference and information flow.
+When we slip into thinking about runtime, we contaminate architectural reasoning and diagrams with relationships other than structural dependence, in particular with runtime reference and information flow.
 
 ### Dependence vs. Runtime Reference
 
