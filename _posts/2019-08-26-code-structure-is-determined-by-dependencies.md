@@ -155,12 +155,16 @@ For structural dependence itself, the semantics of how artifacts relate is utter
 
 ![](/blog-images/software-development/architecture/uml-arrows.jpg)
 
-The [UML class diagram](https://en.wikipedia.org/wiki/Class_diagram) is a modelling tool that's supposed to convey the meaning of code. But its implicit assumption that meaning is more or less congruent with structure can muddy the water.
+The [UML class diagram](https://en.wikipedia.org/wiki/Class_diagram) is a modelling tool that's supposed to convey the meaning of code. But there's also an implicit assumption that meaning is more or less congruent with structure, and that can muddy the water.
 
-For example, composition in a UML class diagram describes how two represented concepts (from tech- or value environment) relate to another, stating that a composite consists of a component while the component cannot exist alone outside of the composite. That description however tells us very little about how the actual code artifacts relate. `A` must depend on `B` but does it just reference `B` or is it the scope of its part `B`?
+For example, composition in a UML class diagram describes how two concepts (from tech- or value environment) relate to another, stating that a composite consists of a component while the component cannot exist alone outside the composite. While that description can be meaningful, it tells us very little about how the actual code artifacts relate. `A` must depend on `B`, but does it just reference `B` or is it the scope of its part `B`?
 
 ![](/blog-images/software-development/architecture/uml-class-diagram-vs-structure.jpg)
 
-Conceptual and structural composition are similar but orthoganal concepts. We can have each without the other.
+Conceptual and structural composition are similar but orthoganal perspectives. We can have each without the other.
+
+UML offers countless variants of diagrams and all of them have their place. Just note that the diagrams in this book are not UML unless explicitly stated. We just borrow visual elements from UML here and there, like the inheritance arrow to express that a type artifact `A` is of type `B`, through explicity inheritence or conformance:
+
+![](/blog-images/software-development/architecture/dependency-by-inheritance.jpg)
 
 <!-- todo: von meaning abgrenzen, siehe schlechtes bsp. in "a philosophy of ..." wo alle views ihre eigene hintergrundfarbe definiert haben obwohl die value env. impliziert es gäbe nur eine... die tatsache dass man beim ändern einer farbe auch die anderen beachten muss ist keine dependency sondern folgt daraus dass die value environment, also die realität dessen was dargestellt werden soll nicht präzise im code abgebildet ist ...  -->
