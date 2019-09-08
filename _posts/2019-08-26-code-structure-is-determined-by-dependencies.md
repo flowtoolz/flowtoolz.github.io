@@ -90,9 +90,9 @@ Implicit dependence is less direct but structurally and logically just as releva
 
 We can now describe code structure precisely as a number of hierarchically composed artifacts that depend on another. And we'll sometimes refer to that structure as *architecture*.
 
-### Dependency Hell
+## Dependency Hell
 
-What kind of dependencies can we derive from the listed dependency types? Actually, they allow for some wild conclusions.
+The listed dependency types allow for some wild conclusions.
 
 First of all, note that the parts of an artifact do not automatically depend on that artifact. In other words, an artifact does not *implicitly* depend on its enclosing scope. It is however possible that an artifact *explicitly* depends on its scope, in which case nesting creates a dependence cycle between the two:
 
