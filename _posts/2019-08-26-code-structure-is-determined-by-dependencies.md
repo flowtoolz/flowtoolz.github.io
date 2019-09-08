@@ -115,7 +115,7 @@ So a code artifact `C` bundles the outgoing dependencies of its parts as well as
 Mere code structure can be complex enough. On top of that, it is easy to confuse with two related but different perspectives:
 
 1. One concrete but arbitrary runtime instance of code.
-2. The abstract [meaning of code](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html), which can be structurally incongruent.
+2. The abstract [meaning of code](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html), whose structure can be different.
 
 These confusions particularly arise when we draw architecture diagrams, borrowing visual elements from [UML](https://en.wikipedia.org/wiki/Unified_Modeling_Language). So let's have a closer look at them.
 
