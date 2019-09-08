@@ -14,7 +14,7 @@ This is the second and last "axiomatic" discussion. The texts follwing this one 
 
 The natural laws of life relate to its structure. Structure is defined by *elements* and the *relationships* between them. The elements of life are atoms, organic compounds, peptides, lipids, RNA, DNA, amino acids and so forth. And how they relate to each other obviously makes all the difference.
 
-The natural laws of code also relate to structure. So what are the elements and relationships in code?
+The [natural laws of code](https://www.flowtoolz.com/2019/08/24/architecture-is-principled-software-development.html) also relate to structure. So what are the elements and relationships in code?
 
 Previously, we explored the way code conveys meaning. Here, we examine the way it is structured. To that purpose, we're gonna put [tech- and value environment](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html) aside and focus instead on the actual raw source code, its organizational units and circuitry.
 
