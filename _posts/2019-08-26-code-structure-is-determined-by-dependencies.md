@@ -177,7 +177,7 @@ Imagine having multiple ok buttons in an application. Now the designer decides t
 
 ![](/blog-images/software-development/architecture/buttons-with-false-dependency.jpg)
 
-Doesn't that introduce dependencies between the buttons? After all, if the designer now wants that green a little lighter, we can't change one button in isolation, we have to change all the ok buttons.
+Doesn't that introduce dependencies between the buttons? After all, if the designer now wants that green a little brighter, we can't change one button in isolation, we have to change all the ok buttons.
 
 What if the designer would suddenly declare that all buttons are actually unique and could have different colors? Now the green background colors would stop being dependencies. How can a dependency in code fluctuate with the mood of the designer?
 
