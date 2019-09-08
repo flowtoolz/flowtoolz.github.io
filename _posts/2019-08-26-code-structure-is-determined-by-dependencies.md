@@ -112,9 +112,9 @@ And if just one of those other parts has an external dependency `E`, then every 
 
 So a code artifact `C` bundles the outgoing dependencies of its parts as well as the incoming ones. And that's how the four dependency types of the apocalypse together create [dependency hell](https://en.wikipedia.org/wiki/Dependency_hell).
 
-Mere code structure can be complex enough. And on top of that, it is easy to confuse with two related but different perspectives:
+Mere code structure can be complex enough. On top of that, it is easy to confuse with two related but different perspectives:
 
-1. A concrete but arbitrary runtime instance of code.
+1. One concrete but arbitrary runtime instance of code.
 2. The abstract [meaning of code](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html), which isn't necessarily congruent with code structure.
 
 These confusions particularly arise when we draw architecture diagrams, borrowing visual elements from [UML](https://en.wikipedia.org/wiki/Unified_Modeling_Language). So let's have a closer look at them.
