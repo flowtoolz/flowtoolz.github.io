@@ -155,10 +155,12 @@ For structural dependence itself, the semantics of how artifacts relate is utter
 
 ![](/blog-images/software-development/architecture/uml-arrows.jpg)
 
+The [UML class diagram](https://en.wikipedia.org/wiki/Class_diagram) is a modelling tool that's supposed to convey the meaning of code. But its implicit assumption that meaning is more or less congruent with structure can muddy the water.
+
+For example, composition in a UML class diagram describes how two represented concepts (from tech- or value environment) relate to another, stating that a composite consists of a component while the component cannot exist alone outside of the composite. That description however tells us very little about how the actual code artifacts relate. `A` must depend on `B` but does it just reference `B` or is it the scope of its part `B`?
+
+![](/blog-images/software-development/architecture/uml-class-diagram-vs-structure.jpg)
+
+Conceptual and structural composition are similar but orthoganal concepts. We can have each without the other.
+
 <!-- todo: von meaning abgrenzen, siehe schlechtes bsp. in "a philosophy of ..." wo alle views ihre eigene hintergrundfarbe definiert haben obwohl die value env. impliziert es gäbe nur eine... die tatsache dass man beim ändern einer farbe auch die anderen beachten muss ist keine dependency sondern folgt daraus dass die value environment, also die realität dessen was dargestellt werden soll nicht präzise im code abgebildet ist ...  -->
-
-When we want to understand mere technical code structure, we must be careful not to confuse that with the structure of its meaning. In particular, we must be aware of the limits of UML notation in that regard. 
-
-UML class diagrams depict a weird mixture of classes (code artifacts) and the concepts (meaning) those classes represent. For instance, UML class composition expresses that a composite consists of a component and that the component cannot exist outside of the composite. However, that description does not apply to the actual pieces of code. Whether the component is declared within the scope of the composite's code is a totally independent question.
-
-Also note, that structural nesting is much more general and applies to all code artifacts at all scales, while composition in UML applies to types and in particular to classes. Structural nesting and conceptual composition are similar but orthoganal concepts. We can have each without the other.
