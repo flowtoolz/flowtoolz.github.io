@@ -102,11 +102,11 @@ Nesting and transitivity imply that if `A` depends on `B`, then `A` depends on a
 
 ![](/blog-images/software-development/architecture/transitive-dependency-on-a-part.jpg)
 
-Bundling, nesting and transitivity all together imply that if `A` depends just on one part `B` of `C`, then it still implicitly depends on all other parts `D` of `C` as well:
+Bundling, nesting and transitivity together imply that if `A` depends on one part `B` of `C`, then it implicitly also depends on all other parts `D` of `C`:
 
 ![](/blog-images/software-development/architecture/transitive-dependency-on-all-other-parts.jpg)
 
-And if just one of those other parts has an external dependency `E`, then every client `A` of `C` depends on `E` as well, even if that client is not particularly interested in `E` and even if the `B` it is interested in doesn't require anything from `E` either:
+And if just one of those other parts has an external dependency `E`, then every client `A` of `C` depends on `E` as well, even if `A` is not particularly interested in `E` and even if the `B` it is interested in doesn't require anything from `E` either:
 
 ![](/blog-images/software-development/architecture/dependency-hell.jpg)
 
