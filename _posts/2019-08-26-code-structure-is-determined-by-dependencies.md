@@ -46,7 +46,7 @@ All these relationships define the structure of code and are the focus of archit
 
 ## Dependence
 
-We tend to associate software architecture with principles and patterns of object-oriented design. At an abstract level, all those principles, like the [ADP](https://en.wikipedia.org/wiki/Acyclic_dependencies_principle), and patterns, like [Model-View-Controller](https://en.wikipedia.org/wiki/Model–view–controller), are defined in terms of type dependence. That's because when code artifacts *relate* to another, they *depend* on another. To structure code is to manage dependencies.
+We tend to associate software architecture with principles and patterns of object-oriented design. At an abstract level, all those principles, like the [ADP](https://en.wikipedia.org/wiki/Acyclic_dependencies_principle), and patterns, like [Model-View-Controller](https://en.wikipedia.org/wiki/Model–view–controller), are defined in terms of dependence. That's because when code artifacts *relate* to another, they *depend* on another. To structure code is to manage dependencies.
 
 In his landmark publication "Design Principles and Design Patterns", Robert C. Martin states:
 
@@ -88,9 +88,11 @@ Dependency bundling may sound academic but it effects virtually every practical 
 
 Implicit dependence is less direct but structurally and logically just as relevant. We better not fool ourselves in thinking that techniques like [layering](https://en.wikipedia.org/wiki/Layer_(object-oriented_design)), [encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)), [information hiding](https://en.wikipedia.org/wiki/Information_hiding) or the [facade pattern](https://en.wikipedia.org/wiki/Facade_pattern) would equal true [*decoupling*](https://en.wikipedia.org/wiki/Loose_coupling). Indirection does not alter the effective dependency structure and has a comparatively cosmetic effect.
 
+We can now describe code structure precisely as a number of hierarchically composed artifacts that depend on another. And we'll sometimes refer to that structure as *architecture*.
+
 ### Dependency Hell
 
-So what kind of dependencies can we derive from the listed dependency types? Actually, they allow for some wild conclusions.
+What kind of dependencies can we derive from the listed dependency types? Actually, they allow for some wild conclusions.
 
 First of all, note that the parts of an artifact do not automatically depend on that artifact. In other words, an artifact does not *implicitly* depend on its enclosing scope. It is however possible that an artifact *explicitly* depends on its scope, in which case nesting creates a dependence cycle between the two:
 
@@ -108,13 +110,18 @@ And if just one of those other parts has an external dependency `E`, then every 
 
 ![](/blog-images/software-development/architecture/dependency-hell.jpg)
 
-So a code artifact `C` bundles outgoing dependencies of its parts as well as incoming ones. And that's how the four dependency types of the apocalypse together create [dependency hell](https://en.wikipedia.org/wiki/Dependency_hell).
+So a code artifact `C` bundles the outgoing dependencies of its parts as well as the incoming ones. And that's how the four dependency types of the apocalypse together create [dependency hell](https://en.wikipedia.org/wiki/Dependency_hell).
+
+Mere code structure can be complex enough. And on top of that, it is easy to confuse with two related but different perspectives:
+
+1. A concrete but arbitrary runtime instance of code.
+2. The abstract [meaning of code](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html), which isn't necessarily congruent with code structure.
+
+These confusions particularly arise when we draw architecture diagrams, borrowing visual elements from [UML](https://en.wikipedia.org/wiki/Unified_Modeling_Language). So let's have a closer look at them.
 
 ## Code Structure is Not About Runtime
 
-We can now describe code structure more precisely as a number of hierarchically composed artifacts that depend on another. And we'll sometimes refer to that structure as *architecture*.
-
-When sketching architecture, it is easy to confuse different perspectives, contaminating the diagram with relationships other than structural dependence. Let's look at the two most common defectors: runtime reference and information flow.
+When we slip into thinking about runtime, we contaminate architectural reasoning and diagrams with relationships other than structural dependence, in particular with runtime reference and information flow.
 
 ### Dependence vs. Runtime Reference
 
