@@ -114,7 +114,7 @@ So a code artifact `C` bundles the outgoing dependencies of its parts as well as
 
 Mere code structure can be complex enough. On top of that, it is easy to confuse with two related but different perspectives:
 
-1. One concrete but arbitrary instance of code at [runtime](https://en.wikipedia.org/wiki/Run_time_(program_lifecycle_phase)).
+1. A concrete but arbitrary instance of code at [runtime](https://en.wikipedia.org/wiki/Run_time_(program_lifecycle_phase)).
 2. The abstract [meaning of code](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html), whose structure can be different.
 
 These confusions particularly arise when we draw architecture diagrams, borrowing visual elements from [UML](https://en.wikipedia.org/wiki/Unified_Modeling_Language). So let's have a closer look at them.
@@ -151,7 +151,7 @@ When the distinction wasn't as clear to me yet, I sometimes began to mark inform
 
 ## Code Structure is Not About Meaning
 
-### UML
+### UML Class Diagrams
 
 For structural dependence itself, the semantics of how artifacts relate is utterly irrelevant. Whether class `A` calls a function of class `B`, has a property of type `B`, is intrinsically composed of properties of type `B` or derives itself from `B` doesn't alter the fact that `A` depends on `B`. In terms of [UML class diagrams](https://en.wikipedia.org/wiki/Class_diagram), arrows signify dependence but the arrow types are irrelevant for that matter:
 
@@ -183,7 +183,7 @@ What if the designer would suddenly declare that all buttons are actually unique
 
 This is not real dependence. None of the buttons call or contain another. Whether we "must" change the other buttons when we change one of them depends entirely on our idea of the design, which is part of the [value environment](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html). So is the concept of an ok button or at least of an ok button color a real thing or not?
 
-The problem of having to adjust all the button colors arises when we think the concept of an ok button color exists while we don't express it in code, in which case we're lying. Would the concept exist in code as well, there would be only one place to change it:
+The problem of having to adjust all the button colors arises when we think the concept of an ok button color exists while we don't express it in code, which means we're lying. Would the concept exist in code as well, there would be only one place to change it:
 
 ![](/blog-images/software-development/architecture/buttons-depending-on-color.jpg)
 
