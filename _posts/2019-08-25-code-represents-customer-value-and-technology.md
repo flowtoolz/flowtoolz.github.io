@@ -52,7 +52,7 @@ We're interested in a thought framework not in technical frameworks. Our questio
 
 The two environments are very real - abstract maybe, but neither arbitrary nor virtual. And the "real world" can be a capricious chimera. Code is under this constant pressure to adapt because it mediates between two changing realities.
 
-Luckily, reality doesn't evolve through arbitrary glitches. At least, I'd like to believe mine doesn't. Instead, its bound by inherent laws. Some aspects of the world change easily, while other changes require lots of energy, are unlikely or simply impossible.
+Luckily, reality doesn't evolve through arbitrary glitches. At least, I'd like to believe mine doesn't. Instead, it's bound by inherent laws. Some aspects of the world change easily, while other changes require lots of energy, are unlikely or simply impossible.
 
 This partial continuity and predictability of the world equally applies to the code representing that world. That's why we intuitively understand how impactful a change request is. In other words: We know its meaning. 
 
