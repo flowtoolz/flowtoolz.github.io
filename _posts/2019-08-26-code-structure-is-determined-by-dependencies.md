@@ -173,19 +173,19 @@ UML offers countless variants of diagrams and all of them have their place. Just
 
 The confusion between structure and meaning goes beyond UML. 
 
-Imagine having multiple ok buttons in an application. Now the designer decides that ok buttons ought to be green, so the developer goes and sets the background color of every ok button:
+Imagine having multiple button classes in a codebase. Now the designer decides that Ok buttons ought to be green, so the developer goes and sets the button background color in all button classes that use the title "Ok":
 
 ![](/blog-images/software-development/architecture/buttons-with-false-dependency.jpg)
 
-Doesn't that introduce dependencies between the buttons? After all, we now can't change one button's color in isolation, we'd have to adjust all other ok buttons.
+Doesn't that introduce dependencies between those classes? After all, if we now change one Ok button color, we'd have to adjust all other Ok buttons.
 
-What if the designer would suddenly declare that all buttons are actually unique and could have different colors? Now the green background colors would stop being dependencies. How can a dependency in code fluctuate with the mood of the designer?
+What if the designer would suddenly declare that all buttons are actually unique and *could* have different colors? Now the green button colors would stop being dependencies. How can a dependency in code fluctuate with the mood of the designer?
 
-This is not real dependence. None of the buttons call or contain another. Whether we "must" change the other buttons when we change one of them depends entirely on our idea of the design, which is part of the [value environment](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html). So is the concept of an ok button or at least of an ok button color a real thing or not?
+This is not real dependence. None of the button classes with green color reference or contain another. Whether we "must" change the other buttons when we change one of them depends entirely on our idea of the design and, thereby, on the [value environment](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html). So is the concept of an Ok button or at least of an Ok button color a real thing or not?
 
-The problem of having to adjust all the button colors arises when we think the concept of an ok button color exists while we don't express it in code, which means we're lying. Would the concept exist in code as well, there would be only one place to change it:
+The problem of having to adjust all the button colors arises when we think the concept of an Ok button color exists while we don't express it in code, which means we're lying. Would the concept exist in code as well, there would be only one place to change it:
 
 ![](/blog-images/software-development/architecture/buttons-depending-on-color.jpg)
 
-Producing untruthful code is not the same as introducing dependencies. It relates to architecture in so far as it violates the principle that [the meaning of code roots in value- and tech environment](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html). We'll connect the meaning and structure of code in the next post.
+Producing untrue code is not the same as introducing dependencies. It relates to architecture in so far as it violates the principle that [code expresses value- and tech environment](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html) and that effective code would rather tell the truth. In the next discussion, we'll connect that meaning of code with the structural architecture we described here.
 
