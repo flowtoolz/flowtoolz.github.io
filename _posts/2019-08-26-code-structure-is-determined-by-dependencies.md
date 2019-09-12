@@ -173,7 +173,7 @@ UML offers countless variants of diagrams and all of them have their place. Just
 
 The confusion between structure and meaning goes beyond UML. 
 
-Imagine having multiple button classes in a codebase. Now the designer decides that Ok buttons ought to be green, so the developer goes and sets the button background color in all button classes that use the title "Ok":
+Imagine having multiple button classes in a codebase. Now the designer decides that Ok buttons ought to be green, so the developer goes and sets the color in all button classes that use the title "Ok":
 
 ![](/blog-images/software-development/architecture/buttons-with-false-dependency.jpg)
 
