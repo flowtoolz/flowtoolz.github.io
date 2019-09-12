@@ -22,7 +22,7 @@ At least, we can say this much: Software runs on concrete hardware to help peopl
 
 Putting abstractions (and wishful thinking) aside, we may also notice that software interacts with the real world exclusively through hardware. From the perspective of code, there is no "user interaction", there are just a bunch of devices like touch screen, hard drive and WiFi which translate information between code and the tangible world. While people might feel like they directly interact with an interesting domain, they technically only ever interact with hardware.
 
-To meet people's needs and expectations (and wishful thinking), we build software upon many shared ideas, from language and common sense over our mental model the application domain to the specific use cases and design of the envisioned product. Whether we make such ideas explicit in code or not, they are innate to any software that provides value.
+To meet people's needs and expectations (and wishful thinking), we build software upon many shared ideas, from language and common sense over our mental model of the application domain to the specific use cases and design of the envisioned product. Whether we make such ideas explicit in code or not, they are innate to any software that provides value.
 
 **There is no escape from this duality. Every piece of code on the planet stands with one foot in a technical- and with the other in an ideational environment.**
 
