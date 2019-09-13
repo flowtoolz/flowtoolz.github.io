@@ -155,6 +155,8 @@ When the distinction wasn't as clear to me yet, I sometimes began to mark inform
 
 The [UML class diagram](https://en.wikipedia.org/wiki/Class_diagram) is a widely known modelling language that's supposed to convey the meaning rather than the structure of code. Because there's also an implicit assumption that meaning is more or less congruent with structure, and because our structure diagrams look like simplified UML class diagrams, it is worth clarifying the difference.
 
+Above all, the semantics of how artifacts relate is utterly irrelevant to structural dependence itself. Whether class `A` calls a function of class `B`, has a property of type `B`, is intrinsically composed of properties of type `B` or derives itself from `B` doesn't alter the fact that `A` *depends* on `B`. In terms of UML class diagrams, arrows signify dependence but the arrow types are irrelevant for that matter:
+
 ![](/blog-images/software-development/architecture/uml-arrows.jpg)
 
 Also, composition in a UML class diagram describes how two concepts (from tech- or value environment) relate to another, stating that a composite consists of a component while the component cannot exist alone outside the composite. That description can be meaningful, but it tells us very little about how the actual code artifacts relate:
@@ -186,4 +188,3 @@ The problem of having to adjust all the button colors arises when we think the c
 ![](/blog-images/software-development/architecture/buttons-depending-on-color.jpg)
 
 Producing untrue code is not the same as introducing dependencies. It relates to architecture in so far as it violates the principle that [code expresses value- and tech environment](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html) and that effective code would rather tell the truth. This provides a glimpse of how meaning should determine structure, and we'll tie those two ideas together in our next discussion.
-
