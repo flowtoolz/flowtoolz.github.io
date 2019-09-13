@@ -12,11 +12,11 @@ This is the second and last "axiomatic" discussion. The texts follwing this one 
 
 ## Structure Sets the Stage
 
-The natural laws of life relate to its structure. Structure is defined by *elements* and the *relationships* between them. The elements of life are atoms, organic compounds, peptides, lipids, RNA, DNA, amino acids and so forth. And how they relate to each other obviously makes all the difference.
+The natural laws of life relate to its structure. The structure of a thing is defined by its *elements* and the *relationships* between them. The elements of life are atoms, organic compounds, peptides, lipids, RNA, DNA, amino acids and so forth. And how they relate to each other obviously makes all the difference.
 
 The [natural laws of code](https://www.flowtoolz.com/2019/08/24/architecture-is-principled-software-development.html) also relate to structure. So what are the elements and relationships in code?
 
-Previously, we explored the way code conveys meaning. Here, we examine the way it is structured. To that purpose, we're gonna put [tech- and value environment](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html) aside and focus instead on the actual raw source code, its organizational units and circuitry.
+[Previously](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html), we explored the way code conveys meaning. Here, we examine the way it is structured. To that purpose, we're gonna put [tech- and value environment](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html) aside and focus instead on the actual raw source code, its organizational units and circuitry.
 
 And who cares about code structure? Code is never the issue anyway, it's just those annoying people who want us to change the code all the time, right?
 
@@ -153,19 +153,17 @@ When the distinction wasn't as clear to me yet, I sometimes began to mark inform
 
 ### UML Class Diagrams
 
-For structural dependence itself, the semantics of how artifacts relate is utterly irrelevant. Whether class `A` calls a function of class `B`, has a property of type `B`, is intrinsically composed of properties of type `B` or derives itself from `B` doesn't alter the fact that `A` depends on `B`. In terms of [UML class diagrams](https://en.wikipedia.org/wiki/Class_diagram), arrows signify dependence but the arrow types are irrelevant for that matter:
+The [UML class diagram](https://en.wikipedia.org/wiki/Class_diagram) is a widely known modelling language that's supposed to convey the meaning rather than the structure of code. Because there's also an implicit assumption that meaning is more or less congruent with structure, and because our structure diagrams look like simplified UML class diagrams, it is worth clarifying the difference.
 
 ![](/blog-images/software-development/architecture/uml-arrows.jpg)
 
-The UML class diagram is a modelling tool that's supposed to convey the meaning of code. But there's also an implicit assumption that meaning is more or less congruent with structure, and that can muddy the water.
-
-For example, composition in a UML class diagram describes how two concepts (from tech- or value environment) relate to another, stating that a composite consists of a component while the component cannot exist alone outside the composite. While that description can be meaningful, it tells us very little about how the actual code artifacts relate:
+Also, composition in a UML class diagram describes how two concepts (from tech- or value environment) relate to another, stating that a composite consists of a component while the component cannot exist alone outside the composite. That description can be meaningful, but it tells us very little about how the actual code artifacts relate:
 
 ![](/blog-images/software-development/architecture/uml-class-diagram-vs-structure.jpg)
 
-`A` must depend on `B`, but does it just reference `B` or is it the scope of its part `B`? Conceptual and structural composition are similar but orthoganal perspectives. We can have each without the other.
+`A` must depend on `B`, but does it just reference `B` or is it the scope of its part `B`? Conceptual and structural composition are similar but orthogonal features. We can have each without the other.
 
-UML offers countless variants of diagrams and all of them have their place. Just note that the diagrams in this book are not UML unless explicitly stated. We just borrow visual elements from UML here and there, like we use the inheritance arrow to mark an explicit dependence as a type inheritence or interface/protocol conformance:
+UML offers countless variants of diagrams and all of them have their place. Just note that we don't use UML unless explicitly stated. We just borrow some of its visual elements, like we use the inheritance arrow to mark an explicit dependence more specifically as a type inheritence or interface/protocol conformance:
 
 ![](/blog-images/software-development/architecture/dependency-by-inheritance.jpg)
 
@@ -177,15 +175,15 @@ Imagine having multiple button classes in a codebase. Now the designer decides t
 
 ![](/blog-images/software-development/architecture/buttons-with-false-dependency.jpg)
 
-Doesn't that introduce dependencies between those classes? After all, if we now change one Ok button color, we'd have to adjust all other Ok buttons.
+Doesn't that introduce dependencies between those classes? After all, if we now change one Ok button's color, we'd have to adjust all other Ok buttons.
 
 What if the designer would suddenly declare that all buttons are actually unique and *could* have different colors? Now the green button colors would stop being dependencies. How can a dependency in code fluctuate with the mood of the designer?
 
-This is not real dependence. None of the button classes with green color reference or contain another. Whether we "must" change the other buttons when we change one of them depends entirely on our idea of the design and, thereby, on the [value environment](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html). So is the concept of an Ok button or at least of an Ok button color a real thing or not?
+This is not real dependence. None of the button classes reference or contain another. Whether we "must" change the other buttons when we change one of them depends entirely on our idea of the design and, thereby, on the [value environment](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html). So is an Ok button or at least an Ok button color a real concept or not?
 
 The problem of having to adjust all the button colors arises when we think the concept of an Ok button color exists while we don't express it in code, which means we're lying. Would the concept exist in code as well, there would be only one place to change it:
 
 ![](/blog-images/software-development/architecture/buttons-depending-on-color.jpg)
 
-Producing untrue code is not the same as introducing dependencies. It relates to architecture in so far as it violates the principle that [code expresses value- and tech environment](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html) and that effective code would rather tell the truth. In the next discussion, we'll connect that meaning of code with the structural architecture we described here.
+Producing untrue code is not the same as introducing dependencies. It relates to architecture in so far as it violates the principle that [code expresses value- and tech environment](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html) and that effective code would rather tell the truth. This provides a glimpse of how meaning should determine structure, and we'll tie those two ideas together in our next discussion.
 
