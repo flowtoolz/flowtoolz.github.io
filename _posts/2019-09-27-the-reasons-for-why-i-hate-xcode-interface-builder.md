@@ -1,7 +1,7 @@
 ---
-title: "24 Rational Reasons to Avoid Xcode Interface Builder"
+title: "24 Reasons For Why I Hate Xcode's Interface Builder"
 layout: post
-excerpt: "In this short post I get the frustration out of my system about how pervasive Apple Xcode's INterface builder still is in professional projects."
+excerpt: "The road to complexity hell is plastered with well intended technologies. And so the promises of the Interface Builder are an illusion."
 image_url: /blog-images/software-development/xcode-interface-builder/no-apple-xcode-interface-builder.jpg
 keywords: Apple, Xcode, interface builder, Swift, auto layout, iOS, macOS, SwiftUI, UIKit, AppKit, UI, user interface, design, programming, mobile apps, software architecture
 ---
