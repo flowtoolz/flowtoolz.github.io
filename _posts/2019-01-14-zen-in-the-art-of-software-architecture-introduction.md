@@ -42,7 +42,7 @@ As proud software craftsmen, our thinking is customer-centric, our code is objec
 
 <img style="margin-left:auto;margin-right:auto;display:block;" src="/blog-images/software-development/architecture/introduction/craftsmanship-tools.jpg" title="{{ page.title }}" alt="{{ page.title }}. {{ page.keywords }}">
 
-Many of these techniques come in quite far down the delivery pipeline, yet all steps in the pipeline rely and build upon quality input. **No amount of automated testing or continuous integration can adress, or even recognize, the future costs and implications of fundamentally flawed code.**
+Many of these techniques come in quite far down the delivery pipeline, yet all steps in the pipeline rely and build upon quality input. **No amount of automated testing and continuous integration can address or even recognize the future costs and consequences of fundamentally flawed code.**
 
 However, most code-related techniques are quite low-level: The domain model is only one part of the application, design principles and patterns have quite local scope, and **a thousand perfect little TDD cycles with perfect little tests and refactorings can still amount to a mess on the grand scale**.
 
@@ -70,7 +70,7 @@ Understanding universal truths about software, you'll see the big picture and tr
 
 ### Art
 
-Software architecture requires more than science and craft. In order to build high quality software products with agility, you want to become an engineer, a craftsman and an artist. On top of knowledge and skill, the *software artist* adds the pschological maturity that allows him to ...
+Software architecture requires more than science and craft. In order to build high quality software products with agility, you want to become an engineer, a craftsman and an artist. On top of knowledge and skill, the *software artist* adds the psychological maturity that allows him to ...
 
 1. See the true meaning and semantic structure of a software
 2. Let go of mere technicalities, perfectionism and feature creep
