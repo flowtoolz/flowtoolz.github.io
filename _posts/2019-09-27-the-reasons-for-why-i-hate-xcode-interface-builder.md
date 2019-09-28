@@ -2,11 +2,11 @@
 title: "24 Reasons For Why I Hate Xcode's Interface Builder"
 layout: post
 excerpt: "The road to complexity hell is plastered with well intended technologies. And so the promises of the Interface Builder are an illusion."
-image_url: /blog-images/software-development/xcode-interface-builder/no-apple-xcode-interface-builder.jpg
+image_url: /blog-images/software-development/xcode-interface-builder/no-apple-xcode-interface-builder.png
 keywords: Apple, Xcode, interface builder, Swift, auto layout, iOS, macOS, SwiftUI, UIKit, AppKit, UI, user interface, design, programming, mobile apps, software architecture
 ---
 
-<img style="margin-left:auto;margin-right:auto;display:block;" src="/blog-images/software-development/xcode-interface-builder/no-apple-xcode-interface-builder.jpg" title="{{ page.title }}" alt="{{ page.title }}. {{ page.keywords }}">
+<img style="margin-left:auto;margin-right:auto;display:block;" src="/blog-images/software-development/xcode-interface-builder/no-apple-xcode-interface-builder.png" title="{{ page.title }}" alt="{{ page.title }}. {{ page.keywords }}">
 
 <!-- todo: the fundamental problem that causes the 24 symptoms; referenz zu architecture posts; SwiftUI; complexity & FRICTION POINTS -->
 
