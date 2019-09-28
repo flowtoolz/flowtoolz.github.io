@@ -70,11 +70,11 @@ Understanding universal truths about software, you'll see the big picture and tr
 
 ### Art
 
-Software architecture requires more than science, engineering and craft. In order to build high quality software products with agility, you want to become an educated engineer, craftsman and artist. The *software artist* complements knowledge and skill with the psychological maturity that allows her to ...
+Software architecture requires more than science, engineering and craft. In order to make high quality software products with agility, you want to become an educated engineer, craftsman and artist. To knowledge and skill the *software artist* adds the psychological maturity that allows her to ...
 
-1. See the true meaning and semantic structure of a software
+1. See the true meaning and pragmatic structure of software
 2. Let go of mere technicalities, perfectionism and feature creep
-3. Intuitively feel when returns diminish and something is *good enough*
+3. Intuitively feel when something is *good enough* as returns diminish 
 4. Truly empathize with users
 
 ### Timeless Principles
@@ -91,4 +91,4 @@ Timely products result from agility. Unfortunately, the term "agile" is overused
 
 Effective architecture has all kinds of effects that help produce more value over time and, thereby, deliver timely products: It makes development flexible, puts emphasis on customer value, yields re-usable code, raises team engagement, accelerates onboarding, solves object-oriented design problems, promotes a common domain-specific language, avoids all sorts of technical risks, makes code more testable and so on.
 
-We could drone on endlessly listing the direct and implied benefits. However, those benefits are not the reason for why we aim at effective architecture. They are just side effects, arbitrary manifestations of effective architecture. Of course, what "effective" means relates to the essential role and purpose of code, and we'll look at that more closely soon.
+We could drone on endlessly listing the direct and implied practical benefits. However, those benefits are not the reason for why we aspire to effective architecture. They are just its arbitrary manifestations. Of course, what "effective" means relates to the essential role and purpose of code, and we'll look at that more closely soon.
