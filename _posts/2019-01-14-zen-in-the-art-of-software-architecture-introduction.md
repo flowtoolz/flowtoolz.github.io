@@ -70,7 +70,7 @@ Understanding universal truths about software, you'll see the big picture and tr
 
 ### Art
 
-Software architecture requires more than science and craft. In order to build high quality software products with agility, you want to become an engineer, a craftsman and an artist. On top of knowledge and skill, the *software artist* adds the psychological maturity that allows him to ...
+Software architecture requires more than science, engineering and craft. In order to build high quality software products with agility, you want to become an educated engineer, craftsman and artist. The *software artist* complements knowledge and skill with the psychological maturity that allows her to ...
 
 1. See the true meaning and semantic structure of a software
 2. Let go of mere technicalities, perfectionism and feature creep
