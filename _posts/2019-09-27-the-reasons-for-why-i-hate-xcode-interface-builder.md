@@ -10,7 +10,7 @@ keywords: Apple, Xcode, interface builder, Swift, auto layout, iOS, macOS, Swift
 
 <!-- todo: the fundamental problem that causes the 24 symptoms; referenz zu architecture posts; SwiftUI; complexity & FRICTION POINTS -->
 
-The road to complexity hell is plastered with well intended technologies. And after having dealt with Apple Xcode's Interface Builder in every client project, I'm convinced its promises are an illusion.
+The road to complexity hell is plastered with well intended technologies. And after having been forced to deal with Apple Xcode's Interface Builder in every big iOS client project, I'm convinced its promises are an illusion.
 
 So why am I such a hater on the Interface Builder? An even better question is: Why would any **professional** use Interface Builder? IB *may* (I'm not even sure about that) help to build simple rough prototypes. It is really no option for professional apps.
 
