@@ -12,7 +12,7 @@ The road to complexity hell is plastered with well intended technologies. And af
 
 So why am I such a hater on the Interface Builder? An even better question is: Why would any **professional** use it? While the IB *may* help to build simple rough prototypes (I'm not even sure about that), it is no option for professional apps.
 
-## 5 Violated Principles
+## Five Violated Principles
 
 This article ends on a list of 25 issues that I experienced with the Interface Builder across many projects. However, those issues are really just arbitrary symptoms of an underlying problem: The Interface Builder violates fundamental [principles of software architecture](https://www.flowtoolz.com/2019/08/24/architecture-is-principled-software-development.html). We could certainly find even more symptoms because going against basic principles manifests in countless unpredictable ways.
 
@@ -107,6 +107,6 @@ So here is what you get, "building" your UI with Interface Builder:
 
 25. Using the IB will make it harder to migrate to more modern code-based and declarative technologies like SwiftUI.
 
-## Conclusion
+## One Conclusion
 
 Looking at some pinciple problems and all their concrete symptoms, we should classify using the traditional Interface Builder as insane, in particular in light of how easy programmatic layout with Swift has become, with [layout anchors](https://developer.apple.com/documentation/uikit/nslayoutanchor), [safe areas](https://developer.apple.com/documentation/uikit/uiview/2891102-safearealayoutguide), framworks like [GetLaid](https://github.com/flowtoolz/GetLaid) and, of course, [SwiftUI](https://developer.apple.com/documentation/swiftui/) on the horizon.
