@@ -26,7 +26,7 @@ So what **principles** would we violate using the Interface Builder? Here are fi
 
    While this is not good, it is mostly a consequence of violating the SRP.
 
-3. **[Dependency Inversion Principle](https://en.wikipedia.org/wiki/Dependency_inversion_principle):** Specifics depend on abstractions. Yet IB files entangle screen flow and view descriptions with highly specific formats and tools. What is logically an independent "view model" technically becomes dependent onto system specifics.
+3. **[Dependency Inversion Principle](https://en.wikipedia.org/wiki/Dependency_inversion_principle):** Specifics depend on abstractions. Yet IB files entangle abstract screen flow and view descriptions with highly specific formats and tools. What is logically an independent "view model" technically becomes dependent onto system specifics.
 
 4. **[Effective artifacts tell the truth](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html):** We could interpret all the above principles as aspects of this more fundamental assessment. 
 
