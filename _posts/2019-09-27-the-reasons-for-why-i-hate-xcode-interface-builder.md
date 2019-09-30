@@ -32,7 +32,9 @@ So what principles would we violate using the Interface Builder? Here are five o
 
    Also, user interfaces are hierarchically composed, so the project's artifacts representing the UI should reflect that structure. IB files can indeed do that, yet they store everything in a format that is only transparent to the IB itself and opaque in all other contexts. This means, in many contexts (most notably with git), the IB artifacts *don't tell the truth* about the UI structure.
 
-5. **[Complexity increases quadratically](https://en.wikipedia.org/wiki/Binomial_coefficient):** The number of potential pairwise friction points between `N` moving parts is `(N^2 - N) / 2`. While 5 technologies can have 10 friction points, 6 technologies can already have 15. 
+5. **[Complexity increases quadratically](https://en.wikipedia.org/wiki/Binomial_coefficient):** The number of potential pairwise friction points between `N` moving parts is `(N^2 - N) / 2`. While 5 technologies can have 10 friction points, 6 technologies can already have 15:
+
+   ![storyboard_compilation_error](/blog-images/software-development/xcode-interface-builder/complexity-exploding-with-tech-factors.jpg)
 
    By nature, we think linearly, but complexity grows much faster, so we constantly underestimate it. We let technologies and dependencies creep in because, by themselves, they are theoretically useful. Yet overall, they let the complexity of our system explode.
 
