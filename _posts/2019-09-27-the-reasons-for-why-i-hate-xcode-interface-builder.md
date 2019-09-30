@@ -40,7 +40,7 @@ So what principles would we violate using the Interface Builder? Here are five:
 
    This principle is by no means limited to software systems, yet it is relevant here. We should be super reluctant to add unnecessary technologies to our tech stack, even if they promise to be worth it.
 
-Looking at all the pinciple problems and their concrete symptoms, there is no reason at all to use the traditional Interface Builder. In particular in light of how easy programmatic layout with Swift has become, with [layout anchors](https://developer.apple.com/documentation/uikit/nslayoutanchor), [saveAreaGuide](https://developer.apple.com/documentation/uikit/uiview/2891102-safearealayoutguide), framworks like [GetLaid](https://github.com/flowtoolz/GetLaid) and, of course, [SwiftUI](https://developer.apple.com/documentation/swiftui/) on the horizon.
+Looking at all the pinciple problems and their concrete symptoms, there is no reason at all to use the traditional Interface Builder. In particular in light of how easy programmatic layout with Swift has become, with [layout anchors](https://developer.apple.com/documentation/uikit/nslayoutanchor), [safeAreaLayoutGuide](https://developer.apple.com/documentation/uikit/uiview/2891102-safearealayoutguide), framworks like [GetLaid](https://github.com/flowtoolz/GetLaid) and, of course, [SwiftUI](https://developer.apple.com/documentation/swiftui/) on the horizon.
 
 So here is what you get, "building" your UI with Interface Builder:
 
