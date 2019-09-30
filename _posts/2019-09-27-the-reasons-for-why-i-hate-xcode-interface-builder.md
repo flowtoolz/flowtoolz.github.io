@@ -44,7 +44,7 @@ Looking at all the pinciple problems and their concrete symptoms, there is no re
 
 So here is what you get, "building" your UI with Interface Builder:
 
-1. Because you have to draw a line somewhere between visual editing and coding, and because many views can't be represented in IB files (due to custom drawing, dynamic layouts, views from external frameworks, lazyness etc.), IB files **virtually never** provide a good idea of how a screen will actually look, which defeats much of the IB's purpose. In practice, most storyboards look something like this:
+1. Because you have to draw a line somewhere between visual editing and coding, and because many views can't be represented in IB files (due to custom drawing, dynamic layouts, views from external frameworks, lazyness etc.), IB files **virtually never** provide an idea of how screens will actually look, which defeats much of the IB's purpose. In practice, most storyboards look something like this:
 	![storyboard_compilation_error](/blog-images/software-development/xcode-interface-builder/storyboard.jpg)
 	
 2. The IB is slow. Opening and loading a storyboard usually has a significant delay.
