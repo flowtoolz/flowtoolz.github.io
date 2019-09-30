@@ -47,6 +47,7 @@ So here is what you get, "building" your UI with Interface Builder:
 1. Because you have to draw a line somewhere between visual editing and coding, and because many views can't be represented in IB files (due to custom drawing, dynamic layouts, views from external frameworks, lazyness etc.), IB files **virtually never** provide an idea of how screens will actually look, which defeats much of the IB's purpose.
 	
 	In practice, most storyboards look something like this:
+	
 	![storyboard_compilation_error](/blog-images/software-development/xcode-interface-builder/storyboard.jpg)
 	
 2. The IB is slow. Opening and loading a storyboard usually has a significant delay.
@@ -86,13 +87,15 @@ So here is what you get, "building" your UI with Interface Builder:
 19. The Refactor-Rename function in Xcode will not always rename all outlet connections in IB files, leading to crashes. You'll need to reconnect renamed outlets by hand.
 
 20. You'll deal with a whole new type of "compilation" error, which is also opaque and hard to debug:
-   ![storyboard_compilation_error](/blog-images/software-development/xcode-interface-builder/storyboard_compilation_error.png)
+	
+	![storyboard_compilation_error](/blog-images/software-development/xcode-interface-builder/storyboard_compilation_error.png)
 
 21. Designing custom view classes through the IB is cumbersome and requires to use IB "designables". Plus:
    * IB must recompile your whole project in order to display these designables, which makes the IB performance problems even worse. 
    * `@IB_Designable` is not well documented by Apple.
    * `@IB_Designable` rendering causes its own type of build errors:
-   	![designable_rendering_error](/blog-images/software-development/xcode-interface-builder/ib_designable_rendering_error.png)
+	
+	![designable_rendering_error](/blog-images/software-development/xcode-interface-builder/ib_designable_rendering_error.png)
 
 22. IB will not recognize when you move a referenced class to another module (framework, cocoapod etc.). If you forget to adapt the module manually in IB, you'll be surprised by chrashes.
 
