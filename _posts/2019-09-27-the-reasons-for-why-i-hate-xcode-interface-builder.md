@@ -12,7 +12,7 @@ The road to complexity hell is plastered with well intended technologies. And af
 
 So why am I such a hater on the Interface Builder? An even better question is: Why would any **professional** use it? While the IB *may* help to build simple rough prototypes (I'm not even sure about that), it is no option for professional apps.
 
-## Violated Principles
+## 5 Violated Principles
 
 This article ends on a list of 25 issues that I experienced with the Interface Builder across many projects. However, those issues are really just arbitrary symptoms of an underlying problem: The Interface Builder violates fundamental [principles of software architecture](https://www.flowtoolz.com/2019/08/24/architecture-is-principled-software-development.html). We could certainly find even more symptoms because going against basic principles manifests in countless unpredictable ways.
 
@@ -42,7 +42,7 @@ So what **principles** would we violate using the Interface Builder? Here are fi
 
    This principle is by no means limited to software systems, yet it is relevant here. We should be super reluctant to add unnecessary technologies to our tech stack, even if they promise to be worth it.
 
-## Symptoms
+## 25 Symptoms
 
 So here is what you get, "building" your UI with Interface Builder:
 
