@@ -44,7 +44,9 @@ Looking at all the pinciple problems and their concrete symptoms, there is no re
 
 So here is what you get, "building" your UI with Interface Builder:
 
-1. Because you have to draw a line somewhere between visual editing and coding, and because many views can't be represented in IB files (due to custom drawing, dynamic layouts, views from external frameworks, lazyness etc.), IB files **virtually never** provide an idea of how screens will actually look, which defeats much of the IB's purpose. In practice, most storyboards look something like this:
+1. Because you have to draw a line somewhere between visual editing and coding, and because many views can't be represented in IB files (due to custom drawing, dynamic layouts, views from external frameworks, lazyness etc.), IB files **virtually never** provide an idea of how screens will actually look, which defeats much of the IB's purpose.
+	
+	In practice, most storyboards look something like this:
 	![storyboard_compilation_error](/blog-images/software-development/xcode-interface-builder/storyboard.jpg)
 	
 2. The IB is slow. Opening and loading a storyboard usually has a significant delay.
@@ -69,33 +71,33 @@ So here is what you get, "building" your UI with Interface Builder:
 
 12. There are more initializers and functions like `prepare(for segue: ...)` to worry about as well as the general interoperation between code and IB files.
 
-14. Communicating with views requires to create outlets, which is actually quite cumbersome.
+13. Communicating with views requires to create outlets, which is actually quite cumbersome.
 
-15. Your app will be harder to port to other platforms, even within the Apple universe.
+14. Your app will be harder to port to other platforms, even within the Apple universe.
 
-16. It is more cumbersome to turn views into reusable custom views when they live in IB files. This also leads to massive view controllers.
+15. It is more cumbersome to turn views into reusable custom views when they live in IB files. This also leads to massive view controllers.
 
-17. You'll encounter a bunch of issues when trying to package IB files into frameworks and Cocoapods.
+16. You'll encounter a bunch of issues when trying to package IB files into frameworks and Cocoapods.
 
-18. Subviews are optional. Either you unwrap them everytime or you make them implicitly unwrapped. The latter option is common practice but can (and did in client projects) lead to crashes.
+17. Subviews are optional. Either you unwrap them everytime or you make them implicitly unwrapped. The latter option is common practice but can (and did in client projects) lead to crashes.
 
-19. It is impossible to pass parameters to custom designated initializers of your views and view controllers. This stark limitation can compromise clean design and architecture.
+18. It is impossible to pass parameters to custom designated initializers of your views and view controllers. This stark limitation can compromise clean design and architecture.
 
-20. The Refactor-Rename function in Xcode will not always rename all outlet connections in IB files, leading to crashes. You'll need to reconnect renamed outlets by hand.
+19. The Refactor-Rename function in Xcode will not always rename all outlet connections in IB files, leading to crashes. You'll need to reconnect renamed outlets by hand.
 
-21. You'll deal with a whole new type of "compilation" error, which is also opaque and hard to debug:
+20. You'll deal with a whole new type of "compilation" error, which is also opaque and hard to debug:
    ![storyboard_compilation_error](/blog-images/software-development/xcode-interface-builder/storyboard_compilation_error.png)
 
-22. Designing custom view classes through the IB is cumbersome and requires to use IB "designables". Plus:
+21. Designing custom view classes through the IB is cumbersome and requires to use IB "designables". Plus:
    * IB must recompile your whole project in order to display these designables, which makes the IB performance problems even worse. 
    * `@IB_Designable` is not well documented by Apple.
    * `@IB_Designable` rendering causes its own type of build errors:
    	![designable_rendering_error](/blog-images/software-development/xcode-interface-builder/ib_designable_rendering_error.png)
 
-23. IB will not recognize when you move a referenced class to another module (framework, cocoapod etc.). If you forget to adapt the module manually in IB, you'll be surprised by chrashes.
+22. IB will not recognize when you move a referenced class to another module (framework, cocoapod etc.). If you forget to adapt the module manually in IB, you'll be surprised by chrashes.
 
-24. It's impossible to define insets, offsets, multipliers, sizes, colors, fonts etc. in one place as part of a style. Much less can you compute them dynamically, for instance to depend on screen size, device type or user preference.
+23. It's impossible to define insets, offsets, multipliers, sizes, colors, fonts etc. in one place as part of a style. Much less can you compute them dynamically, for instance to depend on screen size, device type or user preference.
 
-25. Using the IB makes code harder to debug. For instance, setting a breakpoint in a view's or view controller's initializer won't tell you what triggered the creation of that object. Also, you can't search for a term like `MyView(` in your project to find all uses/clients of that view class.
+24. Using the IB makes code harder to debug. For instance, setting a breakpoint in a view's or view controller's initializer won't tell you what triggered the creation of that object. Also, you can't search for a term like `MyView(` in your project to find all uses/clients of that view class.
 
-26. Using the IB will make it harder to migrate to more modern code-based and declarative technologies like SwiftUI.
+25. Using the IB will make it harder to migrate to more modern code-based and declarative technologies like SwiftUI.
