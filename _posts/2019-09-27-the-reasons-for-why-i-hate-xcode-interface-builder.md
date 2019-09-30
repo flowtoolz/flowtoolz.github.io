@@ -1,5 +1,5 @@
 ---
-title: "25 Reasons For Why I Hate Xcode's Interface Builder"
+title: "30 Reasons For Why I Hate Xcode's Interface Builder"
 layout: post
 excerpt: "The road to complexity hell is plastered with well intended technologies. And so the promises of the Interface Builder are an illusion."
 image_url: /blog-images/software-development/xcode-interface-builder/no-apple-xcode-interface-builder.png
@@ -12,9 +12,11 @@ The road to complexity hell is plastered with well intended technologies. And af
 
 So why am I such a hater on the Interface Builder? An even better question is: Why would any **professional** use it? While the IB *may* help to build simple rough prototypes (I'm not even sure about that), it is no option for professional apps.
 
-This article ends on a list of 25 issues that I experienced with the Interface Builder across multiple commercial projects. However, those issues are really just arbitrary symptoms of an underlying problem: The Interface Builder violates fundamental [principles of software architecture](https://www.flowtoolz.com/2019/08/24/architecture-is-principled-software-development.html). We could certainly find even more symptoms because going against basic principles manifests in countless unpredictable ways.
+## Violated Principles
 
-So what principles would we violate using the Interface Builder? Here are five:
+This article ends on a list of 25 issues that I experienced with the Interface Builder across many projects. However, those issues are really just arbitrary symptoms of an underlying problem: The Interface Builder violates fundamental [principles of software architecture](https://www.flowtoolz.com/2019/08/24/architecture-is-principled-software-development.html). We could certainly find even more symptoms because going against basic principles manifests in countless unpredictable ways.
+
+So what **principles** would we violate using the Interface Builder? Here are five:
 
 1. **[Single Responsibility Principle](https://en.wikipedia.org/wiki/Single_responsibility_principle):** We spread the concern of a single view over two different artifacts. This divide goes through almost all screens and views in a typical commercial project, causing countless friction points.
 
@@ -40,7 +42,7 @@ So what principles would we violate using the Interface Builder? Here are five:
 
    This principle is by no means limited to software systems, yet it is relevant here. We should be super reluctant to add unnecessary technologies to our tech stack, even if they promise to be worth it.
 
-Looking at all the pinciple problems and their concrete symptoms, there is no reason to use the traditional Interface Builder, in particular in light of how easy programmatic layout with Swift has become, with [layout anchors](https://developer.apple.com/documentation/uikit/nslayoutanchor), [safe areas](https://developer.apple.com/documentation/uikit/uiview/2891102-safearealayoutguide), framworks like [GetLaid](https://github.com/flowtoolz/GetLaid) and, of course, [SwiftUI](https://developer.apple.com/documentation/swiftui/) on the horizon.
+## Symptoms
 
 So here is what you get, "building" your UI with Interface Builder:
 
@@ -104,3 +106,7 @@ So here is what you get, "building" your UI with Interface Builder:
 24. Using the IB makes code harder to debug. For instance, setting a breakpoint in a view's or view controller's initializer won't tell you what triggered the creation of that object. Also, you can't search for a term like `MyView(` in your project to find all uses/clients of that view class.
 
 25. Using the IB will make it harder to migrate to more modern code-based and declarative technologies like SwiftUI.
+
+## Conclusion
+
+Looking at some pinciple problems and all their concrete symptoms, we should classify using the traditional Interface Builder as insane, in particular in light of how easy programmatic layout with Swift has become, with [layout anchors](https://developer.apple.com/documentation/uikit/nslayoutanchor), [safe areas](https://developer.apple.com/documentation/uikit/uiview/2891102-safearealayoutguide), framworks like [GetLaid](https://github.com/flowtoolz/GetLaid) and, of course, [SwiftUI](https://developer.apple.com/documentation/swiftui/) on the horizon.
