@@ -38,7 +38,7 @@ So what **principles** would we violate using the Interface Builder? Here are fi
 
    ![storyboard_compilation_error](/blog-images/software-development/xcode-interface-builder/complexity-exploding-with-tech-factors.jpg)
 
-   By nature, we think linearly, but complexity grows much faster, so we constantly underestimate it. We let technologies and dependencies creep in because, by themselves, they are theoretically useful. Yet overall, they make the complexity of our system explode.
+   By nature, we think linearly, but complexity grows much faster, so we constantly underestimate it. We let technologies and dependencies creep in because each by itself is theoretically useful. Yet overall, they make the complexity of our system explode.
 
    This principle is by no means limited to software systems, yet it is relevant here. We should be super reluctant to add unnecessary technologies to our tech stack, even if they promise to be worth it.
 
