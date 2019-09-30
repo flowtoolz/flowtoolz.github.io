@@ -10,7 +10,7 @@ keywords: Apple, Xcode, interface builder, Swift, auto layout, uiview, uiviewcon
 
 The road to complexity hell is plastered with well intended technologies. And after having been forced to deal with Apple Xcode's Interface Builder in all big client projects, I'm convinced its promises are an illusion.
 
-So why am I such a hater on the Interface Builder? An even better questionis: Why would any **professional** use it? While the IB *may* help to build simple rough prototypes (I'm not even sure about that), it is really no option for professional apps.
+So why am I such a hater on the Interface Builder? An even better question is: Why would any **professional** use it? While the IB *may* help to build simple rough prototypes (I'm not even sure about that), it is really no option for professional apps.
 
 This article ends on a list of 25 issues that I experienced with the Interface Builder across multiple commercial projects. However, those issues are really just arbitrary symptoms of an underlying problem: The Interface Builder violates fundamental [principles of software architecture](https://www.flowtoolz.com/2019/08/24/architecture-is-principled-software-development.html). We could certainly find even more symptoms because going against basic principles manifests in countless unpredictable ways.
 
@@ -40,9 +40,9 @@ So what principles would we violate using the Interface Builder? Here are five:
 
    This principle is by no means limited to software systems, yet it is relevant here. We should be super reluctant to add unnecessary technologies to our tech stack, even if they promise to be worth it.
 
-<!-- todo: referenz zu SwiftUI; programmatic autolayout has become so much easier -> anchors, safe area layout guide, GetLaid -->
+Looking at all the pinciple problems and their concrete symptoms, there is no reason at all to use the traditional Interface Builder. In particular in light of how easy programmatic layout with Swift has become, with [layout anchors](https://developer.apple.com/documentation/uikit/nslayoutanchor), [saveAreaGuide](https://developer.apple.com/documentation/uikit/uiview/2891102-safearealayoutguide), framworks like [GetLaid](https://github.com/flowtoolz/GetLaid) and, of course, [SwiftUI](https://developer.apple.com/documentation/swiftui/) on the horizon.
 
-So here is what you get using the Interface Builder:
+So here is what you get, "building" your UI with Interface Builder:
 
 1. Because you have to draw a line somewhere between visual editing and coding, and because many views can't be represented in IB files (due to custom drawing, dynamic layouts, custom animations, views from external frameworks etc.), IB files **virtually never** provide a good idea of how a screen will actually look, which defeats much of the IB's purpose. In practice, most storyboards look something like this:
 	![storyboard_compilation_error](/blog-images/software-development/xcode-interface-builder/storyboard.jpg)
