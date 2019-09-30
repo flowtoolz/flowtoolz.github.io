@@ -10,11 +10,11 @@ keywords: Apple, Xcode, interface builder, Swift, auto layout, uiview, uiviewcon
 
 The road to complexity hell is plastered with well intended technologies. And after having been forced to deal with Apple Xcode's Interface Builder in all big client projects, I'm convinced its promises are an illusion.
 
-So why am I such a hater on the Interface Builder? An even better question would be: Why would any **professional** use it? While the IB *may* (I'm not even sure about that) help to build simple rough prototypes, it is really no option for professional apps.
+So why am I such a hater on the Interface Builder? An even better questionis: Why would any **professional** use it? While the IB *may* help to build simple rough prototypes (I'm not even sure about that), it is really no option for professional apps.
 
 This article ends on a list of 25 issues that I experienced with the Interface Builder across multiple commercial projects. However, those issues are really just arbitrary symptoms of an underlying problem: The Interface Builder violates fundamental [principles of software architecture](https://www.flowtoolz.com/2019/08/24/architecture-is-principled-software-development.html). We could certainly find even more symptoms because going against basic principles manifests in countless unpredictable ways.
 
-So what principles would we violate using the Interface Builder? Here are five of them:
+So what principles would we violate using the Interface Builder? Here are five:
 
 1. **[Single Responsibility Principle](https://en.wikipedia.org/wiki/Single_responsibility_principle):** We spread the concern of a single view over two different artifacts. This divide goes through almost all screens and views in a typical commercial project, causing countless friction points.
 
@@ -30,7 +30,7 @@ So what principles would we violate using the Interface Builder? Here are five o
 
    For example, the [dependencies](https://www.flowtoolz.com/2019/08/26/code-structure-is-determined-by-dependencies.html) between Swift types and IB artifacts are not implied by the intended user interface. Nor do they follow from the required technology, considering that the IB's abstractions are hardly a thin veneer over the respective UI framework (UIKit, AppKit). So those dependencies structure the project in a way that *is untrue to its supposed meaning*.
 
-   Also, user interfaces are hierarchically composed, so the project's artifacts representing the UI should reflect that structure. IB files can indeed do that, yet they store everything in a format that is only transparent to the IB itself and opaque in all other contexts. This means, in many contexts (most notably with git), the IB artifacts *don't tell the truth* about the UI structure.
+   Also, user interfaces are hierarchically composed, so the project's artifacts representing the UI should reflect that structure. IB files can indeed do that, yet they store everything in a format that is only transparent to the IB itself and opaque in all other contexts. This means, in many contexts (most notably with git), the IB artifacts *don't tell the truth about UI structure*.
 
 5. **[Complexity increases quadratically](https://en.wikipedia.org/wiki/Binomial_coefficient):** The number of potential pairwise friction points between `N` moving parts is `(N^2 - N) / 2`. While 5 technologies can have 10 friction points, 6 technologies can already have 15:
 
