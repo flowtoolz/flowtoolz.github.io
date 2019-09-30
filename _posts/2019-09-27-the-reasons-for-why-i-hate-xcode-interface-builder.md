@@ -10,33 +10,39 @@ keywords: Apple, Xcode, interface builder, Swift, auto layout, uiview, uiviewcon
 
 The road to complexity hell is plastered with well intended technologies. And after having been forced to deal with Apple Xcode's Interface Builder in all big client projects, I'm convinced its promises are an illusion.
 
-So why am I such a hater on the Interface Builder? An even better question is: Why would any **professional** use it? While the IB *may* (I'm not even sure about that) help to build simple rough prototypes, it is really no option for professional apps.
+So why am I such a hater on the Interface Builder? An even better question would be: Why would any **professional** use it? While the IB *may* (I'm not even sure about that) help to build simple rough prototypes, it is really no option for professional apps.
 
-This article ends on a list of 25 issues that I experienced with the Interface Builder across multiple commercial projects. However, those issues are really just arbitrary symptoms of an underlying problem: The Interface Builder violates fundamental principles of software architecture. We could certainly find even more symptoms because going against basic principles manifests in countless unpredictable ways.
+This article ends on a list of 25 issues that I experienced with the Interface Builder across multiple commercial projects. However, those issues are really just arbitrary symptoms of an underlying problem: The Interface Builder violates fundamental [principles of software architecture](https://www.flowtoolz.com/2019/08/24/architecture-is-principled-software-development.html). We could certainly find even more symptoms because going against basic principles manifests in countless unpredictable ways.
 
-So what principles would we violate using the Interface Builder?
+So what principles would we violate using the Interface Builder? Here are five of them:
 
-1. The [Single Responsibility Principle](https://en.wikipedia.org/wiki/Single_responsibility_principle): Not only do we spread the concern of a single view over different artifacts, but those artifacts also use different representations: One is Swift, the other is an IB specific XML format.
+1. **[Single Responsibility Principle](https://en.wikipedia.org/wiki/Single_responsibility_principle):** We spread the concern of a single view over two different artifacts. This divide goes through almost all screens and views in a typical commercial project, causing countless friction points.
 
-   This divide goes through almost all screens and views in typical commercial projects, causing countless friction points. It creates structural dependencies that don't exist logically, which means the project structure is untruthful. The issue gets amplified by the fact that every one of those dependencies must translate between different representation formats.
+   The issue gets amplified by the fact that every one of those friction points must translate between two different representation standards: One is [Swift](https://forums.swift.org), the other is an IB specific XML format.
 
-2. The [Acyclic Dependency Principle](https://en.wikipedia.org/wiki/Acyclic_dependencies_principle): IB files reference UIView- and UIViewController subclasses which, in turn, reference IB files via outlets and name identifiers (for XIBs, segues, storyboards).
+2. **[Acyclic Dependency Principle](https://en.wikipedia.org/wiki/Acyclic_dependencies_principle):** IB files reference UIView- and UIViewController subclasses which, in turn, reference IB files via outlets and name identifiers for XIBs, segues and storyboards.
 
    While this is not good, it is mostly a consequence of violating the SRP.
 
-3. [Complexity increases quadratically](https://en.wikipedia.org/wiki/Binomial_coefficient): The number of potential pairwise friction points between `N` moving parts is `(N^2 - N) / 2`. While 5 technologies can have 10 friction points, 6 technologies can already have 15. 
+3. **[Dependency Inversion Principle](https://en.wikipedia.org/wiki/Dependency_inversion_principle):** Specifics depend on abstractions. Yet IB files entangle screen flow and view descriptions with highly specific formats and tools. What is logically an independent "view model" technically becomes dependent onto system specifics.
 
-   By nature, we think linearly, but complexity grows much faster, so we constantly underestimate it. We let technologies and dependencies creep in because, by themselves, they're theoretically useful. Yet overall, they make the complexity of our system explode.
+4. **[Effective artifacts tell the truth](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html):** We could interpret all the above principles as aspects of this more fundamental assessment. 
+
+   For example, the [dependencies](https://www.flowtoolz.com/2019/08/26/code-structure-is-determined-by-dependencies.html) between Swift types and IB artifacts are not implied by the intended user interface. Nor do they follow from the required technology, considering that the IB's abstractions are hardly a thin veneer over the respective UI framework (UIKit, AppKit). So those dependencies structure the project in a way that *is untrue to its supposed meaning*.
+
+   Also, user interfaces are hierarchically composed, so the project's artifacts representing the UI should reflect that structure. IB files can indeed do that, yet they store everything in a format that is only transparent to the IB itself and opaque in all other contexts. This means, in many contexts (most notably with git), the IB artifacts *don't tell the truth* about the UI structure.
+
+5. **[Complexity increases quadratically](https://en.wikipedia.org/wiki/Binomial_coefficient):** The number of potential pairwise friction points between `N` moving parts is `(N^2 - N) / 2`. While 5 technologies can have 10 friction points, 6 technologies can already have 15. 
+
+   By nature, we think linearly, but complexity grows much faster, so we constantly underestimate it. We let technologies and dependencies creep in because, by themselves, they are theoretically useful. Yet overall, they let the complexity of our system explode.
 
    This principle is by no means limited to software systems, yet it is relevant here. We should be super reluctant to add unnecessary technologies to our tech stack, even if they promise to be worth it.
 
-<!-- 4. opaqueness of IB files invalidates its innate decomposition in some contexts like version control ... is the problem that the representation overly system specific since the format cannot be handled on other platforms and by other systems like git?? -->
-
-<!-- todo: referenz zu architecture posts & SwiftUI; programmatic autolayout has become so much easier -> anchors, safe area layout guide, GetLaid -->
+<!-- todo: referenz zu SwiftUI; programmatic autolayout has become so much easier -> anchors, safe area layout guide, GetLaid -->
 
 So here is what you get using the Interface Builder:
 
-1. Because you have to draw a line somewhere between visual editing and coding, and because many views can't be represented in IB files (due to custom drawing, dynamic layouts, animations, views from external frameworks etc.), IB files **virtually never** provide a good idea of how a screen will actually look, which defeats much of the IB's purpose. In practice, most storyboards look something like this:
+1. Because you have to draw a line somewhere between visual editing and coding, and because many views can't be represented in IB files (due to custom drawing, dynamic layouts, custom animations, views from external frameworks etc.), IB files **virtually never** provide a good idea of how a screen will actually look, which defeats much of the IB's purpose. In practice, most storyboards look something like this:
 	![storyboard_compilation_error](/blog-images/software-development/xcode-interface-builder/storyboard.jpg)
 	
 2. The IB is slow. Opening and loading a storyboard usually has a significant delay.
