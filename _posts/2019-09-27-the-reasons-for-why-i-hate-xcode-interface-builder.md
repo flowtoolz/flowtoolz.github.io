@@ -3,18 +3,38 @@ title: "25 Reasons For Why I Hate Xcode's Interface Builder"
 layout: post
 excerpt: "The road to complexity hell is plastered with well intended technologies. And so the promises of the Interface Builder are an illusion."
 image_url: /blog-images/software-development/xcode-interface-builder/no-apple-xcode-interface-builder.png
-keywords: Apple, Xcode, interface builder, Swift, auto layout, iOS, macOS, SwiftUI, UIKit, AppKit, UI, user interface, design, programming, mobile apps, software architecture
+keywords: Apple, Xcode, interface builder, Swift, auto layout, uiview, uiviewcontroller, storyboard, xib, IBOutlet, iOS, macOS, SwiftUI, UIKit, AppKit, UI, user interface, design, programming, programmatic, mobile apps, software architecture
 ---
 
 <img style="margin-left:auto;margin-right:auto;display:block;" src="/blog-images/software-development/xcode-interface-builder/no-apple-xcode-interface-builder.png" title="{{ page.title }}" alt="{{ page.title }}. {{ page.keywords }}">
 
-<!-- todo: the fundamental problem that causes the 24 symptoms; referenz zu architecture posts; SwiftUI; complexity & FRICTION POINTS -->
-
-The road to complexity hell is plastered with well intended technologies. And after having been forced to deal with Apple Xcode's Interface Builder in every big iOS client project, I'm convinced its promises are an illusion.
+The road to complexity hell is plastered with well intended technologies. And after having been forced to deal with Apple Xcode's Interface Builder in all big client projects, I'm convinced its promises are an illusion.
 
 So why am I such a hater on the Interface Builder? An even better question is: Why would any **professional** use it? While the IB *may* (I'm not even sure about that) help to build simple rough prototypes, it is really no option for professional apps.
 
-So here is what you get using the Interface Builder, according to my experience across multiple professional projects:
+This article ends on a list of 25 issues that I experienced with the Interface Builder across multiple commercial projects. However, those issues are really just arbitrary symptoms of an underlying problem: The Interface Builder violates fundamental principles of software architecture. We could certainly find even more symptoms because going against basic principles manifests in countless unpredictable ways.
+
+So what principles would we violate using the Interface Builder?
+
+1. The [Single Responsibility Principle](https://en.wikipedia.org/wiki/Single_responsibility_principle): Not only do we spread the concern of a single view over different artifacts, but those artifacts also use different representations: One is Swift, the other is an IB specific XML format.
+
+   This divide goes through almost all screens and views in typical commercial projects, causing countless friction points. It creates structural dependencies that don't exist logically, which means the project structure is untruthful. The issue gets amplified by the fact that every one of those dependencies must translate between different representation formats.
+
+2. The [Acyclic Dependency Principle](https://en.wikipedia.org/wiki/Acyclic_dependencies_principle): IB files reference UIView- and UIViewController subclasses which, in turn, reference IB files via outlets and name identifiers (for XIBs, segues, storyboards).
+
+   While this is not good, it is mostly a consequence of violating the SRP.
+
+3. [Complexity increases quadratically](https://en.wikipedia.org/wiki/Binomial_coefficient): The number of potential pairwise friction points between `N` moving parts is `(N^2 - N) / 2`. While 5 technologies can have 10 friction points, 6 technologies can already have 15. 
+
+   By nature, we think linearly, but complexity grows much faster, so we constantly underestimate it. We let technologies and dependencies creep in because, by themselves, they're theoretically useful. Yet overall, they make the complexity of our system explode.
+
+   This principle is by no means limited to software systems, yet it is relevant here. We should be super reluctant to add unnecessary technologies to our tech stack, even if they promise to be worth it.
+
+<!-- 4. opaqueness of IB files invalidates its innate decomposition in some contexts like version control ... is the problem that the representation overly system specific since the format cannot be handled on other platforms and by other systems like git?? -->
+
+<!-- todo: referenz zu architecture posts & SwiftUI; programmatic autolayout has become so much easier -> anchors, safe area layout guide, GetLaid -->
+
+So here is what you get using the Interface Builder:
 
 1. Because you have to draw a line somewhere between visual editing and coding, and because many views can't be represented in IB files (due to custom drawing, dynamic layouts, animations, views from external frameworks etc.), IB files **virtually never** provide a good idea of how a screen will actually look, which defeats much of the IB's purpose. In practice, most storyboards look something like this:
 	![storyboard_compilation_error](/blog-images/software-development/xcode-interface-builder/storyboard.jpg)
