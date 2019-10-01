@@ -1,5 +1,5 @@
 ---
-title: "30 Reasons For Why I Hate Xcode's Interface Builder"
+title: "30 Reasons Why I Despise Xcode's Interface Builder"
 layout: post
 excerpt: "The road to complexity hell is plastered with well intended technologies. And so the promises of the Interface Builder are an illusion."
 image_url: /blog-images/software-development/xcode-interface-builder/no-apple-xcode-interface-builder.png
@@ -8,7 +8,7 @@ keywords: Apple, Xcode, interface builder, Swift, auto layout, uiview, uiviewcon
 
 <img style="margin-left:auto;margin-right:auto;display:block;" src="/blog-images/software-development/xcode-interface-builder/no-apple-xcode-interface-builder.png" title="{{ page.title }}" alt="{{ page.title }}. {{ page.keywords }}">
 
-The road to complexity hell is plastered with well intended technologies. And after having been forced to deal with Apple Xcode's Interface Builder in every big client project, I'm convinced its promises are an illusion.
+The road to complexity hell is plastered with well intended technologies. And after having had to deal with Apple Xcode's Interface Builder in every big client project, I'm convinced its promises are an illusion.
 
 So why am I such a hater on the Interface Builder? An even better question is: Why would any **professional** use it? While the IB *may* help to build simple rough prototypes (I'm not even sure about that), it is no option for professional apps.
 
