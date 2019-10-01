@@ -44,7 +44,7 @@ So what principles would we violate using the IB? Here are five:
 
 ## 25 Symptoms
 
-So here is what you get, "building" your UI with Interface Builder:
+So here is what you get, "building" UIs with Interface Builder:
 
 1. Because you have to draw a line somewhere between visual editing and coding, and because many views can't be represented in IB files (due to custom drawing, dynamic layouts, views from external frameworks, lazyness etc.), IB files **virtually never** provide an idea of how screens will actually look, which defeats much of the IB's purpose.
 	
