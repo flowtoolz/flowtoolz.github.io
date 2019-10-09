@@ -20,7 +20,7 @@ The [natural laws of code](https://www.flowtoolz.com/2019/08/24/architecture-is-
 
 And who cares about code structure? Code is never the issue anyway, it's just those annoying people who want us to change the code all the time, right?
 
-Functional and technical requirements are in flux. For a code base to survive, it must adapt to an ever changing [environment](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html):
+Requirements and technologies are in flux. For a code base to survive, it must adapt to an ever changing [environment](https://www.flowtoolz.com/2019/08/25/code-represents-customer-value-and-technology.html):
 
 ![](/blog-images/software-development/architecture/code-adapts-to-environment.jpg)
 
