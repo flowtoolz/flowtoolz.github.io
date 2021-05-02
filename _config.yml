@@ -15,9 +15,9 @@
 # in the templates via {{ site.myvariable }}.
 title: Flowtoolz
 email: contact@flowtoolz.com
-author: Sebastian Telle
+author: Sebastian Fichtner
 description: Beautiful <nobr>Creativity Tools</nobr> for <nobr>Working in Flow</nobr><br><nobr>Focus. Play. Create.</nobr>
-keywords: iOS, macOS, OSX, tvOS, watchOS, app, apps, Swift, Objective-c, software, developer, Sebastian Telle, Cocoa, Software Architecture, programmer, mobile, agile, TDD, REST, SCRUM, Flowlist
+keywords: iOS, macOS, OSX, tvOS, watchOS, app, apps, Swift, Objective-c, software, developer, Sebastian Fichtner, Cocoa, Software Architecture, programmer, mobile, agile, TDD, REST, SCRUM, Flowlist
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://www.flowtoolz.com" # the base hostname & protocol for your site
 
