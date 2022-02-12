@@ -1,5 +1,5 @@
 ---
-title: "30 Reasons Why I Despise Xcode's Interface Builder"
+title: "30 Reasons Why I Avoid Xcode's Interface Builder"
 layout: post
 excerpt: "The road to complexity hell is plastered with well intended technologies. And so the promises of the Interface Builder are an illusion."
 image_url: /blog-images/software-development/xcode-interface-builder/no-apple-xcode-interface-builder.png
@@ -10,7 +10,7 @@ keywords: Apple, Xcode, interface builder, Swift, auto layout, uiview, uiviewcon
 
 The road to complexity hell is plastered with well intended technologies. And after I've had to deal with Apple Xcode's Interface Builder in every big client project, I'm convinced its promises are an illusion.
 
-So why am I such a hater on the Interface Builder? An even better question is: Why would any **professional** use it? While the IB *may* help to build simple rough prototypes (I'm not even sure about that), it is no option for professional apps.
+So why am I such a hater on the Interface Builder? What I wonder instead is: Why would any **professional** use it? While the IB *may* help to build simple rough prototypes (I'm not even sure about that), I can't regard it anymore as an option for professional apps.
 
 ## Five Violated Principles
 
@@ -18,7 +18,7 @@ This article ends on a list of 25 issues that I experienced with the Interface B
 
 So what principles would we violate using the IB? Here are five:
 
-1. **[Single Responsibility Principle](https://en.wikipedia.org/wiki/Single_responsibility_principle):** We spread the concern of a single view over two different artifacts. This divide goes through almost all screens and views in a typical commercial project, causing countless friction points.
+1. **[Principles of Cohesion](https://en.wikipedia.org/wiki/Package_principles#Principles_of_package_cohesion):** We violate the principle of maximum cohesion as we spread the concern of a single view over two different artifacts. This divide goes through almost all screens and views in a typical commercial project, causing countless friction points.
 
    The issue gets amplified by the fact that every one of those friction points must translate between two different representation standards: One is [Swift](https://forums.swift.org), the other is an IB specific XML format.
 
