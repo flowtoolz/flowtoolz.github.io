@@ -149,7 +149,7 @@ permalink: /service/
    <div class="cell">
       <h3>Domain-Driven Design</h3>
       <p>
-      I immerse myselve into your application domain and model it together with you because a common language for the problem domain makes for excellent software and excellent partnerships.
+      I immerse myselve into your application domain and model it together with you because a common domain language makes for excellent software and excellent partnerships.
       </p>
       <p>
       My <a href="https://www.goodreads.com/book/show/179133.Domain_Driven_Design">domain-driven</a> approach entails that I'm not attached to any technologies but apply the ones that best serve your goal.
