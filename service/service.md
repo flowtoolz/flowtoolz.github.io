@@ -10,7 +10,7 @@ permalink: /service/
 
 <div class="grid-x small-up-1 medium-up-3 grid-margin-y grid-margin-x">
    <div class="cell">
-      We also understand your goal, help you work out a strategy and then build exactly the app that lets you implement your vision.
+      I also understand your goal, help you work out a strategy and then build exactly the app that lets you implement your vision.
    </div>
    <div class="cell">
       You already have an app but the code base is in a rut? Let's analyze it, improve the architecture and get up to speed again!
@@ -149,7 +149,7 @@ permalink: /service/
    <div class="cell">
       <h3>Domain-Driven Design</h3>
       <p>
-      I immerse myselve into your application domain and model it together with you because this makes for excellent software and excellent partnerships.
+      I immerse myselve into your application domain and model it together with you because a common language for the problem domain makes for excellent software and excellent partnerships.
       </p>
       <p>
       My <a href="https://www.goodreads.com/book/show/179133.Domain_Driven_Design">domain-driven</a> approach entails that I'm not attached to any technologies but apply the ones that best serve your goal.
