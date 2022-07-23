@@ -30,3 +30,7 @@ You can simply download LSPService and run it locally on your machine. Codeface 
         </a>
    </div>
 </div>
+
+After the first attempt to launch LSPService, you'll probably need to confirm your intention to open it via the security settings:
+
+![](security_preferences_screenshot.png)
