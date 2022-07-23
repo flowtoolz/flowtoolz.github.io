@@ -8,7 +8,7 @@ keywords: codeface, lspservice, lsp, macos, app, software architecture, analytic
 
 # LSPService for Codeface
 
-LSPService is a free open source webservice that can offer Codeface finer granularity and information about actual architecture.
+LSPService is a free open source webservice that can offer Codeface finer granularity and information about actual architecture:
 
 ![](screenshot.png) 
 
@@ -20,13 +20,13 @@ You can simply download LSPService and run it locally on your machine. Codeface 
 
 <div class="grid-x small-up-1 medium-up-2 grid-margin-y grid-margin-x">
    <div class="cell">
-        <a href="binaries/arm64-apple-macosx/LSPService" download>
-            <img src="apple-logo.png" width="50"/> &nbsp; LSPService for Apple Silicon
+        <a href="/codeface/lspservice/binaries/arm64-apple-macosx/LSPService" download>
+            <img src="/codeface/lspservice/apple-logo.png" width="50"/> &nbsp; LSPService for Apple Silicon
         </a>
    </div>
    <div class="cell">
-        <a href="binaries/x86_64-apple-macosx/LSPService" download>
-            <img src="intel-logo.png" width="50"/> &nbsp; LSPService for Intel Chips
+        <a href="/codeface/lspservice/binaries/x86_64-apple-macosx/LSPService" download>
+            <img src="/codeface/lspservice/intel-logo.png" width="50"/> &nbsp; LSPService for Intel Chips
         </a>
    </div>
 </div>
