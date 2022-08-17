@@ -12,7 +12,7 @@ LSPService is a free open source webservice that can provide Codeface finer gran
 
 ![](screenshot.png) 
 
-For example, it allows Codeface to show symbols (like classes and functions) and dependencies in your code base.
+For example, it allows Codeface to show the symbols (like classes and functions) and dependencies in your code base.
 
 ## Download and Run
 
@@ -31,17 +31,19 @@ Simply download LSPService and run it locally on your machine. Codeface will aut
    </div>
 </div>
 
-On the first attempt to launch LSPService, you'll probably need to confirm your intention to open it via the security settings:
+On you first attempt to launch LSPService, you'll probably need to confirm that intention via the security settings:
 
 ![](security_preferences_screenshot.png)
 
-LSPService will run in terminal, and as long as it's running there, the service is available. Check: <http://localhost:8080>.
+LSPService will run in terminal, and as long as it's running there, the service is available. Check <http://localhost:8080>.
 
 ## Add Language Support
 
-LSPService automatically supports Swift, Objective-c, C and C++ if Xcode is installed.
+If Xcode is installed, LSPService automatically supports **Swift packages**. Be aware that using LSPService and Codeface on Swift packages, you have to `swift build` your package from the console to update what LSPService and Codeface "can see". This is due to a [caveat](https://github.com/apple/sourcekit-lsp#caveats) of [Apple's LSP server](https://github.com/apple/sourcekit-lsp), which is still at an early stage.
 
-But generally, you must provide it the location of the corresponding [LSP server](https://langserver.org): LSPService creates an `LSPServiceConfig.json` file on launch if the file doesn't exist yet. If the file exists, it loads LSP server configurations from the file. The JSON structure is quite self-explanatory:
+The same LSP server from Apple should also work for Objective-c, C++ and C (see below).
+
+Generally, you must provide locations of [LSP servers](https://langserver.org) for the languages you care about: LSPService creates an `LSPServiceConfig.json` file on launch if the file doesn't exist yet. If the file exists, LSPService loads server configurations from the file. The JSON structure is quite self-explanatory:
 
 ```
 {
@@ -57,6 +59,6 @@ But generally, you must provide it the location of the corresponding [LSP server
 }
 ```
 
-Just add language server entries to the file and then restart LSPService. Arguments and environment can of course remain empty.
+Just add language server entries to the file and then restart LSPService. `arguments` and `environment` may of course remain empty.
 
-More [infos on LSPService are on GitHub](https://github.com/flowtoolz/LSPService).
+In the future, LSPService will help more with installing and locating LSP servers for common languages. Learn more (or even contribute) [on GitHub](https://github.com/flowtoolz/LSPService).
