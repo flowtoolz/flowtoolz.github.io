@@ -13,7 +13,7 @@ Codeface applies the Language Server Protocol "in reverse" and can thereby inspe
 More will follow soon at [codeface.io](http://codeface.io).
 
 Interested in collaborating?
-<a onclick="ga('send', 'event', 'email', 'click', 'hello@cocoalytics.com');" class="u-email" href="mailto:hello@cocoalytics.com">hello@codeface.io</a>
+<a onclick="ga('send', 'event', 'email', 'click', 'hello@codeface.com');" class="u-email" href="mailto:hello@codeface.io">hello@codeface.io</a>
 
 ## [Flowlist](/flowlist)
 
