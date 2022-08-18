@@ -6,7 +6,7 @@ permalink: /more/
 
 ## Codeface.io
 
-<img src="cocoalytics.png" class="ft-more-project-image" /> Codeface visualizes the quality and architecture of code. Interactive diagrams will let you explore the structure of your code base and compare it against meaningful quality metrics.
+<img src="codeface_icon_1024.png" class="ft-more-project-image" /> Codeface visualizes the quality and architecture of code. Interactive diagrams will let you explore the structure of your code base and compare it against meaningful quality metrics.
 
 Codeface applies the Language Server Protocol "in reverse" and can thereby inspect code of virtually every language. I open-sourced all of the LSP-related infrastructure, most notably [LSPService](https://github.com/flowtoolz/LSPService) and [SwiftLSP](https://github.com/flowtoolz/SwiftLSP).
 
