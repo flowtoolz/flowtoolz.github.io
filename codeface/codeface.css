@@ -149,20 +149,42 @@ img
 
 /* Screen Shots */
 
-#screen-shot
+#screen-shot-1
 {
-    background:url(task_lists_dark.png) no-repeat;
+    background:url(screenshots/01_dark.png) no-repeat;
     background-size:contain;
     background-position:center;
-    width: 100%;
-    max-width: 957px;
-    margin-left:auto;
-    margin-right:auto;
 }
 
-#screen-shot:hover
+#screen-shot-1:hover
 {
-    background:url(task_lists.png) no-repeat;
+    background:url(screenshots/01_light.png) no-repeat;
+    background-size:contain;
+    background-position:center;
+}
+#screen-shot-2
+{
+    background:url(screenshots/02_dark.png) no-repeat;
+    background-size:contain;
+    background-position:center;
+}
+
+#screen-shot-2:hover
+{
+    background:url(screenshots/02_light.png) no-repeat;
+    background-size:contain;
+    background-position:center;
+}
+#screen-shot-3
+{
+    background:url(screenshots/03_dark.png) no-repeat;
+    background-size:contain;
+    background-position:center;
+}
+
+#screen-shot-3:hover
+{
+    background:url(screenshots/03_light.png) no-repeat;
     background-size:contain;
     background-position:center;
 }
