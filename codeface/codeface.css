@@ -25,12 +25,12 @@ body, p
 
 a
 {
-   color: black;
+   color: rgba(191,0,0,0.75);
 }
 
 a:hover
 {
-   color: rgba(191,0,0,0.75);
+   color: rgba(191,0,0,1.0);
 }
 
 section
