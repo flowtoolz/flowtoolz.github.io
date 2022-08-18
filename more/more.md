@@ -6,13 +6,11 @@ permalink: /more/
 
 ## Codeface.io
 
-<img src="cocoalytics.png" class="ft-more-project-image" /> Codeface visualizes the quality and architecture of code. Interactive diagrams let you explore the structure of your code base and compare it against meaningful quality metrics.
+<img src="cocoalytics.png" class="ft-more-project-image" /> Codeface visualizes the quality and architecture of code. Interactive diagrams will let you explore the structure of your code base and compare it against meaningful quality metrics.
 
-I assessed the idea way back in the <a href="/2016/05/15/london-real-business-accelerator.html">London Real Business Accelerator</a>, doing some conceptual work, copywriting, market analysis and so forth. There, I also recorded this [pitch](https://www.youtube.com/watch?v=dYZx7Kflhmw). 
+Codeface applies the Language Server Protocol "in reverse" and can thereby inspect code of virtually every language. I open-sourced all of the LSP-related infrastructure, most notably [LSPService](https://github.com/flowtoolz/LSPService) and [SwiftLSP](https://github.com/flowtoolz/SwiftLSP).
 
-For a proof of concept, Codeface now retrieves dependency graphs from Swift code, and I'm working on visualizing them via graph drawings that the user can manipulate. 
-
-More will follow at [cocoalytics.com](http://cocoalytics.com) for Swift, and at [codeface.io](http://codeface.io) for a more general version, supporting languages beyond the Cocoa realm, including Java and Kotlin.
+More will follow soon at [codeface.io](http://codeface.io).
 
 Interested in collaborating?
 <a onclick="ga('send', 'event', 'email', 'click', 'hello@cocoalytics.com');" class="u-email" href="mailto:hello@cocoalytics.com">hello@codeface.io</a>
@@ -33,9 +31,9 @@ A novel interaction concept combines intuitive key commands, a radically clean i
 
 <img src="/assets/simpleicons.org/github.svg" class="ft-more-project-image" /> I put a lot of my code publicly [on Github](https://github.com/flowtoolz/). Most notably, I released [SwiftObserver](https://github.com/flowtoolz/SwiftObserver), a Swift Package for reactive programming.
 
-Then there is [GetLaid](https://github.com/flowtoolz/GetLaid), a real neat Swift AutoLayout wrapper.
+Then there are a few packages for working with the Language Server Protocol, like [LSPService](https://github.com/flowtoolz/LSPService) and [SwiftLSP](https://github.com/flowtoolz/SwiftLSP).
 
-You'll also find frameworks regarding the Language Server Protocol as well as general frameworks that I use internally at flowtoolz and which are not so much intended for public consumption, like [SwiftyToolz](https://github.com/flowtoolz/SwiftyToolz), [FoundationToolz](https://github.com/flowtoolz/FoundationToolz) and [UIToolz](https://github.com/flowtoolz/UIToolz).
+You'll also find [GetLaid](https://github.com/flowtoolz/GetLaid), a real neat Swift Auto Layout wrapper as well as general frameworks that I use internally at flowtoolz and which are not so much intended for public consumption, like [SwiftyToolz](https://github.com/flowtoolz/SwiftyToolz), [FoundationToolz](https://github.com/flowtoolz/FoundationToolz) and [UIToolz](https://github.com/flowtoolz/UIToolz).
 
 <div style="clear:left"></div>
 
