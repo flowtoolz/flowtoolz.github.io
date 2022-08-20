@@ -16,6 +16,12 @@
     src: url("/assets/fonts/SF-Pro-Display-Bold.otf") format("opentype");
 }
 
+@font-face
+{
+    font-family: FiraCode;
+    src: url("/assets/fonts/FiraCode-Regular.ttf") format("truetype");
+}
+
 body, p
 {
     font-family: FlowlistRegular;
@@ -68,13 +74,14 @@ h1
     letter-spacing: -2px;
     font-family: FlowlistBold;
     font-size: 72px;
+    margin-bottom: 20px;
 }
 
 h2
 {
     letter-spacing: -1px;
     line-height: 1.6;
-    font-family: FlowlistLight;
+    font-family: FiraCode;
     font-size: 36px;
     margin-bottom: 50px;
 }
