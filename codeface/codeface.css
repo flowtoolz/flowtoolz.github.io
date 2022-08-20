@@ -24,6 +24,10 @@
     src: url("/assets/fonts/FiraCode-Regular.ttf") format("truetype");
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body, p
 {
     font-family: FlowlistRegular;
@@ -125,7 +129,6 @@ li a {
 #codeface-navbar {
     background: rgb(240,240,240);
 }
-
 
 /* Price Table */
 
