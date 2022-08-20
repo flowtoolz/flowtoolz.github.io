@@ -1,3 +1,5 @@
+/* General */
+
 @font-face
 {
     font-family: FlowlistLight;
@@ -37,7 +39,7 @@ a
 a:hover
 {
     color: rgba(84,178,235,1.0);
-    
+    text-decoration: underline;
 }
 
 section
@@ -85,6 +87,46 @@ h2
     font-size: 32px;
     margin-bottom: 50px;
 }
+
+/* Navbar */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.left {
+  float: left;
+}
+    
+.left a {
+    padding-top: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 16px;
+}
+    
+.right {
+  padding-top: 8px;
+  padding-right: 20px;
+  float: right;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  
+  text-decoration: none;
+}
+    
+#codeface-navbar {
+    background: rgb(240,240,240);
+}
+
+
+/* Price Table */
 
 h3, #priceTable th
 {
