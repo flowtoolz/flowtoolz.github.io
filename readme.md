@@ -1,41 +1,49 @@
-# Jekyll
+## Build Website Locally
 
-### Usage
+`bundle exec jekyll build`
 
-  `jekyll <subcommand> [options]`
+## Install (a.k.a. The Dependency Mess)
 
-### Options
+install homebrew:
 
-~~~
--s, --source [DIR]  		Source directory (defaults to ./)
--d, --destination [DIR] 	Destination directory (defaults to ./_site)
-    --safe         			Safe mode (defaults to false)
--p, --plugins PLUGINS_DIR1[,PLUGINS_DIR2[,...]]
-							Plugins directory (defaults to ./_plugins)
-    --layouts DIR  			Layouts directory (defaults to ./_layouts)
-    --profile      			Generate a Liquid rendering profile
--h, --help         			Show this message
--v, --version      			Print the name and version
--t, --trace        			Show the full backtrace when an error occurs
-~~~
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
-### Subcommands
+then fix homebrew:
 
-~~~
-  docs                  
-  import                
-  build, b              Build your site
-  clean                 Clean the site (removes site output and metadata file) without building.
-  doctor, hyde          Search site and print specific deprecation warnings
-  help                  Show the help message, optionally for a given subcommand.
-  new                   Creates a new Jekyll site scaffold in PATH
-  new-theme             Creates a new Jekyll theme scaffold
-  serve, server, s      Serve your site locally 
-~~~
+```
+rm -rf "/opt/homebrew/Library/Taps/homebrew/homebrew-core"
+brew tap homebrew/core
+git -C $(brew --repo homebrew/core) checkout master
+```
 
-# Adding Bash Script Files
+install ruby version manager and ruby installer:
 
-### Example:
-* create plain text file named "build" which contains the command `bundle exec jekyll build`
-* type `chmod 700 build` to set permissions
-* execute it with `./build` or `sh build`
+`brew install chruby ruby-install`
+
+fix the ruby installer:
+
+`brew install xz`
+
+install ruby:
+
+`ruby-install ruby`
+
+configure shell to use `chruby`:
+
+```
+echo "source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh" >> ~/.zshrc
+echo "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" >> ~/.zshrc
+echo "chruby ruby-3.1.2" >> ~/.zshrc # run 'chruby' to see actual version
+```
+
+relaunch terminal and validate ruby version:
+
+`ruby -v`
+
+install jekyll:
+
+`gem install jekyll`
+
+fix jekyll:
+
+`bundle install`
