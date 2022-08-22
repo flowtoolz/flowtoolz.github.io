@@ -8,7 +8,7 @@ install homebrew:
 
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
-then fix homebrew:
+fix homebrew:
 
 ```
 rm -rf "/opt/homebrew/Library/Taps/homebrew/homebrew-core"
@@ -36,9 +36,7 @@ echo "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" >> ~/.zshrc
 echo "chruby ruby-3.1.2" >> ~/.zshrc # run 'chruby' to see actual version
 ```
 
-relaunch terminal and validate ruby version:
-
-`ruby -v`
+relaunch terminal and validate ruby version: `ruby -v`
 
 install jekyll:
 
@@ -47,3 +45,4 @@ install jekyll:
 fix jekyll:
 
 `bundle install`
+
