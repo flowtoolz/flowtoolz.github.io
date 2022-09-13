@@ -1,7 +1,7 @@
 ---
-title: "Goodbye Flowtoolz! Hello <a href="https://www.codeface.io">Codeface.io</a>!"
+title: "Goodbye Flowtoolz.com! Hello Codeface.io!"
 layout: post
-excerpt: "Flowtoolz.com will be replaced by <a href="https://www.codeface.io">Codeface.io</a>. The new site focuses on the Codeface app and software architecture in general."
+excerpt: "Flowtoolz.com will be replaced by Codeface.io. The new site focuses on the Codeface app and software architecture in general."
 image_url: /blog-images/software-development/codeface/poster.png
 keywords: Apple, Xcode, Swift, iOS, macOS, SwiftUI, app, software architecture, codeface, code
 ---
