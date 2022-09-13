@@ -1,15 +1,21 @@
 ---
 title: "Goodbye Flowtoolz.com! Hello Codeface.io!"
 layout: post
-excerpt: "Flowtoolz.com will be replaced by Codeface.io. The new site focuses on the Codeface app and software architecture in general."
+excerpt: "Codeface.io is now becoming my main focus. It covers the new Codeface app, software architecture and related consulting work."
 image_url: /blog-images/software-development/codeface/poster.png
 keywords: Apple, Xcode, Swift, iOS, macOS, SwiftUI, app, software architecture, codeface, code
 ---
 
 <img style="margin-left:auto;margin-right:auto;display:block;" src="/blog-images/software-development/codeface/poster.png" title="{{ page.title }}" alt="{{ page.title }}. {{ page.keywords }}">
 
-I'm sunsetting flowtoolz.com in favour of <a href="https://www.codeface.io">Codeface.io</a>. The new site focuses  on software architecture and the Codeface app, which visualizes the architecture and quality of codebases – supporting virtually all programming languages.
+With my new macOS app <a href="https://www.codeface.io">Codeface</a>, I wanna make software development more fun and productive.
 
-There will be no new articles here. The existing software-related articles will re-appear over at <a href="https://www.codeface.io">Codeface.io</a>. New articles willl also appear there and embrace the new focus.
+Software architecture is typically implicit in thousands of lines of code and invisible – even to the people working on that code. Codeface can reveal that architecture to everyone, anchoring any reasoning or discussions about code design in how the code is actually shaped at that moment.
 
-The new site will repurpose some of the contents that you still find here. At some point, though, flowtoolz.com will vanish into the digital beyond.
+Codeface visualize the architecture of a codebase, so users can explore its every scope at every level via interactive diagrams and see its quality visualized via meaningful metrics.
+
+Because Codeface leverages the Language Server Protocol, it can inspect code of virtually every language. I open-sourced all of the infrastructure, most notably [SwiftNodes](https://github.com/flowtoolz/SwiftNodes), [LSPService](https://github.com/flowtoolz/LSPService) and [SwiftLSP](https://github.com/flowtoolz/SwiftLSP).
+
+If you're interested in collaborating on this in any form, feel free to write at <a href="mailto:hello@codeface.io">hello@codeface.io</a>.
+
+The "old" site here at flowtoolz.com will morph into a more personal one. Much of the content will re-appear refreshed at <a href="https://www.codeface.io">Codeface.io</a> or move there or vanish completely. This old blog stays but won't see updates any time soon. I'll publish potential new articles exclusively on <a href="https://www.codeface.io">the new site</a>.
