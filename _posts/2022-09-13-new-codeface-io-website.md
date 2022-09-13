@@ -1,7 +1,7 @@
 ---
 title: "Goodbye Flowtoolz.com! Hello Codeface.io!"
 layout: post
-excerpt: "Codeface.io is now becoming my main focus. It covers the new Codeface app, software architecture and related consulting work."
+excerpt: "Codeface.io is now becoming my main focus. It covers the new Codeface app as well as general software architecture and related consulting work."
 image_url: /blog-images/software-development/codeface/poster.png
 keywords: Apple, Xcode, Swift, iOS, macOS, SwiftUI, app, software architecture, codeface, code
 ---
