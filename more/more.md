@@ -18,7 +18,7 @@ A novel interaction concept combines intuitive key commands, a radically clean i
 
 ## [Flowtoolz at Github](https://github.com/flowtoolz/)
 
-<img src="/assets/simpleicons.org/github.svg" class="ft-more-project-image" /> I put a lot of my code publicly [on Github](https://github.com/flowtoolz/). Most notably, I released [SwiftObserver](https://github.com/flowtoolz/SwiftObserver), a Swift Package for reactive programming.
+<img src="/assets/simpleicons.org/github.svg" class="ft-more-project-image" /> I put a lot of my code publicly [on Github](https://github.com/flowtoolz/). Most notably, I released [SwiftObserver](https://github.com/codeface-io/SwiftObserver), a Swift Package for reactive programming.
 
 Then there are a few packages for working with the Language Server Protocol, like [LSPService](https://github.com/flowtoolz/LSPService) and [SwiftLSP](https://github.com/flowtoolz/SwiftLSP).
 

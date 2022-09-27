@@ -8,7 +8,7 @@ keywords: swift, observer, observer pattern, observable, architecture, software 
 
 <img style="margin-left:auto;margin-right:auto;display:block;" src="/blog-images/software-development/reactive-swift-programming/pyramid.jpeg" width="100%">
 
-<i>Care about the code? Jump over to [SwiftObserver on Github](https://github.com/flowtoolz/SwiftObserver).</i>
+<i>Care about the code? Jump over to [SwiftObserver on Github](https://github.com/codeface-io/SwiftObserver).</i>
 
 Recently I've been discussing app architecture a lot with colleagues. As ever so often, our main question was: How do we propagate information from the bottom of the hierarchy to the top?
 
@@ -24,4 +24,4 @@ As a method of exploring and learning, I wrote three fundamental primitives for 
 
 This compact library also compensates for what I didn't like about common implementations. I guess I aimed at usability, readability, simplicity, safety and flexibility.
 
-[Checkout SwiftObserver on Github](https://github.com/flowtoolz/SwiftObserver). You can read the text there as the continuation of this article.
+[Checkout SwiftObserver on Github](https://github.com/codeface-io/SwiftObserver). You can read the text there as the continuation of this article.
