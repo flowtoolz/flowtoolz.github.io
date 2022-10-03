@@ -5,13 +5,13 @@ permalink: /imprint/
 ---
 
 <h1>Imprint</h1>
-        
+
 <p>
 Business Name: Fichtner Flowtoolz
 </p>
 
 <p>
-Business Adress: Konstanzerstrasse 49, 8280 Kreuzlingen, Switzerland
+Business Address: Konstanzerstrasse 49, 8280 Kreuzlingen, Switzerland
 </p>
 
 <p>
