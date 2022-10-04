@@ -15,7 +15,7 @@ Business Address: Konstanzerstrasse 49, 8280 Kreuzlingen, Switzerland
 </p>
 
 <p>
-Business UID: coming soon
+Business UID: CHE-255.514.657
 </p>
 
 <p>
